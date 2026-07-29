@@ -208,12 +208,12 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Stuart Savage Career Portfolio",
+        content: "Stuart Savage Career Portfolio | Operations & CX Leader",
       },
       {
         property: "og:description",
         content:
-          "Operations, customer experience, service delivery and project delivery leadership. Kennington, London.",
+          "Career portfolio of Stuart Savage, London-based operations, customer experience and service delivery leader with airport hospitality, e-commerce and founder-led delivery experience.",
       },
       { property: "og:type", content: "profile" },
       { property: "og:url", content: "/" },
