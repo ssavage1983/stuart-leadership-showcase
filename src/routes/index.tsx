@@ -263,33 +263,49 @@ function Index() {
           className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-5"
         >
           <span className="font-display text-lg tracking-tight">Stuart Savage Career Portfolio</span>
-          <ul className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
+          <ul className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
             <li>
-              <a className="transition-colors hover:text-accent" href="#capabilities">
+              <a
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                href="#capabilities"
+              >
                 Capabilities
               </a>
             </li>
             <li>
-              <a className="transition-colors hover:text-accent" href="#experience">
+              <a
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                href="#experience"
+              >
                 Experience
               </a>
             </li>
             <li>
-              <a className="transition-colors hover:text-accent" href="#evidence">
+              <a
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                href="#evidence"
+              >
                 Project evidence
               </a>
             </li>
             <li>
-              <a className="transition-colors hover:text-accent" href="#roles">
+              <a
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                href="#roles"
+              >
                 Target roles
               </a>
             </li>
             <li>
-              <a className="transition-colors hover:text-accent" href="#contact">
+              <a
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                href="#contact"
+              >
                 Contact
               </a>
             </li>
           </ul>
+
         </nav>
       </header>
 
@@ -329,6 +345,7 @@ function Index() {
               href={LINKEDIN}
               target="_blank"
               rel="noreferrer noopener"
+              aria-label="View Stuart Savage's LinkedIn profile (opens in a new tab)"
               className="inline-flex min-h-11 items-center rounded-sm border border-primary px-6 text-sm font-medium text-primary transition-colors hover:bg-secondary"
             >
               View LinkedIn profile
@@ -482,8 +499,9 @@ function Index() {
             <li>
               <p className="eyebrow">Email</p>
               <a
-                className="mt-2 inline-block break-all text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
+                className="mt-1 inline-flex min-h-11 items-center break-all text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
                 href={`mailto:${EMAIL}`}
+                aria-label={`Email Stuart Savage at ${EMAIL}`}
               >
                 {EMAIL}
               </a>
@@ -491,10 +509,11 @@ function Index() {
             <li>
               <p className="eyebrow">LinkedIn</p>
               <a
-                className="mt-2 inline-block text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
+                className="mt-1 inline-flex min-h-11 items-center text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
                 href={LINKEDIN}
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="Stuart Savage on LinkedIn (opens in a new tab)"
               >
                 linkedin.com/in/stuartsavage
               </a>
