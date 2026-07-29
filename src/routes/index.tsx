@@ -166,26 +166,35 @@ const sectors = [
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Stuart Savage",
-  jobTitle: "Operations and Customer Experience Leader",
-  email: `mailto:${EMAIL}`,
+  "@type": "ProfilePage",
+  name: "Stuart Savage Career Portfolio",
+  inLanguage: "en-GB",
   url: "/",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Kennington, London",
-    addressCountry: "GB",
+  mainEntity: {
+    "@type": "Person",
+    name: "Stuart Savage",
+    jobTitle: "Operations and Customer Experience Leader",
+    description:
+      "Operations, customer experience, service delivery and strategic project delivery leader based in Kennington, London.",
+    email: `mailto:${EMAIL}`,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Kennington",
+      addressRegion: "London",
+      addressCountry: "GB",
+    },
+    sameAs: [LINKEDIN],
+    knowsAbout: [
+      "Operations management",
+      "Customer experience",
+      "Service delivery",
+      "Project delivery",
+      "Procurement and logistics",
+      "E-commerce fulfilment",
+    ],
   },
-  sameAs: [LINKEDIN],
-  knowsAbout: [
-    "Operations management",
-    "Customer experience",
-    "Service delivery",
-    "Project delivery",
-    "Logistics and procurement",
-    "E-commerce fulfilment",
-  ],
 };
+
 
 export const Route = createFileRoute("/")({
   component: Index,
