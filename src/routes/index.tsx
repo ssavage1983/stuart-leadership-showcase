@@ -26,7 +26,7 @@ const capabilities: { title: string; body: string }[] = [
   },
   {
     title: "E-commerce, fulfilment & digital operations",
-    body: "Online order fulfilment, stock, dispatch and customer service in a high-volume consumer business.",
+    body: "Experience across online fulfilment, stock, dispatch and customer service in a consumer business.",
   },
   {
     title: "Commercial awareness & cost control",
@@ -52,7 +52,7 @@ const experience: {
       "Held end-to-end accountability for operations, customers, project delivery, procurement, logistics, suppliers, safety and commercial decisions.",
       "Planned and delivered client projects from brief through to handover, coordinating suppliers, procurement, scheduling and logistics.",
       "Held responsibility for commercial decisions, cost awareness and supplier coordination.",
-      "Wound the businesses down responsibly in May 2026, closing them in an orderly way.",
+      "Both businesses were responsibly wound down in May 2026.",
     ],
   },
   {
@@ -61,8 +61,8 @@ const experience: {
     meta: "Joined May 2011",
     points: [
       "Developed experience across e-commerce and online fulfilment after joining in May 2011.",
-      "Worked across stock, dispatch and online order fulfilment.",
-      "Handled customer service directly, communicating with customers about their orders.",
+      "Experience across stock, dispatch and online order fulfilment.",
+      "Experience in customer service within an online consumer business.",
     ],
   },
   {
@@ -70,9 +70,9 @@ const experience: {
     org: "Heathrow Airport",
     meta: "Airport hospitality operations",
     points: [
-      "Managed food and beverage operations in an airport environment where timing and reliability matter.",
-      "Led teams through shift patterns and service peaks.",
-      "Balanced customer experience, safety and compliance requirements with commercial awareness.",
+      "Food and beverage management experience in an airport hospitality environment.",
+      "Responsibility for day-to-day operations, teams and service standards.",
+      "Worked within the customer experience, safety and compliance expectations of an airport setting.",
     ],
   },
   {
@@ -80,8 +80,8 @@ const experience: {
     org: "YO! Sushi",
     meta: "High-volume restaurant operations",
     points: [
-      "Managed high-volume restaurant service with a focus on standards and consistency.",
-      "Led and trained teams and held performance standards during busy trading periods.",
+      "High-volume restaurant management experience, with a focus on standards and consistency.",
+      "Responsibility for teams and service delivery during busy trading periods.",
     ],
   },
 ];
@@ -90,9 +90,9 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
   {
     title: "Client project delivery, end to end",
     context:
-      "Founder-led projects ran to client expectations, with dependencies on suppliers, materials and site access.",
+      "Founder-led projects depended on suppliers, procurement and site logistics coming together.",
     delivery:
-      "Scoped the brief, planned the sequence, coordinated suppliers and site logistics, and saw work through to handover.",
+      "Planned the work, coordinated suppliers and logistics, and held responsibility through to handover.",
     transfer:
       "Transferable to service delivery and project delivery roles where scope, dependencies and stakeholder expectations must be held together.",
   },
@@ -106,20 +106,20 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
       "Applies to logistics, facilities and operational supply chains where third-party performance drives the outcome.",
   },
   {
-    title: "Airport operations under time pressure",
+    title: "Airport hospitality operations",
     context:
-      "Heathrow food and beverage operations run against flight schedules, passenger flow and strict compliance requirements.",
+      "Food and beverage management at Heathrow, within an airport hospitality environment.",
     delivery:
-      "Led teams through peaks and disruption while maintaining standards, safety and customer experience.",
+      "Held responsibility for operations, teams and service standards alongside safety and compliance expectations.",
     transfer:
-      "Highly relevant to transport, rail and other governed operational environments where disruption is routine.",
+      "Relevant to transport, rail and other governed operational environments.",
   },
   {
-    title: "Online fulfilment and customer resolution",
+    title: "Online fulfilment and customer service",
     context:
-      "E-commerce orders at The Hummingbird Bakery had to be picked, dispatched and delivered accurately at volume.",
+      "E-commerce and online fulfilment at The Hummingbird Bakery.",
     delivery:
-      "Worked across stock, dispatch and customer service, keeping customers informed about their orders.",
+      "Experience across stock, dispatch, online order fulfilment and customer service.",
     transfer:
       "Transfers to customer operations, fulfilment and customer service roles.",
   },
@@ -128,7 +128,7 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
     context:
       "Both former businesses were wound down in May 2026.",
     delivery:
-      "Handled the closure in an orderly, considered way rather than letting it drift.",
+      "The businesses were closed responsibly, as an owner-led commercial decision.",
     transfer:
       "Evidence of accountability, governance and commercial judgement.",
   },
@@ -308,7 +308,7 @@ function Index() {
               I lead operations, customer experience, service delivery and strategic projects. My
               background spans airport hospitality at Heathrow, high-volume restaurant management,
               e-commerce and fulfilment at The Hummingbird Bakery, and running my own businesses
-              end to end. I am calm under pressure, straight with people, and I finish what I start.
+              end to end. I lead calmly, communicate openly and take accountability for delivery.
             </p>
             <div className="rule-line pt-6 text-sm leading-relaxed text-muted-foreground md:border-t-0 md:border-l md:border-border md:pt-0 md:pl-8">
               <p className="font-medium text-foreground">Currently seeking</p>
