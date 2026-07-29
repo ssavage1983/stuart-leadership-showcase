@@ -26,7 +26,7 @@ const capabilities: { title: string; body: string }[] = [
   },
   {
     title: "E-commerce, fulfilment & digital operations",
-    body: "Online order fulfilment, stock, dispatch and customer service in a high-volume consumer business.",
+    body: "Experience across online fulfilment, stock, dispatch and customer service in a consumer business.",
   },
   {
     title: "Commercial awareness & cost control",
