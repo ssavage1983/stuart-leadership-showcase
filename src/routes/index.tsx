@@ -499,8 +499,9 @@ function Index() {
             <li>
               <p className="eyebrow">Email</p>
               <a
-                className="mt-2 inline-block break-all text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
+                className="mt-1 inline-flex min-h-11 items-center break-all text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
                 href={`mailto:${EMAIL}`}
+                aria-label={`Email Stuart Savage at ${EMAIL}`}
               >
                 {EMAIL}
               </a>
@@ -508,10 +509,11 @@ function Index() {
             <li>
               <p className="eyebrow">LinkedIn</p>
               <a
-                className="mt-2 inline-block text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
+                className="mt-1 inline-flex min-h-11 items-center text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
                 href={LINKEDIN}
                 target="_blank"
                 rel="noreferrer noopener"
+                aria-label="Stuart Savage on LinkedIn (opens in a new tab)"
               >
                 linkedin.com/in/stuartsavage
               </a>
