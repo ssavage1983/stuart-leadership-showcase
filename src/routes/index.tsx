@@ -505,10 +505,14 @@ function Index() {
 
       <footer className="rule-line">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm text-muted-foreground">
-          <p>Stuart Savage Career Portfolio. Kennington, London.</p>
+          <p>
+            Stuart Savage Career Portfolio. Kennington, London.
+            <span className="block">Intended future domain: moonlight-studio.uk (not yet connected).</span>
+          </p>
           <p>Operations · Customer experience · Service delivery · Project delivery</p>
         </div>
       </footer>
+
     </div>
   );
 }
