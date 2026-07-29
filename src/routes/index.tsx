@@ -61,8 +61,8 @@ const experience: {
     meta: "Joined May 2011",
     points: [
       "Developed experience across e-commerce and online fulfilment after joining in May 2011.",
-      "Worked across stock, dispatch and online order fulfilment.",
-      "Handled customer service directly, communicating with customers about their orders.",
+      "Experience across stock, dispatch and online order fulfilment.",
+      "Experience in customer service within an online consumer business.",
     ],
   },
   {
@@ -70,9 +70,9 @@ const experience: {
     org: "Heathrow Airport",
     meta: "Airport hospitality operations",
     points: [
-      "Managed food and beverage operations in an airport environment where timing and reliability matter.",
-      "Led teams through shift patterns and service peaks.",
-      "Balanced customer experience, safety and compliance requirements with commercial awareness.",
+      "Food and beverage management experience in an airport hospitality environment.",
+      "Responsibility for day-to-day operations, teams and service standards.",
+      "Worked within the customer experience, safety and compliance expectations of an airport setting.",
     ],
   },
   {
@@ -80,8 +80,8 @@ const experience: {
     org: "YO! Sushi",
     meta: "High-volume restaurant operations",
     points: [
-      "Managed high-volume restaurant service with a focus on standards and consistency.",
-      "Led and trained teams and held performance standards during busy trading periods.",
+      "High-volume restaurant management experience, with a focus on standards and consistency.",
+      "Responsibility for teams and service delivery during busy trading periods.",
     ],
   },
 ];
