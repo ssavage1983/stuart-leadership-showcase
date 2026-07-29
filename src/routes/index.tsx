@@ -10,19 +10,19 @@ const capabilities: { title: string; body: string }[] = [
   },
   {
     title: "Customer experience & service recovery",
-    body: "Setting the standard for how customers are treated, resolving difficult situations calmly and turning complaints into retained relationships.",
+    body: "Holding a clear standard for how customers are treated, communicating openly when problems arise and working through difficult situations calmly.",
   },
   {
     title: "Strategic project planning & delivery",
-    body: "Scoping work, sequencing it realistically, managing dependencies and seeing projects through to handover.",
+    body: "Scoping work, planning the sequence, coordinating the moving parts and taking responsibility through to handover.",
   },
   {
     title: "Suppliers, procurement & logistics",
-    body: "Coordinating suppliers, stakeholders, materials and deliveries so that plans survive contact with real-world constraints.",
+    body: "Coordinating suppliers, stakeholders, procurement and deliveries so that plans hold up against real-world constraints.",
   },
   {
     title: "People leadership & training",
-    body: "Recruiting, training and leading teams; setting performance standards and supporting people to meet them.",
+    body: "Leading and training teams, setting performance standards and supporting people to work to them.",
   },
   {
     title: "E-commerce, fulfilment & digital operations",
@@ -30,7 +30,7 @@ const capabilities: { title: string; body: string }[] = [
   },
   {
     title: "Commercial awareness & cost control",
-    body: "Pricing, margin, cost control and practical P&L understanding gained from both managed and owner-led operations.",
+    body: "Cost awareness, cost control and practical P&L understanding gained from both managed and owner-led operations.",
   },
   {
     title: "Governance, compliance & improvement",
@@ -50,9 +50,9 @@ const experience: {
     meta: "Founder-led businesses · responsibly wound down May 2026",
     points: [
       "Held end-to-end accountability for operations, customers, project delivery, procurement, logistics, suppliers, safety and commercial decisions.",
-      "Planned and delivered client projects from first brief through to final handover, coordinating suppliers, materials and schedules.",
-      "Owned the commercial side of the business, including pricing, cost control and supplier relationships.",
-      "Closed both businesses responsibly in May 2026, managing client, supplier and delivery commitments through to completion.",
+      "Planned and delivered client projects from brief through to handover, coordinating suppliers, procurement, scheduling and logistics.",
+      "Held responsibility for commercial decisions, cost awareness and supplier coordination.",
+      "Wound the businesses down responsibly in May 2026, closing them in an orderly way.",
     ],
   },
   {
@@ -60,9 +60,9 @@ const experience: {
     org: "The Hummingbird Bakery",
     meta: "Joined May 2011",
     points: [
-      "Developed experience across e-commerce and online fulfilment for a high-volume consumer brand.",
-      "Worked across stock, dispatch and order accuracy, keeping fulfilment reliable during demand peaks.",
-      "Handled customer service directly, resolving order issues and protecting the customer relationship.",
+      "Developed experience across e-commerce and online fulfilment after joining in May 2011.",
+      "Worked across stock, dispatch and online order fulfilment.",
+      "Handled customer service directly, communicating with customers about their orders.",
     ],
   },
   {
@@ -70,9 +70,9 @@ const experience: {
     org: "Heathrow Airport",
     meta: "Airport hospitality operations",
     points: [
-      "Managed food and beverage operations in a time-critical airport environment where delay is not an option.",
-      "Led teams through shift patterns, service peaks and operational disruption.",
-      "Balanced customer experience, compliance and commercial performance in a heavily governed setting.",
+      "Managed food and beverage operations in an airport environment where timing and reliability matter.",
+      "Led teams through shift patterns and service peaks.",
+      "Balanced customer experience, safety and compliance requirements with commercial awareness.",
     ],
   },
   {
@@ -80,8 +80,8 @@ const experience: {
     org: "YO! Sushi",
     meta: "High-volume restaurant operations",
     points: [
-      "Ran high-volume restaurant service with a focus on standards, speed and consistency.",
-      "Led and trained front-of-house teams and held performance standards during peak trade.",
+      "Managed high-volume restaurant service with a focus on standards and consistency.",
+      "Led and trained teams and held performance standards during busy trading periods.",
     ],
   },
 ];
@@ -90,18 +90,18 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
   {
     title: "Client project delivery, end to end",
     context:
-      "Founder-led projects ran to fixed client expectations, with dependencies on suppliers, materials, access and weather.",
+      "Founder-led projects ran to client expectations, with dependencies on suppliers, materials and site access.",
     delivery:
-      "Scoped the brief, planned the sequence, coordinated suppliers and site logistics, managed change during delivery and completed formal handover.",
+      "Scoped the brief, planned the sequence, coordinated suppliers and site logistics, and saw work through to handover.",
     transfer:
-      "Directly transferable to service delivery and project management roles where scope, dependencies and stakeholder expectations must be held together.",
+      "Transferable to service delivery and project delivery roles where scope, dependencies and stakeholder expectations must be held together.",
   },
   {
     title: "Supplier, procurement and logistics coordination",
     context:
-      "Delivery depended on materials and third parties arriving in the right place, in the right order.",
+      "Delivery depended on procurement and third parties arriving in the right place, in the right order.",
     delivery:
-      "Selected and managed suppliers, negotiated terms, scheduled deliveries and built slack into plans where risk was highest.",
+      "Coordinated suppliers, handled procurement and scheduled deliveries around the work programme.",
     transfer:
       "Applies to logistics, facilities and operational supply chains where third-party performance drives the outcome.",
   },
@@ -119,18 +119,18 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
     context:
       "E-commerce orders at The Hummingbird Bakery had to be picked, dispatched and delivered accurately at volume.",
     delivery:
-      "Worked across stock, dispatch and customer service, resolving issues quickly and keeping customers informed.",
+      "Worked across stock, dispatch and customer service, keeping customers informed about their orders.",
     transfer:
-      "Transfers to customer operations, fulfilment and service recovery roles.",
+      "Transfers to customer operations, fulfilment and customer service roles.",
   },
   {
     title: "Responsible business wind-down",
     context:
-      "Both former businesses were closed in May 2026 while live commitments were still in play.",
+      "Both former businesses were wound down in May 2026.",
     delivery:
-      "Managed the closure in an orderly way, honouring client and supplier obligations rather than walking away from them.",
+      "Handled the closure in an orderly, considered way rather than letting it drift.",
     transfer:
-      "Evidence of accountability, governance and judgement under commercial pressure.",
+      "Evidence of accountability, governance and commercial judgement.",
   },
 ];
 
@@ -141,7 +141,7 @@ const targetRoles: { title: string; body: string }[] = [
   },
   {
     title: "Customer Experience Manager",
-    body: "Setting service standards, leading resolution and improving how customers experience the organisation.",
+    body: "Setting service standards and improving how customers experience the organisation.",
   },
   {
     title: "Service Delivery Manager",
@@ -149,7 +149,7 @@ const targetRoles: { title: string; body: string }[] = [
   },
   {
     title: "Strategic Project Manager",
-    body: "Planning and delivering operational change and improvement projects through to handover.",
+    body: "Planning and delivering operational projects and improvement work through to handover.",
   },
 ];
 
