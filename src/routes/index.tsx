@@ -90,9 +90,9 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
   {
     title: "Client project delivery, end to end",
     context:
-      "Founder-led projects ran to client expectations, with dependencies on suppliers, materials and site access.",
+      "Founder-led projects depended on suppliers, procurement and site logistics coming together.",
     delivery:
-      "Scoped the brief, planned the sequence, coordinated suppliers and site logistics, and saw work through to handover.",
+      "Planned the work, coordinated suppliers and logistics, and held responsibility through to handover.",
     transfer:
       "Transferable to service delivery and project delivery roles where scope, dependencies and stakeholder expectations must be held together.",
   },
@@ -106,20 +106,20 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
       "Applies to logistics, facilities and operational supply chains where third-party performance drives the outcome.",
   },
   {
-    title: "Airport operations under time pressure",
+    title: "Airport hospitality operations",
     context:
-      "Heathrow food and beverage operations run against flight schedules, passenger flow and strict compliance requirements.",
+      "Food and beverage management at Heathrow, within an airport hospitality environment.",
     delivery:
-      "Led teams through peaks and disruption while maintaining standards, safety and customer experience.",
+      "Held responsibility for operations, teams and service standards alongside safety and compliance expectations.",
     transfer:
-      "Highly relevant to transport, rail and other governed operational environments where disruption is routine.",
+      "Relevant to transport, rail and other governed operational environments.",
   },
   {
-    title: "Online fulfilment and customer resolution",
+    title: "Online fulfilment and customer service",
     context:
-      "E-commerce orders at The Hummingbird Bakery had to be picked, dispatched and delivered accurately at volume.",
+      "E-commerce and online fulfilment at The Hummingbird Bakery.",
     delivery:
-      "Worked across stock, dispatch and customer service, keeping customers informed about their orders.",
+      "Experience across stock, dispatch, online order fulfilment and customer service.",
     transfer:
       "Transfers to customer operations, fulfilment and customer service roles.",
   },
@@ -128,7 +128,7 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
     context:
       "Both former businesses were wound down in May 2026.",
     delivery:
-      "Handled the closure in an orderly, considered way rather than letting it drift.",
+      "The businesses were closed responsibly, as an owner-led commercial decision.",
     transfer:
       "Evidence of accountability, governance and commercial judgement.",
   },
