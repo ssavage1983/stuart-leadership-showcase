@@ -345,6 +345,7 @@ function Index() {
               href={LINKEDIN}
               target="_blank"
               rel="noreferrer noopener"
+              aria-label="View Stuart Savage's LinkedIn profile (opens in a new tab)"
               className="inline-flex min-h-11 items-center rounded-sm border border-primary px-6 text-sm font-medium text-primary transition-colors hover:bg-secondary"
             >
               View LinkedIn profile
