@@ -308,7 +308,7 @@ function Index() {
               I lead operations, customer experience, service delivery and strategic projects. My
               background spans airport hospitality at Heathrow, high-volume restaurant management,
               e-commerce and fulfilment at The Hummingbird Bakery, and running my own businesses
-              end to end. I am calm under pressure, straight with people, and I finish what I start.
+              end to end. I lead calmly, communicate openly and take accountability for delivery.
             </p>
             <div className="rule-line pt-6 text-sm leading-relaxed text-muted-foreground md:border-t-0 md:border-l md:border-border md:pt-0 md:pl-8">
               <p className="font-medium text-foreground">Currently seeking</p>
