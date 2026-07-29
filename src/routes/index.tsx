@@ -191,7 +191,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Stuart Savage — Operations & Customer Experience Leader" },
+      { title: "Stuart Savage Career Portfolio | Operations & CX Leader" },
       {
         name: "description",
         content:
@@ -199,7 +199,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Stuart Savage — Operations & Customer Experience Leader",
+        content: "Stuart Savage Career Portfolio",
       },
       {
         property: "og:description",
@@ -253,7 +253,7 @@ function Index() {
           aria-label="Primary"
           className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-5"
         >
-          <span className="font-display text-lg tracking-tight">Stuart Savage</span>
+          <span className="font-display text-lg tracking-tight">Stuart Savage Career Portfolio</span>
           <ul className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             <li>
               <a className="transition-colors hover:text-accent" href="#capabilities">
@@ -496,7 +496,7 @@ function Index() {
 
       <footer className="rule-line">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm text-muted-foreground">
-          <p>Stuart Savage — Career portfolio. Kennington, London.</p>
+          <p>Stuart Savage Career Portfolio. Kennington, London.</p>
           <p>Operations · Customer experience · Service delivery · Project delivery</p>
         </div>
       </footer>
