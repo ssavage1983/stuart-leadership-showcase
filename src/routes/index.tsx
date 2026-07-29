@@ -52,7 +52,7 @@ const experience: {
       "Held end-to-end accountability for operations, customers, project delivery, procurement, logistics, suppliers, safety and commercial decisions.",
       "Planned and delivered client projects from brief through to handover, coordinating suppliers, procurement, scheduling and logistics.",
       "Held responsibility for commercial decisions, cost awareness and supplier coordination.",
-      "Wound the businesses down responsibly in May 2026, closing them in an orderly way.",
+      "Both businesses were responsibly wound down in May 2026.",
     ],
   },
   {
