@@ -10,33 +10,44 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as BlogOperationalExcellenceInRailRouteImport } from './routes/blog.operational-excellence-in-rail'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BlogOperationalExcellenceInRailRoute =
+  BlogOperationalExcellenceInRailRouteImport.update({
+    id: '/blog/operational-excellence-in-rail',
+    path: '/blog/operational-excellence-in-rail',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/blog/operational-excellence-in-rail': typeof BlogOperationalExcellenceInRailRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/blog/operational-excellence-in-rail': typeof BlogOperationalExcellenceInRailRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/blog/operational-excellence-in-rail': typeof BlogOperationalExcellenceInRailRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/blog/operational-excellence-in-rail'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/blog/operational-excellence-in-rail'
+  id: '__root__' | '/' | '/blog/operational-excellence-in-rail'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  BlogOperationalExcellenceInRailRoute: typeof BlogOperationalExcellenceInRailRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +59,19 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blog/operational-excellence-in-rail': {
+      id: '/blog/operational-excellence-in-rail'
+      path: '/blog/operational-excellence-in-rail'
+      fullPath: '/blog/operational-excellence-in-rail'
+      preLoaderRoute: typeof BlogOperationalExcellenceInRailRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  BlogOperationalExcellenceInRailRoute: BlogOperationalExcellenceInRailRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
