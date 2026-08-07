@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 
 const EMAIL = "stuart.savageworld@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/stuartsavage";
@@ -295,6 +295,14 @@ function Index() {
               >
                 Target roles
               </a>
+            </li>
+            <li>
+              <Link
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                to="/blog/operational-excellence-in-rail"
+              >
+                Guide
+              </Link>
             </li>
             <li>
               <a
