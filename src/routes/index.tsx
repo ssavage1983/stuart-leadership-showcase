@@ -297,6 +297,14 @@ function Index() {
               </a>
             </li>
             <li>
+              <Link
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                to="/blog/operational-excellence-in-rail"
+              >
+                Guide
+              </Link>
+            </li>
+            <li>
               <a
                 className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
                 href="#contact"
