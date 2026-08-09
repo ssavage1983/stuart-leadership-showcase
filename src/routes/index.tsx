@@ -585,14 +585,17 @@ function Index() {
                     : "scroll-mt-28 grid gap-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent md:grid-cols-[1fr_2fr] md:gap-10"
                 }
               >
-
                 <div>
                   {role.featured ? (
                     <p className="eyebrow mb-2 text-accent">Key role</p>
                   ) : null}
-                  <h3 className={role.featured ? "text-2xl leading-snug" : "text-xl leading-snug"}>
+                  <h3
+                    id={`role-${role.id}-title`}
+                    className={role.featured ? "text-2xl leading-snug" : "text-xl leading-snug"}
+                  >
                     {role.role}
                   </h3>
+
                   <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
                   <p className="mt-1 text-sm text-muted-foreground">{role.meta}</p>
                 </div>
