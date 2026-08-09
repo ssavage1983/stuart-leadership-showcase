@@ -548,16 +548,44 @@ function Index() {
             title="Where the experience comes from"
             id="experience-title"
           />
+          <nav
+            aria-labelledby="timeline-nav-title"
+            className="mt-10 rule-line pt-6"
+          >
+            <h3 id="timeline-nav-title" className="text-sm font-semibold tracking-wide text-foreground">
+              Jump to a role
+            </h3>
+            <ul className="mt-4 flex flex-wrap gap-2">
+              {experience.map((role) => (
+                <li key={`nav-${role.id}`}>
+                  <a
+                    href={`#role-${role.id}`}
+                    className="inline-flex items-center gap-2 border border-rule px-3 py-2 text-xs leading-tight text-muted-foreground transition-colors hover:border-accent hover:text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                  >
+                    <span className="font-medium text-foreground">
+                      {role.org.split(" — ")[0]}
+                    </span>
+                    <span aria-hidden="true">·</span>
+                    <span>{role.meta.split(" · ")[0]}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
           <ol className="mt-12 space-y-12">
             {experience.map((role) => (
               <li
                 key={role.org}
+                id={`role-${role.id}`}
+                tabIndex={-1}
+                aria-labelledby={`role-${role.id}-title`}
                 className={
                   role.featured
-                    ? "grid gap-4 border border-rule bg-card p-6 sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
-                    : "grid gap-4 md:grid-cols-[1fr_2fr] md:gap-10"
+                    ? "scroll-mt-28 grid gap-4 border border-rule bg-card p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
+                    : "scroll-mt-28 grid gap-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent md:grid-cols-[1fr_2fr] md:gap-10"
                 }
               >
+
                 <div>
                   {role.featured ? (
                     <p className="eyebrow mb-2 text-accent">Key role</p>
