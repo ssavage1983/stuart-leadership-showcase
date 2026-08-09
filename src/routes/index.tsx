@@ -43,6 +43,7 @@ const experience: {
   org: string;
   meta: string;
   points: string[];
+  featured?: boolean;
 }[] = [
   {
     role: "Founder & Managing Director",
