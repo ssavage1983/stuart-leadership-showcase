@@ -49,6 +49,7 @@ const experience: {
     role: "Founder & Managing Director",
     org: "Operational & Spatial Design Group — London & Home Counties",
     meta: "Mar 2019 – May 2026 · Savage Bespoke Ltd, Stuart Savage Landscaping, The Moonlight Garden Design Co.",
+    featured: true,
     points: [
       "Governed end-to-end commercial operations, supply chain logistics and physical delivery for complex, high-value structural installations across three concurrent brands.",
       "Held primary accountability for on-site health and safety compliance, risk assessments and multi-disciplinary team rostering.",
@@ -94,6 +95,7 @@ const experience: {
     role: "Food & Beverage Manager",
     org: "No1 Lounges Ltd — Heathrow Airport",
     meta: "Sep 2015 – Jan 2016 · Safety-critical transport environment",
+    featured: true,
     points: [
       "Led frontline passenger operations and safety compliance in one of the world's busiest regulated transport environments.",
       "Managed crowd flow and passenger welfare during periods of intense airport traffic and flight delays.",
@@ -125,6 +127,7 @@ const experience: {
     role: "Branch Manager & Head of Online",
     org: "The Hummingbird Bakery — London",
     meta: "May 2011 – Jun 2014 · Retail operations and e-commerce",
+    featured: true,
     points: [
       "Directed daily retail operations for high-turnover flagship locations, owning rotas, inventory pipelines and daily financial audits.",
       "Led and trained customer service teams of up to 20 staff on operational standards and safety compliance.",
@@ -147,6 +150,7 @@ const experience: {
     role: "Store Manager & Drive-Thru Trainer",
     org: "Starbucks Coffee Company — UK & Seattle, WA, USA",
     meta: "Aug 2006 – Jan 2010 · International secondment",
+    featured: true,
     points: [
       "Selected for an international secondment to Starbucks global headquarters in Seattle, working with senior executive leadership on service-flow optimisation and queue mechanics.",
       "Managed high-volume branch operations, inventory controls and staff rostering for multi-million pound locations.",
