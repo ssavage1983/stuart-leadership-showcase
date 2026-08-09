@@ -490,15 +490,34 @@ function Index() {
           />
           <ol className="mt-12 space-y-12">
             {experience.map((role) => (
-              <li key={role.org} className="grid gap-4 md:grid-cols-[1fr_2fr] md:gap-10">
+              <li
+                key={role.org}
+                className={
+                  role.featured
+                    ? "grid gap-4 border border-rule bg-card p-6 sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
+                    : "grid gap-4 md:grid-cols-[1fr_2fr] md:gap-10"
+                }
+              >
                 <div>
-                  <h3 className="text-xl leading-snug">{role.role}</h3>
+                  {role.featured ? (
+                    <p className="eyebrow mb-2 text-accent">Key role</p>
+                  ) : null}
+                  <h3 className={role.featured ? "text-2xl leading-snug" : "text-xl leading-snug"}>
+                    {role.role}
+                  </h3>
                   <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
                   <p className="mt-1 text-sm text-muted-foreground">{role.meta}</p>
                 </div>
                 <ul className="space-y-3 text-sm leading-relaxed text-muted-foreground">
                   {role.points.map((point) => (
-                    <li key={point} className="border-l border-border pl-4">
+                    <li
+                      key={point}
+                      className={
+                        role.featured
+                          ? "border-l-2 border-accent pl-4"
+                          : "border-l border-border pl-4"
+                      }
+                    >
                       {point}
                     </li>
                   ))}
@@ -506,6 +525,7 @@ function Index() {
               </li>
             ))}
           </ol>
+
           <p className="mt-12 max-w-3xl text-sm leading-relaxed text-muted-foreground">
             Note on the founder-led businesses: Savage Bespoke Ltd, Stuart Savage Landscaping and
             The Moonlight Garden Design Co. are former businesses, closed solvently in May 2026.
