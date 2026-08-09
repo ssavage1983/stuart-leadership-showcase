@@ -45,46 +45,141 @@ const experience: {
   points: string[];
 }[] = [
   {
-    role: "Founder & Director",
-    org: "Stuart Savage Landscaping (SAVAGELDN) and The Moonlight Garden Design Co.",
-    meta: "Founder-led businesses · responsibly wound down May 2026",
+    role: "Founder & Managing Director",
+    org: "Operational & Spatial Design Group — London & Home Counties",
+    meta: "Mar 2019 – May 2026 · Savage Bespoke Ltd, Stuart Savage Landscaping, The Moonlight Garden Design Co.",
     points: [
-      "Held end-to-end accountability for operations, customers, project delivery, procurement, logistics, suppliers, safety and commercial decisions.",
-      "Planned and delivered client projects from brief through to handover, coordinating suppliers, procurement, scheduling and logistics.",
-      "Held responsibility for commercial decisions, cost awareness and supplier coordination.",
-      "Both businesses were responsibly wound down in May 2026.",
+      "Governed end-to-end commercial operations, supply chain logistics and physical delivery for complex, high-value structural installations across three concurrent brands.",
+      "Held primary accountability for on-site health and safety compliance, risk assessments and multi-disciplinary team rostering.",
+      "Negotiated high-value supplier contracts and managed client stakeholders under tight budgetary constraints.",
+      "Maintained a record of zero site accidents across concurrent projects, with a 4.9/5 customer satisfaction rate.",
+      "Introduced a proprietary digital spatial modelling approach that helped reduce delivery timelines by 20%.",
+      "Completed planned, solvent closures in May 2026 following a strategic review of market conditions, honouring all supplier and client commitments.",
     ],
   },
   {
-    role: "E-commerce, fulfilment & customer service",
-    org: "The Hummingbird Bakery",
-    meta: "Joined May 2011",
+    role: "Assistant Manager",
+    org: "The Dog House Pub — London",
+    meta: "Aug 2018 – Apr 2019 · High-volume events and compliance",
     points: [
-      "Developed experience across e-commerce and online fulfilment after joining in May 2011.",
-      "Experience across stock, dispatch and online order fulfilment.",
-      "Experience in customer service within an online consumer business.",
+      "Led end-to-end high-volume event operations, including the full holiday and Christmas programme.",
+      "Authored the food safety manual and implemented structured daily checks, training staff to standard.",
+      "Directed shift operations, customer experience recovery and fast-paced public service.",
+      "Managed supplier negotiations and daily stock control to reduce commercial waste.",
+    ],
+  },
+  {
+    role: "Expeditions Leader",
+    org: "Transcontinental Botanical Investigation — South America & Asia",
+    meta: "Jul 2017 – Aug 2018 · Self-directed 18-month expedition",
+    points: [
+      "Designed and executed an 18-month global expedition studying international landscapes.",
+      "Managed international travel logistics, border-crossing protocols and multi-currency budget controls in low-infrastructure environments.",
+      "Secured independent research grant funding for a five-month residency in remote areas of the Colombian Amazon.",
+      "Completed high-altitude mountaineering and route planning in the Andes (4,750m) and Himalayas (3,210m).",
+    ],
+  },
+  {
+    role: "Interim Project Manager",
+    org: "Transitional Assets — London",
+    meta: "Jan 2016 – Jun 2017 · Commercial launch portfolio",
+    points: [
+      "Managed a portfolio of independent commercial launch projects, directing local logistics, fleet dispatch and site scheduling.",
+      "Developed operational workflows and customer acquisition approaches to scale new business launches.",
+      "Launched and scaled local street-food operations, establishing early-stage supply chains and structured handovers.",
     ],
   },
   {
     role: "Food & Beverage Manager",
-    org: "Heathrow Airport",
-    meta: "Airport hospitality operations",
+    org: "No1 Lounges Ltd — Heathrow Airport",
+    meta: "Sep 2015 – Jan 2016 · Safety-critical transport environment",
     points: [
-      "Food and beverage management experience in an airport hospitality environment.",
-      "Responsibility for day-to-day operations, teams and service standards.",
-      "Worked within the customer experience, safety and compliance expectations of an airport setting.",
+      "Led frontline passenger operations and safety compliance in one of the world's busiest regulated transport environments.",
+      "Managed crowd flow and passenger welfare during periods of intense airport traffic and flight delays.",
+      "Maintained compliance with Civil Aviation Authority security protocols and airport safety guidelines.",
+      "Acted as the central point of authority for customer recovery, de-escalating stressed passenger complaints calmly.",
     ],
   },
   {
-    role: "Restaurant Management",
-    org: "YO! Sushi",
-    meta: "High-volume restaurant operations",
+    role: "Head of Online (Contract)",
+    org: "The Capital Hotel, supporting The London Bakery Co. — London",
+    meta: "Jun 2015 – Sep 2015 · Fulfilment and dispatch",
     points: [
-      "High-volume restaurant management experience, with a focus on standards and consistency.",
-      "Responsibility for teams and service delivery during busy trading periods.",
+      "Optimised digital order fulfilment, dispatch workflows and delivery vehicle scheduling.",
+      "Redesigned delivery route logistics, cutting turnaround times and improving fleet utilisation.",
+      "Improved dispatch accuracy and reduced missed delivery windows.",
+    ],
+  },
+  {
+    role: "Head of Corporate Sales",
+    org: "Vital Ingredient (UK) Ltd — London",
+    meta: "Jun 2014 – Feb 2015 · B2B distribution network",
+    points: [
+      "Built the organisation's first B2B distribution and delivery network across London.",
+      "Managed corporate stakeholder relationships and negotiated commercial service level agreements.",
+      "Designed delivery route logistics and structured fleet scheduling, establishing a new revenue stream.",
+    ],
+  },
+  {
+    role: "Branch Manager & Head of Online",
+    org: "The Hummingbird Bakery — London",
+    meta: "May 2011 – Jun 2014 · Retail operations and e-commerce",
+    points: [
+      "Directed daily retail operations for high-turnover flagship locations, owning rotas, inventory pipelines and daily financial audits.",
+      "Led and trained customer service teams of up to 20 staff on operational standards and safety compliance.",
+      "Doubled e-commerce revenue within a 12-month period through targeted digital workflow integration.",
+      "Redesigned the digital order dispatch system and optimised delivery fleet routing.",
+    ],
+  },
+  {
+    role: "General Manager",
+    org: "YO! Sushi — London",
+    meta: "Jan 2010 – May 2011 · High-volume hospitality",
+    points: [
+      "Held full accountability for a team of up to 40 service and kitchen employees, shift patterns, P&L controls and health and safety compliance.",
+      "Designed staff scheduling and task allocation to align with peak footfall.",
+      "Monitored stock control, supplier pipelines and waste management to protect margins.",
+      "Consistently achieved maximum external audit ratings for health, safety and hygiene compliance.",
+    ],
+  },
+  {
+    role: "Store Manager & Drive-Thru Trainer",
+    org: "Starbucks Coffee Company — UK & Seattle, WA, USA",
+    meta: "Aug 2006 – Jan 2010 · International secondment",
+    points: [
+      "Selected for an international secondment to Starbucks global headquarters in Seattle, working with senior executive leadership on service-flow optimisation and queue mechanics.",
+      "Managed high-volume branch operations, inventory controls and staff rostering for multi-million pound locations.",
+      "Co-authored the European Drive-Thru Training Manual, defining metrics for queue progression and layout logistics.",
+      "Trained, onboarded and coached over 100 frontline service employees in customer care, safety and coordination.",
+    ],
+  },
+  {
+    role: "Graphic Designer",
+    org: "Wardell Armstrong LLP — UK",
+    meta: "Jul 2001 – Sep 2004 · Infrastructure and planning consultancy",
+    points: [
+      "Worked with structural engineers and environmental consultants on technical graphics, terrain blueprints and environmental impact assessments.",
+      "Produced reports and planning documentation supporting major infrastructure and regeneration schemes.",
+      "Maintained strict quality control across multi-disciplinary project databases.",
     ],
   },
 ];
+
+const education: { qualification: string; org: string; year: string; body: string }[] = [
+  {
+    qualification: "Professional Diploma in Garden Design",
+    org: "British Academy of Garden Design",
+    year: "2019",
+    body: "Continued professional development combining creative design with technical planning, environmental knowledge and structured project delivery.",
+  },
+  {
+    qualification: "BA (Hons) Graphic Communications",
+    org: "University of Wales Institute, Cardiff",
+    year: "2004",
+    body: "Foundations in visual communication, technical presentation and project coordination that continue to support operational leadership and customer engagement.",
+  },
+];
+
 
 const projectEvidence: { title: string; context: string; delivery: string; transfer: string }[] = [
   {
@@ -412,12 +507,29 @@ function Index() {
             ))}
           </ol>
           <p className="mt-12 max-w-3xl text-sm leading-relaxed text-muted-foreground">
-            Note on the founder-led businesses: SAVAGELDN, Stuart Savage Landscaping and The
-            Moonlight Garden Design Co. are former businesses, closed in May 2026. They appear here
-            as historic evidence of leadership, logistics, commercial ownership and accountable
-            delivery — not as services offered today.
+            Note on the founder-led businesses: Savage Bespoke Ltd, Stuart Savage Landscaping and
+            The Moonlight Garden Design Co. are former businesses, closed solvently in May 2026.
+            They appear here as historic evidence of leadership, logistics, commercial ownership and
+            accountable delivery — not as services offered today.
           </p>
+
+          <div className="mt-16">
+            <h3 className="text-sm font-semibold tracking-wide text-foreground">
+              Education &amp; professional qualifications
+            </h3>
+            <ul className="mt-6 grid gap-x-12 gap-y-8 sm:grid-cols-2">
+              {education.map((item) => (
+                <li key={item.qualification} className="rule-line pt-5">
+                  <h4 className="text-lg leading-snug">{item.qualification}</h4>
+                  <p className="mt-1 text-sm font-medium text-foreground">{item.org}</p>
+                  <p className="mt-1 text-sm text-muted-foreground">{item.year}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.body}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
+
 
         {/* Project evidence */}
         <section
