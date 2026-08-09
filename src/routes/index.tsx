@@ -41,6 +41,7 @@ const capabilities: { title: string; body: string }[] = [
 ];
 
 const experience: {
+  id: string;
   role: string;
   org: string;
   meta: string;
@@ -48,13 +49,13 @@ const experience: {
   featured?: boolean;
 }[] = [
   {
+    id: "founder-group",
     role: "Founder & Managing Director",
     org: "Operational & Spatial Design Group — London & Home Counties",
     meta: "Mar 2019 – May 2026 · Savage Bespoke Ltd, Stuart Savage Landscaping, The Moonlight Garden Design Co.",
     featured: true,
     points: [
-      "Governed end-to-end commercial operations, supply chain logistics and physical delivery for complex, high-value structural installations across three concurrent brands.",
-      "Held primary accountability for on-site health and safety compliance, risk assessments and multi-disciplinary team rostering.",
+      "Governed end-to-end commercial operations, supply chain logistics and physical delivery for complex, high-value structural installations across three concurrent brands, holding primary accountability for on-site health and safety compliance, risk assessments and team rostering.",
       "Negotiated high-value supplier contracts and managed client stakeholders under tight budgetary constraints.",
       "Maintained a record of zero site accidents across concurrent projects, with a 4.9/5 customer satisfaction rate.",
       "Introduced a proprietary digital spatial modelling approach that helped reduce delivery timelines by 20%.",
@@ -62,6 +63,7 @@ const experience: {
     ],
   },
   {
+    id: "dog-house",
     role: "Assistant Manager",
     org: "The Dog House Pub — London",
     meta: "Aug 2018 – Apr 2019 · High-volume events and compliance",
@@ -73,6 +75,7 @@ const experience: {
     ],
   },
   {
+    id: "expeditions",
     role: "Expeditions Leader",
     org: "Transcontinental Botanical Investigation — South America & Asia",
     meta: "Jul 2017 – Aug 2018 · Self-directed 18-month expedition",
@@ -84,6 +87,7 @@ const experience: {
     ],
   },
   {
+    id: "transitional-assets",
     role: "Interim Project Manager",
     org: "Transitional Assets — London",
     meta: "Jan 2016 – Jun 2017 · Commercial launch portfolio",
@@ -94,6 +98,7 @@ const experience: {
     ],
   },
   {
+    id: "no1-lounges",
     role: "Food & Beverage Manager",
     org: "No1 Lounges Ltd — Heathrow Airport",
     meta: "Sep 2015 – Jan 2016 · Safety-critical transport environment",
@@ -106,6 +111,7 @@ const experience: {
     ],
   },
   {
+    id: "capital-hotel",
     role: "Head of Online (Contract)",
     org: "The Capital Hotel, supporting The London Bakery Co. — London",
     meta: "Jun 2015 – Sep 2015 · Fulfilment and dispatch",
@@ -116,6 +122,7 @@ const experience: {
     ],
   },
   {
+    id: "vital-ingredient",
     role: "Head of Corporate Sales",
     org: "Vital Ingredient (UK) Ltd — London",
     meta: "Jun 2014 – Feb 2015 · B2B distribution network",
@@ -126,6 +133,7 @@ const experience: {
     ],
   },
   {
+    id: "hummingbird",
     role: "Branch Manager & Head of Online",
     org: "The Hummingbird Bakery — London",
     meta: "May 2011 – Jun 2014 · Retail operations and e-commerce",
@@ -138,6 +146,7 @@ const experience: {
     ],
   },
   {
+    id: "yo-sushi",
     role: "General Manager",
     org: "YO! Sushi — London",
     meta: "Jan 2010 – May 2011 · High-volume hospitality",
@@ -149,6 +158,7 @@ const experience: {
     ],
   },
   {
+    id: "starbucks",
     role: "Store Manager & Drive-Thru Trainer",
     org: "Starbucks Coffee Company — UK & Seattle, WA, USA",
     meta: "Aug 2006 – Jan 2010 · International secondment",
@@ -161,6 +171,7 @@ const experience: {
     ],
   },
   {
+    id: "wardell-armstrong",
     role: "Graphic Designer",
     org: "Wardell Armstrong LLP — UK",
     meta: "Jul 2001 – Sep 2004 · Infrastructure and planning consultancy",
