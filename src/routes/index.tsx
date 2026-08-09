@@ -347,7 +347,17 @@ function SectionHeading({
   );
 }
 
+const navItems: { label: string; href: string }[] = [
+  { label: "Capabilities", href: "#capabilities" },
+  { label: "Experience", href: "#experience" },
+  { label: "Project evidence", href: "#evidence" },
+  { label: "Target roles", href: "#roles" },
+  { label: "Contact", href: "#contact" },
+];
+
 function Index() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="min-h-dvh">
       <a
@@ -357,65 +367,97 @@ function Index() {
         Skip to main content
       </a>
 
-      <header className="border-b border-border">
-        <nav
-          aria-label="Primary"
-          className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-5"
-        >
-          <span className="font-display text-lg tracking-tight">Stuart Savage Career Portfolio</span>
-          <ul className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#capabilities"
-              >
-                Capabilities
-              </a>
-            </li>
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#experience"
-              >
-                Experience
-              </a>
-            </li>
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#evidence"
-              >
-                Project evidence
-              </a>
-            </li>
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#roles"
-              >
-                Target roles
-              </a>
-            </li>
-            <li>
-              <Link
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                to="/blog/operational-excellence-in-rail"
-              >
-                Guide
-              </Link>
-            </li>
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#contact"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
+      <header className="sticky top-0 z-40 border-b border-rule bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+        <nav aria-label="Primary" className="mx-auto max-w-5xl px-6">
+          <div className="flex items-center justify-between gap-6 py-4">
+            <a href="#main" className="font-display text-2xl leading-none tracking-tight sm:text-3xl">
+              Stuart Savage
+            </a>
 
+            <ul className="hidden items-center gap-1 text-sm font-medium text-muted-foreground lg:flex">
+              {navItems.map((item) => (
+                <li key={item.href}>
+                  <a
+                    className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:bg-secondary hover:text-foreground"
+                    href={item.href}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <Link
+                  className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:bg-secondary hover:text-foreground"
+                  to="/blog/operational-excellence-in-rail"
+                >
+                  Guide
+                </Link>
+              </li>
+              <li className="ml-2">
+                <a
+                  className="inline-flex min-h-11 items-center rounded-sm bg-primary px-4 text-primary-foreground transition-colors hover:bg-accent"
+                  href={`mailto:${EMAIL}`}
+                >
+                  Email Stuart
+                </a>
+              </li>
+            </ul>
+
+            <button
+              type="button"
+              onClick={() => setMenuOpen((open) => !open)}
+              aria-expanded={menuOpen}
+              aria-controls="mobile-menu"
+              className="inline-flex min-h-11 items-center gap-2 rounded-sm border border-rule px-4 text-sm font-medium text-foreground transition-colors hover:bg-secondary lg:hidden"
+            >
+              {menuOpen ? (
+                <X className="size-4" aria-hidden="true" />
+              ) : (
+                <Menu className="size-4" aria-hidden="true" />
+              )}
+              Menu
+            </button>
+          </div>
+
+          {menuOpen ? (
+            <ul
+              id="mobile-menu"
+              className="border-t border-rule py-2 text-base font-medium lg:hidden"
+            >
+              {navItems.map((item) => (
+                <li key={item.href}>
+                  <a
+                    className="flex min-h-12 items-center border-b border-border/60 transition-colors hover:text-accent"
+                    href={item.href}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <Link
+                  className="flex min-h-12 items-center border-b border-border/60 transition-colors hover:text-accent"
+                  to="/blog/operational-excellence-in-rail"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Guide
+                </Link>
+              </li>
+              <li className="pt-3 pb-2">
+                <a
+                  className="inline-flex min-h-11 w-full items-center justify-center rounded-sm bg-primary px-4 text-sm text-primary-foreground transition-colors hover:bg-accent"
+                  href={`mailto:${EMAIL}`}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Email Stuart
+                </a>
+              </li>
+            </ul>
+          ) : null}
         </nav>
       </header>
+
 
       <main id="main">
         {/* Hero */}
