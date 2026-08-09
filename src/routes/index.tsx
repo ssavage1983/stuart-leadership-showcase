@@ -507,12 +507,29 @@ function Index() {
             ))}
           </ol>
           <p className="mt-12 max-w-3xl text-sm leading-relaxed text-muted-foreground">
-            Note on the founder-led businesses: SAVAGELDN, Stuart Savage Landscaping and The
-            Moonlight Garden Design Co. are former businesses, closed in May 2026. They appear here
-            as historic evidence of leadership, logistics, commercial ownership and accountable
-            delivery — not as services offered today.
+            Note on the founder-led businesses: Savage Bespoke Ltd, Stuart Savage Landscaping and
+            The Moonlight Garden Design Co. are former businesses, closed solvently in May 2026.
+            They appear here as historic evidence of leadership, logistics, commercial ownership and
+            accountable delivery — not as services offered today.
           </p>
+
+          <div className="mt-16">
+            <h3 className="text-sm font-semibold tracking-wide text-foreground">
+              Education &amp; professional qualifications
+            </h3>
+            <ul className="mt-6 grid gap-x-12 gap-y-8 sm:grid-cols-2">
+              {education.map((item) => (
+                <li key={item.qualification} className="rule-line pt-5">
+                  <h4 className="text-lg leading-snug">{item.qualification}</h4>
+                  <p className="mt-1 text-sm font-medium text-foreground">{item.org}</p>
+                  <p className="mt-1 text-sm text-muted-foreground">{item.year}</p>
+                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.body}</p>
+                </li>
+              ))}
+            </ul>
+          </div>
         </section>
+
 
         {/* Project evidence */}
         <section
