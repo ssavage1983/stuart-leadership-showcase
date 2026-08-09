@@ -467,7 +467,7 @@ function Index() {
           <p className="eyebrow">Kennington, London · Available for full-time roles</p>
           <h1
             id="hero-title"
-            className="mt-6 max-w-4xl text-[2.75rem] leading-[1.05] sm:text-6xl lg:text-7xl"
+            className="mt-6 max-w-5xl text-[3.25rem] leading-[1.02] sm:text-7xl lg:text-8xl"
           >
             Operations and customer experience leader
           </h1>
