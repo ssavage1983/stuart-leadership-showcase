@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { Menu, X } from "lucide-react";
 
 const EMAIL = "stuart.savageworld@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/stuartsavage";
@@ -43,11 +45,13 @@ const experience: {
   org: string;
   meta: string;
   points: string[];
+  featured?: boolean;
 }[] = [
   {
     role: "Founder & Managing Director",
     org: "Operational & Spatial Design Group — London & Home Counties",
     meta: "Mar 2019 – May 2026 · Savage Bespoke Ltd, Stuart Savage Landscaping, The Moonlight Garden Design Co.",
+    featured: true,
     points: [
       "Governed end-to-end commercial operations, supply chain logistics and physical delivery for complex, high-value structural installations across three concurrent brands.",
       "Held primary accountability for on-site health and safety compliance, risk assessments and multi-disciplinary team rostering.",
@@ -93,6 +97,7 @@ const experience: {
     role: "Food & Beverage Manager",
     org: "No1 Lounges Ltd — Heathrow Airport",
     meta: "Sep 2015 – Jan 2016 · Safety-critical transport environment",
+    featured: true,
     points: [
       "Led frontline passenger operations and safety compliance in one of the world's busiest regulated transport environments.",
       "Managed crowd flow and passenger welfare during periods of intense airport traffic and flight delays.",
@@ -124,6 +129,7 @@ const experience: {
     role: "Branch Manager & Head of Online",
     org: "The Hummingbird Bakery — London",
     meta: "May 2011 – Jun 2014 · Retail operations and e-commerce",
+    featured: true,
     points: [
       "Directed daily retail operations for high-turnover flagship locations, owning rotas, inventory pipelines and daily financial audits.",
       "Led and trained customer service teams of up to 20 staff on operational standards and safety compliance.",
@@ -146,6 +152,7 @@ const experience: {
     role: "Store Manager & Drive-Thru Trainer",
     org: "Starbucks Coffee Company — UK & Seattle, WA, USA",
     meta: "Aug 2006 – Jan 2010 · International secondment",
+    featured: true,
     points: [
       "Selected for an international secondment to Starbucks global headquarters in Seattle, working with senior executive leadership on service-flow optimisation and queue mechanics.",
       "Managed high-volume branch operations, inventory controls and staff rostering for multi-million pound locations.",
@@ -342,7 +349,17 @@ function SectionHeading({
   );
 }
 
+const navItems: { label: string; href: string }[] = [
+  { label: "Capabilities", href: "#capabilities" },
+  { label: "Experience", href: "#experience" },
+  { label: "Project evidence", href: "#evidence" },
+  { label: "Target roles", href: "#roles" },
+  { label: "Contact", href: "#contact" },
+];
+
 function Index() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="min-h-dvh">
       <a
@@ -352,65 +369,97 @@ function Index() {
         Skip to main content
       </a>
 
-      <header className="border-b border-border">
-        <nav
-          aria-label="Primary"
-          className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-5"
-        >
-          <span className="font-display text-lg tracking-tight">Stuart Savage Career Portfolio</span>
-          <ul className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#capabilities"
-              >
-                Capabilities
-              </a>
-            </li>
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#experience"
-              >
-                Experience
-              </a>
-            </li>
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#evidence"
-              >
-                Project evidence
-              </a>
-            </li>
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#roles"
-              >
-                Target roles
-              </a>
-            </li>
-            <li>
-              <Link
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                to="/blog/operational-excellence-in-rail"
-              >
-                Guide
-              </Link>
-            </li>
-            <li>
-              <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
-                href="#contact"
-              >
-                Contact
-              </a>
-            </li>
-          </ul>
+      <header className="sticky top-0 z-40 border-b border-rule bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+        <nav aria-label="Primary" className="mx-auto max-w-5xl px-6">
+          <div className="flex items-center justify-between gap-6 py-4">
+            <a href="#main" className="font-display text-2xl leading-none tracking-tight sm:text-3xl">
+              Stuart Savage
+            </a>
 
+            <ul className="hidden items-center gap-1 text-sm font-medium text-muted-foreground lg:flex">
+              {navItems.map((item) => (
+                <li key={item.href}>
+                  <a
+                    className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:bg-secondary hover:text-foreground"
+                    href={item.href}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <Link
+                  className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:bg-secondary hover:text-foreground"
+                  to="/blog/operational-excellence-in-rail"
+                >
+                  Guide
+                </Link>
+              </li>
+              <li className="ml-2">
+                <a
+                  className="inline-flex min-h-11 items-center rounded-sm bg-primary px-4 text-primary-foreground transition-colors hover:bg-accent"
+                  href={`mailto:${EMAIL}`}
+                >
+                  Email Stuart
+                </a>
+              </li>
+            </ul>
+
+            <button
+              type="button"
+              onClick={() => setMenuOpen((open) => !open)}
+              aria-expanded={menuOpen}
+              aria-controls="mobile-menu"
+              className="inline-flex min-h-11 items-center gap-2 rounded-sm border border-rule px-4 text-sm font-medium text-foreground transition-colors hover:bg-secondary lg:hidden"
+            >
+              {menuOpen ? (
+                <X className="size-4" aria-hidden="true" />
+              ) : (
+                <Menu className="size-4" aria-hidden="true" />
+              )}
+              Menu
+            </button>
+          </div>
+
+          {menuOpen ? (
+            <ul
+              id="mobile-menu"
+              className="border-t border-rule py-2 text-base font-medium lg:hidden"
+            >
+              {navItems.map((item) => (
+                <li key={item.href}>
+                  <a
+                    className="flex min-h-12 items-center border-b border-border/60 transition-colors hover:text-accent"
+                    href={item.href}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))}
+              <li>
+                <Link
+                  className="flex min-h-12 items-center border-b border-border/60 transition-colors hover:text-accent"
+                  to="/blog/operational-excellence-in-rail"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Guide
+                </Link>
+              </li>
+              <li className="pt-3 pb-2">
+                <a
+                  className="inline-flex min-h-11 w-full items-center justify-center rounded-sm bg-primary px-4 text-sm text-primary-foreground transition-colors hover:bg-accent"
+                  href={`mailto:${EMAIL}`}
+                  onClick={() => setMenuOpen(false)}
+                >
+                  Email Stuart
+                </a>
+              </li>
+            </ul>
+          ) : null}
         </nav>
       </header>
+
 
       <main id="main">
         {/* Hero */}
@@ -418,7 +467,7 @@ function Index() {
           <p className="eyebrow">Kennington, London · Available for full-time roles</p>
           <h1
             id="hero-title"
-            className="mt-6 max-w-4xl text-[2.75rem] leading-[1.05] sm:text-6xl lg:text-7xl"
+            className="mt-6 max-w-5xl text-[3.25rem] leading-[1.02] sm:text-7xl lg:text-8xl"
           >
             Operations and customer experience leader
           </h1>
@@ -490,15 +539,34 @@ function Index() {
           />
           <ol className="mt-12 space-y-12">
             {experience.map((role) => (
-              <li key={role.org} className="grid gap-4 md:grid-cols-[1fr_2fr] md:gap-10">
+              <li
+                key={role.org}
+                className={
+                  role.featured
+                    ? "grid gap-4 border border-rule bg-card p-6 sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
+                    : "grid gap-4 md:grid-cols-[1fr_2fr] md:gap-10"
+                }
+              >
                 <div>
-                  <h3 className="text-xl leading-snug">{role.role}</h3>
+                  {role.featured ? (
+                    <p className="eyebrow mb-2 text-accent">Key role</p>
+                  ) : null}
+                  <h3 className={role.featured ? "text-2xl leading-snug" : "text-xl leading-snug"}>
+                    {role.role}
+                  </h3>
                   <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
                   <p className="mt-1 text-sm text-muted-foreground">{role.meta}</p>
                 </div>
                 <ul className="space-y-3 text-sm leading-relaxed text-muted-foreground">
                   {role.points.map((point) => (
-                    <li key={point} className="border-l border-border pl-4">
+                    <li
+                      key={point}
+                      className={
+                        role.featured
+                          ? "border-l-2 border-accent pl-4"
+                          : "border-l border-border pl-4"
+                      }
+                    >
                       {point}
                     </li>
                   ))}
@@ -506,6 +574,7 @@ function Index() {
               </li>
             ))}
           </ol>
+
           <p className="mt-12 max-w-3xl text-sm leading-relaxed text-muted-foreground">
             Note on the founder-led businesses: Savage Bespoke Ltd, Stuart Savage Landscaping and
             The Moonlight Garden Design Co. are former businesses, closed solvently in May 2026.
