@@ -29,34 +29,41 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
   --color-rule: var(--rule);
+  --color-sage: var(--sage);
+  --color-clay: var(--clay);
   --font-display: "Instrument Serif", Georgia, serif;
   --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
   --radius: 0.25rem;
-  /* Paper & ink editorial palette */
-  --background: oklch(0.972 0.008 92);
-  --foreground: oklch(0.205 0.012 60);
-  --card: oklch(0.988 0.006 92);
-  --card-foreground: oklch(0.205 0.012 60);
-  --popover: oklch(0.988 0.006 92);
-  --popover-foreground: oklch(0.205 0.012 60);
-  --primary: oklch(0.245 0.02 55);
-  --primary-foreground: oklch(0.98 0.008 92);
-  --secondary: oklch(0.938 0.012 90);
-  --secondary-foreground: oklch(0.245 0.02 55);
-  --muted: oklch(0.938 0.012 90);
-  --muted-foreground: oklch(0.455 0.015 65);
-  --accent: oklch(0.52 0.11 52);
-  --accent-foreground: oklch(0.98 0.008 92);
+  /* SAVAGELDN palette: forest green, sage, warm tan, soft off-white */
+  --background: oklch(0.976 0.005 140);
+  --foreground: oklch(0.255 0.028 158);
+  --card: oklch(0.991 0.004 140);
+  --card-foreground: oklch(0.255 0.028 158);
+  --popover: oklch(0.991 0.004 140);
+  --popover-foreground: oklch(0.255 0.028 158);
+  --primary: oklch(0.285 0.045 158);
+  --primary-foreground: oklch(0.976 0.005 140);
+  --secondary: oklch(0.943 0.012 150);
+  --secondary-foreground: oklch(0.285 0.045 158);
+  --muted: oklch(0.943 0.012 150);
+  --muted-foreground: oklch(0.475 0.018 152);
+  --accent: oklch(0.395 0.062 155);
+  --accent-foreground: oklch(0.976 0.005 140);
+  --sage: oklch(0.69 0.062 128);
+  --clay: oklch(0.735 0.058 68);
   --destructive: oklch(0.5 0.2 27);
-  --destructive-foreground: oklch(0.98 0.008 92);
-  --border: oklch(0.885 0.012 88);
-  --rule: oklch(0.83 0.014 85);
-  --input: oklch(0.885 0.012 88);
-  --ring: oklch(0.52 0.11 52);
+  --destructive-foreground: oklch(0.98 0.008 140);
+  --border: oklch(0.898 0.011 148);
+  --rule: oklch(0.845 0.014 145);
+  --input: oklch(0.898 0.011 148);
+  --ring: oklch(0.395 0.062 155);
+  --shadow-elegant: 0 1px 2px color-mix(in oklab, var(--foreground) 5%, transparent),
+    0 18px 40px -28px color-mix(in oklab, var(--foreground) 32%, transparent);
 }
+
 
 @layer base {
   * {
