@@ -379,7 +379,7 @@ function RoleItem({ role }: { role: Role }) {
         id={`role-${role.id}`}
         tabIndex={-1}
         aria-labelledby={`role-${role.id}-title`}
-        className="scroll-mt-28 grid gap-4 border border-rule bg-card p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
+        className="card-elegant scroll-mt-28 grid gap-4 border border-rule bg-card p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
       >
         <div>
           <p className="eyebrow mb-2 text-accent">Key role</p>
@@ -708,7 +708,7 @@ function Index() {
             {projectEvidence.map((item) => (
               <article
                 key={item.title}
-                className="flex flex-col gap-4 border border-border bg-card p-7"
+                className="card-elegant flex flex-col gap-4 border border-border bg-card p-7"
               >
                 <h3 className="text-xl leading-snug">{item.title}</h3>
                 <dl className="space-y-3 text-sm leading-relaxed text-muted-foreground">
