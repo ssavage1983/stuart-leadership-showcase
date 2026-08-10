@@ -368,6 +368,96 @@ const navItems: { label: string; href: string }[] = [
   { label: "Contact", href: "#contact" },
 ];
 
+type Role = (typeof experience)[number];
+
+function RoleItem({ role }: { role: Role }) {
+  const [open, setOpen] = useState(false);
+
+  if (role.featured) {
+    return (
+      <li
+        id={`role-${role.id}`}
+        tabIndex={-1}
+        aria-labelledby={`role-${role.id}-title`}
+        className="scroll-mt-28 grid gap-4 border border-rule bg-card p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
+      >
+        <div>
+          <p className="eyebrow mb-2 text-accent">Key role</p>
+          <h3
+            id={`role-${role.id}-title`}
+            className="text-2xl leading-snug"
+          >
+            {role.role}
+          </h3>
+          <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
+          <p className="mt-1 text-sm text-muted-foreground">{role.meta}</p>
+        </div>
+        <ul className="space-y-3 text-sm leading-relaxed text-muted-foreground">
+          {role.points.map((point) => (
+            <li key={point} className="border-l-2 border-accent pl-4">
+              {point}
+            </li>
+          ))}
+        </ul>
+      </li>
+    );
+  }
+
+  const panelId = `role-${role.id}-details`;
+
+  return (
+    <li
+      id={`role-${role.id}`}
+      className="scroll-mt-28 rule-line pt-6 focus-within:outline focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-accent"
+    >
+      <div className="md:grid md:grid-cols-[1fr_2fr] md:gap-10">
+        <div>
+          <h3
+            id={`role-${role.id}-title`}
+            className="text-xl leading-snug"
+          >
+            {role.role}
+          </h3>
+          <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
+          <p className="mt-1 text-sm text-muted-foreground">{role.meta}</p>
+        </div>
+        <div className="mt-2 md:mt-0">
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            aria-expanded={open}
+            aria-controls={panelId}
+            className="inline-flex min-h-11 items-center gap-2 border border-rule px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+          >
+            {open ? "Hide details" : "Show details"}
+            <ChevronDown
+              className={`size-4 transition-transform ${open ? "rotate-180" : ""}`}
+              aria-hidden="true"
+            />
+          </button>
+        </div>
+      </div>
+      {open ? (
+        <ul
+          id={panelId}
+          className="mt-5 space-y-3 text-sm leading-relaxed text-muted-foreground md:grid md:grid-cols-[1fr_2fr] md:gap-10"
+        >
+          <div className="md:col-start-2">
+            {role.points.map((point) => (
+              <li
+                key={point}
+                className="border-l border-border pl-4"
+              >
+                {point}
+              </li>
+            ))}
+          </div>
+        </ul>
+      ) : null}
+    </li>
+  );
+}
+
 function Index() {
   const [menuOpen, setMenuOpen] = useState(false);
 
