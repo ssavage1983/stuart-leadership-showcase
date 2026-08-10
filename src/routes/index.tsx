@@ -574,46 +574,7 @@ function Index() {
           </nav>
           <ol className="mt-12 space-y-12">
             {experience.map((role) => (
-              <li
-                key={role.org}
-                id={`role-${role.id}`}
-                tabIndex={-1}
-                aria-labelledby={`role-${role.id}-title`}
-                className={
-                  role.featured
-                    ? "scroll-mt-28 grid gap-4 border border-rule bg-card p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
-                    : "scroll-mt-28 grid gap-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent md:grid-cols-[1fr_2fr] md:gap-10"
-                }
-              >
-                <div>
-                  {role.featured ? (
-                    <p className="eyebrow mb-2 text-accent">Key role</p>
-                  ) : null}
-                  <h3
-                    id={`role-${role.id}-title`}
-                    className={role.featured ? "text-2xl leading-snug" : "text-xl leading-snug"}
-                  >
-                    {role.role}
-                  </h3>
-
-                  <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
-                  <p className="mt-1 text-sm text-muted-foreground">{role.meta}</p>
-                </div>
-                <ul className="space-y-3 text-sm leading-relaxed text-muted-foreground">
-                  {role.points.map((point) => (
-                    <li
-                      key={point}
-                      className={
-                        role.featured
-                          ? "border-l-2 border-accent pl-4"
-                          : "border-l border-border pl-4"
-                      }
-                    >
-                      {point}
-                    </li>
-                  ))}
-                </ul>
-              </li>
+              <RoleItem key={role.id} role={role} />
             ))}
           </ol>
 
