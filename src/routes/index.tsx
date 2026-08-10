@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 
 const EMAIL = "stuart.savageworld@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/stuartsavage";
