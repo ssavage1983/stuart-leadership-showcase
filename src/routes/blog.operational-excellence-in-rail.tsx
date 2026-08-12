@@ -129,7 +129,12 @@ const jsonLd = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
-        { "@type": "ListItem", position: 2, name: "Operational excellence in transport and rail", item: URL },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Operational excellence in transport and rail",
+          item: URL,
+        },
       ],
     },
   ],
@@ -168,7 +173,10 @@ function GuidePage() {
           aria-label="Primary"
           className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-5"
         >
-          <Link to="/" className="font-display text-lg font-semibold tracking-tight transition-colors hover:text-gold">
+          <Link
+            to="/"
+            className="font-display text-lg font-semibold tracking-tight transition-colors hover:text-gold"
+          >
             Stuart Savage Career Portfolio
           </Link>
           <ul className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-porcelain/80">
@@ -198,7 +206,10 @@ function GuidePage() {
             <nav aria-label="Breadcrumb">
               <ol className="flex flex-wrap items-center gap-2 text-sm text-muted-foreground">
                 <li>
-                  <Link to="/" className="underline underline-offset-4 transition-colors hover:text-accent">
+                  <Link
+                    to="/"
+                    className="underline underline-offset-4 transition-colors hover:text-accent"
+                  >
                     Home
                   </Link>
                 </li>
@@ -331,7 +342,9 @@ function GuidePage() {
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm">
           <p>
             Stuart Savage Career Portfolio. Kennington, London.
-            <span className="block">Intended future domain: moonlight-studio.uk (not yet connected).</span>
+            <span className="block">
+              Intended future domain: moonlight-studio.uk (not yet connected).
+            </span>
           </p>
           <p>Operations · Customer experience · Service delivery · Project delivery</p>
         </div>

@@ -198,7 +198,6 @@ const education: { qualification: string; org: string; year: string; body: strin
   },
 ];
 
-
 const projectEvidence: { title: string; context: string; delivery: string; transfer: string }[] = [
   {
     title: "Client project delivery, end to end",
@@ -220,30 +219,22 @@ const projectEvidence: { title: string; context: string; delivery: string; trans
   },
   {
     title: "Airport hospitality operations",
-    context:
-      "Food and beverage management at Heathrow, within an airport hospitality environment.",
+    context: "Food and beverage management at Heathrow, within an airport hospitality environment.",
     delivery:
       "Held responsibility for operations, teams and service standards alongside safety and compliance expectations.",
-    transfer:
-      "Relevant to transport, rail and other governed operational environments.",
+    transfer: "Relevant to transport, rail and other governed operational environments.",
   },
   {
     title: "Online fulfilment and customer service",
-    context:
-      "E-commerce and online fulfilment at The Hummingbird Bakery.",
-    delivery:
-      "Experience across stock, dispatch, online order fulfilment and customer service.",
-    transfer:
-      "Transfers to customer operations, fulfilment and customer service roles.",
+    context: "E-commerce and online fulfilment at The Hummingbird Bakery.",
+    delivery: "Experience across stock, dispatch, online order fulfilment and customer service.",
+    transfer: "Transfers to customer operations, fulfilment and customer service roles.",
   },
   {
     title: "Responsible business wind-down",
-    context:
-      "Both former businesses were wound down in May 2026.",
-    delivery:
-      "The businesses were closed responsibly, as an owner-led commercial decision.",
-    transfer:
-      "Evidence of accountability, governance and commercial judgement.",
+    context: "Both former businesses were wound down in May 2026.",
+    delivery: "The businesses were closed responsibly, as an owner-led commercial decision.",
+    transfer: "Evidence of accountability, governance and commercial judgement.",
   },
 ];
 
@@ -308,7 +299,6 @@ const jsonLd = {
   },
 };
 
-
 export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
@@ -341,15 +331,7 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-function SectionHeading({
-  eyebrow,
-  title,
-  id,
-}: {
-  eyebrow: string;
-  title: string;
-  id: string;
-}) {
+function SectionHeading({ eyebrow, title, id }: { eyebrow: string; title: string; id: string }) {
   return (
     <div className="max-w-3xl">
       <p className="eyebrow">{eyebrow}</p>
@@ -383,10 +365,7 @@ function RoleItem({ role }: { role: Role }) {
       >
         <div>
           <p className="eyebrow mb-2 text-accent">Key role</p>
-          <h3
-            id={`role-${role.id}-title`}
-            className="text-2xl leading-snug"
-          >
+          <h3 id={`role-${role.id}-title`} className="text-2xl leading-snug">
             {role.role}
           </h3>
           <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
@@ -475,7 +454,10 @@ function Index() {
       <header className="surface-dark sticky top-0 z-40 border-b border-porcelain/15">
         <nav aria-label="Primary" className="mx-auto max-w-5xl px-6">
           <div className="flex items-center justify-between gap-6 py-4">
-            <a href="#main" className="font-display text-2xl leading-none font-semibold tracking-tight sm:text-3xl">
+            <a
+              href="#main"
+              className="font-display text-2xl leading-none font-semibold tracking-tight sm:text-3xl"
+            >
               Stuart Savage
             </a>
 
@@ -563,7 +545,6 @@ function Index() {
         </nav>
       </header>
 
-
       <main id="main">
         {/* Hero */}
         <section className="surface-dark" aria-labelledby="hero-title">
@@ -610,7 +591,6 @@ function Index() {
           </div>
         </section>
 
-
         {/* Capabilities */}
         <section
           id="capabilities"
@@ -643,11 +623,11 @@ function Index() {
             title="Where the experience comes from"
             id="experience-title"
           />
-          <nav
-            aria-labelledby="timeline-nav-title"
-            className="mt-10 rule-line pt-6"
-          >
-            <h3 id="timeline-nav-title" className="text-sm font-semibold tracking-wide text-foreground">
+          <nav aria-labelledby="timeline-nav-title" className="mt-10 rule-line pt-6">
+            <h3
+              id="timeline-nav-title"
+              className="text-sm font-semibold tracking-wide text-foreground"
+            >
               Jump to a role
             </h3>
             <ul className="mt-4 flex flex-wrap gap-2">
@@ -657,9 +637,7 @@ function Index() {
                     href={`#role-${role.id}`}
                     className="inline-flex items-center gap-2 rounded-full border border-rule bg-card px-4 py-2 text-xs leading-tight text-muted-foreground transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:text-foreground hover:shadow-[0_10px_24px_-18px_var(--ink)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                   >
-                    <span className="font-medium text-foreground">
-                      {role.org.split(" — ")[0]}
-                    </span>
+                    <span className="font-medium text-foreground">{role.org.split(" — ")[0]}</span>
                     <span aria-hidden="true">·</span>
                     <span>{role.meta.split(" · ")[0]}</span>
                   </a>
@@ -696,7 +674,6 @@ function Index() {
             </ul>
           </div>
         </section>
-
 
         {/* Project evidence */}
         <section
@@ -741,11 +718,7 @@ function Index() {
           className="rule-line mx-auto max-w-5xl scroll-mt-20 px-6 py-20"
           aria-labelledby="roles-title"
         >
-          <SectionHeading
-            eyebrow="Direction"
-            title="The roles I am aiming for"
-            id="roles-title"
-          />
+          <SectionHeading eyebrow="Direction" title="The roles I am aiming for" id="roles-title" />
           <ul className="mt-12 grid gap-x-12 gap-y-8 sm:grid-cols-2">
             {targetRoles.map((role) => (
               <li key={role.title} className="rule-line pt-5">
@@ -811,12 +784,13 @@ function Index() {
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm">
           <p>
             Stuart Savage Career Portfolio. Kennington, London.
-            <span className="block">Intended future domain: moonlight-studio.uk (not yet connected).</span>
+            <span className="block">
+              Intended future domain: moonlight-studio.uk (not yet connected).
+            </span>
           </p>
           <p>Operations · Customer experience · Service delivery · Project delivery</p>
         </div>
       </footer>
-
     </div>
   );
 }
