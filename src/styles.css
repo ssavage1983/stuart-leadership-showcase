@@ -30,8 +30,16 @@
   --color-ring: var(--ring);
   --color-rule: var(--rule);
   --color-clay: var(--clay);
-  --font-display: "Instrument Serif", Georgia, serif;
-  --font-sans: "Work Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-porcelain: var(--porcelain);
+  --color-stone: var(--stone);
+  --color-bluegrey: var(--bluegrey);
+  --color-slate: var(--slate);
+  --color-navy: var(--navy);
+  --color-terracotta: var(--terracotta);
+  --color-gold: var(--gold);
+  --color-ink: var(--ink);
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
 :root {
