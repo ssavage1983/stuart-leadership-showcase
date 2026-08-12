@@ -1,13 +1,13 @@
 ---
-name: career-qa-assistant
-description: Provides structured answers for competency, situational, and operational leadership interview questions.
+name: linkedin-profile-optimiser
+description: Optimises LinkedIn headlines, summaries, and experience entries for corporate operations and project management roles.
 ---
 
-# Career QA Assistant
+# LinkedIn Profile Optimiser
 
-Use this skill to draft professional, recruiter-ready answers highlighting operations, project management, and commercial leadership experience.
+Use this skill to refine LinkedIn profile content for recruiter-facing presentation, focusing on transferable leadership and operational skills.
 
 ## Guidance Rules
-1. Emphasise strategic operations, logistics, stakeholder management, and team leadership.
-2. Ensure answers are clear, concise, and structured for executive and recruiter reviews.
-3. Keep focus strictly on commercial and corporate operational context.
+1. Optimise wording for executive recruiters and applicant tracking visibility.
+2. Emphasise cross-functional leadership, operational efficiency, stakeholder management, and project execution.
+3. Keep tone professional, authoritative, and concise.
