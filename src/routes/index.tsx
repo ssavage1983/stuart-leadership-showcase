@@ -406,54 +406,56 @@ function RoleItem({ role }: { role: Role }) {
   const panelId = `role-${role.id}-details`;
 
   return (
-    <li
-      id={`role-${role.id}`}
-      className="scroll-mt-28 rule-line pt-6 focus-within:outline focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-accent"
-    >
-      <div className="md:grid md:grid-cols-[1fr_2fr] md:gap-10">
+    <li id={`role-${role.id}`} className="scroll-mt-28 rule-line role-row">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        aria-controls={panelId}
+        className="group flex w-full items-start gap-6 px-1 py-6 text-left transition-colors sm:px-3 md:grid md:grid-cols-[1fr_2fr] md:gap-10"
+      >
         <div>
           <h3
             id={`role-${role.id}-title`}
-            className="text-xl leading-snug"
+            className="text-xl leading-snug transition-colors group-hover:text-accent"
           >
             {role.role}
           </h3>
           <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
-          <p className="mt-1 text-sm text-muted-foreground">{role.meta}</p>
+          <p className="mt-1 text-[0.75rem] uppercase tracking-[0.14em] text-muted-foreground">
+            {role.meta}
+          </p>
         </div>
-        <div className="mt-2 md:mt-0">
-          <button
-            type="button"
-            onClick={() => setOpen((v) => !v)}
-            aria-expanded={open}
-            aria-controls={panelId}
-            className="inline-flex min-h-11 items-center gap-2 border border-rule px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        <div className="ml-auto flex items-center gap-3 md:ml-0 md:justify-end">
+          <span className="hidden text-[0.6875rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground transition-colors group-hover:text-accent sm:inline">
+            {open ? "Close" : "Details"}
+          </span>
+          <span
+            aria-hidden="true"
+            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-rule text-foreground transition-all duration-300 group-hover:border-accent group-hover:text-accent"
           >
-            {open ? "Hide details" : "Show details"}
             <ChevronDown
-              className={`size-4 transition-transform ${open ? "rotate-180" : ""}`}
-              aria-hidden="true"
+              className={`size-4 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
             />
-          </button>
+          </span>
+        </div>
+      </button>
+      <div className={`disclosure ${open ? "disclosure-open" : ""}`}>
+        <div>
+          <ul
+            id={panelId}
+            className="px-1 pb-8 text-sm leading-relaxed text-muted-foreground sm:px-3 md:grid md:grid-cols-[1fr_2fr] md:gap-10"
+          >
+            <div className="space-y-3 md:col-start-2">
+              {role.points.map((point) => (
+                <li key={point} className="border-l border-accent/40 pl-4">
+                  {point}
+                </li>
+              ))}
+            </div>
+          </ul>
         </div>
       </div>
-      {open ? (
-        <ul
-          id={panelId}
-          className="mt-5 space-y-3 text-sm leading-relaxed text-muted-foreground md:grid md:grid-cols-[1fr_2fr] md:gap-10"
-        >
-          <div className="md:col-start-2">
-            {role.points.map((point) => (
-              <li
-                key={point}
-                className="border-l border-border pl-4"
-              >
-                {point}
-              </li>
-            ))}
-          </div>
-        </ul>
-      ) : null}
     </li>
   );
 }
@@ -653,7 +655,7 @@ function Index() {
                 <li key={`nav-${role.id}`}>
                   <a
                     href={`#role-${role.id}`}
-                    className="inline-flex items-center gap-2 border border-rule px-3 py-2 text-xs leading-tight text-muted-foreground transition-colors hover:border-accent hover:text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                    className="inline-flex items-center gap-2 rounded-full border border-rule bg-card px-4 py-2 text-xs leading-tight text-muted-foreground transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:text-foreground hover:shadow-[0_10px_24px_-18px_var(--ink)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                   >
                     <span className="font-medium text-foreground">
                       {role.org.split(" — ")[0]}
@@ -665,7 +667,7 @@ function Index() {
               ))}
             </ul>
           </nav>
-          <ol className="mt-12 space-y-12">
+          <ol className="mt-12 space-y-6">
             {experience.map((role) => (
               <RoleItem key={role.id} role={role} />
             ))}
