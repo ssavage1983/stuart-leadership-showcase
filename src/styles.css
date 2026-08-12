@@ -181,12 +181,6 @@
     color: var(--gold);
   }
 
-  & p,
-  & li,
-  & dd {
-    color: color-mix(in oklab, var(--porcelain) 82%, var(--navy));
-  }
-
   & a:hover {
     color: var(--gold);
   }
