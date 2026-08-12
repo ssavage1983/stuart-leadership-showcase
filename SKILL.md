@@ -1,12 +1,13 @@
 ---
-name: star-story-builder
-description: Helps structure operations leadership and project management experience into high impact STAR framework responses.
+name: career-qa-assistant
+description: Provides structured answers for competency, situational, and operational leadership interview questions.
 ---
 
-# STAR Story Builder
+# Career QA Assistant
 
-Use this skill to convert operational leadership achievements into structured STAR format.
+Use this skill to draft professional, recruiter-ready answers highlighting operations, project management, and commercial leadership experience.
 
 ## Guidance Rules
-1. Focus on transferable commercial leadership, operations, and stakeholder management skills.
-2. Structure output strictly into Situation, Task, Action, and Result.
+1. Emphasise strategic operations, logistics, stakeholder management, and team leadership.
+2. Ensure answers are clear, concise, and structured for executive and recruiter reviews.
+3. Keep focus strictly on commercial and corporate operational context.
