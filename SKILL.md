@@ -1,13 +1,13 @@
 ---
-name: interview-prep-coach
-description: Generates tailored interview questions, key talking points, and strategic opening/closing pitches for leadership roles.
+name: recruiter-outreach-assistant
+description: Drafts clear, professional email and LinkedIn messaging for recruiters, hiring managers, and professional contacts.
 ---
 
-# Interview Prep Coach
+# Recruiter Outreach Assistant
 
-Use this skill to prepare opening pitches, key operational talking points, and answers to challenging interview questions.
+Use this skill to compose professional, high-impact messages for recruiter follow-ups, application submissions, and networking outreach.
 
 ## Guidance Rules
-1. Align responses with corporate operations, project delivery, and team leadership competencies.
-2. Structure opening pitches to quickly communicate core management value and career scope.
-3. Provide strategic questions to ask interviewers about team structure, operational bottlenecks, and company goals.
+1. Maintain a professional, executive tone tailored to UK commercial and operations leadership roles.
+2. Clearly articulate core competencies in project delivery, operations management, and stakeholder engagement.
+3. Keep communications concise, persuasive, and structured with clear calls to action.
