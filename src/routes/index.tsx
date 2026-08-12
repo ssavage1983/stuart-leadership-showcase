@@ -655,7 +655,7 @@ function Index() {
                 <li key={`nav-${role.id}`}>
                   <a
                     href={`#role-${role.id}`}
-                    className="inline-flex items-center gap-2 border border-rule px-3 py-2 text-xs leading-tight text-muted-foreground transition-colors hover:border-accent hover:text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                    className="inline-flex items-center gap-2 rounded-full border border-rule bg-card px-4 py-2 text-xs leading-tight text-muted-foreground transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:text-foreground hover:shadow-[0_10px_24px_-18px_var(--ink)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
                   >
                     <span className="font-medium text-foreground">
                       {role.org.split(" — ")[0]}
