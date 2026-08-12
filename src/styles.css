@@ -44,30 +44,39 @@
 
 :root {
   --radius: 0.25rem;
-  /* SAVAGELDN live palette: cream #f8f7f3, deep navy #1a365d, terracotta #c0846c */
-  --background: oklch(0.972 0.005 95);
-  --foreground: oklch(0.268 0.052 259);
-  --card: oklch(0.99 0.004 95);
-  --card-foreground: oklch(0.268 0.052 259);
-  --popover: oklch(0.99 0.004 95);
-  --popover-foreground: oklch(0.268 0.052 259);
-  --primary: oklch(0.316 0.072 259);
-  --primary-foreground: oklch(0.972 0.005 95);
-  --secondary: oklch(0.938 0.008 95);
-  --secondary-foreground: oklch(0.316 0.072 259);
-  --muted: oklch(0.938 0.008 95);
-  --muted-foreground: oklch(0.48 0.028 259);
-  --accent: oklch(0.63 0.078 40);
-  --accent-foreground: oklch(0.99 0.004 95);
-  --clay: oklch(0.685 0.075 40);
+  /* Brand palette */
+  --porcelain: #f8f7f3;
+  --stone: #e7e2d9;
+  --bluegrey: #d7e0e8;
+  --slate: #4a5568;
+  --navy: #1a365d;
+  --terracotta: #c0846c;
+  --gold: #c9ad72;
+  --ink: #172033;
+
+  --background: var(--porcelain);
+  --foreground: var(--ink);
+  --card: #fdfcfa;
+  --card-foreground: var(--ink);
+  --popover: #fdfcfa;
+  --popover-foreground: var(--ink);
+  --primary: var(--navy);
+  --primary-foreground: var(--porcelain);
+  --secondary: var(--stone);
+  --secondary-foreground: var(--navy);
+  --muted: var(--stone);
+  --muted-foreground: var(--slate);
+  --accent: var(--terracotta);
+  --accent-foreground: var(--porcelain);
+  --clay: var(--terracotta);
   --destructive: oklch(0.5 0.2 27);
-  --destructive-foreground: oklch(0.99 0.004 95);
-  --border: oklch(0.892 0.009 95);
-  --rule: oklch(0.838 0.011 95);
-  --input: oklch(0.892 0.009 95);
-  --ring: oklch(0.63 0.078 40);
-  --shadow-elegant: 0 1px 2px color-mix(in oklab, var(--foreground) 6%, transparent),
-    0 18px 40px -28px color-mix(in oklab, var(--foreground) 34%, transparent);
+  --destructive-foreground: var(--porcelain);
+  --border: var(--stone);
+  --rule: #d8d2c6;
+  --input: var(--stone);
+  --ring: var(--gold);
+  --shadow-elegant: 0 1px 2px color-mix(in oklab, var(--ink) 6%, transparent),
+    0 18px 40px -28px color-mix(in oklab, var(--ink) 34%, transparent);
 }
 
 
