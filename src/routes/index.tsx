@@ -770,45 +770,43 @@ function Index() {
         </section>
 
         {/* Contact */}
-        <section
-          id="contact"
-          className="rule-line mx-auto max-w-5xl scroll-mt-20 px-6 py-20 sm:py-28"
-          aria-labelledby="contact-title"
-        >
-          <SectionHeading eyebrow="Contact" title="Get in touch" id="contact-title" />
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            If you are hiring for an operations, customer experience, service delivery or project
-            delivery role, I would be glad to talk. The quickest route is email.
-          </p>
-          <ul className="mt-10 grid gap-6 sm:grid-cols-2">
-            <li>
-              <p className="eyebrow">Email</p>
-              <a
-                className="mt-1 inline-flex min-h-11 items-center break-all text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
-                href={`mailto:${EMAIL}`}
-                aria-label={`Email Stuart Savage at ${EMAIL}`}
-              >
-                {EMAIL}
-              </a>
-            </li>
-            <li>
-              <p className="eyebrow">LinkedIn</p>
-              <a
-                className="mt-1 inline-flex min-h-11 items-center text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
-                href={LINKEDIN}
-                target="_blank"
-                rel="noreferrer noopener"
-                aria-label="Stuart Savage on LinkedIn (opens in a new tab)"
-              >
-                linkedin.com/in/stuartsavage
-              </a>
-            </li>
-          </ul>
+        <section id="contact" className="surface-dark scroll-mt-20" aria-labelledby="contact-title">
+          <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+            <SectionHeading eyebrow="Contact" title="Get in touch" id="contact-title" />
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed">
+              If you are hiring for an operations, customer experience, service delivery or project
+              delivery role, I would be glad to talk. The quickest route is email.
+            </p>
+            <ul className="mt-10 grid gap-6 sm:grid-cols-2">
+              <li>
+                <p className="eyebrow">Email</p>
+                <a
+                  className="mt-1 inline-flex min-h-11 items-center break-all text-lg underline underline-offset-4 transition-colors hover:text-gold"
+                  href={`mailto:${EMAIL}`}
+                  aria-label={`Email Stuart Savage at ${EMAIL}`}
+                >
+                  {EMAIL}
+                </a>
+              </li>
+              <li>
+                <p className="eyebrow">LinkedIn</p>
+                <a
+                  className="mt-1 inline-flex min-h-11 items-center text-lg underline underline-offset-4 transition-colors hover:text-gold"
+                  href={LINKEDIN}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label="Stuart Savage on LinkedIn (opens in a new tab)"
+                >
+                  linkedin.com/in/stuartsavage
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
 
-      <footer className="rule-line">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm text-muted-foreground">
+      <footer className="surface-dark border-t border-porcelain/15">
+        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm">
           <p>
             Stuart Savage Career Portfolio. Kennington, London.
             <span className="block">Intended future domain: moonlight-studio.uk (not yet connected).</span>
