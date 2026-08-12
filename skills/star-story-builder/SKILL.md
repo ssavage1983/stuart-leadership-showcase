@@ -1,5 +1,5 @@
 ---
-name: STAR Story Builder
+name: star-story-builder
 description: Helps structure operations, leadership, and project management experience into high-impact STAR framework interview responses.
 version: 1.0.0
 ---
