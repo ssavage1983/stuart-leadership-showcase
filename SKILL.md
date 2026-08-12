@@ -1,13 +1,13 @@
 ---
-name: recruiter-outreach-assistant
-description: Drafts clear, professional email and LinkedIn messaging for recruiters, hiring managers, and professional contacts.
+name: cv-tailoring-assistant
+description: Optimises CV content, executive summaries, and key impact metrics for targeted operations and project management roles.
 ---
 
-# Recruiter Outreach Assistant
+# CV Tailoring Assistant
 
-Use this skill to compose professional, high-impact messages for recruiter follow-ups, application submissions, and networking outreach.
+Use this skill to adapt CV sections and bullet points for specific job specifications, ensuring optimal alignment with applicant tracking criteria.
 
 ## Guidance Rules
-1. Maintain a professional, executive tone tailored to UK commercial and operations leadership roles.
-2. Clearly articulate core competencies in project delivery, operations management, and stakeholder engagement.
-3. Keep communications concise, persuasive, and structured with clear calls to action.
+1. Highlight transferable commercial skills, project management frameworks, and stakeholder engagement.
+2. Quantify operational outcomes, cost efficiencies, and project delivery metrics where possible.
+3. Keep tone direct, professional, and tailored strictly to UK corporate operations standards.
