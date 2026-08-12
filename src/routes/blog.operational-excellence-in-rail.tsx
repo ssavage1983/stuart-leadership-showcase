@@ -163,26 +163,26 @@ function GuidePage() {
         Skip to main content
       </a>
 
-      <header className="border-b border-border">
+      <header className="surface-dark border-b border-porcelain/15">
         <nav
           aria-label="Primary"
           className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-5"
         >
-          <Link to="/" className="font-display text-lg tracking-tight transition-colors hover:text-accent">
+          <Link to="/" className="font-display text-lg font-semibold tracking-tight transition-colors hover:text-gold">
             Stuart Savage Career Portfolio
           </Link>
-          <ul className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
+          <ul className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-porcelain/80">
             <li>
               <Link
                 to="/"
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-gold"
               >
                 Portfolio
               </Link>
             </li>
             <li>
               <a
-                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-accent"
+                className="inline-flex min-h-11 items-center px-1 transition-colors hover:text-gold"
                 href={`mailto:${EMAIL}`}
               >
                 Contact
@@ -327,8 +327,8 @@ function GuidePage() {
         </article>
       </main>
 
-      <footer className="rule-line">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm text-muted-foreground">
+      <footer className="surface-dark border-t border-porcelain/15">
+        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm">
           <p>
             Stuart Savage Career Portfolio. Kennington, London.
             <span className="block">Intended future domain: moonlight-studio.uk (not yet connected).</span>

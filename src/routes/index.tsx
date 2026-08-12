@@ -470,18 +470,18 @@ function Index() {
         Skip to main content
       </a>
 
-      <header className="sticky top-0 z-40 border-b border-rule bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+      <header className="surface-dark sticky top-0 z-40 border-b border-porcelain/15">
         <nav aria-label="Primary" className="mx-auto max-w-5xl px-6">
           <div className="flex items-center justify-between gap-6 py-4">
-            <a href="#main" className="font-display text-2xl leading-none tracking-tight sm:text-3xl">
+            <a href="#main" className="font-display text-2xl leading-none font-semibold tracking-tight sm:text-3xl">
               Stuart Savage
             </a>
 
-            <ul className="hidden items-center gap-1 text-sm font-medium text-muted-foreground lg:flex">
+            <ul className="hidden items-center gap-1 text-sm font-medium text-porcelain/80 lg:flex">
               {navItems.map((item) => (
                 <li key={item.href}>
                   <a
-                    className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:bg-secondary hover:text-foreground"
+                    className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:text-gold"
                     href={item.href}
                   >
                     {item.label}
@@ -490,7 +490,7 @@ function Index() {
               ))}
               <li>
                 <Link
-                  className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:bg-secondary hover:text-foreground"
+                  className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:text-gold"
                   to="/blog/operational-excellence-in-rail"
                 >
                   Guide
@@ -498,7 +498,7 @@ function Index() {
               </li>
               <li className="ml-2">
                 <a
-                  className="inline-flex min-h-11 items-center rounded-sm bg-primary px-4 text-primary-foreground transition-colors hover:bg-accent"
+                  className="inline-flex min-h-11 items-center rounded-sm bg-gold px-4 font-semibold text-navy transition-colors hover:bg-porcelain"
                   href={`mailto:${EMAIL}`}
                 >
                   Email Stuart
@@ -511,7 +511,7 @@ function Index() {
               onClick={() => setMenuOpen((open) => !open)}
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
-              className="inline-flex min-h-11 items-center gap-2 rounded-sm border border-rule px-4 text-sm font-medium text-foreground transition-colors hover:bg-secondary lg:hidden"
+              className="inline-flex min-h-11 items-center gap-2 rounded-sm border border-porcelain/30 px-4 text-sm font-medium text-porcelain transition-colors hover:border-gold hover:text-gold lg:hidden"
             >
               {menuOpen ? (
                 <X className="size-4" aria-hidden="true" />
@@ -525,12 +525,12 @@ function Index() {
           {menuOpen ? (
             <ul
               id="mobile-menu"
-              className="border-t border-rule py-2 text-base font-medium lg:hidden"
+              className="border-t border-porcelain/20 py-2 text-base font-medium lg:hidden"
             >
               {navItems.map((item) => (
                 <li key={item.href}>
                   <a
-                    className="flex min-h-12 items-center border-b border-border/60 transition-colors hover:text-accent"
+                    className="flex min-h-12 items-center border-b border-porcelain/15 transition-colors hover:text-gold"
                     href={item.href}
                     onClick={() => setMenuOpen(false)}
                   >
@@ -540,7 +540,7 @@ function Index() {
               ))}
               <li>
                 <Link
-                  className="flex min-h-12 items-center border-b border-border/60 transition-colors hover:text-accent"
+                  className="flex min-h-12 items-center border-b border-porcelain/15 transition-colors hover:text-gold"
                   to="/blog/operational-excellence-in-rail"
                   onClick={() => setMenuOpen(false)}
                 >
@@ -549,7 +549,7 @@ function Index() {
               </li>
               <li className="pt-3 pb-2">
                 <a
-                  className="inline-flex min-h-11 w-full items-center justify-center rounded-sm bg-primary px-4 text-sm text-primary-foreground transition-colors hover:bg-accent"
+                  className="inline-flex min-h-11 w-full items-center justify-center rounded-sm bg-gold px-4 text-sm font-semibold text-navy transition-colors hover:bg-porcelain"
                   href={`mailto:${EMAIL}`}
                   onClick={() => setMenuOpen(false)}
                 >
@@ -564,47 +564,50 @@ function Index() {
 
       <main id="main">
         {/* Hero */}
-        <section className="mx-auto max-w-5xl px-6 py-20 sm:py-28" aria-labelledby="hero-title">
-          <p className="eyebrow">Kennington, London · Available for full-time roles</p>
-          <h1
-            id="hero-title"
-            className="mt-6 max-w-5xl text-[3.25rem] leading-[1.02] sm:text-7xl lg:text-8xl"
-          >
-            Operations and customer experience leader
-          </h1>
-          <div className="mt-8 grid gap-8 md:grid-cols-[1.4fr_1fr] md:gap-14">
-            <p className="text-lg leading-relaxed text-muted-foreground sm:text-xl">
-              I lead operations, customer experience, service delivery and strategic projects. My
-              background spans airport hospitality at Heathrow, high-volume restaurant management,
-              e-commerce and fulfilment at The Hummingbird Bakery, and running my own businesses
-              end to end. I lead calmly, communicate openly and take accountability for delivery.
-            </p>
-            <div className="rule-line pt-6 text-sm leading-relaxed text-muted-foreground md:border-t-0 md:border-l md:border-border md:pt-0 md:pl-8">
-              <p className="font-medium text-foreground">Currently seeking</p>
-              <p className="mt-2">
-                A full-time corporate leadership role in operations, customer experience, service
-                delivery or project delivery — with a particular interest in transport and rail.
+        <section className="surface-dark" aria-labelledby="hero-title">
+          <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+            <p className="eyebrow">Kennington, London · Available for full-time roles</p>
+            <h1
+              id="hero-title"
+              className="mt-6 max-w-5xl text-[3.25rem] leading-[1.02] font-semibold sm:text-7xl lg:text-8xl"
+            >
+              Operations and customer experience leader
+            </h1>
+            <div className="mt-8 grid gap-8 md:grid-cols-[1.4fr_1fr] md:gap-14">
+              <p className="text-lg leading-relaxed sm:text-xl">
+                I lead operations, customer experience, service delivery and strategic projects. My
+                background spans airport hospitality at Heathrow, high-volume restaurant management,
+                e-commerce and fulfilment at The Hummingbird Bakery, and running my own businesses
+                end to end. I lead calmly, communicate openly and take accountability for delivery.
               </p>
+              <div className="border-t border-porcelain/20 pt-6 text-sm leading-relaxed md:border-t-0 md:border-l md:pt-0 md:pl-8">
+                <p className="font-semibold text-gold">Currently seeking</p>
+                <p className="mt-2">
+                  A full-time corporate leadership role in operations, customer experience, service
+                  delivery or project delivery — with a particular interest in transport and rail.
+                </p>
+              </div>
+            </div>
+            <div className="mt-10 flex flex-wrap gap-3">
+              <a
+                href={`mailto:${EMAIL}`}
+                className="inline-flex min-h-11 items-center rounded-sm bg-gold px-6 text-sm font-semibold text-navy transition-colors hover:bg-porcelain"
+              >
+                Email Stuart
+              </a>
+              <a
+                href={LINKEDIN}
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="View Stuart Savage's LinkedIn profile (opens in a new tab)"
+                className="inline-flex min-h-11 items-center rounded-sm border border-porcelain/40 px-6 text-sm font-medium transition-colors hover:border-gold hover:text-gold"
+              >
+                View LinkedIn profile
+              </a>
             </div>
           </div>
-          <div className="mt-10 flex flex-wrap gap-3">
-            <a
-              href={`mailto:${EMAIL}`}
-              className="inline-flex min-h-11 items-center rounded-sm bg-primary px-6 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent"
-            >
-              Email Stuart
-            </a>
-            <a
-              href={LINKEDIN}
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-label="View Stuart Savage's LinkedIn profile (opens in a new tab)"
-              className="inline-flex min-h-11 items-center rounded-sm border border-primary px-6 text-sm font-medium text-primary transition-colors hover:bg-secondary"
-            >
-              View LinkedIn profile
-            </a>
-          </div>
         </section>
+
 
         {/* Capabilities */}
         <section
@@ -767,45 +770,43 @@ function Index() {
         </section>
 
         {/* Contact */}
-        <section
-          id="contact"
-          className="rule-line mx-auto max-w-5xl scroll-mt-20 px-6 py-20 sm:py-28"
-          aria-labelledby="contact-title"
-        >
-          <SectionHeading eyebrow="Contact" title="Get in touch" id="contact-title" />
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            If you are hiring for an operations, customer experience, service delivery or project
-            delivery role, I would be glad to talk. The quickest route is email.
-          </p>
-          <ul className="mt-10 grid gap-6 sm:grid-cols-2">
-            <li>
-              <p className="eyebrow">Email</p>
-              <a
-                className="mt-1 inline-flex min-h-11 items-center break-all text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
-                href={`mailto:${EMAIL}`}
-                aria-label={`Email Stuart Savage at ${EMAIL}`}
-              >
-                {EMAIL}
-              </a>
-            </li>
-            <li>
-              <p className="eyebrow">LinkedIn</p>
-              <a
-                className="mt-1 inline-flex min-h-11 items-center text-lg text-foreground underline underline-offset-4 transition-colors hover:text-accent"
-                href={LINKEDIN}
-                target="_blank"
-                rel="noreferrer noopener"
-                aria-label="Stuart Savage on LinkedIn (opens in a new tab)"
-              >
-                linkedin.com/in/stuartsavage
-              </a>
-            </li>
-          </ul>
+        <section id="contact" className="surface-dark scroll-mt-20" aria-labelledby="contact-title">
+          <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
+            <SectionHeading eyebrow="Contact" title="Get in touch" id="contact-title" />
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed">
+              If you are hiring for an operations, customer experience, service delivery or project
+              delivery role, I would be glad to talk. The quickest route is email.
+            </p>
+            <ul className="mt-10 grid gap-6 sm:grid-cols-2">
+              <li>
+                <p className="eyebrow">Email</p>
+                <a
+                  className="mt-1 inline-flex min-h-11 items-center break-all text-lg underline underline-offset-4 transition-colors hover:text-gold"
+                  href={`mailto:${EMAIL}`}
+                  aria-label={`Email Stuart Savage at ${EMAIL}`}
+                >
+                  {EMAIL}
+                </a>
+              </li>
+              <li>
+                <p className="eyebrow">LinkedIn</p>
+                <a
+                  className="mt-1 inline-flex min-h-11 items-center text-lg underline underline-offset-4 transition-colors hover:text-gold"
+                  href={LINKEDIN}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  aria-label="Stuart Savage on LinkedIn (opens in a new tab)"
+                >
+                  linkedin.com/in/stuartsavage
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
 
-      <footer className="rule-line">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm text-muted-foreground">
+      <footer className="surface-dark border-t border-porcelain/15">
+        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm">
           <p>
             Stuart Savage Career Portfolio. Kennington, London.
             <span className="block">Intended future domain: moonlight-studio.uk (not yet connected).</span>
