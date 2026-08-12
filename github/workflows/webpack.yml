@@ -1,4 +1,4 @@
-name: Webpack build
+name: Build & Validate
 
 on:
   push:
@@ -9,27 +9,23 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
 
     steps:
     - uses: actions/checkout@v4
 
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js 22.x
       uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: '22.x'
+        cache: 'npm'
 
     - name: Install dependencies
       run: |
-        # Use npm ci when package-lock.json exists for deterministic installs
         if [ -f package-lock.json ]; then
           npm ci
         else
           npm install
         fi
 
-    - name: Build
-      run: |
-        npm run build
+    - name: Build project
+      run: npm run build
