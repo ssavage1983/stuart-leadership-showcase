@@ -1,0 +1,26 @@
+name Build & Validate
+
+on
+  push
+    branches [ main ]
+  pull_request
+    branches [ main ]
+
+jobs
+  build
+    runs-on ubuntu-latest
+
+    steps
+    - uses actionscheckout@v4
+
+    - name Setup Node.js 22.x
+      uses actionssetup-node@v4
+      with
+        node-version '22.x'
+        cache 'npm'
+
+    - name Install dependencies
+      run npm ci
+
+    - name Build project
+      run npm run build
