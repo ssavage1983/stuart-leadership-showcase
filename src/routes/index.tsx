@@ -667,7 +667,7 @@ function Index() {
               ))}
             </ul>
           </nav>
-          <ol className="mt-12 space-y-12">
+          <ol className="mt-12 space-y-6">
             {experience.map((role) => (
               <RoleItem key={role.id} role={role} />
             ))}
