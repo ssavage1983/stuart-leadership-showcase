@@ -470,18 +470,18 @@ function Index() {
         Skip to main content
       </a>
 
-      <header className="sticky top-0 z-40 border-b border-rule bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+      <header className="surface-dark sticky top-0 z-40 border-b border-porcelain/15">
         <nav aria-label="Primary" className="mx-auto max-w-5xl px-6">
           <div className="flex items-center justify-between gap-6 py-4">
-            <a href="#main" className="font-display text-2xl leading-none tracking-tight sm:text-3xl">
+            <a href="#main" className="font-display text-2xl leading-none font-semibold tracking-tight sm:text-3xl">
               Stuart Savage
             </a>
 
-            <ul className="hidden items-center gap-1 text-sm font-medium text-muted-foreground lg:flex">
+            <ul className="hidden items-center gap-1 text-sm font-medium text-porcelain/80 lg:flex">
               {navItems.map((item) => (
                 <li key={item.href}>
                   <a
-                    className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:bg-secondary hover:text-foreground"
+                    className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:text-gold"
                     href={item.href}
                   >
                     {item.label}
@@ -490,7 +490,7 @@ function Index() {
               ))}
               <li>
                 <Link
-                  className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:bg-secondary hover:text-foreground"
+                  className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:text-gold"
                   to="/blog/operational-excellence-in-rail"
                 >
                   Guide
@@ -498,7 +498,7 @@ function Index() {
               </li>
               <li className="ml-2">
                 <a
-                  className="inline-flex min-h-11 items-center rounded-sm bg-primary px-4 text-primary-foreground transition-colors hover:bg-accent"
+                  className="inline-flex min-h-11 items-center rounded-sm bg-gold px-4 font-semibold text-navy transition-colors hover:bg-porcelain"
                   href={`mailto:${EMAIL}`}
                 >
                   Email Stuart
@@ -511,7 +511,7 @@ function Index() {
               onClick={() => setMenuOpen((open) => !open)}
               aria-expanded={menuOpen}
               aria-controls="mobile-menu"
-              className="inline-flex min-h-11 items-center gap-2 rounded-sm border border-rule px-4 text-sm font-medium text-foreground transition-colors hover:bg-secondary lg:hidden"
+              className="inline-flex min-h-11 items-center gap-2 rounded-sm border border-porcelain/30 px-4 text-sm font-medium text-porcelain transition-colors hover:border-gold hover:text-gold lg:hidden"
             >
               {menuOpen ? (
                 <X className="size-4" aria-hidden="true" />
