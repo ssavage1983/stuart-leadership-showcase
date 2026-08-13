@@ -78,39 +78,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Stuart Savage Career Portfolio | Operations & CX Leader" },
-      {
-        name: "description",
-        content:
-          "Career portfolio of Stuart Savage, London-based operations, customer experience and service delivery leader with airport hospitality, e-commerce and founder-led delivery experience.",
-      },
       { name: "author", content: "Stuart Savage" },
       { property: "og:site_name", content: "Stuart Savage Career Portfolio" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { property: "og:title", content: "Stuart Savage Career Portfolio | Operations & CX Leader" },
-      { name: "twitter:title", content: "Stuart Savage Career Portfolio | Operations & CX Leader" },
-      {
-        property: "og:description",
-        content:
-          "Career portfolio of Stuart Savage, London-based operations, customer experience and service delivery leader with airport hospitality, e-commerce and founder-led delivery experience.",
-      },
-      {
-        name: "twitter:description",
-        content:
-          "Career portfolio of Stuart Savage, London-based operations, customer experience and service delivery leader with airport hospitality, e-commerce and founder-led delivery experience.",
-      },
-      {
-        property: "og:image",
-        content:
-          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5c6a1beb-c5ff-43b0-b6bd-7f318c8a49f7/id-preview-fb2ec420--e8483775-82a3-48c7-9bb1-3639384a94f8.lovable.app-1785352085986.png",
-      },
-      {
-        name: "twitter:image",
-        content:
-          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5c6a1beb-c5ff-43b0-b6bd-7f318c8a49f7/id-preview-fb2ec420--e8483775-82a3-48c7-9bb1-3639384a94f8.lovable.app-1785352085986.png",
-      },
     ],
+
     links: [
       {
         rel: "stylesheet",
