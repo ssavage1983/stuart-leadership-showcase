@@ -7,7 +7,8 @@ const URL = `${SITE}/blog/operational-excellence-in-rail`;
 
 const TITLE = "Operational Excellence in Transport and Rail: A Practical Guide";
 const DESCRIPTION =
-  "How operational excellence principles apply to transport and rail: standards, flow, service recovery, supplier coordination and the operations manager skills that hold it all together.";
+  "A practical guide to operational excellence in transport and rail: service standards, flow, recovery and the skills operations managers need.";
+
 
 const principles: { title: string; body: string }[] = [
   {
