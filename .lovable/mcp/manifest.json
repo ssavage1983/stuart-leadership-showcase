@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "sdk_version": "0.26.2",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "stuart-savage-career-portfolio",
+      "version": "0.1.0",
+      "title": "Stuart Savage Career Portfolio"
+    },
+    "tools": [
+      {
+        "name": "get_profile",
+        "title": "Get profile summary",
+        "description": "Return Stuart Savage's professional summary, core capabilities, target role areas, sectors and public contact links.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_experience",
+        "title": "List career experience",
+        "description": "Return Stuart Savage's career history in reverse-chronological order, with responsibilities and achievements per role, plus education and qualifications.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "featuredOnly": {
+              "description": "When true, return only the highlighted key roles.",
+              "type": "boolean"
+            },
+            "search": {
+              "description": "Optional case-insensitive keyword filter across role, organisation and bullets.",
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_project_evidence",
+        "title": "List transferable project evidence",
+        "description": "Return the transferable project evidence on the portfolio: the context, what was delivered and how it transfers to corporate operations roles.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
