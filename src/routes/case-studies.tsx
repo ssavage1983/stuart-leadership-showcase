@@ -7,7 +7,7 @@ export const Route = createFileRoute("/case-studies")({
 function CaseStudiesComponent() {
   return (
     <div className="min-h-screen bg-[#f7f4ee] text-[#102a43] font-sans">
-      {/* Navigation Header */}
+      {/* Navigation Sub-bar */}
       <nav className="border-b border-[#102a43]/10 bg-[#091d2f] py-4 px-6 text-white">
         <div className="mx-auto flex max-w-7xl items-center justify-between">
           <Link
@@ -16,15 +16,23 @@ function CaseStudiesComponent() {
           >
             &larr; Back to Main Showcase
           </Link>
-          <span className="text-xs font-semibold uppercase tracking-widest text-slate-400">
+          <span className="text-xs font-semibold uppercase tracking-widest text-slate-300">
             Portfolio Archive
           </span>
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <header className="relative bg-[#091d2f] py-16 px-6 text-white sm:py-24">
-        <div className="mx-auto max-w-7xl">
+      {/* Hero Section with Background Image */}
+      <header className="relative bg-[#091d2f] py-20 px-6 text-white sm:py-28 overflow-hidden">
+        {/* Background Image & Gradient Overlays */}
+        <div 
+          className="absolute inset-0 z-0 bg-cover bg-center opacity-25 mix-blend-overlay"
+          style={{ backgroundImage: `url('https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg')` }}
+        />
+        <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#091d2f] via-[#091d2f]/90 to-[#091d2f]/60" />
+
+        {/* Hero Content */}
+        <div className="relative z-10 mx-auto max-w-7xl">
           <p className="text-xs font-bold uppercase tracking-widest text-[#c47c62]">
             Portfolio archive · Historic case studies
           </p>
@@ -221,11 +229,11 @@ function CaseStudiesComponent() {
         </div>
       </section>
 
-      {/* Footer / Back Link */}
-      <footer className="py-12 text-center">
+      {/* Footer */}
+      <footer className="bg-[#091d2f] py-12 text-center text-white mt-12">
         <Link
           to="/"
-          className="inline-flex items-center justify-center rounded bg-[#091d2f] px-6 py-3 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#c47c62] transition-colors"
+          className="inline-flex items-center justify-center rounded bg-[#c47c62] px-6 py-3 text-xs font-bold uppercase tracking-wider text-white hover:bg-[#c7a667] hover:text-[#091d2f] transition-colors"
         >
           Return to Operations Showcase
         </Link>
