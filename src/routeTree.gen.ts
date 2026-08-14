@@ -16,7 +16,6 @@ import { Route as FaqRouteImport } from './routes/faq'
 import { Route as CaseStudiesRouteImport } from './routes/case-studies'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as BlogOperationalExcellenceInRailRouteImport } from './routes/blog.operational-excellence-in-rail'
 import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } from './routes/[.well-known]/oauth-protected-resource'
 import { Route as Char91DotmcpChar93ListToolsRouteImport } from './routes/[.mcp]/list-tools'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
@@ -56,12 +55,6 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogOperationalExcellenceInRailRoute =
-  BlogOperationalExcellenceInRailRouteImport.update({
-    id: '/operational-excellence-in-rail',
-    path: '/operational-excellence-in-rail',
-    getParentRoute: () => BlogRoute,
-  } as any)
 const Char91DotwellKnownChar93OauthProtectedResourceRoute =
   Char91DotwellKnownChar93OauthProtectedResourceRouteImport.update({
     id: '/.well-known/oauth-protected-resource',
@@ -83,7 +76,7 @@ const Char91DotmcpChar93InvokeToolToolRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/blog': typeof BlogRouteWithChildren
+  '/blog': typeof BlogRoute
   '/case-studies': typeof CaseStudiesRoute
   '/faq': typeof FaqRoute
   '/mcp': typeof McpRoute
@@ -91,12 +84,11 @@ export interface FileRoutesByFullPath {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
-  '/blog/operational-excellence-in-rail': typeof BlogOperationalExcellenceInRailRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/blog': typeof BlogRouteWithChildren
+  '/blog': typeof BlogRoute
   '/case-studies': typeof CaseStudiesRoute
   '/faq': typeof FaqRoute
   '/mcp': typeof McpRoute
@@ -104,13 +96,12 @@ export interface FileRoutesByTo {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
-  '/blog/operational-excellence-in-rail': typeof BlogOperationalExcellenceInRailRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/blog': typeof BlogRouteWithChildren
+  '/blog': typeof BlogRoute
   '/case-studies': typeof CaseStudiesRoute
   '/faq': typeof FaqRoute
   '/mcp': typeof McpRoute
@@ -118,7 +109,6 @@ export interface FileRoutesById {
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
-  '/blog/operational-excellence-in-rail': typeof BlogOperationalExcellenceInRailRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
 }
 export interface FileRouteTypes {
@@ -133,7 +123,6 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
-    | '/blog/operational-excellence-in-rail'
     | '/.mcp/invoke-tool/$tool'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -146,7 +135,6 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
-    | '/blog/operational-excellence-in-rail'
     | '/.mcp/invoke-tool/$tool'
   id:
     | '__root__'
@@ -159,13 +147,12 @@ export interface FileRouteTypes {
     | '/sitemap.xml'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
-    | '/blog/operational-excellence-in-rail'
     | '/.mcp/invoke-tool/$tool'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  BlogRoute: typeof BlogRouteWithChildren
+  BlogRoute: typeof BlogRoute
   CaseStudiesRoute: typeof CaseStudiesRoute
   FaqRoute: typeof FaqRoute
   McpRoute: typeof McpRoute
@@ -227,13 +214,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blog/operational-excellence-in-rail': {
-      id: '/blog/operational-excellence-in-rail'
-      path: '/operational-excellence-in-rail'
-      fullPath: '/blog/operational-excellence-in-rail'
-      preLoaderRoute: typeof BlogOperationalExcellenceInRailRouteImport
-      parentRoute: typeof BlogRoute
-    }
     '/.well-known/oauth-protected-resource': {
       id: '/.well-known/oauth-protected-resource'
       path: '/.well-known/oauth-protected-resource'
@@ -258,19 +238,9 @@ declare module '@tanstack/react-router' {
   }
 }
 
-interface BlogRouteChildren {
-  BlogOperationalExcellenceInRailRoute: typeof BlogOperationalExcellenceInRailRoute
-}
-
-const BlogRouteChildren: BlogRouteChildren = {
-  BlogOperationalExcellenceInRailRoute: BlogOperationalExcellenceInRailRoute,
-}
-
-const BlogRouteWithChildren = BlogRoute._addFileChildren(BlogRouteChildren)
-
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  BlogRoute: BlogRouteWithChildren,
+  BlogRoute: BlogRoute,
   CaseStudiesRoute: CaseStudiesRoute,
   FaqRoute: FaqRoute,
   McpRoute: McpRoute,
