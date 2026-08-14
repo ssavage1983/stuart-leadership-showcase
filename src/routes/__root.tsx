@@ -263,8 +263,9 @@ function RootComponent() {
               </p>
             </div>
 
-            {/* Footer Icon Nav Column */}
+            {/* Footer Icon Nav Column (Matching SVGs) */}
             <nav className="md:col-span-4 flex items-center justify-start md:justify-end gap-2 overflow-x-auto pb-2 md:pb-0" aria-label="Footer navigation">
+              {/* Home */}
               <Link
                 to="/"
                 title="Home"
@@ -277,6 +278,21 @@ function RootComponent() {
                 </svg>
               </Link>
 
+              {/* Portfolio Archive */}
+              <Link
+                to="/case-studies"
+                title="Portfolio Archive"
+                aria-label="Portfolio Archive"
+                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
+              >
+                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 3H3v2m16-2h2v2M5 21H3v-2m16 2h2v-2" />
+                  <rect x="7" y="7" width="10" height="10" />
+                  <path d="m7 14 3-3 2 2 3-3 2 2" />
+                </svg>
+              </Link>
+
+              {/* Blog Archive */}
               <Link
                 to="/blog"
                 title="Blog Archive"
@@ -291,21 +307,7 @@ function RootComponent() {
                 </svg>
               </Link>
 
-              <Link
-                to="/case-studies"
-                title="Portfolio Archive"
-                aria-label="Portfolio Archive"
-                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
-              >
-                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M4 19V5" />
-                  <path d="M4 19h16" />
-                  <path d="M8 16v-5" />
-                  <path d="M12 16V8" />
-                  <path d="M16 16v-7" />
-                </svg>
-              </Link>
-
+              {/* FAQs */}
               <Link
                 to="/faq"
                 title="FAQs"
@@ -319,6 +321,7 @@ function RootComponent() {
                 </svg>
               </Link>
 
+              {/* Email */}
               <a
                 href="mailto:stuart@savageldn.co.uk"
                 title="Email"
@@ -331,6 +334,7 @@ function RootComponent() {
                 </svg>
               </a>
 
+              {/* LinkedIn */}
               <a
                 href="https://www.linkedin.com/in/stuartsavage"
                 target="_blank"
