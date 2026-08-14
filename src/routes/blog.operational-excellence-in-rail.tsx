@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 const EMAIL = "stuart.savageworld@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/stuartsavage";
-const SITE = "https://stuart-leadership-hub.lovable.app";
+const SITE = "https://stuart-leadership-showcase.lovable.app";
 const URL = `${SITE}/blog/operational-excellence-in-rail`;
 
 const TITLE = "Operational Excellence in Transport and Rail: A Practical Guide";
