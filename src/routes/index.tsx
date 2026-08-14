@@ -1,31 +1,27 @@
 import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 import {
   EMAIL,
   LINKEDIN,
-  capabilities,
   experience,
   education,
   projectEvidence,
-  targetRoles,
-  sectors,
 } from "@/lib/portfolio-data";
-
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  name: "Stuart Savage Career Portfolio",
+  name: "Stuart Savage Historic Professional Archive",
   inLanguage: "en-GB",
-  url: "/",
+  url: "https://www.moonlight-studio.uk/",
   mainEntity: {
     "@type": "Person",
     name: "Stuart Savage",
     jobTitle: "Operations and Customer Experience Leader",
     description:
-      "Operations, customer experience, service delivery and strategic project delivery leader based in Kennington, London.",
+      "Historic professional archive of Stuart Savage, operations, customer experience, service delivery and strategic project delivery leader based in Kennington, London.",
     email: `mailto:${EMAIL}`,
     address: {
       "@type": "PostalAddress",
@@ -34,14 +30,6 @@ const jsonLd = {
       addressCountry: "GB",
     },
     sameAs: [LINKEDIN],
-    knowsAbout: [
-      "Operations management",
-      "Customer experience",
-      "Service delivery",
-      "Project delivery",
-      "Procurement and logistics",
-      "E-commerce fulfilment",
-    ],
   },
 };
 
@@ -49,45 +37,30 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Stuart Savage Career Portfolio | Operations & CX Leader" },
+      { title: "Stuart Savage | Historic Professional Archive" },
       {
         name: "description",
         content:
-          "Career portfolio of Stuart Savage, a London-based operations and customer experience leader across airport hospitality, e-commerce and service delivery.",
+          "Historic professional archive of Stuart Savage, operations and customer experience leader across airport hospitality, e-commerce, and service delivery.",
       },
       {
         property: "og:title",
-        content: "Stuart Savage Career Portfolio | Operations & CX Leader",
+        content: "Stuart Savage | Historic Professional Archive",
       },
       {
         property: "og:description",
         content:
-          "Career portfolio of Stuart Savage, a London-based operations and customer experience leader across airport hospitality, e-commerce and service delivery.",
-      },
-      {
-        name: "twitter:title",
-        content: "Stuart Savage Career Portfolio | Operations & CX Leader",
-      },
-      {
-        name: "twitter:description",
-        content:
-          "Career portfolio of Stuart Savage, a London-based operations and customer experience leader across airport hospitality, e-commerce and service delivery.",
+          "Historic professional archive of Stuart Savage, operations and customer experience leader based in Kennington, London.",
       },
       {
         property: "og:image",
         content:
-          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5c6a1beb-c5ff-43b0-b6bd-7f318c8a49f7/id-preview-fb2ec420--e8483775-82a3-48c7-9bb1-3639384a94f8.lovable.app-1785352085986.png",
-      },
-      {
-        name: "twitter:image",
-        content:
-          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5c6a1beb-c5ff-43b0-b6bd-7f318c8a49f7/id-preview-fb2ec420--e8483775-82a3-48c7-9bb1-3639384a94f8.lovable.app-1785352085986.png",
+          "https://static.wixstatic.com/media/a005fe_0c1fcd3895ce450aae2a1e39de35aa9d~mv2.jpg",
       },
       { property: "og:type", content: "profile" },
-      { property: "og:url", content: "https://stuart-leadership-showcase.lovable.app/" },
+      { property: "og:url", content: "https://www.moonlight-studio.uk/" },
     ],
-    links: [{ rel: "canonical", href: "https://stuart-leadership-showcase.lovable.app/" }],
-
+    links: [{ rel: "canonical", href: "https://www.moonlight-studio.uk/" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -97,465 +70,423 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-function SectionHeading({ eyebrow, title, id }: { eyebrow: string; title: string; id: string }) {
-  return (
-    <div className="max-w-3xl">
-      <p className="eyebrow">{eyebrow}</p>
-      <h2 id={id} className="mt-3 text-3xl leading-tight sm:text-4xl">
-        {title}
-      </h2>
-    </div>
-  );
-}
-
-const navItems: { label: string; href: string }[] = [
-  { label: "Capabilities", href: "#capabilities" },
-  { label: "Experience", href: "#experience" },
-  { label: "Project evidence", href: "#evidence" },
-  { label: "Target roles", href: "#roles" },
-  { label: "Contact", href: "#contact" },
-];
-
-type Role = (typeof experience)[number];
-
-function RoleItem({ role }: { role: Role }) {
-  const [open, setOpen] = useState(false);
-
-  if (role.featured) {
-    return (
-      <li
-        id={`role-${role.id}`}
-        tabIndex={-1}
-        aria-labelledby={`role-${role.id}-title`}
-        className="card-elegant scroll-mt-28 grid gap-4 border border-rule bg-card p-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:p-8 md:grid-cols-[1fr_2fr] md:gap-10"
-      >
-        <div>
-          <p className="eyebrow mb-2 text-accent">Key role</p>
-          <h3 id={`role-${role.id}-title`} className="text-2xl leading-snug">
-            {role.role}
-          </h3>
-          <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
-          <p className="mt-1 text-sm text-muted-foreground">{role.meta}</p>
-        </div>
-        <ul className="space-y-3 text-sm leading-relaxed text-muted-foreground">
-          {role.points.map((point) => (
-            <li key={point} className="border-l-2 border-accent pl-4">
-              {point}
-            </li>
-          ))}
-        </ul>
-      </li>
-    );
-  }
-
-  const panelId = `role-${role.id}-details`;
-
-  return (
-    <li id={`role-${role.id}`} className="scroll-mt-28 rule-line role-row">
-      <button
-        type="button"
-        onClick={() => setOpen((v) => !v)}
-        aria-expanded={open}
-        aria-controls={panelId}
-        className="group flex w-full items-start gap-6 px-1 py-6 text-left transition-colors sm:px-3 md:grid md:grid-cols-[1fr_2fr] md:gap-10"
-      >
-        <div>
-          <h3
-            id={`role-${role.id}-title`}
-            className="text-xl leading-snug transition-colors group-hover:text-accent"
-          >
-            {role.role}
-          </h3>
-          <p className="mt-1 text-sm font-medium text-foreground">{role.org}</p>
-          <p className="mt-1 text-[0.75rem] uppercase tracking-[0.14em] text-muted-foreground">
-            {role.meta}
-          </p>
-        </div>
-        <div className="ml-auto flex items-center gap-3 md:ml-0 md:justify-end">
-          <span className="hidden text-[0.6875rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground transition-colors group-hover:text-accent sm:inline">
-            {open ? "Close" : "Details"}
-          </span>
-          <span
-            aria-hidden="true"
-            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-rule text-foreground transition-all duration-300 group-hover:border-accent group-hover:text-accent"
-          >
-            <ChevronDown
-              className={`size-4 transition-transform duration-300 ${open ? "rotate-180" : ""}`}
-            />
-          </span>
-        </div>
-      </button>
-      <div className={`disclosure ${open ? "disclosure-open" : ""}`}>
-        <div>
-          <ul
-            id={panelId}
-            className="px-1 pb-8 text-sm leading-relaxed text-muted-foreground sm:px-3 md:grid md:grid-cols-[1fr_2fr] md:gap-10"
-          >
-            <div className="space-y-3 md:col-start-2">
-              {role.points.map((point) => (
-                <li key={point} className="border-l border-accent/40 pl-4">
-                  {point}
-                </li>
-              ))}
-            </div>
-          </ul>
-        </div>
-      </div>
-    </li>
-  );
-}
-
 function Index() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [openRole, setOpenRole] = useState<string | null>("role-1");
+
+  const toggleRole = (id: string) => {
+    setOpenRole((prev) => (prev === id ? null : id));
+  };
 
   return (
-    <div className="min-h-dvh">
+    <div className="min-h-screen bg-[#f7f4ee] text-[#102a43] font-sans antialiased">
+      {/* Skip to Main Content */}
       <a
         href="#main"
-        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-primary focus:px-4 focus:py-2 focus:text-primary-foreground"
+        className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-[#102a43] focus:px-4 focus:py-2 focus:text-white"
       >
         Skip to main content
       </a>
 
-      <header className="surface-dark sticky top-0 z-40 border-b border-porcelain/15">
-        <nav aria-label="Primary" className="mx-auto max-w-5xl px-6">
-          <div className="flex items-center justify-between gap-6 py-4">
-            <a
-              href="#main"
-              className="font-display text-2xl leading-none font-semibold tracking-tight sm:text-3xl"
-            >
-              Stuart Savage
-            </a>
+      {/* Hero Section */}
+      <header className="relative bg-[#091d2f] text-[#f7f4ee] pt-16 pb-12 px-6 lg:pt-24 lg:pb-16 overflow-hidden border-b border-[#c47c62]/30">
+        {/* Background Image & Overlay */}
+        <div
+          className="absolute inset-0 z-0 bg-cover bg-center opacity-30 mix-blend-overlay"
+          style={{
+            backgroundImage: `url('https://static.wixstatic.com/media/a005fe_83795358ed1f46e783522d83266a67c6~mv2.jpg')`,
+          }}
+        />
+        <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#091d2f] via-[#091d2f]/95 to-[#091d2f]/50" />
 
-            <ul className="hidden items-center gap-1 text-sm font-medium text-porcelain/80 lg:flex">
-              {navItems.map((item) => (
-                <li key={item.href}>
-                  <a
-                    className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:text-gold"
-                    href={item.href}
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-              <li>
-                <Link
-                  className="inline-flex min-h-11 items-center rounded-sm px-3 transition-colors hover:text-gold"
-                  to="/blog/operational-excellence-in-rail"
-                >
-                  Guide
-                </Link>
-              </li>
-              <li className="ml-2">
-                <a
-                  className="inline-flex min-h-11 items-center rounded-sm bg-gold px-4 font-semibold text-navy transition-colors hover:bg-porcelain"
-                  href={`mailto:${EMAIL}`}
-                >
-                  Email Stuart
-                </a>
-              </li>
-            </ul>
-
-            <button
-              type="button"
-              onClick={() => setMenuOpen((open) => !open)}
-              aria-expanded={menuOpen}
-              aria-controls="mobile-menu"
-              className="inline-flex min-h-11 items-center gap-2 rounded-sm border border-porcelain/30 px-4 text-sm font-medium text-porcelain transition-colors hover:border-gold hover:text-gold lg:hidden"
-            >
-              {menuOpen ? (
-                <X className="size-4" aria-hidden="true" />
-              ) : (
-                <Menu className="size-4" aria-hidden="true" />
-              )}
-              Menu
-            </button>
-          </div>
-
-          {menuOpen ? (
-            <ul
-              id="mobile-menu"
-              className="border-t border-porcelain/20 py-2 text-base font-medium lg:hidden"
-            >
-              {navItems.map((item) => (
-                <li key={item.href}>
-                  <a
-                    className="flex min-h-12 items-center border-b border-porcelain/15 transition-colors hover:text-gold"
-                    href={item.href}
-                    onClick={() => setMenuOpen(false)}
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
-              <li>
-                <Link
-                  className="flex min-h-12 items-center border-b border-porcelain/15 transition-colors hover:text-gold"
-                  to="/blog/operational-excellence-in-rail"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  Guide
-                </Link>
-              </li>
-              <li className="pt-3 pb-2">
-                <a
-                  className="inline-flex min-h-11 w-full items-center justify-center rounded-sm bg-gold px-4 text-sm font-semibold text-navy transition-colors hover:bg-porcelain"
-                  href={`mailto:${EMAIL}`}
-                  onClick={() => setMenuOpen(false)}
-                >
-                  Email Stuart
-                </a>
-              </li>
-            </ul>
-          ) : null}
-        </nav>
-      </header>
-
-      <main id="main">
-        {/* Hero */}
-        <section className="surface-dark" aria-labelledby="hero-title">
-          <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
-            <p className="eyebrow">Kennington, London · Available for full-time roles</p>
-            <h1
-              id="hero-title"
-              className="mt-6 max-w-5xl text-[3.25rem] leading-[1.02] font-semibold sm:text-7xl lg:text-8xl"
-            >
-              Operations and customer experience leader
+        <div className="relative z-10 mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+          {/* Hero Main Copy */}
+          <div className="lg:col-span-8 space-y-6">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#c47c62]">
+              Stuart Savage · London
+            </p>
+            <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal leading-[0.94] tracking-tight">
+              Calm leadership. <br />
+              Complex delivery. <br />
+              <em className="not-italic text-[#c47c62]">Historic professional archive.</em>
             </h1>
-            <div className="mt-8 grid gap-8 md:grid-cols-[1.4fr_1fr] md:gap-14">
-              <p className="text-lg leading-relaxed sm:text-xl">
-                I lead operations, customer experience, service delivery and strategic projects. My
-                background spans airport hospitality at Heathrow, high-volume restaurant management,
-                e-commerce and fulfilment at The Hummingbird Bakery, and running my own businesses
-                end to end. I lead calmly, communicate openly and take accountability for delivery.
-              </p>
-              <div className="border-t border-porcelain/20 pt-6 text-sm leading-relaxed md:border-t-0 md:border-l md:pt-0 md:pl-8">
-                <p className="font-semibold text-gold">Currently seeking</p>
-                <p className="mt-2">
-                  A full-time corporate leadership role in operations, customer experience, service
-                  delivery or project delivery — with a particular interest in transport and rail.
-                </p>
-              </div>
+            <p className="text-base sm:text-lg text-[#f7f4ee]/80 max-w-2xl leading-relaxed">
+              A concise record of previous operations, customer experience, strategic delivery, and historic project work.
+            </p>
+
+            <div className="border-l-3 border-[#c47c62] pl-4 text-xs sm:text-sm text-[#f7f4ee]/90 font-medium max-w-2xl">
+              The former landscaping businesses closed in May 2026. This page is not a trading website, service offer, client-acquisition page, or active employment-seeking profile.
             </div>
-            <div className="mt-10 flex flex-wrap gap-3">
+
+            <div className="pt-2 flex flex-wrap gap-4 items-center">
               <a
-                href={`mailto:${EMAIL}`}
-                className="inline-flex min-h-11 items-center rounded-sm bg-gold px-6 text-sm font-semibold text-navy transition-colors hover:bg-porcelain"
+                href="#current-position"
+                className="inline-flex items-center justify-center min-h-[48px] px-5 bg-[#c47c62] text-white text-xs font-bold uppercase tracking-wider hover:bg-[#c7a667] hover:text-[#091d2f] transition-colors rounded-sm"
               >
-                Email Stuart
+                Read Current Position
+              </a>
+              <a
+                href="#experience"
+                className="inline-flex items-center justify-center min-h-[48px] px-5 border border-[#c47c62] bg-[#f7f4ee]/10 text-[#f7f4ee] text-xs font-bold uppercase tracking-wider hover:bg-[#c7a667] hover:text-[#091d2f] hover:border-[#c7a667] transition-colors rounded-sm"
+              >
+                View Archived Experience
               </a>
               <a
                 href={LINKEDIN}
                 target="_blank"
-                rel="noreferrer noopener"
-                aria-label="View Stuart Savage's LinkedIn profile (opens in a new tab)"
-                className="inline-flex min-h-11 items-center rounded-sm border border-porcelain/40 px-6 text-sm font-medium transition-colors hover:border-gold hover:text-gold"
+                rel="noreferrer"
+                className="text-xs font-semibold uppercase tracking-wider text-[#f7f4ee] hover:text-[#c47c62] transition-colors underline underline-offset-4"
               >
-                View LinkedIn profile
+                LinkedIn <span className="text-[#c47c62]">↗</span>
               </a>
+            </div>
+          </div>
+
+          {/* Portrait Photo */}
+          <div className="lg:col-span-4 flex justify-center lg:justify-end">
+            <figure className="relative w-full max-w-[340px] rounded border border-[#f7f4ee]/30 bg-[#091d2f] shadow-2xl overflow-hidden">
+              <img
+                src="https://static.wixstatic.com/media/a005fe_0c1fcd3895ce450aae2a1e39de35aa9d~mv2.jpg/v1/fill/w_1200,h_1800,fp_0.48_0.31,q_88,enc_auto/stuart_profile_photo_main.jpg"
+                alt="Stuart Savage, operations and customer experience leader"
+                className="w-full h-auto object-cover aspect-[4/5]"
+              />
+              <figcaption className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#091d2f] via-[#091d2f]/90 to-transparent p-4 text-[10px] font-bold uppercase tracking-wider text-[#f7f4ee]/80 space-y-0.5">
+                <span className="block">Operations · Customer Experience</span>
+                <span className="block text-[#c7a667]">Historic Professional Archive</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </header>
+
+      {/* Proof Strip */}
+      <section className="bg-[#f7f4ee] border-b border-[#102a43]/16 py-4 px-6 text-center text-[11px] font-bold uppercase tracking-[0.15em] text-[#102a43]">
+        <div className="mx-auto max-w-7xl flex flex-wrap justify-center items-center gap-4 sm:gap-8">
+          <span>Professional Archive</span>
+          <i className="not-italic text-[#c47c62]">✦</i>
+          <span>Historic Project Work</span>
+          <i className="not-italic text-[#c47c62]">✦</i>
+          <span>Former Businesses Closed</span>
+          <i className="not-italic text-[#c47c62]">✦</i>
+          <span>Recovery Focused</span>
+        </div>
+      </section>
+
+      {/* Anchor Sticky Bar */}
+      <nav className="sticky top-[92px] z-40 bg-[#f7f4ee]/95 backdrop-blur border-b border-[#102a43]/16 py-3 px-6 text-center text-[10px] font-bold uppercase tracking-[0.13em]">
+        <div className="mx-auto max-w-7xl flex flex-wrap justify-center gap-2 sm:gap-4">
+          <a
+            href="#current-position"
+            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+          >
+            Current Position
+          </a>
+          <a
+            href="#expertise"
+            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+          >
+            Strengths
+          </a>
+          <a
+            href="#experience"
+            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+          >
+            Career
+          </a>
+          <a
+            href="#work"
+            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+          >
+            Archive
+          </a>
+          <a
+            href="#contact"
+            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+          >
+            Links
+          </a>
+        </div>
+      </nav>
+
+      {/* Main Content Body */}
+      <main id="main" className="mx-auto max-w-7xl px-6 py-12 space-y-16">
+        {/* Current Position / Status Panel */}
+        <section id="current-position" className="scroll-mt-36">
+          <div className="border border-[#c47c62]/45 border-l-6 border-l-[#c47c62] bg-gradient-to-br from-white/80 to-[#e8e2d9]/70 p-6 sm:p-10 rounded shadow-sm space-y-6">
+            <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-[#c47c62]">
+              Current Position · Important Context
+            </p>
+            <h2 className="font-serif text-3xl sm:text-5xl text-[#102a43] leading-tight font-normal">
+              Recovery, business closure and professional archive.
+            </h2>
+
+            <p className="text-sm sm:text-base font-semibold text-[#102a43] leading-relaxed">
+              After closing my former businesses in May 2026, I am taking time to recover, rebuild, and stabilise my personal circumstances. I currently volunteer with Guy’s Hospital as a committee member while focusing on my health and longer-term recovery.
+            </p>
+
+            {/* Status Facts */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+              <div className="border border-[#c47c62]/30 bg-white/60 p-3.5 rounded">
+                <strong className="block text-[10px] uppercase tracking-wider text-[#102a43]">Trading Status</strong>
+                <span className="text-xs text-[#607080] mt-1 block">Not currently trading or taking on commercial work.</span>
+              </div>
+              <div className="border border-[#c47c62]/30 bg-white/60 p-3.5 rounded">
+                <strong className="block text-[10px] uppercase tracking-wider text-[#102a43]">Website Purpose</strong>
+                <span className="text-xs text-[#607080] mt-1 block">Archive of previous experience and historic project evidence.</span>
+              </div>
+              <div className="border border-[#c47c62]/30 bg-white/60 p-3.5 rounded">
+                <strong className="block text-[10px] uppercase tracking-wider text-[#102a43]">Current Focus</strong>
+                <span className="text-xs text-[#607080] mt-1 block">Health recovery, personal stability, and professional advice.</span>
+              </div>
+              <div className="border border-[#c47c62]/30 bg-white/60 p-3.5 rounded">
+                <strong className="block text-[10px] uppercase tracking-wider text-[#102a43]">Voluntary Work</strong>
+                <span className="text-xs text-[#607080] mt-1 block">Committee contribution with Guy’s Hospital during recovery.</span>
+              </div>
+            </div>
+
+            <p className="text-sm sm:text-base font-semibold text-[#102a43]">
+              I am not currently taking on employment, client work, landscaping projects, or new commercial activity. My focus is recovery, stability, and properly closing the chapter of my former businesses.
+            </p>
+
+            {/* Health Narrative */}
+            <div className="border-t border-[#102a43]/16 pt-6 space-y-4 text-xs sm:text-sm text-[#607080]">
+              <h3 className="text-xs font-bold uppercase tracking-[0.14em] text-[#c47c62]">
+                Health and Business Closure Context
+              </h3>
+              <p>
+                In 2024, I was diagnosed with Stage 4 throat cancer and underwent intensive chemoradiotherapy. I am now living with severe late effects from treatment, chronic pain, and ongoing medical complications.
+              </p>
+              <p>
+                The physical toll contributed to a serious mental health breakdown. My sudden medical collapse meant I could no longer physically or mentally operate my businesses, leading to the permanent closure of Stuart Savage Landscaping and The Moonlight Garden Design Co.
+              </p>
+              <p className="font-semibold text-[#102a43] border-t border-[#102a43]/10 pt-4">
+                This page preserves my professional history clearly and honestly, while making clear that I am not trading, seeking clients, or looking for work during this period of recovery.
+              </p>
             </div>
           </div>
         </section>
 
-        {/* Capabilities */}
-        <section
-          id="capabilities"
-          className="rule-line mx-auto max-w-5xl scroll-mt-20 px-6 py-20"
-          aria-labelledby="capabilities-title"
-        >
-          <SectionHeading
-            eyebrow="Core skills"
-            title="What I bring to an operation"
-            id="capabilities-title"
-          />
-          <ul className="mt-12 grid gap-x-12 gap-y-10 sm:grid-cols-2">
-            {capabilities.map((item) => (
-              <li key={item.title}>
-                <h3 className="text-xl">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.body}</p>
-              </li>
-            ))}
-          </ul>
-        </section>
+        {/* Professional Strengths */}
+        <section id="expertise" className="scroll-mt-36 bg-[#091d2f] text-[#f7f4ee] p-8 sm:p-12 rounded-lg border border-[#c47c62]/30">
+          <div className="space-y-2 mb-10">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c7a667]">Professional Strengths</p>
+            <h2 className="font-serif text-3xl sm:text-5xl font-normal leading-tight">
+              Intelligent systems. <br /> Human outcomes.
+            </h2>
+          </div>
 
-        {/* Experience */}
-        <section
-          id="experience"
-          className="rule-line mx-auto max-w-5xl scroll-mt-20 px-6 py-20"
-          aria-labelledby="experience-title"
-        >
-          <SectionHeading
-            eyebrow="Career experience"
-            title="Where the experience comes from"
-            id="experience-title"
-          />
-          <nav aria-labelledby="timeline-nav-title" className="mt-10 rule-line pt-6">
-            <h3
-              id="timeline-nav-title"
-              className="text-sm font-semibold tracking-wide text-foreground"
-            >
-              Jump to a role
-            </h3>
-            <ul className="mt-4 flex flex-wrap gap-2">
-              {experience.map((role) => (
-                <li key={`nav-${role.id}`}>
-                  <a
-                    href={`#role-${role.id}`}
-                    className="inline-flex items-center gap-2 rounded-full border border-rule bg-card px-4 py-2 text-xs leading-tight text-muted-foreground transition-all duration-200 hover:-translate-y-0.5 hover:border-accent hover:text-foreground hover:shadow-[0_10px_24px_-18px_var(--ink)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-                  >
-                    <span className="font-medium text-foreground">{role.org.split(" — ")[0]}</span>
-                    <span aria-hidden="true">·</span>
-                    <span>{role.meta.split(" · ")[0]}</span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </nav>
-          <ol className="mt-12 space-y-6">
-            {experience.map((role) => (
-              <RoleItem key={role.id} role={role} />
-            ))}
-          </ol>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 border-t border-[#f7f4ee]/20 pt-8">
+            <article className="space-y-2">
+              <span className="text-xs font-bold text-[#c7a667]">01</span>
+              <h3 className="font-serif text-2xl uppercase tracking-wider text-[#f7f4ee]">Operational leadership</h3>
+              <p className="text-xs text-[#f7f4ee]/70 leading-relaxed">Building calm, visible systems that help people make good decisions and deliver consistently.</p>
+            </article>
 
-          <p className="mt-12 max-w-3xl text-sm leading-relaxed text-muted-foreground">
-            Note on the founder-led businesses: Savage Bespoke Ltd, Stuart Savage Landscaping and
-            The Moonlight Garden Design Co. are former businesses, closed solvently in May 2026.
-            They appear here as historic evidence of leadership, logistics, commercial ownership and
-            accountable delivery — not as services offered today.
-          </p>
+            <article className="space-y-2">
+              <span className="text-xs font-bold text-[#c7a667]">02</span>
+              <h3 className="font-serif text-2xl uppercase tracking-wider text-[#f7f4ee]">Customer experience</h3>
+              <p className="text-xs text-[#f7f4ee]/70 leading-relaxed">Turning moments of friction into clearer journeys, stronger trust, and better service outcomes.</p>
+            </article>
 
-          <div className="mt-16">
-            <h3 className="text-sm font-semibold tracking-wide text-foreground">
-              Education &amp; professional qualifications
-            </h3>
-            <ul className="mt-6 grid gap-x-12 gap-y-8 sm:grid-cols-2">
-              {education.map((item) => (
-                <li key={item.qualification} className="rule-line pt-5">
-                  <h4 className="text-lg leading-snug">{item.qualification}</h4>
-                  <p className="mt-1 text-sm font-medium text-foreground">{item.org}</p>
-                  <p className="mt-1 text-sm text-muted-foreground">{item.year}</p>
-                  <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.body}</p>
-                </li>
-              ))}
-            </ul>
+            <article className="space-y-2">
+              <span className="text-xs font-bold text-[#c7a667]">03</span>
+              <h3 className="font-serif text-2xl uppercase tracking-wider text-[#f7f4ee]">Strategic delivery</h3>
+              <p className="text-xs text-[#f7f4ee]/70 leading-relaxed">Moving complex work from an ambitious brief to an owned plan, controlled programme, and clean handover.</p>
+            </article>
+
+            <article className="space-y-2">
+              <span className="text-xs font-bold text-[#c7a667]">04</span>
+              <h3 className="font-serif text-2xl uppercase tracking-wider text-[#f7f4ee]">Governance & assurance</h3>
+              <p className="text-xs text-[#f7f4ee]/70 leading-relaxed">Making risks, responsibilities, commercial choices, and quality standards visible before they become problems.</p>
+            </article>
           </div>
         </section>
 
-        {/* Project evidence */}
-        <section
-          id="evidence"
-          className="rule-line mx-auto max-w-5xl scroll-mt-20 px-6 py-20"
-          aria-labelledby="evidence-title"
-        >
-          <SectionHeading
-            eyebrow="Transferable evidence"
-            title="Delivery under real constraints"
-            id="evidence-title"
-          />
-          <div className="mt-12 grid gap-6 sm:grid-cols-2">
-            {projectEvidence.map((item) => (
-              <article
-                key={item.title}
-                className="card-elegant flex flex-col gap-4 border border-border bg-card p-7"
-              >
-                <h3 className="text-xl leading-snug">{item.title}</h3>
-                <dl className="space-y-3 text-sm leading-relaxed text-muted-foreground">
-                  <div>
-                    <dt className="eyebrow">Context</dt>
-                    <dd className="mt-1">{item.context}</dd>
-                  </div>
-                  <div>
-                    <dt className="eyebrow">Delivery</dt>
-                    <dd className="mt-1">{item.delivery}</dd>
-                  </div>
-                  <div>
-                    <dt className="eyebrow">Transfers to</dt>
-                    <dd className="mt-1">{item.transfer}</dd>
-                  </div>
-                </dl>
+        {/* Career Timeline */}
+        <section id="experience" className="scroll-mt-36 space-y-8">
+          <div className="border-b border-[#102a43]/16 pb-4">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c47c62]">Career Archive</p>
+            <h2 className="font-serif text-3xl sm:text-5xl text-[#102a43] font-normal mt-1">
+              Archived experience in operations, logistics, and delivery.
+            </h2>
+            <p className="text-sm text-[#607080] mt-2">
+              Selected roles are expandable so the page stays compact while preserving detailed evidence of leadership, safety, logistics, and delivery.
+            </p>
+          </div>
+
+          <ol className="space-y-4">
+            {experience.map((role) => {
+              const isOpen = openRole === `role-${role.id}`;
+
+              return (
+                <li
+                  key={role.id}
+                  id={`role-${role.id}`}
+                  className={`border rounded-lg transition-all ${
+                    role.featured
+                      ? "border-[#c47c62]/45 border-l-5 border-l-[#c47c62] bg-gradient-to-r from-white to-[#f7f4ee]"
+                      : "border-[#102a43]/16 bg-white/50"
+                  }`}
+                >
+                  <button
+                    type="button"
+                    onClick={() => toggleRole(`role-${role.id}`)}
+                    className="w-full text-left p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 cursor-pointer"
+                  >
+                    <div className="space-y-1">
+                      <span className="text-xs font-bold uppercase tracking-wider text-[#c47c62]">
+                        {role.meta}
+                      </span>
+                      <h3 className="text-xl font-bold uppercase text-[#102a43] leading-snug">
+                        {role.role}
+                      </h3>
+                      <p className="text-sm font-medium text-[#607080]">{role.org}</p>
+                    </div>
+
+                    <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#c47c62] shrink-0">
+                      <span>{isOpen ? "Close details ↑" : "Open details ↓"}</span>
+                      <ChevronDown className={`w-4 h-4 transition-transform ${isOpen ? "rotate-180" : ""}`} />
+                    </div>
+                  </button>
+
+                  {isOpen && (
+                    <div className="px-6 pb-6 border-t border-[#102a43]/10 pt-4 text-xs sm:text-sm text-[#607080] space-y-3">
+                      <ul className="space-y-2 list-disc list-inside">
+                        {role.points.map((pt, i) => (
+                          <li key={i} className="leading-relaxed">
+                            {pt}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </li>
+              );
+            })}
+          </ol>
+
+          {/* Education & Qualifications */}
+          <div className="pt-8 border-t border-[#102a43]/16">
+            <h3 className="text-xs font-bold uppercase tracking-widest text-[#102a43] mb-6">
+              Education & Professional Qualifications
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {education.map((item, idx) => (
+                <div key={idx} className="border border-[#102a43]/16 bg-white p-5 rounded">
+                  <h4 className="text-base font-bold text-[#102a43] uppercase">{item.qualification}</h4>
+                  <p className="text-xs font-medium text-[#c47c62] mt-0.5">{item.org} · {item.year}</p>
+                  <p className="text-xs text-[#607080] mt-2">{item.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Transferable Project Evidence */}
+        <section id="evidence" className="scroll-mt-36 space-y-8">
+          <div className="border-b border-[#102a43]/16 pb-4">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c47c62]">Transferable Evidence</p>
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#102a43] font-normal">Delivery under real constraints</h2>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {projectEvidence.map((item, idx) => (
+              <article key={idx} className="border border-[#102a43]/16 bg-white p-6 rounded shadow-sm space-y-3">
+                <h3 className="text-lg font-bold text-[#102a43] uppercase">{item.title}</h3>
+                <div className="space-y-2 text-xs text-[#607080]">
+                  <p><strong>Context:</strong> {item.context}</p>
+                  <p><strong>Delivery:</strong> {item.delivery}</p>
+                  <p className="text-[#102a43] font-semibold"><strong>Transfers to:</strong> {item.transfer}</p>
+                </div>
               </article>
             ))}
           </div>
         </section>
 
-        {/* Target roles */}
-        <section
-          id="roles"
-          className="rule-line mx-auto max-w-5xl scroll-mt-20 px-6 py-20"
-          aria-labelledby="roles-title"
-        >
-          <SectionHeading eyebrow="Direction" title="The roles I am aiming for" id="roles-title" />
-          <ul className="mt-12 grid gap-x-12 gap-y-8 sm:grid-cols-2">
-            {targetRoles.map((role) => (
-              <li key={role.title} className="rule-line pt-5">
-                <h3 className="text-xl">{role.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{role.body}</p>
-              </li>
-            ))}
-          </ul>
-          <div className="mt-14">
-            <h3 className="text-sm font-semibold tracking-wide text-foreground">
-              Sectors of particular interest
-            </h3>
-            <ul className="mt-4 flex flex-wrap gap-2">
-              {sectors.map((sector) => (
-                <li
-                  key={sector}
-                  className="border border-rule px-3 py-1.5 text-sm text-muted-foreground"
-                >
-                  {sector}
-                </li>
-              ))}
-            </ul>
+        {/* Project Archive Section */}
+        <section id="work" className="scroll-mt-36 bg-[#e8e2d9] p-8 sm:p-12 rounded-lg space-y-8 border border-[#102a43]/16">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c47c62]">Historic Project Archive</p>
+            <h2 className="font-serif text-3xl sm:text-5xl text-[#102a43] font-normal mt-1">Selected historic work.</h2>
+            <p className="text-xs text-[#607080] mt-2">
+              Past project work is shown as an archive of previous delivery experience. It does not indicate current trading activity.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Link to="/case-studies" className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm">
+              <img
+                src="https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg"
+                alt="Balham Transformation"
+                className="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="p-4 space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[#c47c62]">Historic Archive</span>
+                <h3 className="font-serif text-xl text-[#102a43]">Balham Transformation</h3>
+                <p className="text-xs text-[#607080]">Project planning, phased programme control, procurement, and client updates.</p>
+              </div>
+            </Link>
+
+            <Link to="/case-studies" className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm">
+              <img
+                src="https://static.wixstatic.com/media/a005fe_38195cc6234740de88d7877ec4214083~mv2.jpg"
+                alt="Digital Twin Workflow"
+                className="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="p-4 space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[#c47c62]">Planning Archive</span>
+                <h3 className="font-serif text-xl text-[#102a43]">Digital Twin Workflow</h3>
+                <p className="text-xs text-[#607080]">Remote planning method combining structured briefs and 3D data.</p>
+              </div>
+            </Link>
+
+            <Link to="/case-studies" className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm">
+              <img
+                src="https://static.wixstatic.com/media/a005fe_5ecb889aaac5452f99a906260086ae68~mv2.jpg"
+                alt="Supply Chain Control"
+                className="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="p-4 space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[#c47c62]">Operations Archive</span>
+                <h3 className="font-serif text-xl text-[#102a43]">Supply Chain Control</h3>
+                <p className="text-xs text-[#607080]">Materials, people, and dependencies coordinated across live sites.</p>
+              </div>
+            </Link>
           </div>
         </section>
 
-        {/* Contact */}
-        <section id="contact" className="surface-dark scroll-mt-20" aria-labelledby="contact-title">
-          <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
-            <SectionHeading eyebrow="Contact" title="Get in touch" id="contact-title" />
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed">
-              If you are hiring for an operations, customer experience, service delivery or project
-              delivery role, I would be glad to talk. The quickest route is email.
-            </p>
-            <ul className="mt-10 grid gap-6 sm:grid-cols-2">
-              <li>
-                <p className="eyebrow">Email</p>
-                <a
-                  className="mt-1 inline-flex min-h-11 items-center break-all text-lg underline underline-offset-4 transition-colors hover:text-gold"
-                  href={`mailto:${EMAIL}`}
-                  aria-label={`Email Stuart Savage at ${EMAIL}`}
-                >
-                  {EMAIL}
-                </a>
-              </li>
-              <li>
-                <p className="eyebrow">LinkedIn</p>
-                <a
-                  className="mt-1 inline-flex min-h-11 items-center text-lg underline underline-offset-4 transition-colors hover:text-gold"
-                  href={LINKEDIN}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  aria-label="Stuart Savage on LinkedIn (opens in a new tab)"
-                >
-                  linkedin.com/in/stuartsavage
-                </a>
-              </li>
-            </ul>
+        {/* Contact & Links */}
+        <section id="contact" className="scroll-mt-36 text-center space-y-6 pt-6">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c47c62]">Professional Links</p>
+          <h2 className="font-serif text-3xl sm:text-5xl text-[#102a43] font-normal">
+            Archive contact record. <br />
+            <em className="not-italic text-[#c47c62]">Not currently trading.</em>
+          </h2>
+
+          <div className="flex flex-wrap justify-center items-center gap-6 py-4 border-y border-[#102a43]/16 text-xs font-semibold uppercase tracking-wider text-[#102a43]">
+            <a href={`mailto:${EMAIL}`} className="hover:text-[#c47c62] transition-colors">
+              {EMAIL} <span className="text-[#c47c62]">↗</span>
+            </a>
+            <a href={LINKEDIN} target="_blank" rel="noreferrer" className="hover:text-[#c47c62] transition-colors">
+              linkedin.com/in/stuartsavage <span className="text-[#c47c62]">↗</span>
+            </a>
+            <span className="text-[#607080]">Kennington, London</span>
           </div>
+
+          <a href="#top" className="inline-block text-xs font-bold uppercase tracking-widest text-[#c47c62] pt-4 hover:underline">
+            Back to top ↑
+          </a>
         </section>
       </main>
 
-      <footer className="surface-dark border-t border-porcelain/15">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-6 py-10 text-sm">
-          <p>
-            Stuart Savage Career Portfolio. Kennington, London.
-            <span className="block">
-              Intended future domain: moonlight-studio.uk (not yet connected).
-            </span>
-          </p>
-          <p>Operations · Customer experience · Service delivery · Project delivery</p>
-        </div>
+      {/* Footer */}
+      <footer className="bg-[#091d2f] text-white py-12 px-6 mt-16 border-t border-[#f7f4ee]/15 text-center text-xs space-y-2">
+        <p className="font-medium">
+          Stuart Savage Historic Professional Archive. Kennington, London.
+        </p>
+        <p className="text-[#c7a667]">Live domain: www.moonlight-studio.uk</p>
+        <p className="text-slate-400 text-[10.5px]">
+          Operations · Customer Experience · Service Delivery · Project Delivery
+        </p>
       </footer>
     </div>
   );
