@@ -88,7 +88,7 @@ function Index() {
       </a>
 
       {/* Hero Section */}
-      <header className="relative bg-[#091d2f] text-[#f7f4ee] pt-16 pb-12 px-6 lg:pt-24 lg:pb-16 overflow-hidden border-b border-[#c47c62]/30">
+      <section className="relative bg-[#091d2f] text-[#f7f4ee] pt-16 pb-12 px-6 lg:pt-24 lg:pb-16 overflow-hidden border-b border-[#c47c62]/30">
         {/* Background Image & Overlay */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-30 mix-blend-overlay"
@@ -156,7 +156,7 @@ function Index() {
             </figure>
           </div>
         </div>
-      </header>
+      </section>
 
       {/* Proof Strip */}
       <section className="bg-[#f7f4ee] border-b border-[#102a43]/16 py-4 px-6 text-center text-[11px] font-bold uppercase tracking-[0.15em] text-[#102a43]">
@@ -477,17 +477,6 @@ function Index() {
           </a>
         </section>
       </main>
-
-      {/* Footer */}
-      <footer className="bg-[#091d2f] text-white py-12 px-6 mt-16 border-t border-[#f7f4ee]/15 text-center text-xs space-y-2">
-        <p className="font-medium">
-          Stuart Savage Historic Professional Archive. Kennington, London.
-        </p>
-        <p className="text-[#c7a667]">Live domain: www.moonlight-studio.uk</p>
-        <p className="text-slate-400 text-[10.5px]">
-          Operations · Customer Experience · Service Delivery · Project Delivery
-        </p>
-      </footer>
     </div>
   );
 }
