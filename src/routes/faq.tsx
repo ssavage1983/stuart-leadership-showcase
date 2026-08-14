@@ -76,9 +76,17 @@ function FaqComponent() {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <header className="relative bg-[#102845] py-16 px-6 text-white sm:py-24">
-        <div className="mx-auto max-w-7xl">
+      {/* Hero Section with Background Image */}
+      <header className="relative bg-[#102845] py-20 px-6 text-white sm:py-28 overflow-hidden">
+        {/* Background Image & Gradient Overlays */}
+        <div 
+          className="absolute inset-0 z-0 bg-cover bg-center opacity-25 mix-blend-overlay"
+          style={{ backgroundImage: `url('https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg')` }}
+        />
+        <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#102845] via-[#102845]/90 to-[#102845]/60" />
+
+        {/* Hero Content */}
+        <div className="relative z-10 mx-auto max-w-7xl">
           <p className="text-xs font-bold uppercase tracking-widest text-[#b99a60]">
             FAQs · Archive status · Website use
           </p>
