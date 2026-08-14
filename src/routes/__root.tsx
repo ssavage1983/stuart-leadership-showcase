@@ -345,6 +345,22 @@ function RootComponent() {
                   <path d="M10 21V9h4v2a5 5 0 0 1 8 4v6h-4v-6a2 2 0 0 0-4 0v6z" />
                 </svg>
               </a>
+
+              {/* Legal Icon Link */}
+              <Link
+                to="/privacy-policy"
+                title="Legal & Privacy"
+                aria-label="Legal and privacy policy"
+                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
+              >
+                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6 3h9l3 3v15H6z" />
+                  <path d="M14 3v4h4" />
+                  <path d="M9 11h6" />
+                  <path d="M9 15h6" />
+                  <path d="M9 19h4" />
+                </svg>
+              </Link>
             </nav>
 
             {/* Legal Bottom Bar */}
@@ -355,7 +371,7 @@ function RootComponent() {
                 <Link to="/faq" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
                   FAQs
                 </Link>
-                <Link to="/faq" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
+                <Link to="/privacy-policy" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
                   Legal, privacy &amp; accessibility
                 </Link>
                 <a href="mailto:stuart@savageldn.co.uk" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
