@@ -114,7 +114,7 @@ function Index() {
             </p>
 
             <div className="border-l-3 border-[#c47c62] pl-4 text-xs sm:text-sm text-[#f7f4ee]/90 font-medium max-w-2xl">
-              The former landscaping businesses closed in May 2026. This page is not a trading website, service offer, client-acquisition page, or active employment-seeking profile.
+              Savage Bespoke Ltd closed in 2023. Stuart Savage Landscaping and The Moonlight Garden Design Co. closed in May 2026. This page is not a trading website, service offer, client-acquisition page, or active employment-seeking profile.
             </div>
 
             <div className="pt-2 flex flex-wrap gap-4 items-center">
@@ -220,7 +220,7 @@ function Index() {
             </h2>
 
             <p className="text-sm sm:text-base font-semibold text-[#102a43] leading-relaxed">
-              After closing my former businesses in May 2026, I am taking time to recover, rebuild, and stabilise my personal circumstances. I currently volunteer with Guy’s Hospital as a committee member while focusing on my health and longer-term recovery.
+              Following the solvent wind-down of Savage Bespoke Ltd in 2023 and the closure of my former sole trader practices in May 2026, I am taking time to recover, rebuild, and stabilise my personal circumstances. I currently volunteer with Guy’s Hospital as a committee member while focusing on my health and longer-term recovery.
             </p>
 
             {/* Status Facts */}
@@ -256,7 +256,7 @@ function Index() {
                 In 2024, I was diagnosed with Stage 4 throat cancer and underwent intensive chemoradiotherapy. I am now living with severe late effects from treatment, chronic pain, and ongoing medical complications.
               </p>
               <p>
-                The physical toll contributed to a serious mental health breakdown. My sudden medical collapse meant I could no longer physically or mentally operate my businesses, leading to the permanent closure of Stuart Savage Landscaping and The Moonlight Garden Design Co.
+                The physical toll contributed to a serious mental health breakdown. My sudden medical collapse meant I could no longer physically or mentally operate my businesses, leading to the permanent closure of my remaining trade operations.
               </p>
               <p className="font-semibold text-[#102a43] border-t border-[#102a43]/10 pt-4">
                 This page preserves my professional history clearly and honestly, while making clear that I am not trading, seeking clients, or looking for work during this period of recovery.
@@ -317,6 +317,12 @@ function Index() {
             {experience.map((role) => {
               const isOpen = openRole === `role-${role.id}`;
 
+              // Customize meta label for founder role to accurately reflect dates
+              const roleMeta =
+                role.id === "role-1"
+                  ? "2019–23 (Savage Bespoke Ltd) · 2019–26 (Landscaping & Moonlight)"
+                  : role.meta;
+
               return (
                 <li
                   key={role.id}
@@ -334,7 +340,7 @@ function Index() {
                   >
                     <div className="space-y-1">
                       <span className="text-xs font-bold uppercase tracking-wider text-[#c47c62]">
-                        {role.meta}
+                        {roleMeta}
                       </span>
                       <h3 className="text-xl font-bold uppercase text-[#102a43] leading-snug">
                         {role.role}
@@ -357,6 +363,11 @@ function Index() {
                           </li>
                         ))}
                       </ul>
+                      {role.id === "role-1" && (
+                        <p className="text-xs font-semibold text-[#102a43] border-t border-slate-200 pt-3 mt-3">
+                          Operational Note: Savage Bespoke Ltd closed in 2023. Stuart Savage Landscaping and The Moonlight Garden Design Co. closed permanently in May 2026.
+                        </p>
+                      )}
                     </div>
                   )}
                 </li>
@@ -367,7 +378,7 @@ function Index() {
           {/* Education & Qualifications */}
           <div className="pt-8 border-t border-[#102a43]/16">
             <h3 className="text-xs font-bold uppercase tracking-widest text-[#102a43] mb-6">
-              Education & Professional Qualifications
+              Education &amp; Professional Qualifications
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {education.map((item, idx) => (
