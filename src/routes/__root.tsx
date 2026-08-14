@@ -15,19 +15,19 @@ import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4">
-      <div className="max-w-md text-center">
-        <h1 className="text-7xl font-bold text-foreground">404</h1>
-        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
-        <p className="mt-2 text-sm text-muted-foreground">
-          The page you're looking for doesn't exist or has been moved.
+    <div className="flex min-h-screen items-center justify-center bg-[#102845] text-[#f8f7f3] px-4">
+      <div className="max-w-md text-center space-y-4">
+        <h1 className="text-7xl font-serif font-bold text-[#c9ad72]">404</h1>
+        <h2 className="text-xl font-semibold uppercase tracking-wider text-[#f8f7f3]">Page not found</h2>
+        <p className="text-xs text-[#f8f7f3]/70">
+          The page you are looking for does not exist or has been moved.
         </p>
-        <div className="mt-6">
+        <div>
           <Link
             to="/"
-            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+            className="inline-flex items-center justify-center rounded bg-[#c9ad72] px-5 py-2.5 text-xs font-bold uppercase tracking-wider text-[#102845] transition-colors hover:bg-white"
           >
-            Go home
+            Return to Home
           </Link>
         </div>
       </div>
@@ -43,30 +43,30 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   }, [error]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background px-4">
-      <div className="max-w-md text-center">
-        <h1 className="text-xl font-semibold tracking-tight text-foreground">
-          This page didn't load
+    <div className="flex min-h-screen items-center justify-center bg-[#102845] text-[#f8f7f3] px-4">
+      <div className="max-w-md text-center space-y-4">
+        <h1 className="text-xl font-semibold uppercase tracking-wider text-[#f8f7f3]">
+          This page did not load
         </h1>
-        <p className="mt-2 text-sm text-muted-foreground">
-          Something went wrong on our end. You can try refreshing or head back home.
+        <p className="text-xs text-[#f8f7f3]/70">
+          Something went wrong on our end. You can try refreshing or returning home.
         </p>
-        <div className="mt-6 flex flex-wrap justify-center gap-2">
+        <div className="flex flex-wrap justify-center gap-3">
           <button
             onClick={() => {
               router.invalidate();
               reset();
             }}
-            className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+            className="inline-flex items-center justify-center rounded bg-[#c9ad72] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#102845] transition-colors hover:bg-white"
           >
             Try again
           </button>
-          <a
-            href="/"
-            className="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-foreground transition-colors hover:bg-accent"
+          <Link
+            to="/"
+            className="inline-flex items-center justify-center rounded border border-[#c9ad72]/40 px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#f8f7f3] transition-colors hover:bg-[#c9ad72]/10"
           >
             Go home
-          </a>
+          </Link>
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "author", content: "Stuart Savage" },
-      { property: "og:site_name", content: "Stuart Savage Career Portfolio" },
+      { property: "og:site_name", content: "Stuart Savage Historic Professional Archive" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -93,7 +93,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500;600;700&display=swap",
       },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
@@ -125,9 +125,9 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="min-h-screen bg-[#102845] text-[#f8f7f3] font-sans">
-        {/* Header with Expandable Icon Navigation */}
-        <header className="sticky top-0 z-50 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 min-h-[92px] px-6 py-4 border-b border-[#c9ad72]/38 bg-[#102845]/98 backdrop-blur shadow-md">
+      <div className="flex flex-col min-h-screen bg-[#102845] text-[#f8f7f3] font-sans">
+        {/* Sticky Top Header */}
+        <header className="sticky top-0 z-50 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 min-h-[92px] px-6 md:px-12 py-4 border-b border-[#c9ad72]/38 bg-[#102845]/98 backdrop-blur shadow-md">
           {/* Brand Link */}
           <Link to="/" className="flex flex-col gap-1 no-underline group">
             <strong className="font-serif text-2xl sm:text-3xl font-semibold tracking-widest text-[#f8f7f3] uppercase leading-none">
@@ -141,9 +141,9 @@ function RootComponent() {
             </small>
           </Link>
 
-          {/* Icon Pill Navigation */}
+          {/* Expandable Header Icon Navigation */}
           <nav className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 md:pb-0" aria-label="Main navigation">
-            {/* Home Route */}
+            {/* Home */}
             <Link
               to="/"
               title="Home"
@@ -158,7 +158,7 @@ function RootComponent() {
               </span>
             </Link>
 
-            {/* Case Studies / Portfolio Archive Route */}
+            {/* Portfolio Archive / Case Studies */}
             <Link
               to="/case-studies"
               title="Portfolio Archive"
@@ -174,7 +174,24 @@ function RootComponent() {
               </span>
             </Link>
 
-            {/* FAQs Route */}
+            {/* Blog Archive */}
+            <Link
+              to="/blog"
+              title="Blog Archive"
+              className="group relative flex items-center h-10 w-10 hover:w-[132px] overflow-hidden rounded-full border border-[#c9ad72]/32 hover:border-[#c9ad72] bg-transparent hover:bg-[#c9ad72]/12 text-[#c9ad72] transition-all duration-300 px-2.5 shrink-0"
+            >
+              <svg className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 4h14v16H5z" />
+                <path d="M8 8h8" />
+                <path d="M8 12h8" />
+                <path d="M8 16h5" />
+              </svg>
+              <span className="ml-2 text-[10px] font-bold uppercase tracking-wider text-[#f8f7f3] opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap">
+                Blog archive
+              </span>
+            </Link>
+
+            {/* FAQs */}
             <Link
               to="/faq"
               title="FAQs"
@@ -190,7 +207,7 @@ function RootComponent() {
               </span>
             </Link>
 
-            {/* Email Anchor */}
+            {/* Email */}
             <a
               href="mailto:stuart@savageldn.co.uk"
               title="Email"
@@ -205,7 +222,7 @@ function RootComponent() {
               </span>
             </a>
 
-            {/* LinkedIn External Anchor */}
+            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/stuartsavage"
               target="_blank"
@@ -226,9 +243,128 @@ function RootComponent() {
         </header>
 
         {/* Dynamic Route Pages Render Here */}
-        <main>
+        <main className="flex-1">
           <Outlet />
         </main>
+
+        {/* Global Footer (Renders on ALL Pages) */}
+        <footer className="border-t border-[#c9ad72]/34 bg-[#102845] text-[#f8f7f3] px-6 md:px-16 py-8 mt-auto">
+          <div className="mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+            {/* Brand Column */}
+            <div className="md:col-span-8 space-y-1.5">
+              <strong className="font-serif text-2xl sm:text-3xl font-semibold tracking-widest uppercase text-[#f8f7f3] block leading-none">
+                STUART SAVAGE
+              </strong>
+              <span className="text-[10px] font-bold uppercase tracking-widest text-[#f8f7f3]/62 max-w-3xl block leading-normal">
+                Historic professional archive · Operations · Customer experience · Project delivery
+              </span>
+              <p className="text-[11px] text-[#f8f7f3]/42 leading-relaxed max-w-2xl pt-1">
+                Former landscaping businesses closed in May 2026. Archive only — not currently trading, offering services or seeking commercial work.
+              </p>
+            </div>
+
+            {/* Footer Icon Nav Column */}
+            <nav className="md:col-span-4 flex items-center justify-start md:justify-end gap-2 overflow-x-auto pb-2 md:pb-0" aria-label="Footer navigation">
+              <Link
+                to="/"
+                title="Home"
+                aria-label="Home"
+                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
+              >
+                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m3 10 9-7 9 7v11H3z" />
+                  <path d="M9 21v-8h6v8" />
+                </svg>
+              </Link>
+
+              <Link
+                to="/blog"
+                title="Blog Archive"
+                aria-label="Blog Archive"
+                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
+              >
+                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 4h14v16H5z" />
+                  <path d="M8 8h8" />
+                  <path d="M8 12h8" />
+                  <path d="M8 16h5" />
+                </svg>
+              </Link>
+
+              <Link
+                to="/case-studies"
+                title="Portfolio Archive"
+                aria-label="Portfolio Archive"
+                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
+              >
+                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M4 19V5" />
+                  <path d="M4 19h16" />
+                  <path d="M8 16v-5" />
+                  <path d="M12 16V8" />
+                  <path d="M16 16v-7" />
+                </svg>
+              </Link>
+
+              <Link
+                to="/faq"
+                title="FAQs"
+                aria-label="FAQs"
+                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
+              >
+                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 20h.01" />
+                  <path d="M9.5 9a2.7 2.7 0 0 1 5.2.9c0 2.1-2.7 2.4-2.7 4.6" />
+                  <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" />
+                </svg>
+              </Link>
+
+              <a
+                href="mailto:stuart@savageldn.co.uk"
+                title="Email"
+                aria-label="Email Stuart"
+                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
+              >
+                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 5h18v14H3z" />
+                  <path d="m3 6 9 7 9-7" />
+                </svg>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/stuartsavage"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LinkedIn"
+                aria-label="LinkedIn profile"
+                className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
+              >
+                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M6 9v12H2V9z" />
+                  <path d="M6 4a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" />
+                  <path d="M10 21V9h4v2a5 5 0 0 1 8 4v6h-4v-6a2 2 0 0 0-4 0v6z" />
+                </svg>
+              </a>
+            </nav>
+
+            {/* Legal Bottom Bar */}
+            <div className="md:col-span-12 mt-6 pt-4 border-t border-[#f8f7f3]/12 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 text-[10px] font-semibold uppercase tracking-wider text-[#f8f7f3]/50">
+              <span>© 2026 Stuart Savage · Kennington, London · Historic professional archive</span>
+
+              <div className="flex flex-wrap gap-4" aria-label="Legal information">
+                <Link to="/faq" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
+                  FAQs
+                </Link>
+                <Link to="/faq" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
+                  Legal, privacy &amp; accessibility
+                </Link>
+                <a href="mailto:stuart@savageldn.co.uk" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
+                  Contact
+                </a>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </QueryClientProvider>
   );
