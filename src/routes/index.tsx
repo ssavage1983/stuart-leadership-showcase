@@ -15,7 +15,7 @@ const jsonLd = {
   "@type": "ProfilePage",
   name: "Stuart Savage Historic Professional Archive",
   inLanguage: "en-GB",
-  url: "https://www.moonlight-studio.uk/",
+  url: "https://stuart-leadership-showcase.lovable.app/",
   mainEntity: {
     "@type": "Person",
     name: "Stuart Savage",
@@ -58,9 +58,9 @@ export const Route = createFileRoute("/")({
           "https://static.wixstatic.com/media/a005fe_0c1fcd3895ce450aae2a1e39de35aa9d~mv2.jpg",
       },
       { property: "og:type", content: "profile" },
-      { property: "og:url", content: "https://www.moonlight-studio.uk/" },
+      { property: "og:url", content: "https://stuart-leadership-showcase.lovable.app/" },
     ],
-    links: [{ rel: "canonical", href: "https://www.moonlight-studio.uk/" }],
+    links: [{ rel: "canonical", href: "https://stuart-leadership-showcase.lovable.app/" }],
     scripts: [
       {
         type: "application/ld+json",
