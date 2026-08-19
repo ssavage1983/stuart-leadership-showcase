@@ -87,7 +87,7 @@ function Index() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-30 mix-blend-overlay"
           style={{
-            backgroundImage: `url('https://static.wixstatic.com/media/a005fe_83795358ed1f46e783522d83266a67c6~mv2.jpg')`,
+            backgroundImage: `url('https://static.wixstatic.com/media/a005fe_83795358ed1f46e783522d83266a67c6~mv2.jpg/v1/fill/w_1280,h_720,al_c,q_75,enc_auto/home-hero.jpg')`,
           }}
         />
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#091d2f] via-[#091d2f]/95 to-[#091d2f]/50" />
@@ -142,8 +142,11 @@ function Index() {
           <div className="lg:col-span-4 flex justify-center lg:justify-end">
             <figure className="relative w-full max-w-[340px] rounded border border-[#f7f4ee]/30 bg-[#091d2f] shadow-2xl overflow-hidden">
               <img
-                src="https://static.wixstatic.com/media/a005fe_0c1fcd3895ce450aae2a1e39de35aa9d~mv2.jpg/v1/fill/w_1200,h_1800,fp_0.48_0.31,q_88,enc_auto/stuart_profile_photo_main.jpg"
+                src="https://static.wixstatic.com/media/a005fe_0c1fcd3895ce450aae2a1e39de35aa9d~mv2.jpg/v1/fill/w_680,h_850,fp_0.48_0.31,q_80,enc_auto/stuart-profile.jpg"
                 alt="Stuart Savage, operations and customer experience leader"
+                width="680"
+                height="850"
+                decoding="async"
                 className="w-full h-auto object-cover aspect-[4/5]"
               />
               <figcaption className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-[#091d2f] via-[#091d2f]/90 to-transparent p-4 text-[10px] font-bold uppercase tracking-wider text-[#f7f4ee]/80 space-y-0.5">
@@ -510,8 +513,12 @@ function Index() {
               className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm"
             >
               <img
-                src="https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg"
+                src="https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/balham-project.jpg"
                 alt="Balham Transformation"
+                width="720"
+                height="420"
+                loading="lazy"
+                decoding="async"
                 className="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="p-4 space-y-1">
@@ -530,8 +537,12 @@ function Index() {
               className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm"
             >
               <img
-                src="https://static.wixstatic.com/media/a005fe_38195cc6234740de88d7877ec4214083~mv2.jpg"
+                src="https://static.wixstatic.com/media/a005fe_38195cc6234740de88d7877ec4214083~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/digital-twin.jpg"
                 alt="Digital Twin Workflow"
+                width="720"
+                height="420"
+                loading="lazy"
+                decoding="async"
                 className="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="p-4 space-y-1">
@@ -550,8 +561,12 @@ function Index() {
               className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm"
             >
               <img
-                src="https://static.wixstatic.com/media/a005fe_5ecb889aaac5452f99a906260086ae68~mv2.jpg"
+                src="https://static.wixstatic.com/media/a005fe_5ecb889aaac5452f99a906260086ae68~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/supply-chain.jpg"
                 alt="Supply Chain Control"
+                width="720"
+                height="420"
+                loading="lazy"
+                decoding="async"
                 className="h-48 w-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="p-4 space-y-1">

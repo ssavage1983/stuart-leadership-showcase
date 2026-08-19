@@ -62,7 +62,7 @@ function CaseStudiesComponent() {
           className="absolute inset-0 bg-cover bg-center opacity-25 mix-blend-overlay"
           style={{
             backgroundImage:
-              "url('https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg')",
+              "url('https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_75,enc_auto/archive-hero.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#091d2f] via-[#091d2f]/90 to-[#091d2f]/60" />
@@ -156,8 +156,11 @@ function CaseStudiesComponent() {
                   <img
                     src={study.image}
                     alt={study.title}
+                    width="720"
+                    height="420"
                     className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
                     loading="lazy"
+                    decoding="async"
                   />
                 ) : (
                   <div className="flex h-full items-center justify-center bg-gradient-to-br from-[#d8d0c3] to-[#eee8df] px-8 text-center text-xs font-bold uppercase tracking-widest text-[#102a43]/60">

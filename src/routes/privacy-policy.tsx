@@ -34,7 +34,7 @@ function PrivacyPolicyComponent() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-20 mix-blend-overlay"
           style={{
-            backgroundImage: `url('https://static.wixstatic.com/media/a005fe_83795358ed1f46e783522d83266a67c6~mv2.jpg')`,
+            backgroundImage: `url('https://static.wixstatic.com/media/a005fe_83795358ed1f46e783522d83266a67c6~mv2.jpg/v1/fill/w_1280,h_720,al_c,q_75,enc_auto/home-hero.jpg')`,
           }}
         />
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#102845] via-[#102845]/95 to-[#102845]/60" />
