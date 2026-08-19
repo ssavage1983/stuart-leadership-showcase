@@ -45,7 +45,7 @@ The complete interactive workflow is [migrate-archive-routes.ps1](./migrate-arch
 
 The workflow installs these complete templates from [`archive-migration-templates`](./archive-migration-templates):
 
-- `blogPosts.ts`: 20 Wix migration records plus the existing rail article.
+- `blogPosts.ts`: 20 Wix article records prepared for source migration.
 - `caseStudies.ts`: 11 Wix project records plus the three existing Vercel archive records.
 - `blog.tsx` and `case-studies.tsx`: responsive archive grids using the existing visual language.
 - `blog.$slug.tsx` and `case-studies.$slug.tsx`: data-driven detail routes with archive notices, per-record SEO and explicit content/image placeholders.

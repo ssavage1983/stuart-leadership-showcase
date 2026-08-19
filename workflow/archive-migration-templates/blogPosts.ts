@@ -18,18 +18,6 @@ const pendingContent = [
 
 export const blogPosts: BlogPost[] = [
   {
-    title: "Operational Excellence in Transport and Rail: A Practical Guide",
-    slug: "operational-excellence-in-rail",
-    date: "2026-08-07",
-    readTime: "8 min read",
-    category: "Operations · Transport and rail",
-    excerpt:
-      "A practical guide to service standards, flow, recovery and the skills operations managers need.",
-    status: "archive",
-    contentStatus: "complete",
-    content: [],
-  },
-  {
     title: "Top Landscaping Options Clapham: Transform Your Garden with Expert Care",
     slug: "top-landscaping-options-clapham-transform-your-garden-with-expert-care",
     oldUrl:
