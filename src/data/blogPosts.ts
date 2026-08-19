@@ -9,6 +9,8 @@ export type BlogPost = {
   status: "archive";
   contentStatus: "complete" | "pending-migration";
   content: string[];
+  heroImage?: string;
+  imageCaption?: string;
 };
 
 const pendingContent = [
@@ -149,14 +151,24 @@ export const blogPosts: BlogPost[] = [
     content: pendingContent,
   },
   {
-    title: "Why We Used Shoot Gardening Technology",
+    title: "Shoot Gardening: A Professional Designer's Review",
     slug: "shoot-gardening-review",
     oldUrl: "https://www.savageldn.co.uk/post/shoot-gardening-review",
     category: "Technology · Horticulture",
-    excerpt: "Historic writing on using structured plant data to support design decisions.",
+    date: "10 December 2025",
+    readTime: "1 minute",
+    excerpt:
+      "How structured plant data helped connect visual garden design with horticultural performance and long-term delivery decisions.",
     status: "archive",
-    contentStatus: "pending-migration",
-    content: pendingContent,
+    contentStatus: "complete",
+    heroImage:
+      "https://static.wixstatic.com/media/a005fe_7db8123e9c52465588a4ae52af65932e~mv2.jpg/v1/fill/w_1200,h_444,al_c,q_80,enc_auto/shoot-gardening-mood-board.jpg",
+    imageCaption: "Modern Cottage Garden mood board from the original article.",
+    content: [
+      "Shoot Gardening bridged the gap between creative design and the practical realities of horticulture. Strong visuals could communicate atmosphere, but the garden's long-term success depended on accurate plant and site data.",
+      "The former practice needed more than a plant database: it needed a professional planning system capable of managing detailed planting palettes for physical London projects and remote design work across the UK.",
+      "Shoot Gardening became the planning engine behind that process, helping match design choices with soil, light, growth and maintenance requirements before delivery.",
+    ],
   },
   {
     title: "Decking Benefits for Your Home: Advantages and Installation Tips",
