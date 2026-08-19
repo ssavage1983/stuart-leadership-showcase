@@ -35,10 +35,22 @@ export const caseStudies: CaseStudy[] = [
     location: "Brixton, London",
     oldUrl: "https://www.savageldn.co.uk/projects/small-tropical-garden-brixton",
     category: "Former business archive",
-    excerpt: "A historic record of a compact tropical garden project in Brixton.",
+    excerpt:
+      "A compact urban-jungle refurbishment combining reclaimed materials, tropical planting and structured planning in Brixton.",
     archiveStatus: "Historic project record",
-    sections: pendingSections,
-    contentStatus: "pending-migration",
+    sections: {
+      context:
+        "A comprehensive refurbishment of a small Brixton garden, retained as evidence of the former practice's design and delivery work.",
+      brief:
+        "Create a private, tropical urban-jungle setting within a compact London garden while working with the site's available light and space.",
+      deliveryApproach:
+        "Ground-level planting beds were used to build visual depth and seclusion, with the planting plan structured in Shoot Gardening to match plants to conditions.",
+      materialsLogisticsCoordination:
+        "Reclaimed English railway sleepers and Lugano clay pavers from London Stone were combined with tropical plants from Evergreen Exterior Services and Spanish mixed gravel from Stone Warehouse.",
+      outcome:
+        "The coordinated materials and planting created a unified, private outdoor sanctuary and a clear historic record of design, procurement and delivery decisions.",
+    },
+    contentStatus: "complete",
   },
   {
     title: "Gayville Garden Sanctuary — Balham",
