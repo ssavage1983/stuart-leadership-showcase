@@ -14,6 +14,10 @@ export default defineConfig({
     server: { entry: "server" },
   },
   vite: {
-    plugins: [mcpPlugin()],
+    // @lovable.dev/mcp-js 0.26.2 compares Vite's normalised root with Windows
+    // backslash paths and rejects an otherwise valid src/routes directory.
+    // The generated MCP routes are committed, so local Windows builds can skip
+    // this hook while Lovable and Vercel retain it on Linux.
+    plugins: process.platform === "win32" ? [] : [mcpPlugin()],
   },
 });

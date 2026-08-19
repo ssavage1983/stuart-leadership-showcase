@@ -194,7 +194,12 @@ export const education: { qualification: string; org: string; year: string; body
   },
 ];
 
-export const projectEvidence: { title: string; context: string; delivery: string; transfer: string }[] = [
+export const projectEvidence: {
+  title: string;
+  context: string;
+  delivery: string;
+  transfer: string;
+}[] = [
   {
     title: "Client project delivery, end to end",
     context:

@@ -18,7 +18,9 @@ function NotFoundComponent() {
     <div className="flex min-h-screen items-center justify-center bg-[#102845] text-[#f8f7f3] px-4">
       <div className="max-w-md text-center space-y-4">
         <h1 className="text-7xl font-serif font-bold text-[#c9ad72]">404</h1>
-        <h2 className="text-xl font-semibold uppercase tracking-wider text-[#f8f7f3]">Page not found</h2>
+        <h2 className="text-xl font-semibold uppercase tracking-wider text-[#f8f7f3]">
+          Page not found
+        </h2>
         <p className="text-xs text-[#f8f7f3]/70">
           The page you are looking for does not exist or has been moved.
         </p>
@@ -142,14 +144,21 @@ function RootComponent() {
           </Link>
 
           {/* Expandable Header Icon Navigation */}
-          <nav className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 md:pb-0" aria-label="Main navigation">
+          <nav
+            className="flex items-center gap-2 overflow-x-auto w-full md:w-auto pb-1 md:pb-0"
+            aria-label="Main navigation"
+          >
             {/* Home */}
             <Link
               to="/"
               title="Home"
               className="group relative flex items-center h-10 w-10 hover:w-[92px] overflow-hidden rounded-full border border-[#c9ad72]/32 hover:border-[#c9ad72] bg-transparent hover:bg-[#c9ad72]/12 text-[#c9ad72] transition-all duration-300 px-2.5 shrink-0"
             >
-              <svg className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+              <svg
+                className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
                 <path d="m3 10 9-7 9 7v11H3z" />
                 <path d="M9 21v-8h6v8" />
               </svg>
@@ -164,7 +173,11 @@ function RootComponent() {
               title="Portfolio Archive"
               className="group relative flex items-center h-10 w-10 hover:w-[168px] overflow-hidden rounded-full border border-[#c9ad72]/32 hover:border-[#c9ad72] bg-transparent hover:bg-[#c9ad72]/12 text-[#c9ad72] transition-all duration-300 px-2.5 shrink-0"
             >
-              <svg className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+              <svg
+                className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
                 <path d="M5 3H3v2m16-2h2v2M5 21H3v-2m16 2h2v-2" />
                 <rect x="7" y="7" width="10" height="10" />
                 <path d="m7 14 3-3 2 2 3-3 2 2" />
@@ -180,7 +193,11 @@ function RootComponent() {
               title="Blog Archive"
               className="group relative flex items-center h-10 w-10 hover:w-[132px] overflow-hidden rounded-full border border-[#c9ad72]/32 hover:border-[#c9ad72] bg-transparent hover:bg-[#c9ad72]/12 text-[#c9ad72] transition-all duration-300 px-2.5 shrink-0"
             >
-              <svg className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+              <svg
+                className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
                 <path d="M5 4h14v16H5z" />
                 <path d="M8 8h8" />
                 <path d="M8 12h8" />
@@ -197,7 +214,11 @@ function RootComponent() {
               title="FAQs"
               className="group relative flex items-center h-10 w-10 hover:w-[92px] overflow-hidden rounded-full border border-[#c9ad72]/32 hover:border-[#c9ad72] bg-transparent hover:bg-[#c9ad72]/12 text-[#c9ad72] transition-all duration-300 px-2.5 shrink-0"
             >
-              <svg className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+              <svg
+                className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
                 <path d="M12 20h.01" />
                 <path d="M9.5 9a2.7 2.7 0 0 1 5.2.9c0 2.1-2.7 2.4-2.7 4.6" />
                 <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" />
@@ -213,7 +234,11 @@ function RootComponent() {
               title="Email"
               className="group relative flex items-center h-10 w-10 hover:w-[96px] overflow-hidden rounded-full border border-[#c9ad72]/32 hover:border-[#c9ad72] bg-transparent hover:bg-[#c9ad72]/12 text-[#c9ad72] transition-all duration-300 px-2.5 shrink-0"
             >
-              <svg className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+              <svg
+                className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
                 <path d="M3 5h18v14H3z" />
                 <path d="m3 6 9 7 9-7" />
               </svg>
@@ -230,7 +255,11 @@ function RootComponent() {
               title="LinkedIn"
               className="group relative flex items-center h-10 w-10 hover:w-[118px] overflow-hidden rounded-full border border-[#c9ad72]/32 hover:border-[#c9ad72] bg-transparent hover:bg-[#c9ad72]/12 text-[#c9ad72] transition-all duration-300 px-2.5 shrink-0"
             >
-              <svg className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+              <svg
+                className="w-5 h-5 shrink-0 stroke-current fill-none stroke-[1.35]"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
                 <path d="M6 9v12H2V9z" />
                 <path d="M6 4a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" />
                 <path d="M10 21V9h4v2a5 5 0 0 1 8 4v6h-4v-6a2 2 0 0 0-4 0v6z" />
@@ -259,12 +288,16 @@ function RootComponent() {
                 Historic professional archive · Operations · Customer experience · Project delivery
               </span>
               <p className="text-[11px] text-[#f8f7f3]/42 leading-relaxed max-w-2xl pt-1">
-                Former landscaping businesses closed in May 2026. Archive only — not currently trading, offering services or seeking commercial work.
+                Former landscaping businesses closed in May 2026. Archive only — not currently
+                trading, offering services or seeking commercial work.
               </p>
             </div>
 
             {/* Footer Icon Nav Column (Matching SVGs) */}
-            <nav className="md:col-span-4 flex items-center justify-start md:justify-end gap-2 overflow-x-auto pb-2 md:pb-0" aria-label="Footer navigation">
+            <nav
+              className="md:col-span-4 flex items-center justify-start md:justify-end gap-2 overflow-x-auto pb-2 md:pb-0"
+              aria-label="Footer navigation"
+            >
               {/* Home */}
               <Link
                 to="/"
@@ -272,7 +305,11 @@ function RootComponent() {
                 aria-label="Home"
                 className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
               >
-                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                <svg
+                  className="w-5 h-5 stroke-current fill-none stroke-[1.35]"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="m3 10 9-7 9 7v11H3z" />
                   <path d="M9 21v-8h6v8" />
                 </svg>
@@ -285,7 +322,11 @@ function RootComponent() {
                 aria-label="Portfolio Archive"
                 className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
               >
-                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                <svg
+                  className="w-5 h-5 stroke-current fill-none stroke-[1.35]"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="M5 3H3v2m16-2h2v2M5 21H3v-2m16 2h2v-2" />
                   <rect x="7" y="7" width="10" height="10" />
                   <path d="m7 14 3-3 2 2 3-3 2 2" />
@@ -299,7 +340,11 @@ function RootComponent() {
                 aria-label="Blog Archive"
                 className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
               >
-                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                <svg
+                  className="w-5 h-5 stroke-current fill-none stroke-[1.35]"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="M5 4h14v16H5z" />
                   <path d="M8 8h8" />
                   <path d="M8 12h8" />
@@ -314,7 +359,11 @@ function RootComponent() {
                 aria-label="FAQs"
                 className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
               >
-                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                <svg
+                  className="w-5 h-5 stroke-current fill-none stroke-[1.35]"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="M12 20h.01" />
                   <path d="M9.5 9a2.7 2.7 0 0 1 5.2.9c0 2.1-2.7 2.4-2.7 4.6" />
                   <path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z" />
@@ -328,7 +377,11 @@ function RootComponent() {
                 aria-label="Email Stuart"
                 className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
               >
-                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                <svg
+                  className="w-5 h-5 stroke-current fill-none stroke-[1.35]"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="M3 5h18v14H3z" />
                   <path d="m3 6 9 7 9-7" />
                 </svg>
@@ -343,7 +396,11 @@ function RootComponent() {
                 aria-label="LinkedIn profile"
                 className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
               >
-                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                <svg
+                  className="w-5 h-5 stroke-current fill-none stroke-[1.35]"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="M6 9v12H2V9z" />
                   <path d="M6 4a2 2 0 1 1-4 0 2 2 0 0 1 4 0z" />
                   <path d="M10 21V9h4v2a5 5 0 0 1 8 4v6h-4v-6a2 2 0 0 0-4 0v6z" />
@@ -357,7 +414,11 @@ function RootComponent() {
                 aria-label="Legal and privacy policy"
                 className="w-10 h-10 border border-[#c9ad72]/32 rounded-full text-[#c9ad72] hover:border-[#c9ad72] hover:bg-[#c9ad72]/12 flex items-center justify-center transition-all shrink-0"
               >
-                <svg className="w-5 h-5 stroke-current fill-none stroke-[1.35]" viewBox="0 0 24 24" aria-hidden="true">
+                <svg
+                  className="w-5 h-5 stroke-current fill-none stroke-[1.35]"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                >
                   <path d="M6 3h9l3 3v15H6z" />
                   <path d="M14 3v4h4" />
                   <path d="M9 11h6" />
@@ -372,13 +433,22 @@ function RootComponent() {
               <span>© 2026 Stuart Savage · Kennington, London · Historic professional archive</span>
 
               <div className="flex flex-wrap gap-4" aria-label="Legal information">
-                <Link to="/faq" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
+                <Link
+                  to="/faq"
+                  className="hover:text-[#c9ad72] transition-colors underline underline-offset-2"
+                >
                   FAQs
                 </Link>
-                <Link to="/privacy-policy" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
+                <Link
+                  to="/privacy-policy"
+                  className="hover:text-[#c9ad72] transition-colors underline underline-offset-2"
+                >
                   Legal, privacy &amp; accessibility
                 </Link>
-                <a href="mailto:stuart@savageldn.co.uk" className="hover:text-[#c9ad72] transition-colors underline underline-offset-2">
+                <a
+                  href="mailto:stuart@savageldn.co.uk"
+                  className="hover:text-[#c9ad72] transition-colors underline underline-offset-2"
+                >
                   Contact
                 </a>
               </div>

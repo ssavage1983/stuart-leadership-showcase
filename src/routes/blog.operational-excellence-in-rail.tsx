@@ -2,13 +2,12 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 
 const EMAIL = "stuart.savageworld@gmail.com";
 const LINKEDIN = "https://www.linkedin.com/in/stuartsavage";
-const SITE = "https://stuart-leadership-showcase.lovable.app";
+const SITE = "https://www.moonlight-studio.uk";
 const URL = `${SITE}/blog/operational-excellence-in-rail`;
 
 const TITLE = "Operational Excellence in Transport and Rail: A Practical Guide";
 const DESCRIPTION =
   "A practical guide to operational excellence in transport and rail: service standards, flow, recovery and the skills operations managers need.";
-
 
 const principles: { title: string; body: string }[] = [
   {
