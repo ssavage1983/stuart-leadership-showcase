@@ -45,6 +45,11 @@ function ArchivedBlogPost() {
             {post.title}
           </h1>
           <p className="mt-6 max-w-3xl text-base text-[#f8f7f3]/75">{post.excerpt}</p>
+          {post.date || post.readTime ? (
+            <p className="mt-4 text-xs font-bold uppercase tracking-widest text-[#c9ad72]">
+              {[post.date, post.readTime].filter(Boolean).join(" · ")}
+            </p>
+          ) : null}
         </div>
       </header>
 
@@ -68,10 +73,31 @@ function ArchivedBlogPost() {
               </div>
             </>
           ) : (
-            <p>
-              This article already has a dedicated archive route. Use the blog archive to open the
-              complete record.
-            </p>
+            <>
+              {post.heroImage ? (
+                <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+                  <img
+                    src={post.heroImage}
+                    alt={post.imageCaption ?? post.title}
+                    width="1200"
+                    height="444"
+                    className="h-auto w-full object-cover"
+                    decoding="async"
+                  />
+                  {post.imageCaption ? (
+                    <figcaption className="px-4 py-3 text-xs text-slate-500">
+                      {post.imageCaption}
+                    </figcaption>
+                  ) : null}
+                </figure>
+              ) : null}
+              <h2 className="font-serif text-3xl text-[#102845]">
+                Bridging design and horticultural reality
+              </h2>
+              {post.content.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </>
           )}
         </div>
 
