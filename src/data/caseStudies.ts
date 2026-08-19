@@ -171,7 +171,8 @@ export const caseStudies: CaseStudy[] = [
     excerpt:
       "Project planning, phased programme control, procurement and client updates across a constrained London setting.",
     archiveStatus: "Delivery evidence",
-    image: "https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg",
+    image:
+      "https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/balham-project.jpg",
     sections: {
       context: "A complete historic garden transformation in a constrained London setting.",
       brief: "Coordinate the project from planning through delivery and handover.",
@@ -191,7 +192,8 @@ export const caseStudies: CaseStudy[] = [
     excerpt:
       "A structured planning method combining briefs, 3D visualisation and environmental data.",
     archiveStatus: "Delivery evidence",
-    image: "https://static.wixstatic.com/media/a005fe_38195cc6234740de88d7877ec4214083~mv2.jpg",
+    image:
+      "https://static.wixstatic.com/media/a005fe_38195cc6234740de88d7877ec4214083~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/digital-twin.jpg",
     sections: {
       context: "A remote planning workflow retained as evidence of structured decision support.",
       brief: "Reduce ambiguity before physical work began.",
@@ -210,7 +212,8 @@ export const caseStudies: CaseStudy[] = [
     excerpt:
       "Materials, people, dependencies and standards coordinated across historic live projects.",
     archiveStatus: "Delivery evidence",
-    image: "https://static.wixstatic.com/media/a005fe_5ecb889aaac5452f99a906260086ae68~mv2.jpg",
+    image:
+      "https://static.wixstatic.com/media/a005fe_5ecb889aaac5452f99a906260086ae68~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/supply-chain.jpg",
     sections: {
       context:
         "Former live projects depended on suppliers, materials and people arriving in sequence.",
