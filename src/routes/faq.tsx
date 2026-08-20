@@ -82,7 +82,7 @@ function FaqComponent() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-25 mix-blend-overlay"
           style={{
-            backgroundImage: `url('https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_75,enc_auto/archive-hero.jpg')`,
+            backgroundImage: `url('/images/portfolio/marlborough-mews-tropical-garden-and-herringbone-paving.jpg')`,
           }}
         />
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#102845] via-[#102845]/90 to-[#102845]/60" />

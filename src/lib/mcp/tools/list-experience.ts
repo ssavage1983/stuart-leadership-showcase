@@ -46,7 +46,7 @@ export default defineTool({
         year: item.year,
         detail: item.body,
       })),
-      note: "All founder-led businesses completed a planned, solvent wind-down concluded in May 2026.",
+      note: "The remaining founder-led businesses closed in May 2026 after health and trading pressures made continued operation unsustainable.",
     };
 
     return {

@@ -48,8 +48,7 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:image",
-        content:
-          "https://static.wixstatic.com/media/a005fe_0c1fcd3895ce450aae2a1e39de35aa9d~mv2.jpg",
+        content: "https://www.moonlight-studio.uk/images/profile/stuart-savage.jpg",
       },
       { property: "og:type", content: "profile" },
       { property: "og:url", content: "https://www.moonlight-studio.uk/" },
@@ -87,7 +86,7 @@ function Index() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-30 mix-blend-overlay"
           style={{
-            backgroundImage: `url('https://static.wixstatic.com/media/a005fe_83795358ed1f46e783522d83266a67c6~mv2.jpg/v1/fill/w_1280,h_720,al_c,q_75,enc_auto/home-hero.jpg')`,
+            backgroundImage: `url('/images/portfolio/tooting-bec-japanese-garden-seating-and-warm-night-lighting.jpg')`,
           }}
         />
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#091d2f] via-[#091d2f]/95 to-[#091d2f]/50" />
@@ -142,7 +141,7 @@ function Index() {
           <div className="lg:col-span-4 flex justify-center lg:justify-end">
             <figure className="relative w-full max-w-[340px] rounded border border-[#f7f4ee]/30 bg-[#091d2f] shadow-2xl overflow-hidden">
               <img
-                src="https://static.wixstatic.com/media/a005fe_0c1fcd3895ce450aae2a1e39de35aa9d~mv2.jpg/v1/fill/w_680,h_850,fp_0.48_0.31,q_80,enc_auto/stuart-profile.jpg"
+                src="/images/profile/stuart-savage.jpg"
                 alt="Stuart Savage, operations and customer experience leader"
                 width="680"
                 height="850"
@@ -220,10 +219,10 @@ function Index() {
             </h2>
 
             <p className="text-sm sm:text-base font-semibold text-[#102a43] leading-relaxed">
-              Following the solvent wind-down of Savage Bespoke Ltd in 2023 and the closure of my
-              former sole trader practices in May 2026, I am taking time to recover, rebuild, and
-              stabilise my personal circumstances. I currently volunteer with Guy’s Hospital as a
-              committee member while focusing on my health and longer-term recovery.
+              Following the closure of Savage Bespoke Ltd in 2023 and my remaining sole-trader
+              practices in May 2026, I am taking time to recover, rebuild, and stabilise my personal
+              circumstances. I currently volunteer with Guy’s Hospital as a committee member while
+              focusing on my health and longer-term recovery.
             </p>
 
             {/* Status Facts */}
@@ -513,7 +512,7 @@ function Index() {
               className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm"
             >
               <img
-                src="https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/balham-project.jpg"
+                src="/images/portfolio/balham-cottage-courtyard-daytime-dining-and-raised-planters.jpg"
                 alt="Balham Transformation"
                 width="720"
                 height="420"
@@ -537,7 +536,7 @@ function Index() {
               className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm"
             >
               <img
-                src="https://static.wixstatic.com/media/a005fe_38195cc6234740de88d7877ec4214083~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/digital-twin.jpg"
+                src="/images/portfolio/balham-pergola-walkway-design-visualisation.png"
                 alt="Digital Twin Workflow"
                 width="720"
                 height="420"
@@ -561,7 +560,7 @@ function Index() {
               className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm"
             >
               <img
-                src="https://static.wixstatic.com/media/a005fe_5ecb889aaac5452f99a906260086ae68~mv2.jpg/v1/fill/w_720,h_420,al_c,q_75,enc_auto/supply-chain.jpg"
+                src="/images/portfolio/brixton-urban-jungle-tree-ferns-and-integrated-bench.png"
                 alt="Supply Chain Control"
                 width="720"
                 height="420"

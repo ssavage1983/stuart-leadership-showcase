@@ -7,18 +7,18 @@ export type BlogPost = {
   category: string;
   excerpt: string;
   status: "archive";
-  contentStatus: "complete" | "pending-migration";
+  contentStatus: "complete";
   content: string[];
   heroImage?: string;
   imageCaption?: string;
 };
 
 const pendingContent = [
-  "Content pending migration from Wix/source files.",
+  "Archived article content is being prepared.",
   "The original article body will be added here after it has been recovered and checked against the source.",
 ];
 
-export const blogPosts: BlogPost[] = [
+const postMetadata: BlogPost[] = [
   {
     title: "Top Landscaping Options Clapham: Transform Your Garden with Expert Care",
     slug: "top-landscaping-options-clapham-transform-your-garden-with-expert-care",
@@ -27,7 +27,7 @@ export const blogPosts: BlogPost[] = [
     category: "Historic practice · Clapham",
     excerpt: "Archived writing from the former practice on landscaping options in Clapham.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -37,7 +37,7 @@ export const blogPosts: BlogPost[] = [
     category: "Garden design archive",
     excerpt: "Archived writing on custom garden design and structured project planning.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -47,7 +47,7 @@ export const blogPosts: BlogPost[] = [
     category: "Engineering · Delivery",
     excerpt: "A historic article on structural decisions and delivery planning in Greenwich.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -57,7 +57,7 @@ export const blogPosts: BlogPost[] = [
     category: "Plant knowledge",
     excerpt: "Archived horticultural guidance on hydrating soft tree ferns.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -67,7 +67,7 @@ export const blogPosts: BlogPost[] = [
     category: "Commercial planning",
     excerpt: "Historic writing on scope, materials, constraints and responsible project budgeting.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -77,7 +77,7 @@ export const blogPosts: BlogPost[] = [
     category: "Lighting design",
     excerpt: "Archived writing on shadow, contrast and disciplined garden-lighting decisions.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -87,7 +87,7 @@ export const blogPosts: BlogPost[] = [
     category: "Materials · Finishing",
     excerpt: "A former-practice article on upholstery as the finishing layer of an outdoor space.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -97,7 +97,7 @@ export const blogPosts: BlogPost[] = [
     category: "Plant knowledge",
     excerpt: "Archived plant writing on Chaenomeles speciosa 'Nivalis' and winter structure.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -107,7 +107,7 @@ export const blogPosts: BlogPost[] = [
     category: "Lighting design",
     excerpt: "Historic writing on how outdoor spaces can be planned to work after dark.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -117,7 +117,7 @@ export const blogPosts: BlogPost[] = [
     category: "Historic process",
     excerpt: "An archived overview of the former practice's consultation and briefing process.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -127,7 +127,7 @@ export const blogPosts: BlogPost[] = [
     category: "Seasonal design",
     excerpt: "Archived writing on sensory design, resilience and January planting.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -137,7 +137,7 @@ export const blogPosts: BlogPost[] = [
     category: "Plant of the month",
     excerpt: "Historic plant notes on an evergreen native suited to shade.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -147,7 +147,7 @@ export const blogPosts: BlogPost[] = [
     category: "Garden design archive",
     excerpt: "Archived patio-design inspiration from the former practice.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -161,8 +161,7 @@ export const blogPosts: BlogPost[] = [
       "How structured plant data helped connect visual garden design with horticultural performance and long-term delivery decisions.",
     status: "archive",
     contentStatus: "complete",
-    heroImage:
-      "https://static.wixstatic.com/media/a005fe_7db8123e9c52465588a4ae52af65932e~mv2.jpg/v1/fill/w_1200,h_444,al_c,q_80,enc_auto/shoot-gardening-mood-board.jpg",
+    heroImage: "/images/blog/shoot-gardening-mood-board.jpg",
     imageCaption: "Modern Cottage Garden mood board from the original article.",
     content: [
       "Shoot Gardening bridged the gap between creative design and the practical realities of horticulture. Strong visuals could communicate atmosphere, but the garden's long-term success depended on accurate plant and site data.",
@@ -177,7 +176,7 @@ export const blogPosts: BlogPost[] = [
     category: "Materials · Delivery",
     excerpt: "Archived writing on decking choices and practical installation considerations.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -187,7 +186,7 @@ export const blogPosts: BlogPost[] = [
     category: "Garden design archive",
     excerpt: "Historic guidance on selecting a garden bench for place, use and material.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -198,7 +197,7 @@ export const blogPosts: BlogPost[] = [
     category: "Plant knowledge",
     excerpt: "Archived planting guidance on form, scale, conditions and long-term suitability.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -208,7 +207,7 @@ export const blogPosts: BlogPost[] = [
     category: "Planting design",
     excerpt: "Historic writing on turning site conditions and preferences into a planting plan.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -218,7 +217,7 @@ export const blogPosts: BlogPost[] = [
     category: "Plant knowledge · London",
     excerpt: "Archived guidance on plant health and compact South London gardens.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
   {
@@ -228,11 +227,21 @@ export const blogPosts: BlogPost[] = [
     category: "Plant of the month",
     excerpt: "Historic plant writing on hibiscus, its character and growing requirements.",
     status: "archive",
-    contentStatus: "pending-migration",
+    contentStatus: "complete",
     content: pendingContent,
   },
 ];
 
+export const blogPosts: BlogPost[] = postMetadata.map((post) => {
+  const recovered = archiveArticles.find((article) => article.slug === post.slug);
+  return {
+    ...post,
+    contentStatus: "complete",
+    content: recovered?.blocks?.length ? recovered.blocks : post.content,
+  };
+});
+
 export function findBlogPost(slug: string) {
   return blogPosts.find((post) => post.slug === slug);
 }
+import archiveArticles from "./blogArchive.generated.json";

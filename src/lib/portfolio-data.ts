@@ -55,7 +55,7 @@ export const experience: {
       "Negotiated high-value supplier contracts and managed client stakeholders under tight budgetary constraints.",
       "Maintained a record of zero site accidents across concurrent projects, with a 4.9/5 customer satisfaction rate.",
       "Introduced a proprietary digital spatial modelling approach that helped reduce delivery timelines by 20%.",
-      "Completed planned, solvent closures in May 2026 following a strategic review of market conditions, honouring all supplier and client commitments.",
+      "Closed the remaining businesses in May 2026 after health and trading pressures made continued operation unsustainable.",
     ],
   },
   {

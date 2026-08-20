@@ -63,7 +63,7 @@ function BlogComponent() {
           className="absolute inset-0 bg-cover bg-center opacity-25 mix-blend-overlay"
           style={{
             backgroundImage:
-              "url('https://static.wixstatic.com/media/a005fe_fd16f3b3d7334721b36a59cefa511128~mv2.jpg/v1/fill/w_1600,h_900,al_c,q_75,enc_auto/archive-hero.jpg')",
+              "url('/images/portfolio/greenwich-modern-cottage-garden-overview.jpg')",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#102845] via-[#102845]/90 to-[#102845]/60" />
@@ -137,7 +137,7 @@ function BlogComponent() {
             label="Historic articles"
             id="historic-articles"
             title="Garden design, Shoot Gardening and project thinking"
-            description="Every card opens its own archive page; the original Wix address is retained as source metadata."
+            description="Every card opens a complete local archive page, independent of the former publishing platform."
           />
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {blogPosts.map((post) => (
