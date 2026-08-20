@@ -108,9 +108,10 @@ function Index() {
             </p>
 
             <div className="border-l-3 border-[#c47c62] pl-4 text-xs sm:text-sm text-[#f7f4ee]/90 font-medium max-w-2xl">
-              Savage Bespoke Ltd closed in 2023. Stuart Savage Landscaping and The Moonlight Garden
-              Design Co. closed in May 2026. This page is not a trading website, service offer,
-              client-acquisition page, or active employment-seeking profile.
+              Savage Bespoke Ltd closed in 2023. SAVAGELDN (Stuart Savage Landscaping) and The
+              Moonlight Garden Design Co. closed in May 2026. Their former URLs now lead to this
+              inactive archive, which preserves evidence of my experience for future employment; it
+              is not a trading website, service offer or client-acquisition page.
             </div>
 
             <div className="pt-2 flex flex-wrap gap-4 items-center">
@@ -262,9 +263,10 @@ function Index() {
             </div>
 
             <p className="text-sm sm:text-base font-semibold text-[#102a43]">
-              I am not currently taking on employment, client work, landscaping projects, or new
-              commercial activity. My focus is recovery, stability, and properly closing the chapter
-              of my former businesses.
+              I am not taking on client work, landscaping projects or new commercial activity. This
+              archive is retained to support future employment opportunities in operations, customer
+              experience, service delivery and strategic project delivery while I focus on recovery
+              and stability.
             </p>
 
             {/* Health Narrative */}

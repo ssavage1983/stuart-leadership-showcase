@@ -56,9 +56,10 @@ function ArchivedBlogPost() {
       <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
         <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700">
           <strong className="block text-[#102845]">Archive-only notice</strong>
-          This historic article is retained for reference and landscaping examples. The businesses
-          closed in May 2026; this is not an active company, current offer or invitation to book.
-          Any prices, services or calls to action mentioned in the original text are unavailable.
+          This historic article is retained for reference and as evidence for future employment.
+          SAVAGELDN and The Moonlight Garden Design Co. closed in May 2026; their former URLs are
+          inactive business archives, not current offers or invitations to book. Any prices,
+          services or calls to action mentioned in the original text are unavailable.
         </aside>
 
         <div className="mt-10 space-y-5 text-base leading-8 text-slate-700">

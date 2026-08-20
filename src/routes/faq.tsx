@@ -192,8 +192,8 @@ function FaqComponent() {
                 Is Stuart Savage Landscaping still trading?
               </summary>
               <p className="mt-3 text-sm text-slate-600">
-                No. Stuart Savage Landscaping and The Moonlight Garden Design Co. closed in May
-                2026. This website is retained as a historic professional archive only.
+                No. SAVAGELDN (Stuart Savage Landscaping) and The Moonlight Garden Design Co. closed
+                in May 2026. Their former URLs now serve this inactive professional archive only.
               </p>
             </details>
             <details className="bg-white border border-[#102845]/15 rounded p-4 cursor-pointer">
@@ -203,7 +203,8 @@ function FaqComponent() {
               <p className="mt-3 text-sm text-slate-600">
                 The site preserves historic professional writing, former project material,
                 horticultural notes, supplier references, design thinking and archived business
-                context from the former practices.
+                context from the former practices. It provides evidence of transferable experience
+                for future employment opportunities.
               </p>
             </details>
             <details className="bg-white border border-[#102845]/15 rounded p-4 cursor-pointer">

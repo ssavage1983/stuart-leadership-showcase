@@ -1,4 +1,4 @@
-export const EMAIL = "stuart.savageworld@gmail.com";
+export const EMAIL = "stuart@savageldn.co.uk";
 export const LINKEDIN = "https://www.linkedin.com/in/stuartsavage";
 
 export const capabilities: { title: string; body: string }[] = [
