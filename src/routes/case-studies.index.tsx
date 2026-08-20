@@ -80,9 +80,10 @@ function CaseStudiesComponent() {
             operational discipline.
           </p>
           <div className="mt-6 max-w-3xl rounded border-l-4 border-[#c47c62] bg-white/5 p-4 text-sm text-slate-200">
-            <strong>Archive status:</strong> the former businesses closed in May 2026. These
-            projects are shown for historical and professional context, not as current trade
-            services.
+            <strong>Archive status:</strong> SAVAGELDN and The Moonlight Garden Design Co. closed in
+            May 2026. Their former URLs are inactive business archives. These projects are evidence
+            of transferable experience for future employment, not current landscaping or
+            garden-design services.
           </div>
           <div className="mt-8 flex flex-wrap gap-4">
             <a

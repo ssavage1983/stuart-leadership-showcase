@@ -58,8 +58,9 @@ function HistoricCaseStudy() {
       <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
         <aside className="rounded border-l-4 border-[#c47c62] bg-white p-5 text-sm text-slate-700">
           <strong className="block text-[#102a43]">Archive-only notice</strong>
-          Historic reference material from landscaping businesses that closed in May 2026. This
-          searchable archive provides examples only; it is not an active company or service.
+          Historic reference material from SAVAGELDN and The Moonlight Garden Design Co., which
+          closed in May 2026. Their former URLs now serve this searchable, inactive archive. The
+          examples support future employment opportunities; they are not current services.
         </aside>
 
         <div className="mt-12 space-y-10">

@@ -289,8 +289,9 @@ function RootComponent() {
                 Historic professional archive · Operations · Customer experience · Project delivery
               </span>
               <p className="text-[11px] text-[#f8f7f3]/42 leading-relaxed max-w-2xl pt-1">
-                Former landscaping businesses closed in May 2026. Archive only — not currently
-                trading, offering services or seeking commercial work.
+                The former SAVAGELDN and Moonlight URLs now serve an inactive archive only. No
+                landscaping or garden-design services are offered; the material supports future
+                employment opportunities.
               </p>
             </div>
 

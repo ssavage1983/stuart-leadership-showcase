@@ -87,11 +87,13 @@ function BlogComponent() {
         <div className="mx-auto max-w-7xl">
           <p className="text-xs font-bold uppercase tracking-widest">Archive status</p>
           <h2 className="mt-1 font-serif text-2xl font-semibold">
-            The former businesses closed in May 2026. This is a historic writing archive only.
+            SAVAGELDN and The Moonlight Garden Design Co. closed in May 2026. Their former URLs now
+            serve this historic writing archive only.
           </h2>
           <p className="mt-2 max-w-4xl text-sm text-[#41505b]">
-            Stuart is not trading or offering landscaping services. These pieces remain available as
-            professional evidence of design judgement, planning and delivery experience.
+            Stuart is not trading or offering landscaping or garden-design services. These pieces
+            remain as professional evidence of judgement, planning and delivery experience for
+            future employment opportunities.
           </p>
         </div>
       </section>
