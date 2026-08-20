@@ -1,5 +1,6 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 
+import { ArchivedArticleBody } from "@/components/ArchivedArticleBody";
 import { findBlogPost } from "@/data/blogPosts";
 
 const SITE = "https://www.moonlight-studio.uk";
@@ -62,30 +63,25 @@ function ArchivedBlogPost() {
           services or calls to action mentioned in the original text are unavailable.
         </aside>
 
-        <div className="mt-10 space-y-5 text-base leading-8 text-slate-700">
-          <>
-            {post.heroImage ? (
-              <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
-                <img
-                  src={post.heroImage}
-                  alt={post.imageCaption ?? post.title}
-                  width="1200"
-                  height="444"
-                  className="h-auto w-full object-cover"
-                  decoding="async"
-                />
-                {post.imageCaption ? (
-                  <figcaption className="px-4 py-3 text-xs text-slate-500">
-                    {post.imageCaption}
-                  </figcaption>
-                ) : null}
-              </figure>
-            ) : null}
-            <h2 className="font-serif text-3xl text-[#102845]">Archived article</h2>
-            {post.content.map((paragraph, index) => (
-              <p key={`${post.slug}-${index}`}>{paragraph}</p>
-            ))}
-          </>
+        <div className="mt-10">
+          {post.heroImage ? (
+            <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+              <img
+                src={post.heroImage}
+                alt={post.imageCaption ?? post.title}
+                width="1200"
+                height="444"
+                className="h-auto w-full object-cover"
+                decoding="async"
+              />
+              {post.imageCaption ? (
+                <figcaption className="px-4 py-3 text-xs text-slate-500">
+                  {post.imageCaption}
+                </figcaption>
+              ) : null}
+            </figure>
+          ) : null}
+          <ArchivedArticleBody content={post.content} title={post.title} />
         </div>
       </div>
     </article>
