@@ -34,7 +34,7 @@ function PrivacyPolicyComponent() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-20 mix-blend-overlay"
           style={{
-            backgroundImage: `url('https://static.wixstatic.com/media/a005fe_83795358ed1f46e783522d83266a67c6~mv2.jpg/v1/fill/w_1280,h_720,al_c,q_75,enc_auto/home-hero.jpg')`,
+            backgroundImage: `url('/images/portfolio/tooting-bec-japanese-garden-seating-and-warm-night-lighting.jpg')`,
           }}
         />
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#102845] via-[#102845]/95 to-[#102845]/60" />
@@ -50,7 +50,7 @@ function PrivacyPolicyComponent() {
           <p className="mt-6 max-w-3xl text-lg text-slate-300">
             This document sets out the legal framework, UK GDPR privacy policy, accessibility
             commitment, and domain infrastructure details across Google Workspace, 123 Reg, Vercel,
-            GitHub, Lovable, and Wix.
+            GitHub, Lovable, and Vercel.
           </p>
         </div>
       </header>
@@ -283,20 +283,6 @@ function PrivacyPolicyComponent() {
                     reportLovableError
                   </code>
                   ) capture non-identifying technical logs to diagnose runtime issues.
-                </p>
-              </div>
-
-              <div className="bg-white p-4 border border-[#102845]/15 rounded text-sm text-slate-700 space-y-1">
-                <strong className="block text-[#102845]">
-                  Wix.com Ltd. (Historic Static Media CDN)
-                </strong>
-                <p className="text-xs leading-relaxed">
-                  Static media asset host (
-                  <code className="text-[11px] bg-slate-100 px-1 py-0.5 rounded">
-                    wixstatic.com
-                  </code>
-                  ). Project images embedded on this site are delivered via Wix static media
-                  servers.
                 </p>
               </div>
             </div>

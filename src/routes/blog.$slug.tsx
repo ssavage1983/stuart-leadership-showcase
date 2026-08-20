@@ -56,61 +56,36 @@ function ArchivedBlogPost() {
       <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
         <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700">
           <strong className="block text-[#102845]">Archive-only notice</strong>
-          This is archived writing from a former business. The businesses closed in May 2026 and are
-          not currently trading or offering landscaping services. It is not a newly published
-          article.
+          This historic article is retained for reference and landscaping examples. The businesses
+          closed in May 2026; this is not an active company, current offer or invitation to book.
+          Any prices, services or calls to action mentioned in the original text are unavailable.
         </aside>
 
         <div className="mt-10 space-y-5 text-base leading-8 text-slate-700">
-          {post.contentStatus === "pending-migration" ? (
-            <>
-              <h2 className="font-serif text-3xl text-[#102845]">Content pending migration</h2>
-              {post.content.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
-              <div className="min-h-48 rounded border border-dashed border-[#102845]/25 bg-white/50 p-6 text-sm text-slate-500">
-                Original article body placeholder.
-              </div>
-            </>
-          ) : (
-            <>
-              {post.heroImage ? (
-                <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
-                  <img
-                    src={post.heroImage}
-                    alt={post.imageCaption ?? post.title}
-                    width="1200"
-                    height="444"
-                    className="h-auto w-full object-cover"
-                    decoding="async"
-                  />
-                  {post.imageCaption ? (
-                    <figcaption className="px-4 py-3 text-xs text-slate-500">
-                      {post.imageCaption}
-                    </figcaption>
-                  ) : null}
-                </figure>
-              ) : null}
-              <h2 className="font-serif text-3xl text-[#102845]">
-                Bridging design and horticultural reality
-              </h2>
-              {post.content.map((paragraph) => (
-                <p key={paragraph}>{paragraph}</p>
-              ))}
-            </>
-          )}
+          <>
+            {post.heroImage ? (
+              <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+                <img
+                  src={post.heroImage}
+                  alt={post.imageCaption ?? post.title}
+                  width="1200"
+                  height="444"
+                  className="h-auto w-full object-cover"
+                  decoding="async"
+                />
+                {post.imageCaption ? (
+                  <figcaption className="px-4 py-3 text-xs text-slate-500">
+                    {post.imageCaption}
+                  </figcaption>
+                ) : null}
+              </figure>
+            ) : null}
+            <h2 className="font-serif text-3xl text-[#102845]">Archived article</h2>
+            {post.content.map((paragraph, index) => (
+              <p key={`${post.slug}-${index}`}>{paragraph}</p>
+            ))}
+          </>
         </div>
-
-        {post.oldUrl ? (
-          <dl className="mt-12 border-t border-[#102845]/15 pt-6 text-xs text-slate-600">
-            <dt className="font-bold uppercase tracking-wider text-[#102845]">Original source</dt>
-            <dd className="mt-2 break-all">
-              <a href={post.oldUrl} rel="noreferrer" className="underline hover:text-[#b99a60]">
-                {post.oldUrl}
-              </a>
-            </dd>
-          </dl>
-        ) : null}
       </div>
     </article>
   );
