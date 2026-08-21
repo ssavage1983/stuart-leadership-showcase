@@ -20,6 +20,8 @@ import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as CaseStudiesIndexRouteImport } from './routes/case-studies.index'
 import { Route as CaseStudiesSlugRouteImport } from './routes/case-studies.$slug'
+import { Route as CaseStudiesDigitalTwinWorkflowRouteImport } from './routes/case-studies.digital-twin-workflow'
+import { Route as CaseStudiesSupplyChainControlRouteImport } from './routes/case-studies.supply-chain-control'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
 
 const IndexRoute = IndexRouteImport.update({
@@ -79,6 +81,18 @@ const CaseStudiesSlugRoute = CaseStudiesSlugRouteImport.update({
   path: '/case-studies/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CaseStudiesDigitalTwinWorkflowRoute =
+  CaseStudiesDigitalTwinWorkflowRouteImport.update({
+    id: '/case-studies/digital-twin-workflow',
+    path: '/case-studies/digital-twin-workflow',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesSupplyChainControlRoute =
+  CaseStudiesSupplyChainControlRouteImport.update({
+    id: '/case-studies/supply-chain-control',
+    path: '/case-studies/supply-chain-control',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const Char91DotmcpChar93InvokeToolToolRoute =
   Char91DotmcpChar93InvokeToolToolRouteImport.update({
     id: '/.mcp/invoke-tool/$tool',
@@ -96,6 +110,8 @@ export interface FileRoutesByFullPath {
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/case-studies/digital-twin-workflow': typeof CaseStudiesDigitalTwinWorkflowRoute
+  '/case-studies/supply-chain-control': typeof CaseStudiesSupplyChainControlRoute
   '/blog/': typeof BlogIndexRoute
   '/case-studies/': typeof CaseStudiesIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
@@ -110,6 +126,8 @@ export interface FileRoutesByTo {
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/case-studies/digital-twin-workflow': typeof CaseStudiesDigitalTwinWorkflowRoute
+  '/case-studies/supply-chain-control': typeof CaseStudiesSupplyChainControlRoute
   '/blog': typeof BlogIndexRoute
   '/case-studies': typeof CaseStudiesIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
@@ -125,6 +143,8 @@ export interface FileRoutesById {
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/case-studies/digital-twin-workflow': typeof CaseStudiesDigitalTwinWorkflowRoute
+  '/case-studies/supply-chain-control': typeof CaseStudiesSupplyChainControlRoute
   '/blog/': typeof BlogIndexRoute
   '/case-studies/': typeof CaseStudiesIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
@@ -141,6 +161,8 @@ export interface FileRouteTypes {
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/case-studies/$slug'
+    | '/case-studies/digital-twin-workflow'
+    | '/case-studies/supply-chain-control'
     | '/blog/'
     | '/case-studies/'
     | '/.mcp/invoke-tool/$tool'
@@ -155,6 +177,8 @@ export interface FileRouteTypes {
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/case-studies/$slug'
+    | '/case-studies/digital-twin-workflow'
+    | '/case-studies/supply-chain-control'
     | '/blog'
     | '/case-studies'
     | '/.mcp/invoke-tool/$tool'
@@ -169,6 +193,8 @@ export interface FileRouteTypes {
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/case-studies/$slug'
+    | '/case-studies/digital-twin-workflow'
+    | '/case-studies/supply-chain-control'
     | '/blog/'
     | '/case-studies/'
     | '/.mcp/invoke-tool/$tool'
@@ -184,6 +210,8 @@ export interface RootRouteChildren {
   Char91DotwellKnownChar93OauthProtectedResourceRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   BlogSlugRoute: typeof BlogSlugRoute
   CaseStudiesSlugRoute: typeof CaseStudiesSlugRoute
+  CaseStudiesDigitalTwinWorkflowRoute: typeof CaseStudiesDigitalTwinWorkflowRoute
+  CaseStudiesSupplyChainControlRoute: typeof CaseStudiesSupplyChainControlRoute
   BlogIndexRoute: typeof BlogIndexRoute
   CaseStudiesIndexRoute: typeof CaseStudiesIndexRoute
   Char91DotmcpChar93InvokeToolToolRoute: typeof Char91DotmcpChar93InvokeToolToolRoute
@@ -268,6 +296,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CaseStudiesSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/case-studies/digital-twin-workflow': {
+      id: '/case-studies/digital-twin-workflow'
+      path: '/case-studies/digital-twin-workflow'
+      fullPath: '/case-studies/digital-twin-workflow'
+      preLoaderRoute: typeof CaseStudiesDigitalTwinWorkflowRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/supply-chain-control': {
+      id: '/case-studies/supply-chain-control'
+      path: '/case-studies/supply-chain-control'
+      fullPath: '/case-studies/supply-chain-control'
+      preLoaderRoute: typeof CaseStudiesSupplyChainControlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/.mcp/invoke-tool/$tool': {
       id: '/.mcp/invoke-tool/$tool'
       path: '/.mcp/invoke-tool/$tool'
@@ -289,6 +331,8 @@ const rootRouteChildren: RootRouteChildren = {
     Char91DotwellKnownChar93OauthProtectedResourceRoute,
   BlogSlugRoute: BlogSlugRoute,
   CaseStudiesSlugRoute: CaseStudiesSlugRoute,
+  CaseStudiesDigitalTwinWorkflowRoute: CaseStudiesDigitalTwinWorkflowRoute,
+  CaseStudiesSupplyChainControlRoute: CaseStudiesSupplyChainControlRoute,
   BlogIndexRoute: BlogIndexRoute,
   CaseStudiesIndexRoute: CaseStudiesIndexRoute,
   Char91DotmcpChar93InvokeToolToolRoute: Char91DotmcpChar93InvokeToolToolRoute,
