@@ -10,13 +10,13 @@ export const Route = createFileRoute("/case-studies/balham-cottage-courtyard-gar
 
 function BalhamCottageCourtyardCaseStudy() {
   return (
-    <div className="min-h-screen bg-background text-foreground animate-fadeIn transition-opacity duration-700">
+    <div className="min-h-screen bg-[#f7f4ee] text-[#102a43] font-sans antialiased py-12 px-6 animate-fadeIn transition-opacity duration-700">
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Link
-          to="/"
+          to="/case-studies"
           className="inline-flex items-center text-muted-foreground hover:text-foreground mb-8 text-sm transition-colors duration-300 transform hover:-translate-x-1"
         >
-          <ArrowLeft className="w-4 h-4 mr-2" /> Back to Overview
+          <ArrowLeft className="w-4 h-4 mr-2" /> Back to Case Studies Archive
         </Link>
 
         {/* Header Section */}
