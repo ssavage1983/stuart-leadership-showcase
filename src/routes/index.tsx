@@ -2,7 +2,6 @@ import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
 
-// Portfolio data is now inlined to match the required CV exactly and ensure DRO compliance.
 const EMAIL = "stuart@savageldn.co.uk";
 const PHONE = "07762 719043";
 const LINKEDIN = "https://linkedin.com/in/stuartsavage";
@@ -23,11 +22,29 @@ const coreCompetencies = [
 
 const experience = [
   {
+    id: "sabbatical",
+    role: "NHS Foundation Trust Member — Health & Well-being Sabbatical",
+    org: "Guy’s and St Thomas’ NHS Foundation Trust | London, UK",
+    dates: "Aug 2026 – Present",
+    featured: true,
+    summary:
+      "Following the permanent closure of my landscape and design businesses in May 2026, I am dedicating this period entirely to my health, long-term clinical recovery, and personal well-being.",
+    responsibilities: [
+      "In 2024, I was diagnosed with Stage 4 throat cancer and underwent intensive chemoradiotherapy. While my cancer remains in remission, the aggressive treatment left me with complex, chronic physical side effects and a profound mental health toll.",
+      "On strict medical recommendations and my doctor’s fit notes, I am taking a dedicated sabbatical from employment over the coming year to focus 100% on my physical rehabilitation and psychological recovery.",
+    ],
+    achievements: [
+      "NHS Membership: Actively participating as a public member of Guy's and St Thomas' NHS Foundation Trust, contributing patient-centred feedback and helping shape local hospital services.",
+      "Health & Well-being: Committing to structured daily rehabilitation, clinical therapy, and rebuilding protocols to manage chronic side effects.",
+      "Thoughtful Preparation: Taking the space to recover, rebuild my cognitive and physical strength, and safely prepare for my next chapter.",
+    ],
+  },
+  {
     id: "founder",
     role: "Founder & Managing Director",
     org: "Operational & Spatial Design Group | London & Home Counties",
     dates: "Mar 2019 – May 2026",
-    featured: true,
+    featured: false,
     summary:
       "Three concurrent brands: Savage Bespoke Ltd (Mar 2019 – May 2023), Stuart Savage Landscaping (Oct 2023 – May 2026), and The Moonlight Garden Design Co (Nov 2025 – May 2026). Governed end-to-end commercial operations, supply chain logistics, and physical delivery for complex, bespoke structural installations. Held primary accountability for on-site health and safety compliance, rigorous risk assessments, and multi-disciplinary team rostering across all three brands simultaneously, managing teams of 5-6 on-site operatives per project.",
     responsibilities: [
@@ -197,8 +214,7 @@ const experience = [
     id: "wardell",
     role: "Graphic Designer",
     org: "Wardell Armstrong LLP | UK",
-    dates:
-      "Jul 2001 – Sep 2004 (Industry Placement, prior to BA Hons Graphic Communications 2004-2006)",
+    dates: "Jul 2001 – Sep 2004",
     summary: "Industry Placement, prior to BA Hons Graphic Communications 2004-2006.",
     responsibilities: [
       "Produced professional reports and planning documentation supporting major infrastructure and large regeneration schemes.",
@@ -288,7 +304,6 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-/* Mathematically perfectly aligned bullet component */
 const BulletItem = ({ children }: { children: React.ReactNode }) => (
   <li className="relative pl-5 leading-relaxed text-[#607080] text-sm">
     <span className="absolute left-0 top-0 text-[#c47c62] select-none text-base leading-relaxed">
@@ -299,7 +314,7 @@ const BulletItem = ({ children }: { children: React.ReactNode }) => (
 );
 
 function Index() {
-  const [openRole, setOpenRole] = useState<string | null>("role-founder");
+  const [openRole, setOpenRole] = useState<string | null>("role-sabbatical");
 
   const toggleRole = (id: string) => {
     setOpenRole((prev) => (prev === id ? null : id));
@@ -307,7 +322,6 @@ function Index() {
 
   return (
     <div className="min-h-screen bg-[#f7f4ee] text-[#102a43] font-sans antialiased">
-      {/* Skip to Main Content */}
       <a
         href="#main"
         className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded focus:bg-[#102a43] focus:px-4 focus:py-2 focus:text-white"
@@ -529,7 +543,7 @@ function Index() {
                       {role.responsibilities && (
                         <div className="space-y-2">
                           <p className="text-xs font-bold uppercase tracking-wider text-[#102a43]">
-                            Key Responsibilities
+                            Key Context & Background
                           </p>
                           <ul className="list-none space-y-2">
                             {role.responsibilities.map((pt, i) => (
@@ -542,7 +556,7 @@ function Index() {
                       {role.achievements && (
                         <div className="space-y-2 pt-2">
                           <p className="text-xs font-bold uppercase tracking-wider text-[#102a43]">
-                            Key Achievements
+                            Key Focus Areas & Impact
                           </p>
                           <ul className="list-none space-y-2">
                             {role.achievements.map((pt, i) => (
@@ -618,7 +632,7 @@ function Index() {
             </a>
             <span className="hidden sm:inline text-[#c47c62]">|</span>
             <a
-              href={"tel:" + PHONE.replace(/s+/g, "")}
+              href={"tel:" + PHONE.replace(/\s+/g, "")}
               className="hover:text-[#c47c62] transition-colors"
             >
               {PHONE} <span className="text-[#c47c62]">↗</span>
