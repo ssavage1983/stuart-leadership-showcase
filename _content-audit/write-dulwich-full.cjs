@@ -1,4 +1,9 @@
-import { createFileRoute } from '@tanstack/react-router';
+const fs = require('fs');
+const path = require('path');
+
+const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.dulwich-garden-transformation.tsx');
+
+const fullDulwichCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, CheckCircle2, ShieldCheck, Clock, Layers } from 'lucide-react';
@@ -104,3 +109,7 @@ function DulwichGardenTransformationCaseStudy() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync(filePath, fullDulwichCode, 'utf8');
+console.log("Successfully wrote complete Dulwich case study code with animations.");
