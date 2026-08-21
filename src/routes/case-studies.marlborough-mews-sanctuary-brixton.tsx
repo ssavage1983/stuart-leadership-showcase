@@ -30,6 +30,16 @@ function MarlboroughMewsCaseStudy() {
           </p>
         </div>
 
+        {/* Featured Case Study Image */}
+        <div className="mb-12 rounded-xl overflow-hidden border shadow-sm">
+          <img
+            src="/images/portfolio/marlborough-mews-mature-tropical-planting-and-lighting.png"
+            alt="Marlborough Mews Mature Tropical Planting and Lighting"
+            className="w-full h-auto object-cover max-h-[450px]"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 transition-all duration-500">
           <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
             <CardHeader className="flex flex-row items-center justify-between pb-2">
@@ -82,6 +92,16 @@ function MarlboroughMewsCaseStudy() {
               large-leafed exotics, and multi-stem specimens that thrive in protected urban pockets.
             </p>
           </section>
+
+          {/* Secondary Image */}
+          <div className="rounded-xl overflow-hidden border shadow-sm my-6">
+            <img
+              src="/images/portfolio/marlborough-mews-tropical-garden-night-cocktails.jpeg"
+              alt="Marlborough Mews Tropical Garden Night Cocktails"
+              className="w-full h-auto object-cover max-h-[400px]"
+              loading="lazy"
+            />
+          </div>
 
           <section className="space-y-4">
             <h2 className="text-2xl font-semibold text-foreground">
