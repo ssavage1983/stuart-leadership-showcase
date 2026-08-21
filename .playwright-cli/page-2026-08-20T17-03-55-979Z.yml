@@ -1,171 +1,171 @@
 - generic [ref=f60e3]:
-  - region "top of page"
-  - generic [ref=f60e11]:
-    - group:
-      - banner:
-        - generic [ref=f60e16]:
-          - group
-      - main:
-        - generic [ref=f60e19]:
-          - group:
-            - generic [ref=f60e29]:
-              - navigation "Blog" [ref=f60e32]:
-                - list [ref=f60e33] [cursor=pointer]:
-                  - listitem [ref=f60e34]:
-                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f60e35]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - listitem [ref=f60e36]:
-                    - link "Plant & Horticulture Archive" [ref=f60e37]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - listitem [ref=f60e38]:
-                    - link "Project Delivery Archive" [ref=f60e39]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                  - listitem [ref=f60e40]:
-                    - link "Garden Design Archive" [ref=f60e41]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                  - listitem [ref=f60e42]:
-                    - link "Supplier & Systems Archive" [ref=f60e43]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-              - generic [ref=f60e45]:
-                - article [ref=f60e49]:
-                  - generic [ref=f60e50]:
-                    - generic [ref=f60e52]:
-                      - generic [ref=f60e53]:
-                        - heading "THE ARCHITECTURAL BRILLIANCE OF THE WHITE FLOWERING QUINCE (CHAENOMELES SPECIOSA 'NIVALIS')" [level=1] [ref=f60e55]
-                        - generic [ref=f60e56]:
-                          - list [ref=f60e57]:
-                            - listitem [ref=f60e58]:
-                              - 'img "Writer: Stuart Savage" [ref=f60e61]'
-                              - generic [ref=f60e62] [cursor=pointer]: Stuart Savage
-                            - listitem [ref=f60e63]: ·Jan 31
-                            - listitem [ref=f60e64]: ·3 min read
-                          - button "More actions" [ref=f60e66] [cursor=pointer]
-                      - paragraph [ref=f60e69]: "Updated: Mar 14"
-                      - button "Rated NaN out of 5 stars." [ref=f60e70] [cursor=pointer]
-                    - generic [ref=f60e91]:
-                      - paragraph [ref=f60e93]:
-                        - generic [ref=f60e94]:
-                          - text: "As we stand on the threshold of February, the urban garden often feels caught in a liminal space—suspended between the skeletal remains of winter and the distant promise of spring. In the grey dampness of a London afternoon, it is easy to overlook the garden entirely. Yet, it is during this precise moment that a true structural hero emerges: the White Flowering Quince ("
-                          - emphasis [ref=f60e95]: Chaenomeles speciosa
-                          - text: "'Nivalis')."
-                      - figure [ref=f60e102]:
-                        - generic [ref=f60e103]:
-                          - img "White Flowering Quince trained horizontally as an espalier against an old London brick wall in a contemporary courtyard." [ref=f60e108] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f60e109]: Training the Quince as an espalier creates a tiered 'flowering wall,' turning a biological element into an architectural feature.
-                      - heading "THE GNARLED HISTORY OF THE WHITE FLOWERING QUINCE IN INDUSTRIAL LONDON" [level=2] [ref=f60e116]
-                      - paragraph [ref=f60e122]:
-                        - generic [ref=f60e123]:
-                          - text: Before it became a staple of the sophisticated urban courtyard, the
-                          - emphasis [ref=f60e124]: Chaenomeles
-                          - text: travelled a long path from the East. Originally native to China and Japan, it has been cultivated for thousands of years. While many associate the word "Quince" with the culinary
-                          - emphasis [ref=f60e125]: Cydonia oblonga
-                          - text: used for Victorian preserves, the
-                          - strong [ref=f60e126]: White Flowering Quince
-                          - text: was the darling of 19th-century plant hunters.
-                      - heading "THE HISTORICAL UK CONNECTION" [level=3] [ref=f60e131]
-                      - paragraph [ref=f60e137]:
-                        - generic [ref=f60e138]:
-                          - text: This plant has deep roots in Lambeth's and the South Bank's industrial history. Records from the
-                          - link "Royal Botanic Gardens, Kew" [ref=f60e139] [cursor=pointer]:
-                            - /url: https://www.kew.org/
-                          - text: ", show that these specimens were vital components of early London \"collection\" gardens. During the height of the Industrial Revolution, when the soot and \"pea-souper\" fogs of the Thames made gardening nearly impossible, the White Flowering Quince was one of the few species hardy enough to thrive. It decorated the dark brick walls of Victorian Kennington, providing a rare burst of white light amidst the coal smoke of an industrial age."
-                      - 'heading "BIOLOGICAL RESILIENCE: PLANT DNA & THE RHS AWARD OF GARDEN MERIT" [level=3] [ref=f60e145]'
-                      - paragraph [ref=f60e151]:
-                        - generic [ref=f60e152]:
-                          - text: From a biological perspective, the
-                          - strong [ref=f60e153]: Plant DNA
-                          - text: of the
-                          - strong [ref=f60e154]: White Flowering Quince
-                          - text: is a masterclass in adaptation. Belonging to the
-                          - emphasis [ref=f60e155]: Rosaceae
-                          - text: family, it shares genetic lineage with roses and apples, which explains its gnarled, protective thorns and waxy, resilient petals. This genetic makeup allows the blooms to withstand sudden frosts that would blacken more delicate spring arrivals.
-                      - paragraph [ref=f60e160]:
-                        - generic [ref=f60e161]:
-                          - text: This variety is highly decorated, frequently holding the
-                          - link "RHS Award of Garden Merit (AGM)" [ref=f60e162] [cursor=pointer]:
-                            - /url: https://www.google.com/search?q=https://www.rhs.org.uk/plants/3429/chaenomeles-speciosa-nivalis/details
-                            - strong [ref=f60e163]:
-                              - generic [ref=f60e164]: RHS Award of Garden Merit (AGM)
-                          - text: . The Royal Horticultural Society prizes 'Nivalis' for its "outstanding excellence for ordinary garden decoration and use," specifically noting its reliability in the unpredictable British climate. At
-                          - strong [ref=f60e165]: The Moonlight Garden Design Co.
-                          - text: ", we use these RHS-vetted specimens to ensure our 3D planting designs aren't just beautiful on screen, but biologically robust on-site."
-                      - figure [ref=f60e172]:
-                        - generic [ref=f60e173]:
-                          - img "Close-up of pure white blossoms of the White Flowering Quince on dark bare stems against a blurred dark background." [ref=f60e178] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f60e179]: The waxy, resilient petals of 'Nivalis' catch the weak winter sun, providing the first splash of white light in the February garden.
-                      - 'heading "A SANCTUARY FOR THE SOUL: GARDENING AND MENTAL HEALTH" [level=2] [ref=f60e186]'
-                      - paragraph [ref=f60e192]:
-                        - generic [ref=f60e193]:
-                          - text: There is a profound psychological shift that occurs when you spot the first
-                          - strong [ref=f60e194]: White Flowering Quince
-                          - text: bloom of the year. After months of monochromatic winter, the sight of pure white petals on a freezing morning acts as a biological "reset button."
-                      - paragraph [ref=f60e199]:
-                        - generic [ref=f60e200]:
-                          - text: In our design philosophy, we believe that the garden is the ultimate sanctuary for mental health. Witnessing the "resilience" of the Quince—blooming while the frost is still on the ground—reminds us of our own capacity to thrive in harsh conditions. Taking five minutes at dusk to watch these white flowers catch the fading light is a form of
-                          - strong [ref=f60e201]: "\"Nocturnal Meditation.\""
-                          - text: It pulls us out of the digital noise and grounds us in the slow, certain rhythm of nature.
-                      - 'heading "DESIGN APPLICATION: THE TIERED FLOWERING WALL" [level=3] [ref=f60e206]'
-                      - paragraph [ref=f60e212]:
-                        - generic [ref=f60e213]: In our bespoke garden schemes, we rarely let a Quince grow wild. Instead, we train the White Flowering Quince as an espalier against bespoke cedar screening or dark-painted boundaries. This technical application creates a high-definition architectural feature that maximises vertical interest in compact urban sanctuaries.
-                      - heading "SPACE EFFICIENCY" [level=3] [ref=f60e218]
-                      - paragraph [ref=f60e224]:
-                        - generic [ref=f60e225]: By training the branches horizontally, we create a "flowering wall." This provides intense vertical interest without sacrificing the restricted floor space of compact urban plots.
-                      - heading "THE MOONLIGHT SHIMMER" [level=3] [ref=f60e230]
-                      - paragraph [ref=f60e236]:
-                        - generic [ref=f60e237]: The 'Nivalis' variety is specifically chosen for its light-reflective properties. These white petals catch the city's ambient light, providing a sophisticated nocturnal glow.
-                      - heading "EXPERT MAINTENANCE" [level=3] [ref=f60e242]
-                      - paragraph [ref=f60e248]:
-                        - generic [ref=f60e249]:
-                          - text: For detailed pruning schedules and high-definition tracking, you can follow our data on our
-                          - link "Shoot Gardening Expert Profile" [ref=f60e250] [cursor=pointer]:
-                            - /url: https://www.shootgardening.com/professionals/182150
-                            - strong [ref=f60e251]:
-                              - generic [ref=f60e252]: Shoot Gardening Expert Profile
-                          - text: .
-                      - blockquote [ref=f60e258]:
-                        - generic [ref=f60e261]:
-                          - text: "\"I’ve been poked by more White Flowering Quince thorns than I have opinions on porcelain paving—and if you’ve met me, you know that’s a dangerously high number. It’s a plant that demands respect, but it pays you back in pure white gold.\" —"
-                          - strong [ref=f60e262]: Stuart Savage, Founder & Lead Designer
-                    - generic [ref=f60e310]:
-                      - list "Post categories" [ref=f60e312]:
-                        - listitem [ref=f60e313]:
-                          - link "Plant & Horticulture Archive" [ref=f60e314] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                      - generic [ref=f60e317]:
-                        - button "Share via Facebook" [ref=f60e319] [cursor=pointer]:
-                          - img "Facebook" [ref=f60e320]
-                        - button "Share via X (Twitter)" [ref=f60e324] [cursor=pointer]:
-                          - img "X" [ref=f60e325]
-                        - button "Share via LinkedIn" [ref=f60e329] [cursor=pointer]:
-                          - img "LinkedIn" [ref=f60e330]
-                        - button "Share via link" [ref=f60e335] [cursor=pointer]
-                - generic [ref=f60e346]:
-                  - generic [ref=f60e347]:
-                    - heading "Recent Posts" [level=2] [ref=f60e348]
-                    - link "See All" [ref=f60e349] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - generic [ref=f60e351]:
-                    - article [ref=f60e352]:
-                      - generic [ref=f60e353]:
-                        - link "A low-angle, wide-frame shot of a mature Dicksonia antarctica crown at Blue Hour. The trunk should be dramatically silhouetted against a deep indigo sky, with 2700K warm-white spotlights highlighting its texture and the emerging croziers. Soft Tree Fern in a nocturnal London sanctuary with architectural lighting." [ref=f60e354] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/soft-tree-fern-hydration-guide-2026
-                        - 'link "THE TROPICAL AWAKENING: HYDRATING THE SOFT TREE FERN (DICKSONIA ANTARCTICA)" [ref=f60e359] [cursor=pointer]':
-                          - /url: https://www.savageldn.co.uk/post/soft-tree-fern-hydration-guide-2026
-                    - article [ref=f60e366]:
-                      - generic [ref=f60e367]:
-                        - 'link "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [ref=f60e368] [cursor=pointer]':
-                          - /url: https://www.savageldn.co.uk/post/designing-for-scent
-                        - 'link "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [ref=f60e373] [cursor=pointer]':
-                          - /url: https://www.savageldn.co.uk/post/designing-for-scent
-                    - article [ref=f60e380]:
-                      - generic [ref=f60e381]:
-                        - link "Hart's Tongue Fern with glossy green fronds in a shady garden" [ref=f60e382] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/january
-                        - 'link "Plant of the Month – January: Hart’s Tongue Fern" [ref=f60e387] [cursor=pointer]':
-                          - /url: https://www.savageldn.co.uk/post/january
-      - contentinfo:
-        - generic [ref=f60e398]:
-          - group
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f60e11]:
+        - group:
+            - banner:
+                - generic [ref=f60e16]:
+                    - group
+            - main:
+                - generic [ref=f60e19]:
+                    - group:
+                        - generic [ref=f60e29]:
+                            - navigation "Blog" [ref=f60e32]:
+                                - list [ref=f60e33] [cursor=pointer]:
+                                    - listitem [ref=f60e34]:
+                                        - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f60e35]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - listitem [ref=f60e36]:
+                                        - link "Plant & Horticulture Archive" [ref=f60e37]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - listitem [ref=f60e38]:
+                                        - link "Project Delivery Archive" [ref=f60e39]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                    - listitem [ref=f60e40]:
+                                        - link "Garden Design Archive" [ref=f60e41]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                    - listitem [ref=f60e42]:
+                                        - link "Supplier & Systems Archive" [ref=f60e43]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                            - generic [ref=f60e45]:
+                                - article [ref=f60e49]:
+                                    - generic [ref=f60e50]:
+                                        - generic [ref=f60e52]:
+                                            - generic [ref=f60e53]:
+                                                - heading "THE ARCHITECTURAL BRILLIANCE OF THE WHITE FLOWERING QUINCE (CHAENOMELES SPECIOSA 'NIVALIS')" [level=1] [ref=f60e55]
+                                                - generic [ref=f60e56]:
+                                                    - list [ref=f60e57]:
+                                                        - listitem [ref=f60e58]:
+                                                            - 'img "Writer: Stuart Savage" [ref=f60e61]'
+                                                            - generic [ref=f60e62] [cursor=pointer]: Stuart Savage
+                                                        - listitem [ref=f60e63]: ·Jan 31
+                                                        - listitem [ref=f60e64]: ·3 min read
+                                                    - button "More actions" [ref=f60e66] [cursor=pointer]
+                                            - paragraph [ref=f60e69]: "Updated: Mar 14"
+                                            - button "Rated NaN out of 5 stars." [ref=f60e70] [cursor=pointer]
+                                        - generic [ref=f60e91]:
+                                            - paragraph [ref=f60e93]:
+                                                - generic [ref=f60e94]:
+                                                    - text: "As we stand on the threshold of February, the urban garden often feels caught in a liminal space—suspended between the skeletal remains of winter and the distant promise of spring. In the grey dampness of a London afternoon, it is easy to overlook the garden entirely. Yet, it is during this precise moment that a true structural hero emerges: the White Flowering Quince ("
+                                                    - emphasis [ref=f60e95]: Chaenomeles speciosa
+                                                    - text: "'Nivalis')."
+                                            - figure [ref=f60e102]:
+                                                - generic [ref=f60e103]:
+                                                    - img "White Flowering Quince trained horizontally as an espalier against an old London brick wall in a contemporary courtyard." [ref=f60e108] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f60e109]: Training the Quince as an espalier creates a tiered 'flowering wall,' turning a biological element into an architectural feature.
+                                            - heading "THE GNARLED HISTORY OF THE WHITE FLOWERING QUINCE IN INDUSTRIAL LONDON" [level=2] [ref=f60e116]
+                                            - paragraph [ref=f60e122]:
+                                                - generic [ref=f60e123]:
+                                                    - text: Before it became a staple of the sophisticated urban courtyard, the
+                                                    - emphasis [ref=f60e124]: Chaenomeles
+                                                    - text: travelled a long path from the East. Originally native to China and Japan, it has been cultivated for thousands of years. While many associate the word "Quince" with the culinary
+                                                    - emphasis [ref=f60e125]: Cydonia oblonga
+                                                    - text: used for Victorian preserves, the
+                                                    - strong [ref=f60e126]: White Flowering Quince
+                                                    - text: was the darling of 19th-century plant hunters.
+                                            - heading "THE HISTORICAL UK CONNECTION" [level=3] [ref=f60e131]
+                                            - paragraph [ref=f60e137]:
+                                                - generic [ref=f60e138]:
+                                                    - text: This plant has deep roots in Lambeth's and the South Bank's industrial history. Records from the
+                                                    - link "Royal Botanic Gardens, Kew" [ref=f60e139] [cursor=pointer]:
+                                                        - /url: https://www.kew.org/
+                                                    - text: ', show that these specimens were vital components of early London "collection" gardens. During the height of the Industrial Revolution, when the soot and "pea-souper" fogs of the Thames made gardening nearly impossible, the White Flowering Quince was one of the few species hardy enough to thrive. It decorated the dark brick walls of Victorian Kennington, providing a rare burst of white light amidst the coal smoke of an industrial age.'
+                                            - 'heading "BIOLOGICAL RESILIENCE: PLANT DNA & THE RHS AWARD OF GARDEN MERIT" [level=3] [ref=f60e145]'
+                                            - paragraph [ref=f60e151]:
+                                                - generic [ref=f60e152]:
+                                                    - text: From a biological perspective, the
+                                                    - strong [ref=f60e153]: Plant DNA
+                                                    - text: of the
+                                                    - strong [ref=f60e154]: White Flowering Quince
+                                                    - text: is a masterclass in adaptation. Belonging to the
+                                                    - emphasis [ref=f60e155]: Rosaceae
+                                                    - text: family, it shares genetic lineage with roses and apples, which explains its gnarled, protective thorns and waxy, resilient petals. This genetic makeup allows the blooms to withstand sudden frosts that would blacken more delicate spring arrivals.
+                                            - paragraph [ref=f60e160]:
+                                                - generic [ref=f60e161]:
+                                                    - text: This variety is highly decorated, frequently holding the
+                                                    - link "RHS Award of Garden Merit (AGM)" [ref=f60e162] [cursor=pointer]:
+                                                        - /url: https://www.google.com/search?q=https://www.rhs.org.uk/plants/3429/chaenomeles-speciosa-nivalis/details
+                                                        - strong [ref=f60e163]:
+                                                            - generic [ref=f60e164]: RHS Award of Garden Merit (AGM)
+                                                    - text: . The Royal Horticultural Society prizes 'Nivalis' for its "outstanding excellence for ordinary garden decoration and use," specifically noting its reliability in the unpredictable British climate. At
+                                                    - strong [ref=f60e165]: The Moonlight Garden Design Co.
+                                                    - text: ", we use these RHS-vetted specimens to ensure our 3D planting designs aren't just beautiful on screen, but biologically robust on-site."
+                                            - figure [ref=f60e172]:
+                                                - generic [ref=f60e173]:
+                                                    - img "Close-up of pure white blossoms of the White Flowering Quince on dark bare stems against a blurred dark background." [ref=f60e178] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f60e179]: The waxy, resilient petals of 'Nivalis' catch the weak winter sun, providing the first splash of white light in the February garden.
+                                            - 'heading "A SANCTUARY FOR THE SOUL: GARDENING AND MENTAL HEALTH" [level=2] [ref=f60e186]'
+                                            - paragraph [ref=f60e192]:
+                                                - generic [ref=f60e193]:
+                                                    - text: There is a profound psychological shift that occurs when you spot the first
+                                                    - strong [ref=f60e194]: White Flowering Quince
+                                                    - text: bloom of the year. After months of monochromatic winter, the sight of pure white petals on a freezing morning acts as a biological "reset button."
+                                            - paragraph [ref=f60e199]:
+                                                - generic [ref=f60e200]:
+                                                    - text: In our design philosophy, we believe that the garden is the ultimate sanctuary for mental health. Witnessing the "resilience" of the Quince—blooming while the frost is still on the ground—reminds us of our own capacity to thrive in harsh conditions. Taking five minutes at dusk to watch these white flowers catch the fading light is a form of
+                                                    - strong [ref=f60e201]: '"Nocturnal Meditation."'
+                                                    - text: It pulls us out of the digital noise and grounds us in the slow, certain rhythm of nature.
+                                            - 'heading "DESIGN APPLICATION: THE TIERED FLOWERING WALL" [level=3] [ref=f60e206]'
+                                            - paragraph [ref=f60e212]:
+                                                - generic [ref=f60e213]: In our bespoke garden schemes, we rarely let a Quince grow wild. Instead, we train the White Flowering Quince as an espalier against bespoke cedar screening or dark-painted boundaries. This technical application creates a high-definition architectural feature that maximises vertical interest in compact urban sanctuaries.
+                                            - heading "SPACE EFFICIENCY" [level=3] [ref=f60e218]
+                                            - paragraph [ref=f60e224]:
+                                                - generic [ref=f60e225]: By training the branches horizontally, we create a "flowering wall." This provides intense vertical interest without sacrificing the restricted floor space of compact urban plots.
+                                            - heading "THE MOONLIGHT SHIMMER" [level=3] [ref=f60e230]
+                                            - paragraph [ref=f60e236]:
+                                                - generic [ref=f60e237]: The 'Nivalis' variety is specifically chosen for its light-reflective properties. These white petals catch the city's ambient light, providing a sophisticated nocturnal glow.
+                                            - heading "EXPERT MAINTENANCE" [level=3] [ref=f60e242]
+                                            - paragraph [ref=f60e248]:
+                                                - generic [ref=f60e249]:
+                                                    - text: For detailed pruning schedules and high-definition tracking, you can follow our data on our
+                                                    - link "Shoot Gardening Expert Profile" [ref=f60e250] [cursor=pointer]:
+                                                        - /url: https://www.shootgardening.com/professionals/182150
+                                                        - strong [ref=f60e251]:
+                                                            - generic [ref=f60e252]: Shoot Gardening Expert Profile
+                                                    - text: .
+                                            - blockquote [ref=f60e258]:
+                                                - generic [ref=f60e261]:
+                                                    - text: '"I’ve been poked by more White Flowering Quince thorns than I have opinions on porcelain paving—and if you’ve met me, you know that’s a dangerously high number. It’s a plant that demands respect, but it pays you back in pure white gold." —'
+                                                    - strong [ref=f60e262]: Stuart Savage, Founder & Lead Designer
+                                        - generic [ref=f60e310]:
+                                            - list "Post categories" [ref=f60e312]:
+                                                - listitem [ref=f60e313]:
+                                                    - link "Plant & Horticulture Archive" [ref=f60e314] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                            - generic [ref=f60e317]:
+                                                - button "Share via Facebook" [ref=f60e319] [cursor=pointer]:
+                                                    - img "Facebook" [ref=f60e320]
+                                                - button "Share via X (Twitter)" [ref=f60e324] [cursor=pointer]:
+                                                    - img "X" [ref=f60e325]
+                                                - button "Share via LinkedIn" [ref=f60e329] [cursor=pointer]:
+                                                    - img "LinkedIn" [ref=f60e330]
+                                                - button "Share via link" [ref=f60e335] [cursor=pointer]
+                                - generic [ref=f60e346]:
+                                    - generic [ref=f60e347]:
+                                        - heading "Recent Posts" [level=2] [ref=f60e348]
+                                        - link "See All" [ref=f60e349] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - generic [ref=f60e351]:
+                                        - article [ref=f60e352]:
+                                            - generic [ref=f60e353]:
+                                                - link "A low-angle, wide-frame shot of a mature Dicksonia antarctica crown at Blue Hour. The trunk should be dramatically silhouetted against a deep indigo sky, with 2700K warm-white spotlights highlighting its texture and the emerging croziers. Soft Tree Fern in a nocturnal London sanctuary with architectural lighting." [ref=f60e354] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/soft-tree-fern-hydration-guide-2026
+                                                - 'link "THE TROPICAL AWAKENING: HYDRATING THE SOFT TREE FERN (DICKSONIA ANTARCTICA)" [ref=f60e359] [cursor=pointer]':
+                                                    - /url: https://www.savageldn.co.uk/post/soft-tree-fern-hydration-guide-2026
+                                        - article [ref=f60e366]:
+                                            - generic [ref=f60e367]:
+                                                - 'link "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [ref=f60e368] [cursor=pointer]':
+                                                    - /url: https://www.savageldn.co.uk/post/designing-for-scent
+                                                - 'link "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [ref=f60e373] [cursor=pointer]':
+                                                    - /url: https://www.savageldn.co.uk/post/designing-for-scent
+                                        - article [ref=f60e380]:
+                                            - generic [ref=f60e381]:
+                                                - link "Hart's Tongue Fern with glossy green fronds in a shady garden" [ref=f60e382] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/january
+                                                - 'link "Plant of the Month – January: Hart’s Tongue Fern" [ref=f60e387] [cursor=pointer]':
+                                                    - /url: https://www.savageldn.co.uk/post/january
+            - contentinfo:
+                - generic [ref=f60e398]:
+                    - group
+    - region "bottom of page"

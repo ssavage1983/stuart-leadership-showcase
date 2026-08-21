@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.balham-cottage-courtyard-garden.tsx');
+const filePath = path.join(
+  process.cwd(),
+  "src",
+  "routes",
+  "case-studies.balham-cottage-courtyard-garden.tsx",
+);
 
 const cottageCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -146,5 +151,5 @@ function BalhamCottageCourtyardCaseStudy() {
 }
 `;
 
-fs.writeFileSync(filePath, cottageCode, 'utf8');
+fs.writeFileSync(filePath, cottageCode, "utf8");
 console.log("Successfully expanded Balham Cottage Courtyard case study.");

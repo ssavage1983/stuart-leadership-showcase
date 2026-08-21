@@ -1,181 +1,181 @@
 - generic [ref=f48e3]:
-  - region "top of page"
-  - generic [ref=f48e11]:
-    - group:
-      - banner:
-        - generic [ref=f48e16]:
-          - group
-      - main:
-        - generic [ref=f48e19]:
-          - group:
-            - generic [ref=f48e29]:
-              - navigation "Blog" [ref=f48e32]:
-                - list [ref=f48e33] [cursor=pointer]:
-                  - listitem [ref=f48e34]:
-                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f48e35]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - listitem [ref=f48e36]:
-                    - link "Plant & Horticulture Archive" [ref=f48e37]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - listitem [ref=f48e38]:
-                    - link "Project Delivery Archive" [ref=f48e39]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                  - listitem [ref=f48e40]:
-                    - link "Garden Design Archive" [ref=f48e41]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                  - listitem [ref=f48e42]:
-                    - link "Supplier & Systems Archive" [ref=f48e43]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-              - generic [ref=f48e45]:
-                - article [ref=f48e49]:
-                  - generic [ref=f48e50]:
-                    - generic [ref=f48e52]:
-                      - generic [ref=f48e53]:
-                        - heading "Mastering the Art of Shadow in Garden Lighting Design" [level=1] [ref=f48e55]
-                        - generic [ref=f48e56]:
-                          - list [ref=f48e57]:
-                            - listitem [ref=f48e58]:
-                              - 'img "Writer: Stuart Savage" [ref=f48e61]'
-                              - generic [ref=f48e62] [cursor=pointer]: Stuart Savage
-                            - listitem [ref=f48e63]: ·Feb 17
-                            - listitem [ref=f48e64]: ·3 min read
-                          - button "More actions" [ref=f48e66] [cursor=pointer]
-                      - paragraph [ref=f48e69]: "Updated: Mar 2"
-                      - button "Rated NaN out of 5 stars." [ref=f48e70] [cursor=pointer]
-                    - generic [ref=f48e91]:
-                      - paragraph [ref=f48e93]:
-                        - generic [ref=f48e94]: Stop floodlighting your lawn like a prison yard. In the Moonlight ecosystem, we do not merely illuminate the space; we illuminate the textures. Lighting is a physical medium, and in 2026, "bright" will be the hallmark of a bodge.
-                      - paragraph [ref=f48e99]:
-                        - generic [ref=f48e100]:
-                          - text: To create an enchanting sanctuary, we think like theatre set designers. We understand that the absence of light is just as important as its presence. This philosophy of architectural stillness serves as the atmospheric counterpart to our structural standards detailed in
-                          - 'link "Article 3: The Network" [ref=f48e101] [cursor=pointer]':
-                            - /url: https://www.linkedin.com/pulse/network-structural-heritage-build-integrity-stuartsavagelandscaping-ma7ue
-                          - text: .
-                      - figure [ref=f48e109]:
-                        - generic [ref=f48e110]:
-                          - img "Architectural photograph of a premium nocturnal garden sanctuary at dusk. Ultra-warm 2700K LED lighting creates a \"moonlighting\" effect through a large mature tree, casting dappled shadows onto Gritstone paving. Grazing lights dramatically highlight the texture of an old London brick wall, contrasting with modern Western Red Cedar slat fencing and a small, reflective water feature." [ref=f48e115] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f48e116]: A Savage LDN 'Nocturnal Sanctuary' at dusk. Cinematic 2700K ultra-warm lighting is deployed with precision—using moonlighting techniques through the canopy and grazing lights on the London brick wall—to highlight texture and create an architecture of stillness.
-                      - heading "The 2700K Mandate for Garden Lighting Design" [level=2] [ref=f48e123]
-                      - paragraph [ref=f48e129]:
-                        - generic [ref=f48e130]:
-                          - text: When it comes to high-end
-                          - strong [ref=f48e131]: garden lighting design
-                          - text: ", we strictly utilise"
-                          - strong [ref=f48e132]: 2700K Ultra-Warm White LEDs
-                          - text: . Why? Because anything over 3000K (blue-heavy light) constitutes an act of ecological aggression. Research confirms that white LED streetlights can reduce insect populations in hedgerows by up to 52%.
-                      - paragraph [ref=f48e137]:
-                        - generic [ref=f48e138]:
-                          - text: By adhering to the 2700K standard, we promote melatonin production in humans and protect the SONAR navigation of the "Night Shift"—the bats and moths that are vital to our urban ecosystem. We build sanctuaries that respect the biological clocks of every inhabitant, a theme we explore in depth in our
-                          - 'link "Gothic Romance: Crimson Nocturne" [ref=f48e139] [cursor=pointer]':
-                            - /url: https://www.moonlight-studio.uk/blog/gothic-romance-crimson-nocturne
-                          - text: design study.
-                      - figure [ref=f48e147]:
-                        - generic [ref=f48e148]:
-                          - img "A technical cross-section illustration demonstrating the installation of an exterior in-ground uplight. The diagram shows the recessed fixture emitting warm light, set within paving and gravel bases. Underground, a waterproof junction box connects wiring fed through a protective corrugated conduit within the soil layer." [ref=f48e153] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f48e154]: "A duality of design by Savage LDN: The atmospheric photograph captures the finished 'Nocturnal Sanctuary,' where cinematic, ultra-warm lighting highlights textures and creates a sense of stillness at dusk. The technical cross-section reveals the hidden engineering necessary to achieve this, detailing the robust sub-surface installation of buried SWA cabling, waterproof IP68 junction boxes, and recessed fixtures that power the experience."
-                      - heading "Advanced Garden Lighting Design Techniques" [level=3] [ref=f48e161]
-                      - paragraph [ref=f48e167]:
-                        - generic [ref=f48e168]: "We move beyond simple \"uplighting\" to employ sophisticated methods that create depth and drama:"
-                      - list [ref=f48e173]:
-                        - listitem [level=1] [ref=f48e174]:
-                          - paragraph [ref=f48e175]:
-                            - generic [ref=f48e176]:
-                              - strong [ref=f48e177]: "Moonlighting:"
-                              - text: We hide fixtures high in the tree canopy, directing them downwards through the foliage. This casts natural, dappled shadows across the Gritstone paving, mimicking the effect of a full moon.
-                        - listitem [level=1] [ref=f48e178]:
-                          - paragraph [ref=f48e179]:
-                            - generic [ref=f48e180]:
-                              - strong [ref=f48e181]: "Grazing:"
-                              - text: We place narrow-beam fixtures at acute angles against London brick and stone. This highlights the tactile architecture and "relief" of the material, transforming a flat wall into a masterpiece of texture.
-                        - listitem [level=1] [ref=f48e182]:
-                          - paragraph [ref=f48e183]:
-                            - generic [ref=f48e184]:
-                              - strong [ref=f48e185]: "Silhouetting:"
-                              - text: Placing light behind structural plants like
-                              - emphasis [ref=f48e186]: Trachycarpus fortunei
-                              - text: creates bold, architectural shadows against perimeter boundaries. This technique is essential for achieving the moody, evocative layers seen in our
-                              - link "Crimson Nocturne" [ref=f48e187] [cursor=pointer]:
-                                - /url: https://www.moonlight-studio.uk/blog/gothic-romance-crimson-nocturne
-                              - text: aesthetic.
-                      - heading "Engineering for the British Climate" [level=2] [ref=f48e192]
-                      - paragraph [ref=f48e198]:
-                        - generic [ref=f48e199]:
-                          - text: We maintain zero tolerance for failure. A lighting system is only as good as its weakest connection. Just as we prioritise
-                          - link "Structural Heritage and Build Integrity" [ref=f48e200] [cursor=pointer]:
-                            - /url: https://www.linkedin.com/pulse/network-structural-heritage-build-integrity-stuartsavagelandscaping-ma7ue
-                          - text: in our subframes, we apply the same rigour to our electrical infrastructure.
-                      - list [ref=f48e206]:
-                        - listitem [level=1] [ref=f48e207]:
-                          - paragraph [ref=f48e208]:
-                            - generic [ref=f48e209]:
-                              - strong [ref=f48e210]: "SWA Standard:"
-                              - text: All cabling is Steel Wire Armoured (SWA), buried to a minimum depth of 450mm to prevent accidental damage during future planting.
-                        - listitem [level=1] [ref=f48e211]:
-                          - paragraph [ref=f48e212]:
-                            - generic [ref=f48e213]:
-                              - strong [ref=f48e214]: "IP68 Protection:"
-                              - text: We use IP68-rated waterproof junctions. These are submersible-grade connections designed to endure the dampest British springs and the heavy clay saturation of South London.
-                      - 'heading "The Vibe: Operational Stillness" [level=2] [ref=f48e218]'
-                      - paragraph [ref=f48e224]:
-                        - generic [ref=f48e225]: Our gardens glow with intent. We prioritise harmony over ostentation, ensuring that your outdoor space transitions seamlessly from a daytime retreat to a nocturnal sanctuary.
-                      - paragraph [ref=f48e230]:
-                        - generic [ref=f48e231]:
-                          - strong [ref=f48e232]: Get the lighting right the first time.
-                          - text: Our
-                          - link "Nocturnal Lighting Schematic" [ref=f48e233] [cursor=pointer]:
-                            - /url: https://www.moonlight-studio.uk/shop/p/the-nocturnal-lighting-schematic
-                            - strong [ref=f48e234]:
-                              - generic [ref=f48e235]: Nocturnal Lighting Schematic
-                          - text: provides a comprehensive technical map of grazing angles, fixture specifications, and cable runs. It is the definitive guide to ensuring your sanctuary is both functional and atmospheric.
-                      - heading "The Importance of Professional Installation" [level=3] [ref=f48e240]
-                      - paragraph [ref=f48e246]:
-                        - generic [ref=f48e247]: The significance of professional installation cannot be overstated. A well-executed lighting design requires expertise and precision. Our team is trained to navigate the complexities of garden lighting, ensuring that every fixture is placed with intention.
-                      - paragraph [ref=f48e252]:
-                        - generic [ref=f48e253]: We understand the nuances of different garden layouts and how to accentuate their unique features. This expertise allows us to create a cohesive look that enhances the overall aesthetic of your outdoor space.
-                      - heading "Creating a Lasting Impression" [level=3] [ref=f48e258]
-                      - paragraph [ref=f48e264]:
-                        - generic [ref=f48e265]: The right garden lighting can transform your outdoor area into a captivating space. It creates an inviting atmosphere for evening gatherings and provides safety and security. With our meticulous approach, we ensure that your garden remains a stunning focal point, even after the sun sets.
-                      - heading "Booking Your Garden Transformation" [level=3] [ref=f48e270]
-                      - paragraph [ref=f48e276]:
-                        - generic [ref=f48e277]: If you are ready to elevate your outdoor space, I invite you to use the booking form on the website to book a garden quote. We will work closely with you to understand your vision and bring it to life with our expert design and installation services.
-                      - paragraph [ref=f48e282]:
-                        - generic [ref=f48e283]:
-                          - text: Commission your schematic at
-                          - link "www.moonlight-studio.uk" [ref=f48e284] [cursor=pointer]:
-                            - /url: https://www.moonlight-studio.uk
-                          - text: for national remote design, or visit
-                          - link "www.savageldn.co.uk" [ref=f48e286] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk
-                          - text: for South London installations.
-                    - generic [ref=f48e290]:
-                      - list "Post categories" [ref=f48e292]:
-                        - listitem [ref=f48e293]:
-                          - link "Garden Design Archive" [ref=f48e294] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                      - generic [ref=f48e297]:
-                        - button "Share via Facebook" [ref=f48e299] [cursor=pointer]:
-                          - img "Facebook" [ref=f48e300]
-                        - button "Share via X (Twitter)" [ref=f48e304] [cursor=pointer]:
-                          - img "X" [ref=f48e305]
-                        - button "Share via LinkedIn" [ref=f48e309] [cursor=pointer]:
-                          - img "LinkedIn" [ref=f48e310]
-                        - button "Share via link" [ref=f48e315] [cursor=pointer]
-                - generic [ref=f48e326]:
-                  - generic [ref=f48e327]:
-                    - heading "Recent Posts" [level=2] [ref=f48e328]
-                    - link "See All" [ref=f48e329] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - article [ref=f48e332]:
-                    - generic [ref=f48e333]:
-                      - 'link "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f48e334] [cursor=pointer]':
-                        - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
-                        - 'img "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f48e338]':
-                          - img "Load video" [ref=f48e341]
-                      - 'link "THE NEW STANDARD IN NOCTURNAL GARDEN DESIGN: WHY YOUR OUTDOOR SPACE SHOULD LIVE AT NIGHT" [ref=f48e346] [cursor=pointer]':
-                        - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
-      - contentinfo:
-        - generic [ref=f48e357]:
-          - group
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f48e11]:
+        - group:
+            - banner:
+                - generic [ref=f48e16]:
+                    - group
+            - main:
+                - generic [ref=f48e19]:
+                    - group:
+                        - generic [ref=f48e29]:
+                            - navigation "Blog" [ref=f48e32]:
+                                - list [ref=f48e33] [cursor=pointer]:
+                                    - listitem [ref=f48e34]:
+                                        - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f48e35]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - listitem [ref=f48e36]:
+                                        - link "Plant & Horticulture Archive" [ref=f48e37]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - listitem [ref=f48e38]:
+                                        - link "Project Delivery Archive" [ref=f48e39]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                    - listitem [ref=f48e40]:
+                                        - link "Garden Design Archive" [ref=f48e41]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                    - listitem [ref=f48e42]:
+                                        - link "Supplier & Systems Archive" [ref=f48e43]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                            - generic [ref=f48e45]:
+                                - article [ref=f48e49]:
+                                    - generic [ref=f48e50]:
+                                        - generic [ref=f48e52]:
+                                            - generic [ref=f48e53]:
+                                                - heading "Mastering the Art of Shadow in Garden Lighting Design" [level=1] [ref=f48e55]
+                                                - generic [ref=f48e56]:
+                                                    - list [ref=f48e57]:
+                                                        - listitem [ref=f48e58]:
+                                                            - 'img "Writer: Stuart Savage" [ref=f48e61]'
+                                                            - generic [ref=f48e62] [cursor=pointer]: Stuart Savage
+                                                        - listitem [ref=f48e63]: ·Feb 17
+                                                        - listitem [ref=f48e64]: ·3 min read
+                                                    - button "More actions" [ref=f48e66] [cursor=pointer]
+                                            - paragraph [ref=f48e69]: "Updated: Mar 2"
+                                            - button "Rated NaN out of 5 stars." [ref=f48e70] [cursor=pointer]
+                                        - generic [ref=f48e91]:
+                                            - paragraph [ref=f48e93]:
+                                                - generic [ref=f48e94]: Stop floodlighting your lawn like a prison yard. In the Moonlight ecosystem, we do not merely illuminate the space; we illuminate the textures. Lighting is a physical medium, and in 2026, "bright" will be the hallmark of a bodge.
+                                            - paragraph [ref=f48e99]:
+                                                - generic [ref=f48e100]:
+                                                    - text: To create an enchanting sanctuary, we think like theatre set designers. We understand that the absence of light is just as important as its presence. This philosophy of architectural stillness serves as the atmospheric counterpart to our structural standards detailed in
+                                                    - 'link "Article 3: The Network" [ref=f48e101] [cursor=pointer]':
+                                                        - /url: https://www.linkedin.com/pulse/network-structural-heritage-build-integrity-stuartsavagelandscaping-ma7ue
+                                                    - text: .
+                                            - figure [ref=f48e109]:
+                                                - generic [ref=f48e110]:
+                                                    - img "Architectural photograph of a premium nocturnal garden sanctuary at dusk. Ultra-warm 2700K LED lighting creates a \"moonlighting\" effect through a large mature tree, casting dappled shadows onto Gritstone paving. Grazing lights dramatically highlight the texture of an old London brick wall, contrasting with modern Western Red Cedar slat fencing and a small, reflective water feature." [ref=f48e115] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f48e116]: A Savage LDN 'Nocturnal Sanctuary' at dusk. Cinematic 2700K ultra-warm lighting is deployed with precision—using moonlighting techniques through the canopy and grazing lights on the London brick wall—to highlight texture and create an architecture of stillness.
+                                            - heading "The 2700K Mandate for Garden Lighting Design" [level=2] [ref=f48e123]
+                                            - paragraph [ref=f48e129]:
+                                                - generic [ref=f48e130]:
+                                                    - text: When it comes to high-end
+                                                    - strong [ref=f48e131]: garden lighting design
+                                                    - text: ", we strictly utilise"
+                                                    - strong [ref=f48e132]: 2700K Ultra-Warm White LEDs
+                                                    - text: . Why? Because anything over 3000K (blue-heavy light) constitutes an act of ecological aggression. Research confirms that white LED streetlights can reduce insect populations in hedgerows by up to 52%.
+                                            - paragraph [ref=f48e137]:
+                                                - generic [ref=f48e138]:
+                                                    - text: By adhering to the 2700K standard, we promote melatonin production in humans and protect the SONAR navigation of the "Night Shift"—the bats and moths that are vital to our urban ecosystem. We build sanctuaries that respect the biological clocks of every inhabitant, a theme we explore in depth in our
+                                                    - 'link "Gothic Romance: Crimson Nocturne" [ref=f48e139] [cursor=pointer]':
+                                                        - /url: https://www.moonlight-studio.uk/blog/gothic-romance-crimson-nocturne
+                                                    - text: design study.
+                                            - figure [ref=f48e147]:
+                                                - generic [ref=f48e148]:
+                                                    - img "A technical cross-section illustration demonstrating the installation of an exterior in-ground uplight. The diagram shows the recessed fixture emitting warm light, set within paving and gravel bases. Underground, a waterproof junction box connects wiring fed through a protective corrugated conduit within the soil layer." [ref=f48e153] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f48e154]: "A duality of design by Savage LDN: The atmospheric photograph captures the finished 'Nocturnal Sanctuary,' where cinematic, ultra-warm lighting highlights textures and creates a sense of stillness at dusk. The technical cross-section reveals the hidden engineering necessary to achieve this, detailing the robust sub-surface installation of buried SWA cabling, waterproof IP68 junction boxes, and recessed fixtures that power the experience."
+                                            - heading "Advanced Garden Lighting Design Techniques" [level=3] [ref=f48e161]
+                                            - paragraph [ref=f48e167]:
+                                                - generic [ref=f48e168]: 'We move beyond simple "uplighting" to employ sophisticated methods that create depth and drama:'
+                                            - list [ref=f48e173]:
+                                                - listitem [level=1] [ref=f48e174]:
+                                                    - paragraph [ref=f48e175]:
+                                                        - generic [ref=f48e176]:
+                                                            - strong [ref=f48e177]: "Moonlighting:"
+                                                            - text: We hide fixtures high in the tree canopy, directing them downwards through the foliage. This casts natural, dappled shadows across the Gritstone paving, mimicking the effect of a full moon.
+                                                - listitem [level=1] [ref=f48e178]:
+                                                    - paragraph [ref=f48e179]:
+                                                        - generic [ref=f48e180]:
+                                                            - strong [ref=f48e181]: "Grazing:"
+                                                            - text: We place narrow-beam fixtures at acute angles against London brick and stone. This highlights the tactile architecture and "relief" of the material, transforming a flat wall into a masterpiece of texture.
+                                                - listitem [level=1] [ref=f48e182]:
+                                                    - paragraph [ref=f48e183]:
+                                                        - generic [ref=f48e184]:
+                                                            - strong [ref=f48e185]: "Silhouetting:"
+                                                            - text: Placing light behind structural plants like
+                                                            - emphasis [ref=f48e186]: Trachycarpus fortunei
+                                                            - text: creates bold, architectural shadows against perimeter boundaries. This technique is essential for achieving the moody, evocative layers seen in our
+                                                            - link "Crimson Nocturne" [ref=f48e187] [cursor=pointer]:
+                                                                - /url: https://www.moonlight-studio.uk/blog/gothic-romance-crimson-nocturne
+                                                            - text: aesthetic.
+                                            - heading "Engineering for the British Climate" [level=2] [ref=f48e192]
+                                            - paragraph [ref=f48e198]:
+                                                - generic [ref=f48e199]:
+                                                    - text: We maintain zero tolerance for failure. A lighting system is only as good as its weakest connection. Just as we prioritise
+                                                    - link "Structural Heritage and Build Integrity" [ref=f48e200] [cursor=pointer]:
+                                                        - /url: https://www.linkedin.com/pulse/network-structural-heritage-build-integrity-stuartsavagelandscaping-ma7ue
+                                                    - text: in our subframes, we apply the same rigour to our electrical infrastructure.
+                                            - list [ref=f48e206]:
+                                                - listitem [level=1] [ref=f48e207]:
+                                                    - paragraph [ref=f48e208]:
+                                                        - generic [ref=f48e209]:
+                                                            - strong [ref=f48e210]: "SWA Standard:"
+                                                            - text: All cabling is Steel Wire Armoured (SWA), buried to a minimum depth of 450mm to prevent accidental damage during future planting.
+                                                - listitem [level=1] [ref=f48e211]:
+                                                    - paragraph [ref=f48e212]:
+                                                        - generic [ref=f48e213]:
+                                                            - strong [ref=f48e214]: "IP68 Protection:"
+                                                            - text: We use IP68-rated waterproof junctions. These are submersible-grade connections designed to endure the dampest British springs and the heavy clay saturation of South London.
+                                            - 'heading "The Vibe: Operational Stillness" [level=2] [ref=f48e218]'
+                                            - paragraph [ref=f48e224]:
+                                                - generic [ref=f48e225]: Our gardens glow with intent. We prioritise harmony over ostentation, ensuring that your outdoor space transitions seamlessly from a daytime retreat to a nocturnal sanctuary.
+                                            - paragraph [ref=f48e230]:
+                                                - generic [ref=f48e231]:
+                                                    - strong [ref=f48e232]: Get the lighting right the first time.
+                                                    - text: Our
+                                                    - link "Nocturnal Lighting Schematic" [ref=f48e233] [cursor=pointer]:
+                                                        - /url: https://www.moonlight-studio.uk/shop/p/the-nocturnal-lighting-schematic
+                                                        - strong [ref=f48e234]:
+                                                            - generic [ref=f48e235]: Nocturnal Lighting Schematic
+                                                    - text: provides a comprehensive technical map of grazing angles, fixture specifications, and cable runs. It is the definitive guide to ensuring your sanctuary is both functional and atmospheric.
+                                            - heading "The Importance of Professional Installation" [level=3] [ref=f48e240]
+                                            - paragraph [ref=f48e246]:
+                                                - generic [ref=f48e247]: The significance of professional installation cannot be overstated. A well-executed lighting design requires expertise and precision. Our team is trained to navigate the complexities of garden lighting, ensuring that every fixture is placed with intention.
+                                            - paragraph [ref=f48e252]:
+                                                - generic [ref=f48e253]: We understand the nuances of different garden layouts and how to accentuate their unique features. This expertise allows us to create a cohesive look that enhances the overall aesthetic of your outdoor space.
+                                            - heading "Creating a Lasting Impression" [level=3] [ref=f48e258]
+                                            - paragraph [ref=f48e264]:
+                                                - generic [ref=f48e265]: The right garden lighting can transform your outdoor area into a captivating space. It creates an inviting atmosphere for evening gatherings and provides safety and security. With our meticulous approach, we ensure that your garden remains a stunning focal point, even after the sun sets.
+                                            - heading "Booking Your Garden Transformation" [level=3] [ref=f48e270]
+                                            - paragraph [ref=f48e276]:
+                                                - generic [ref=f48e277]: If you are ready to elevate your outdoor space, I invite you to use the booking form on the website to book a garden quote. We will work closely with you to understand your vision and bring it to life with our expert design and installation services.
+                                            - paragraph [ref=f48e282]:
+                                                - generic [ref=f48e283]:
+                                                    - text: Commission your schematic at
+                                                    - link "www.moonlight-studio.uk" [ref=f48e284] [cursor=pointer]:
+                                                        - /url: https://www.moonlight-studio.uk
+                                                    - text: for national remote design, or visit
+                                                    - link "www.savageldn.co.uk" [ref=f48e286] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk
+                                                    - text: for South London installations.
+                                        - generic [ref=f48e290]:
+                                            - list "Post categories" [ref=f48e292]:
+                                                - listitem [ref=f48e293]:
+                                                    - link "Garden Design Archive" [ref=f48e294] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                            - generic [ref=f48e297]:
+                                                - button "Share via Facebook" [ref=f48e299] [cursor=pointer]:
+                                                    - img "Facebook" [ref=f48e300]
+                                                - button "Share via X (Twitter)" [ref=f48e304] [cursor=pointer]:
+                                                    - img "X" [ref=f48e305]
+                                                - button "Share via LinkedIn" [ref=f48e309] [cursor=pointer]:
+                                                    - img "LinkedIn" [ref=f48e310]
+                                                - button "Share via link" [ref=f48e315] [cursor=pointer]
+                                - generic [ref=f48e326]:
+                                    - generic [ref=f48e327]:
+                                        - heading "Recent Posts" [level=2] [ref=f48e328]
+                                        - link "See All" [ref=f48e329] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - article [ref=f48e332]:
+                                        - generic [ref=f48e333]:
+                                            - 'link "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f48e334] [cursor=pointer]':
+                                                - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
+                                                - 'img "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f48e338]':
+                                                    - img "Load video" [ref=f48e341]
+                                            - 'link "THE NEW STANDARD IN NOCTURNAL GARDEN DESIGN: WHY YOUR OUTDOOR SPACE SHOULD LIVE AT NIGHT" [ref=f48e346] [cursor=pointer]':
+                                                - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
+            - contentinfo:
+                - generic [ref=f48e357]:
+                    - group
+    - region "bottom of page"

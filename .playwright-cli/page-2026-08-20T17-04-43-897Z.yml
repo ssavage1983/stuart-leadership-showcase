@@ -1,299 +1,299 @@
 - generic [ref=f85e3]:
-  - region "top of page"
-  - generic [ref=f85e11]:
-    - group:
-      - banner:
-        - generic [ref=f85e16]:
-          - group
-      - main:
-        - generic [ref=f85e19]:
-          - group:
-            - generic [ref=f85e29]:
-              - navigation "Blog" [ref=f85e32]:
-                - list [ref=f85e33] [cursor=pointer]:
-                  - listitem [ref=f85e34]:
-                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f85e35]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - listitem [ref=f85e36]:
-                    - link "Plant & Horticulture Archive" [ref=f85e37]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - listitem [ref=f85e38]:
-                    - link "Project Delivery Archive" [ref=f85e39]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                  - listitem [ref=f85e40]:
-                    - link "Garden Design Archive" [ref=f85e41]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                  - listitem [ref=f85e42]:
-                    - link "Supplier & Systems Archive" [ref=f85e43]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-              - generic [ref=f85e45]:
-                - article [ref=f85e49]:
-                  - generic [ref=f85e50]:
-                    - generic [ref=f85e52]:
-                      - generic [ref=f85e53]:
-                        - 'heading "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [level=1] [ref=f85e55]'
-                        - generic [ref=f85e56]:
-                          - list [ref=f85e57]:
-                            - listitem [ref=f85e58]:
-                              - 'img "Writer: Stuart Savage" [ref=f85e61]'
-                              - generic [ref=f85e62] [cursor=pointer]: Stuart Savage
-                            - listitem [ref=f85e63]: ·Jan 9
-                            - listitem [ref=f85e64]: ·4 min read
-                          - button "More actions" [ref=f85e66] [cursor=pointer]
-                      - paragraph [ref=f85e69]: "Updated: Mar 14"
-                      - button "Rated NaN out of 5 stars." [ref=f85e70] [cursor=pointer]
-                    - generic [ref=f85e91]:
-                      - paragraph [ref=f85e93]:
-                        - generic [ref=f85e94]: Gardening in the UK is evolving rapidly. The Guardian recently reported that over 600 plant species were blooming on January 1. This shift presents challenges, yet it also allows us to enjoy our gardens throughout the year.
-                      - paragraph [ref=f85e99]:
-                        - generic [ref=f85e100]: At The Moonlight Garden Design Co., I assist you in transforming your outdoor space into a tranquil retreat after dark. January is an ideal time to establish the foundation for a garden that not only looks appealing at night but also supports local wildlife.
-                      - figure [ref=f85e107]:
-                        - generic [ref=f85e108]:
-                          - img "Fragrant winter shrubs Daphne bholua Jacqueline Postill and Viburnum bodnantense for a winter scent trail." [ref=f85e113] [cursor=pointer]
-                          - button "Expand image"
-                      - separator [ref=f85e120]
-                      - 'heading "The \"Winter Scent Trail\": A Sensory Masterstroke" [level=3] [ref=f85e128]'
-                      - paragraph [ref=f85e134]:
-                        - generic [ref=f85e135]: Many do not realise that January and February can be the most fragrant months in the garden. Consider planting a "Winter Scent Trail" near your entrances and along pathways where you will notice it most.
-                      - list [ref=f85e140]:
-                        - listitem [level=1] [ref=f85e141]:
-                          - paragraph [ref=f85e142]:
-                            - generic [ref=f85e143]:
-                              - strong [ref=f85e144]: Daphne bholua ‘Jacqueline Postill’
-                              - text: ": An evergreen powerhouse with pinkish-white flowers that fill a courtyard with delightful scent."
-                        - listitem [level=1] [ref=f85e145]:
-                          - paragraph [ref=f85e146]:
-                            - generic [ref=f85e147]:
-                              - strong [ref=f85e148]: Sarcococca (Sweet Box)
-                              - text: ": This low-growing plant is intensely fragrant; its tiny white flowers glow under low-voltage lighting."
-                        - listitem [level=1] [ref=f85e149]:
-                          - paragraph [ref=f85e150]:
-                            - generic [ref=f85e151]:
-                              - strong [ref=f85e152]: Viburnum × bodnanense ‘Dawn’
-                              - text: ": Clusters of sweet pink flowers emerge on bare stems during the coldest weeks."
-                        - listitem [level=1] [ref=f85e153]:
-                          - paragraph [ref=f85e154]:
-                            - generic [ref=f85e155]:
-                              - strong [ref=f85e156]: Chimonanthus praecox (Wintersweet)
-                              - text: ": This unique shrub offers spicy, intoxicating scents that waft through the evening air."
-                      - figure [ref=f85e162]
-                      - separator [ref=f85e172]
-                      - 'heading "Nocturnal Luminosity: Plants that Shine at Night - Designing for Scent" [level=3] [ref=f85e180]'
-                      - paragraph [ref=f85e186]:
-                        - generic [ref=f85e187]: To illuminate your garden at night, select plants with light-reflecting bark and leaves. January is the prime time to plant bare-root trees for this effect.
-                      - list [ref=f85e192]:
-                        - listitem [level=1] [ref=f85e193]:
-                          - paragraph [ref=f85e194]:
-                            - generic [ref=f85e195]:
-                              - strong [ref=f85e196]: Betula (Silver Birch)
-                              - text: ": Specifically"
-                              - emphasis [ref=f85e197]: Betula utilis
-                              - text: subsp.
-                              - emphasis [ref=f85e198]: Jacquemontii
-                              - text: ‘Jermyns’ for its iconic white bark that reflects even the faintest moonlight.
-                        - listitem [level=1] [ref=f85e199]:
-                          - paragraph [ref=f85e200]:
-                            - generic [ref=f85e201]:
-                              - strong [ref=f85e202]: Prunus serrula
-                              - text: ": Renowned for its polished, mahogany-like bark that provides a rich, reflective surface."
-                        - listitem [level=1] [ref=f85e203]:
-                          - paragraph [ref=f85e204]:
-                            - generic [ref=f85e205]:
-                              - strong [ref=f85e206]: Snowdrops (Galanthus)
-                              - text: ": Plant these \"in-the-green\" now. Their pure white petals are essential for 3D nocturnal plans."
-                        - listitem [level=1] [ref=f85e207]:
-                          - paragraph [ref=f85e208]:
-                            - generic [ref=f85e209]:
-                              - strong [ref=f85e210]: Hellebores
-                              - text: ":"
-                              - emphasis [ref=f85e211]: Helleborus niger
-                              - text: (Christmas Rose) produces white, cup-shaped flowers that serve as focal points in the dark.
-                      - figure [ref=f85e217]:
-                        - generic [ref=f85e218]:
-                          - img "Mahogany-coloured polished bark of the Prunus serrula tree for winter garden interest." [ref=f85e223] [cursor=pointer]
-                          - button "Expand image"
-                      - separator [ref=f85e230]
-                      - 'heading "The 2026 \"Edimental\" Trend: Indoor & Outdoor" [level=3] [ref=f85e238]'
-                      - paragraph [ref=f85e244]:
-                        - generic [ref=f85e245]: Edible ornamentals, or "edimentals," allow you to cultivate plants that are both visually appealing and delicious.
-                      - heading "Outdoor Edimentals" [level=4] [ref=f85e250]
-                      - list [ref=f85e256]:
-                        - listitem [level=1] [ref=f85e257]:
-                          - paragraph [ref=f85e258]:
-                            - generic [ref=f85e259]: Plant hardy herbs such as Rosemary ‘Miss Jessopp’s Upright’ and Thyme in well-drained areas.
-                        - listitem [level=1] [ref=f85e260]:
-                          - paragraph [ref=f85e261]:
-                            - generic [ref=f85e262]: Start sweet peas in deep pots on a cool windowsill now for early summer blooms. You may also sow dwarf chillies or other tabletop edibles on a sunny windowsill.
-                        - listitem [level=1] [ref=f85e263]:
-                          - paragraph [ref=f85e264]:
-                            - generic [ref=f85e265]: Plant rhubarb crowns now and cover them to force an early harvest in spring.
-                      - figure [ref=f85e271]
-                      - separator [ref=f85e281]
-                      - 'heading "2026 Wildlife Care: Protecting Our Neighbours" [level=3] [ref=f85e289]'
-                      - paragraph [ref=f85e295]:
-                        - generic [ref=f85e296]: January can be challenging for wildlife, making your garden a vital refuge for birds and other creatures.
-                      - heading "Hydration & Nutrition" [level=4] [ref=f85e301]
-                      - list [ref=f85e307]:
-                        - listitem [level=1] [ref=f85e308]:
-                          - paragraph [ref=f85e309]:
-                            - generic [ref=f85e310]:
-                              - strong [ref=f85e311]: Ice-Free Water
-                              - text: ": Ensure bird baths remain free of ice. If ponds freeze, melt a hole by resting a pan of hot water on the surface; never use force, as shockwaves can harm aquatic life."
-                        - listitem [level=1] [ref=f85e312]:
-                          - paragraph [ref=f85e313]:
-                            - generic [ref=f85e314]:
-                              - strong [ref=f85e315]: Calorie-Rich Feeding
-                              - text: ": Offer fat blocks and sunflower hearts, but remove all plastic netting to prevent birds from becoming entangled."
-                      - figure [ref=f85e321]:
-                        - generic [ref=f85e322]:
-                          - img "Small bird at a bird feeder without plastic netting to illustrate safe winter wildlife care." [ref=f85e327] [cursor=pointer]
-                          - button "Expand image"
-                      - heading "The \"No-Tidy\" Zone" [level=4] [ref=f85e332]
-                      - list [ref=f85e338]:
-                        - listitem [level=1] [ref=f85e339]:
-                          - paragraph [ref=f85e340]:
-                            - generic [ref=f85e341]:
-                              - strong [ref=f85e342]: Seedheads
-                              - text: ": Leave Teasels, Echinacea, and Alliums standing. They provide architectural beauty for your nocturnal 3D plans and essential food for goldfinches."
-                        - listitem [level=1] [ref=f85e343]:
-                          - paragraph [ref=f85e344]:
-                            - generic [ref=f85e345]:
-                              - strong [ref=f85e346]: Ivy Preservation
-                              - text: ": Hold off on trimming ivy until March. Its berries are among the few high-fat food sources available for birds this month."
-                        - listitem [level=1] [ref=f85e347]:
-                          - paragraph [ref=f85e348]:
-                            - generic [ref=f85e349]:
-                              - strong [ref=f85e350]: Log Piles
-                              - text: ": Create undisturbed corners with leaf piles for hibernating hedgehogs and frogs."
-                      - heading "Claim Your Nighttime Sanctuary" [level=3] [ref=f85e354]
-                      - paragraph [ref=f85e360]:
-                        - generic [ref=f85e361]: If you wish to transform your garden into a serene nighttime space, now is an excellent time to act. We are currently offering 40% off all our remote design services across the UK.
-                      - paragraph [ref=f85e363]:
-                        - link "The Moonlight Garden Design Co." [ref=f85e365] [cursor=pointer]:
-                          - /url: https://moonlight-studio.uk
-                      - separator [ref=f85e373]
-                      - heading [level=3] [ref=f85e381]:
-                        - strong [ref=f85e383]: "Blog Conclusion: Download Your Exclusive Winter Plant List"
-                      - paragraph [ref=f85e388]:
-                        - generic [ref=f85e389]: The transition towards a "year-round spring" necessitates a more sophisticated planting strategy than ever before. To assist you in navigating this changing landscape, I have partnered with Shoot Gardening to provide a curated digital plant list based on the Cambridge University Botanic Garden's winter collection.
-                      - heading [level=6] [ref=f85e394]:
-                        - strong [ref=f85e396]: DOWNLOAD OUR SEASONAL COLOUR LIST USING SHOOT GARDENING TECHNOLOGY
-                      - blockquote [ref=f85e402]:
-                        - strong [ref=f85e406]: "Moonlight Design Tip: Use this list to identify the \"Glow Plants\"—those with white flowers or silver foliage—to ensure your 3D Cinematic Plan is as vivid at midnight as it is at midday."
-                      - button "WINTER PLANTING LIST MOODBOARD .pdf Download PDF • 1.63MB" [ref=f85e414] [cursor=pointer]:
-                        - generic [ref=f85e421]:
-                          - generic [ref=f85e422]:
-                            - generic [ref=f85e423]: WINTER PLANTING LIST MOODBOARD
-                            - generic [ref=f85e424]: .pdf
-                          - generic [ref=f85e425]: Download PDF • 1.63MB
-                      - button "WINTER PLANTING MOODBOARD STUART SAVAGE .pdf Download PDF • 921KB" [ref=f85e436] [cursor=pointer]:
-                        - generic [ref=f85e443]:
-                          - generic [ref=f85e444]:
-                            - generic [ref=f85e445]: WINTER PLANTING MOODBOARD STUART SAVAGE
-                            - generic [ref=f85e446]: .pdf
-                          - generic [ref=f85e447]: Download PDF • 921KB
-                      - button "WINTER PLANTING SEASONAL LIST STUART SAVAGE .pdf Download PDF • 960KB" [ref=f85e458] [cursor=pointer]:
-                        - generic [ref=f85e465]:
-                          - generic [ref=f85e466]:
-                            - generic [ref=f85e467]: WINTER PLANTING SEASONAL LIST STUART SAVAGE
-                            - generic [ref=f85e468]: .pdf
-                          - generic [ref=f85e469]: Download PDF • 960KB
-                      - separator [ref=f85e479]
-                      - heading [level=2] [ref=f85e487]:
-                        - strong [ref=f85e489]: About the Designer
-                      - heading [level=3] [ref=f85e494]:
-                        - strong [ref=f85e496]: Stuart Savage | Founder & Lead Designer
-                      - paragraph [ref=f85e501]:
-                        - generic [ref=f85e502]:
-                          - text: I am Stuart Savage, the creative force behind
-                          - strong [ref=f85e503]: The Moonlight Garden Design Co.
-                          - text: With deep roots in
-                          - strong [ref=f85e504]: Lambeth and Kennington, South London
-                          - text: ", I have dedicated over a decade to perfecting the art of landscaping and horticultural excellence."
-                      - paragraph [ref=f85e509]:
-                        - generic [ref=f85e510]:
-                          - text: As a
-                          - strong [ref=f85e511]: Remote Garden Design Specialist
-                          - text: ", I have adapted my practice to serve clients"
-                          - strong [ref=f85e512]: UK-wide
-                          - text: ", employing state-of-the-art"
-                          - strong [ref=f85e513]: 3D Cinematic Plans
-                          - text: to bring complex outdoor visions to life before a single spade touches the ground. My signature approach focuses on creating
-                          - strong [ref=f85e514]: nocturnal sanctuaries
-                          - text: —gardens specifically designed to thrive and provide tranquility during the evening hours.
-                      - paragraph [ref=f85e519]:
-                        - generic [ref=f85e520]: By blending technical coding skills for platforms such as Shopify and Squarespace with a designer’s eye for seasonal interest, I ensure every project is both a botanical masterpiece and a seamless digital experience. The "Official 21" Winter Planting List featured in this blog exemplifies my commitment to year-round garden beauty.
-                      - heading [level=3] [ref=f85e525]:
-                        - strong [ref=f85e527]: Work With The Moonlight Garden Design Co.
-                      - paragraph [ref=f85e532]:
-                        - generic [ref=f85e533]:
-                          - text: Are you ready to transform your outdoor space into a cinematic retreat? Do not miss our limited-time
-                          - strong [ref=f85e534]: 40% OFF Launch Offer
-                          - text: for remote design services.
-                      - list [ref=f85e539]:
-                        - listitem [level=1] [ref=f85e540]:
-                          - paragraph [ref=f85e541]:
-                            - generic [ref=f85e542]:
-                              - strong [ref=f85e543]: "Website:"
-                              - link "https://moonlight-studio.uk" [ref=f85e544] [cursor=pointer]:
-                                - /url: https://moonlight-studio.uk
-                              - text: or London
-                              - link "https://savageldn.co.uk" [ref=f85e546] [cursor=pointer]:
-                                - /url: https://savageldn.co.uk
-                        - listitem [level=1] [ref=f85e548]:
-                          - paragraph [ref=f85e549]:
-                            - generic [ref=f85e550]:
-                              - strong [ref=f85e551]: "Email:"
-                              - link "info@moonlight-studio.uk" [ref=f85e552] [cursor=pointer]:
-                                - /url: mailto:info@moonlight-studio.uk
-                              - link "stuart@stuartsavagelandscaping.com" [ref=f85e555] [cursor=pointer]:
-                                - /url: mailto:mailstuart@stuartsavagelandscaping.com
-                        - listitem [level=1] [ref=f85e557]:
-                          - paragraph [ref=f85e558]:
-                            - generic [ref=f85e559]:
-                              - strong [ref=f85e560]: "Phone (Moonlight):"
-                              - text: "07401779208"
-                        - listitem [level=1] [ref=f85e561]:
-                          - paragraph [ref=f85e562]:
-                            - generic [ref=f85e563]:
-                              - strong [ref=f85e564]: "Phone (Stuart Savage Landscaping):"
-                              - text: "07564585507"
-                        - listitem [level=1] [ref=f85e565]:
-                          - paragraph [ref=f85e566]:
-                            - generic [ref=f85e567]:
-                              - strong [ref=f85e568]: "Social Media:"
-                              - text: "@moonlightgardenstudio (Instagram, Pinterest, Facebook)"
-                      - blockquote [ref=f85e573]:
-                        - generic [ref=f85e576]:
-                          - strong [ref=f85e577]: "Designer's Note:"
-                          - text: Whether you seek a "Winter Scent Trail" or a complete nocturnal redesign, my 3D plans allow you to explore your future garden in London, Edinburgh, or anywhere in between.
-                    - generic [ref=f85e583]:
-                      - list "Post categories" [ref=f85e585]:
-                        - listitem [ref=f85e586]:
-                          - link "Plant & Horticulture Archive" [ref=f85e587] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                      - generic [ref=f85e590]:
-                        - button "Share via Facebook" [ref=f85e592] [cursor=pointer]:
-                          - img "Facebook" [ref=f85e593]
-                        - button "Share via X (Twitter)" [ref=f85e597] [cursor=pointer]:
-                          - img "X" [ref=f85e598]
-                        - button "Share via LinkedIn" [ref=f85e602] [cursor=pointer]:
-                          - img "LinkedIn" [ref=f85e603]
-                        - button "Share via link" [ref=f85e608] [cursor=pointer]
-                - generic [ref=f85e619]:
-                  - generic [ref=f85e620]:
-                    - heading "Recent Posts" [level=2] [ref=f85e621]
-                    - link "See All" [ref=f85e622] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - article [ref=f85e625]:
-                    - generic [ref=f85e626]:
-                      - 'link "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f85e627] [cursor=pointer]':
-                        - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
-                        - 'img "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f85e631]':
-                          - img "Load video" [ref=f85e634]
-                      - 'link "THE NEW STANDARD IN NOCTURNAL GARDEN DESIGN: WHY YOUR OUTDOOR SPACE SHOULD LIVE AT NIGHT" [ref=f85e639] [cursor=pointer]':
-                        - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
-      - contentinfo:
-        - generic [ref=f85e650]:
-          - group
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f85e11]:
+        - group:
+            - banner:
+                - generic [ref=f85e16]:
+                    - group
+            - main:
+                - generic [ref=f85e19]:
+                    - group:
+                        - generic [ref=f85e29]:
+                            - navigation "Blog" [ref=f85e32]:
+                                - list [ref=f85e33] [cursor=pointer]:
+                                    - listitem [ref=f85e34]:
+                                        - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f85e35]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - listitem [ref=f85e36]:
+                                        - link "Plant & Horticulture Archive" [ref=f85e37]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - listitem [ref=f85e38]:
+                                        - link "Project Delivery Archive" [ref=f85e39]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                    - listitem [ref=f85e40]:
+                                        - link "Garden Design Archive" [ref=f85e41]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                    - listitem [ref=f85e42]:
+                                        - link "Supplier & Systems Archive" [ref=f85e43]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                            - generic [ref=f85e45]:
+                                - article [ref=f85e49]:
+                                    - generic [ref=f85e50]:
+                                        - generic [ref=f85e52]:
+                                            - generic [ref=f85e53]:
+                                                - 'heading "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [level=1] [ref=f85e55]'
+                                                - generic [ref=f85e56]:
+                                                    - list [ref=f85e57]:
+                                                        - listitem [ref=f85e58]:
+                                                            - 'img "Writer: Stuart Savage" [ref=f85e61]'
+                                                            - generic [ref=f85e62] [cursor=pointer]: Stuart Savage
+                                                        - listitem [ref=f85e63]: ·Jan 9
+                                                        - listitem [ref=f85e64]: ·4 min read
+                                                    - button "More actions" [ref=f85e66] [cursor=pointer]
+                                            - paragraph [ref=f85e69]: "Updated: Mar 14"
+                                            - button "Rated NaN out of 5 stars." [ref=f85e70] [cursor=pointer]
+                                        - generic [ref=f85e91]:
+                                            - paragraph [ref=f85e93]:
+                                                - generic [ref=f85e94]: Gardening in the UK is evolving rapidly. The Guardian recently reported that over 600 plant species were blooming on January 1. This shift presents challenges, yet it also allows us to enjoy our gardens throughout the year.
+                                            - paragraph [ref=f85e99]:
+                                                - generic [ref=f85e100]: At The Moonlight Garden Design Co., I assist you in transforming your outdoor space into a tranquil retreat after dark. January is an ideal time to establish the foundation for a garden that not only looks appealing at night but also supports local wildlife.
+                                            - figure [ref=f85e107]:
+                                                - generic [ref=f85e108]:
+                                                    - img "Fragrant winter shrubs Daphne bholua Jacqueline Postill and Viburnum bodnantense for a winter scent trail." [ref=f85e113] [cursor=pointer]
+                                                    - button "Expand image"
+                                            - separator [ref=f85e120]
+                                            - 'heading "The \"Winter Scent Trail\": A Sensory Masterstroke" [level=3] [ref=f85e128]'
+                                            - paragraph [ref=f85e134]:
+                                                - generic [ref=f85e135]: Many do not realise that January and February can be the most fragrant months in the garden. Consider planting a "Winter Scent Trail" near your entrances and along pathways where you will notice it most.
+                                            - list [ref=f85e140]:
+                                                - listitem [level=1] [ref=f85e141]:
+                                                    - paragraph [ref=f85e142]:
+                                                        - generic [ref=f85e143]:
+                                                            - strong [ref=f85e144]: Daphne bholua ‘Jacqueline Postill’
+                                                            - text: ": An evergreen powerhouse with pinkish-white flowers that fill a courtyard with delightful scent."
+                                                - listitem [level=1] [ref=f85e145]:
+                                                    - paragraph [ref=f85e146]:
+                                                        - generic [ref=f85e147]:
+                                                            - strong [ref=f85e148]: Sarcococca (Sweet Box)
+                                                            - text: ": This low-growing plant is intensely fragrant; its tiny white flowers glow under low-voltage lighting."
+                                                - listitem [level=1] [ref=f85e149]:
+                                                    - paragraph [ref=f85e150]:
+                                                        - generic [ref=f85e151]:
+                                                            - strong [ref=f85e152]: Viburnum × bodnanense ‘Dawn’
+                                                            - text: ": Clusters of sweet pink flowers emerge on bare stems during the coldest weeks."
+                                                - listitem [level=1] [ref=f85e153]:
+                                                    - paragraph [ref=f85e154]:
+                                                        - generic [ref=f85e155]:
+                                                            - strong [ref=f85e156]: Chimonanthus praecox (Wintersweet)
+                                                            - text: ": This unique shrub offers spicy, intoxicating scents that waft through the evening air."
+                                            - figure [ref=f85e162]
+                                            - separator [ref=f85e172]
+                                            - 'heading "Nocturnal Luminosity: Plants that Shine at Night - Designing for Scent" [level=3] [ref=f85e180]'
+                                            - paragraph [ref=f85e186]:
+                                                - generic [ref=f85e187]: To illuminate your garden at night, select plants with light-reflecting bark and leaves. January is the prime time to plant bare-root trees for this effect.
+                                            - list [ref=f85e192]:
+                                                - listitem [level=1] [ref=f85e193]:
+                                                    - paragraph [ref=f85e194]:
+                                                        - generic [ref=f85e195]:
+                                                            - strong [ref=f85e196]: Betula (Silver Birch)
+                                                            - text: ": Specifically"
+                                                            - emphasis [ref=f85e197]: Betula utilis
+                                                            - text: subsp.
+                                                            - emphasis [ref=f85e198]: Jacquemontii
+                                                            - text: ‘Jermyns’ for its iconic white bark that reflects even the faintest moonlight.
+                                                - listitem [level=1] [ref=f85e199]:
+                                                    - paragraph [ref=f85e200]:
+                                                        - generic [ref=f85e201]:
+                                                            - strong [ref=f85e202]: Prunus serrula
+                                                            - text: ": Renowned for its polished, mahogany-like bark that provides a rich, reflective surface."
+                                                - listitem [level=1] [ref=f85e203]:
+                                                    - paragraph [ref=f85e204]:
+                                                        - generic [ref=f85e205]:
+                                                            - strong [ref=f85e206]: Snowdrops (Galanthus)
+                                                            - text: ': Plant these "in-the-green" now. Their pure white petals are essential for 3D nocturnal plans.'
+                                                - listitem [level=1] [ref=f85e207]:
+                                                    - paragraph [ref=f85e208]:
+                                                        - generic [ref=f85e209]:
+                                                            - strong [ref=f85e210]: Hellebores
+                                                            - text: ":"
+                                                            - emphasis [ref=f85e211]: Helleborus niger
+                                                            - text: (Christmas Rose) produces white, cup-shaped flowers that serve as focal points in the dark.
+                                            - figure [ref=f85e217]:
+                                                - generic [ref=f85e218]:
+                                                    - img "Mahogany-coloured polished bark of the Prunus serrula tree for winter garden interest." [ref=f85e223] [cursor=pointer]
+                                                    - button "Expand image"
+                                            - separator [ref=f85e230]
+                                            - 'heading "The 2026 \"Edimental\" Trend: Indoor & Outdoor" [level=3] [ref=f85e238]'
+                                            - paragraph [ref=f85e244]:
+                                                - generic [ref=f85e245]: Edible ornamentals, or "edimentals," allow you to cultivate plants that are both visually appealing and delicious.
+                                            - heading "Outdoor Edimentals" [level=4] [ref=f85e250]
+                                            - list [ref=f85e256]:
+                                                - listitem [level=1] [ref=f85e257]:
+                                                    - paragraph [ref=f85e258]:
+                                                        - generic [ref=f85e259]: Plant hardy herbs such as Rosemary ‘Miss Jessopp’s Upright’ and Thyme in well-drained areas.
+                                                - listitem [level=1] [ref=f85e260]:
+                                                    - paragraph [ref=f85e261]:
+                                                        - generic [ref=f85e262]: Start sweet peas in deep pots on a cool windowsill now for early summer blooms. You may also sow dwarf chillies or other tabletop edibles on a sunny windowsill.
+                                                - listitem [level=1] [ref=f85e263]:
+                                                    - paragraph [ref=f85e264]:
+                                                        - generic [ref=f85e265]: Plant rhubarb crowns now and cover them to force an early harvest in spring.
+                                            - figure [ref=f85e271]
+                                            - separator [ref=f85e281]
+                                            - 'heading "2026 Wildlife Care: Protecting Our Neighbours" [level=3] [ref=f85e289]'
+                                            - paragraph [ref=f85e295]:
+                                                - generic [ref=f85e296]: January can be challenging for wildlife, making your garden a vital refuge for birds and other creatures.
+                                            - heading "Hydration & Nutrition" [level=4] [ref=f85e301]
+                                            - list [ref=f85e307]:
+                                                - listitem [level=1] [ref=f85e308]:
+                                                    - paragraph [ref=f85e309]:
+                                                        - generic [ref=f85e310]:
+                                                            - strong [ref=f85e311]: Ice-Free Water
+                                                            - text: ": Ensure bird baths remain free of ice. If ponds freeze, melt a hole by resting a pan of hot water on the surface; never use force, as shockwaves can harm aquatic life."
+                                                - listitem [level=1] [ref=f85e312]:
+                                                    - paragraph [ref=f85e313]:
+                                                        - generic [ref=f85e314]:
+                                                            - strong [ref=f85e315]: Calorie-Rich Feeding
+                                                            - text: ": Offer fat blocks and sunflower hearts, but remove all plastic netting to prevent birds from becoming entangled."
+                                            - figure [ref=f85e321]:
+                                                - generic [ref=f85e322]:
+                                                    - img "Small bird at a bird feeder without plastic netting to illustrate safe winter wildlife care." [ref=f85e327] [cursor=pointer]
+                                                    - button "Expand image"
+                                            - heading "The \"No-Tidy\" Zone" [level=4] [ref=f85e332]
+                                            - list [ref=f85e338]:
+                                                - listitem [level=1] [ref=f85e339]:
+                                                    - paragraph [ref=f85e340]:
+                                                        - generic [ref=f85e341]:
+                                                            - strong [ref=f85e342]: Seedheads
+                                                            - text: ": Leave Teasels, Echinacea, and Alliums standing. They provide architectural beauty for your nocturnal 3D plans and essential food for goldfinches."
+                                                - listitem [level=1] [ref=f85e343]:
+                                                    - paragraph [ref=f85e344]:
+                                                        - generic [ref=f85e345]:
+                                                            - strong [ref=f85e346]: Ivy Preservation
+                                                            - text: ": Hold off on trimming ivy until March. Its berries are among the few high-fat food sources available for birds this month."
+                                                - listitem [level=1] [ref=f85e347]:
+                                                    - paragraph [ref=f85e348]:
+                                                        - generic [ref=f85e349]:
+                                                            - strong [ref=f85e350]: Log Piles
+                                                            - text: ": Create undisturbed corners with leaf piles for hibernating hedgehogs and frogs."
+                                            - heading "Claim Your Nighttime Sanctuary" [level=3] [ref=f85e354]
+                                            - paragraph [ref=f85e360]:
+                                                - generic [ref=f85e361]: If you wish to transform your garden into a serene nighttime space, now is an excellent time to act. We are currently offering 40% off all our remote design services across the UK.
+                                            - paragraph [ref=f85e363]:
+                                                - link "The Moonlight Garden Design Co." [ref=f85e365] [cursor=pointer]:
+                                                    - /url: https://moonlight-studio.uk
+                                            - separator [ref=f85e373]
+                                            - heading [level=3] [ref=f85e381]:
+                                                - strong [ref=f85e383]: "Blog Conclusion: Download Your Exclusive Winter Plant List"
+                                            - paragraph [ref=f85e388]:
+                                                - generic [ref=f85e389]: The transition towards a "year-round spring" necessitates a more sophisticated planting strategy than ever before. To assist you in navigating this changing landscape, I have partnered with Shoot Gardening to provide a curated digital plant list based on the Cambridge University Botanic Garden's winter collection.
+                                            - heading [level=6] [ref=f85e394]:
+                                                - strong [ref=f85e396]: DOWNLOAD OUR SEASONAL COLOUR LIST USING SHOOT GARDENING TECHNOLOGY
+                                            - blockquote [ref=f85e402]:
+                                                - strong [ref=f85e406]: 'Moonlight Design Tip: Use this list to identify the "Glow Plants"—those with white flowers or silver foliage—to ensure your 3D Cinematic Plan is as vivid at midnight as it is at midday.'
+                                            - button "WINTER PLANTING LIST MOODBOARD .pdf Download PDF • 1.63MB" [ref=f85e414] [cursor=pointer]:
+                                                - generic [ref=f85e421]:
+                                                    - generic [ref=f85e422]:
+                                                        - generic [ref=f85e423]: WINTER PLANTING LIST MOODBOARD
+                                                        - generic [ref=f85e424]: .pdf
+                                                    - generic [ref=f85e425]: Download PDF • 1.63MB
+                                            - button "WINTER PLANTING MOODBOARD STUART SAVAGE .pdf Download PDF • 921KB" [ref=f85e436] [cursor=pointer]:
+                                                - generic [ref=f85e443]:
+                                                    - generic [ref=f85e444]:
+                                                        - generic [ref=f85e445]: WINTER PLANTING MOODBOARD STUART SAVAGE
+                                                        - generic [ref=f85e446]: .pdf
+                                                    - generic [ref=f85e447]: Download PDF • 921KB
+                                            - button "WINTER PLANTING SEASONAL LIST STUART SAVAGE .pdf Download PDF • 960KB" [ref=f85e458] [cursor=pointer]:
+                                                - generic [ref=f85e465]:
+                                                    - generic [ref=f85e466]:
+                                                        - generic [ref=f85e467]: WINTER PLANTING SEASONAL LIST STUART SAVAGE
+                                                        - generic [ref=f85e468]: .pdf
+                                                    - generic [ref=f85e469]: Download PDF • 960KB
+                                            - separator [ref=f85e479]
+                                            - heading [level=2] [ref=f85e487]:
+                                                - strong [ref=f85e489]: About the Designer
+                                            - heading [level=3] [ref=f85e494]:
+                                                - strong [ref=f85e496]: Stuart Savage | Founder & Lead Designer
+                                            - paragraph [ref=f85e501]:
+                                                - generic [ref=f85e502]:
+                                                    - text: I am Stuart Savage, the creative force behind
+                                                    - strong [ref=f85e503]: The Moonlight Garden Design Co.
+                                                    - text: With deep roots in
+                                                    - strong [ref=f85e504]: Lambeth and Kennington, South London
+                                                    - text: ", I have dedicated over a decade to perfecting the art of landscaping and horticultural excellence."
+                                            - paragraph [ref=f85e509]:
+                                                - generic [ref=f85e510]:
+                                                    - text: As a
+                                                    - strong [ref=f85e511]: Remote Garden Design Specialist
+                                                    - text: ", I have adapted my practice to serve clients"
+                                                    - strong [ref=f85e512]: UK-wide
+                                                    - text: ", employing state-of-the-art"
+                                                    - strong [ref=f85e513]: 3D Cinematic Plans
+                                                    - text: to bring complex outdoor visions to life before a single spade touches the ground. My signature approach focuses on creating
+                                                    - strong [ref=f85e514]: nocturnal sanctuaries
+                                                    - text: —gardens specifically designed to thrive and provide tranquility during the evening hours.
+                                            - paragraph [ref=f85e519]:
+                                                - generic [ref=f85e520]: By blending technical coding skills for platforms such as Shopify and Squarespace with a designer’s eye for seasonal interest, I ensure every project is both a botanical masterpiece and a seamless digital experience. The "Official 21" Winter Planting List featured in this blog exemplifies my commitment to year-round garden beauty.
+                                            - heading [level=3] [ref=f85e525]:
+                                                - strong [ref=f85e527]: Work With The Moonlight Garden Design Co.
+                                            - paragraph [ref=f85e532]:
+                                                - generic [ref=f85e533]:
+                                                    - text: Are you ready to transform your outdoor space into a cinematic retreat? Do not miss our limited-time
+                                                    - strong [ref=f85e534]: 40% OFF Launch Offer
+                                                    - text: for remote design services.
+                                            - list [ref=f85e539]:
+                                                - listitem [level=1] [ref=f85e540]:
+                                                    - paragraph [ref=f85e541]:
+                                                        - generic [ref=f85e542]:
+                                                            - strong [ref=f85e543]: "Website:"
+                                                            - link "https://moonlight-studio.uk" [ref=f85e544] [cursor=pointer]:
+                                                                - /url: https://moonlight-studio.uk
+                                                            - text: or London
+                                                            - link "https://savageldn.co.uk" [ref=f85e546] [cursor=pointer]:
+                                                                - /url: https://savageldn.co.uk
+                                                - listitem [level=1] [ref=f85e548]:
+                                                    - paragraph [ref=f85e549]:
+                                                        - generic [ref=f85e550]:
+                                                            - strong [ref=f85e551]: "Email:"
+                                                            - link "info@moonlight-studio.uk" [ref=f85e552] [cursor=pointer]:
+                                                                - /url: mailto:info@moonlight-studio.uk
+                                                            - link "stuart@stuartsavagelandscaping.com" [ref=f85e555] [cursor=pointer]:
+                                                                - /url: mailto:mailstuart@stuartsavagelandscaping.com
+                                                - listitem [level=1] [ref=f85e557]:
+                                                    - paragraph [ref=f85e558]:
+                                                        - generic [ref=f85e559]:
+                                                            - strong [ref=f85e560]: "Phone (Moonlight):"
+                                                            - text: "07401779208"
+                                                - listitem [level=1] [ref=f85e561]:
+                                                    - paragraph [ref=f85e562]:
+                                                        - generic [ref=f85e563]:
+                                                            - strong [ref=f85e564]: "Phone (Stuart Savage Landscaping):"
+                                                            - text: "07564585507"
+                                                - listitem [level=1] [ref=f85e565]:
+                                                    - paragraph [ref=f85e566]:
+                                                        - generic [ref=f85e567]:
+                                                            - strong [ref=f85e568]: "Social Media:"
+                                                            - text: "@moonlightgardenstudio (Instagram, Pinterest, Facebook)"
+                                            - blockquote [ref=f85e573]:
+                                                - generic [ref=f85e576]:
+                                                    - strong [ref=f85e577]: "Designer's Note:"
+                                                    - text: Whether you seek a "Winter Scent Trail" or a complete nocturnal redesign, my 3D plans allow you to explore your future garden in London, Edinburgh, or anywhere in between.
+                                        - generic [ref=f85e583]:
+                                            - list "Post categories" [ref=f85e585]:
+                                                - listitem [ref=f85e586]:
+                                                    - link "Plant & Horticulture Archive" [ref=f85e587] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                            - generic [ref=f85e590]:
+                                                - button "Share via Facebook" [ref=f85e592] [cursor=pointer]:
+                                                    - img "Facebook" [ref=f85e593]
+                                                - button "Share via X (Twitter)" [ref=f85e597] [cursor=pointer]:
+                                                    - img "X" [ref=f85e598]
+                                                - button "Share via LinkedIn" [ref=f85e602] [cursor=pointer]:
+                                                    - img "LinkedIn" [ref=f85e603]
+                                                - button "Share via link" [ref=f85e608] [cursor=pointer]
+                                - generic [ref=f85e619]:
+                                    - generic [ref=f85e620]:
+                                        - heading "Recent Posts" [level=2] [ref=f85e621]
+                                        - link "See All" [ref=f85e622] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - article [ref=f85e625]:
+                                        - generic [ref=f85e626]:
+                                            - 'link "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f85e627] [cursor=pointer]':
+                                                - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
+                                                - 'img "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f85e631]':
+                                                    - img "Load video" [ref=f85e634]
+                                            - 'link "THE NEW STANDARD IN NOCTURNAL GARDEN DESIGN: WHY YOUR OUTDOOR SPACE SHOULD LIVE AT NIGHT" [ref=f85e639] [cursor=pointer]':
+                                                - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
+            - contentinfo:
+                - generic [ref=f85e650]:
+                    - group
+    - region "bottom of page"

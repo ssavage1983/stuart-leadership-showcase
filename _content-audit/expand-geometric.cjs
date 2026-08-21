@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.geometric-harmony-tooting-bec.tsx');
+const filePath = path.join(
+  process.cwd(),
+  "src",
+  "routes",
+  "case-studies.geometric-harmony-tooting-bec.tsx",
+);
 
 const geometricCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -146,5 +151,5 @@ function GeometricHarmonyTootingBecCaseStudy() {
 }
 `;
 
-fs.writeFileSync(filePath, geometricCode, 'utf8');
+fs.writeFileSync(filePath, geometricCode, "utf8");
 console.log("Successfully expanded Geometric Harmony case study.");

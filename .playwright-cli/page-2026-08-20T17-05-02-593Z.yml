@@ -1,232 +1,232 @@
 - generic [ref=f91e3]:
-  - region "top of page"
-  - generic [ref=f91e11]:
-    - group:
-      - banner:
-        - generic [ref=f91e16]:
-          - group
-      - main:
-        - generic [ref=f91e19]:
-          - group:
-            - generic [ref=f91e29]:
-              - navigation "Blog" [ref=f91e32]:
-                - list [ref=f91e33] [cursor=pointer]:
-                  - listitem [ref=f91e34]:
-                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f91e35]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - listitem [ref=f91e36]:
-                    - link "Plant & Horticulture Archive" [ref=f91e37]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - listitem [ref=f91e38]:
-                    - link "Project Delivery Archive" [ref=f91e39]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                  - listitem [ref=f91e40]:
-                    - link "Garden Design Archive" [ref=f91e41]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                  - listitem [ref=f91e42]:
-                    - link "Supplier & Systems Archive" [ref=f91e43]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-              - generic [ref=f91e45]:
-                - article [ref=f91e49]:
-                  - generic [ref=f91e50]:
-                    - generic [ref=f91e52]:
-                      - generic [ref=f91e53]:
-                        - 'heading "Plant of the Month – January: Hart’s Tongue Fern" [level=1] [ref=f91e55]'
-                        - generic [ref=f91e56]:
-                          - list [ref=f91e57]:
-                            - listitem [ref=f91e58]:
-                              - 'img "Writer: Stuart Savage" [ref=f91e61]'
-                              - generic [ref=f91e62] [cursor=pointer]: Stuart Savage
-                            - listitem [ref=f91e63]: ·Jan 8
-                            - listitem [ref=f91e64]: ·3 min read
-                          - button "More actions" [ref=f91e66] [cursor=pointer]
-                      - button "Rated NaN out of 5 stars." [ref=f91e69] [cursor=pointer]
-                    - generic [ref=f91e90]:
-                      - paragraph [ref=f91e92]:
-                        - generic [ref=f91e93]:
-                          - text: Asplenium scolopendrium, commonly known as Hart’s Tongue Fern, is our
-                          - strong [ref=f91e94]: Plant of the Month for January
-                          - text: – a glossy, evergreen fern that brings structure and fresh green colour to even the shadiest, coldest corners of the garden.
-                      - figure [ref=f91e104]:
-                        - generic [ref=f91e105]:
-                          - img "Close-up eye-level view of a Hart's Tongue Fern showing its glossy, undivided green fronds in a shaded garden corner" [ref=f91e110] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f91e111]: Hart's Tongue Fern with glossy green fronds in a shady garden
-                      - paragraph [ref=f91e118]:
-                        - generic [ref=f91e119]:
-                          - text: If you’re in
-                          - strong [ref=f91e120]: South London postcodes or the TW, CR, and BR areas
-                          - text: ", this is an ideal time to review your winter garden, refresh shady borders, or plan new planting for difficult, damp spots."
-                      - paragraph [ref=f91e125]:
-                        - generic [ref=f91e126]:
-                          - text: At
-                          - strong [ref=f91e127]: Stuart Savage Landscaping
-                          - text: ", we offer:"
-                      - list [ref=f91e129]:
-                        - listitem [level=1] [ref=f91e130]:
-                          - paragraph [ref=f91e131]:
-                            - generic [ref=f91e132]:
-                              - strong [ref=f91e133]: Winter garden reviews
-                              - text: to assess structure, planting and problem areas
-                        - listitem [level=1] [ref=f91e134]:
-                          - paragraph [ref=f91e135]:
-                            - generic [ref=f91e136]:
-                              - strong [ref=f91e137]: Planting plans
-                              - text: tailored to shady, damp or awkward corners
-                        - listitem [level=1] [ref=f91e138]:
-                          - paragraph [ref=f91e139]:
-                            - generic [ref=f91e140]:
-                              - strong [ref=f91e141]: Shady-corner makeovers
-                              - text: that use reliable, low-maintenance plants like Hart’s Tongue Fern for year-round interest
-                      - paragraph [ref=f91e146]:
-                        - generic [ref=f91e147]: Book a winter garden review today to get expert, professional advice on how to make the most of your shady spaces for the year ahead.
-                      - 'heading "January: What Makes the Hart''s Tongue Fern Unique?" [level=2] [ref=f91e152]'
-                      - paragraph [ref=f91e158]:
-                        - generic [ref=f91e159]:
-                          - text: Unlike many ferns that have divided or feathery fronds, the Hart's Tongue Fern features
-                          - strong [ref=f91e160]: undivided, strap-shaped fronds
-                          - text: . This distinctive shape gives it a bold and architectural look that contrasts beautifully with other plants in shaded areas. In the UK, this feature is quite rare among ferns, making it a standout choice for gardeners who want something different yet easy to care for.
-                      - paragraph [ref=f91e165]:
-                        - generic [ref=f91e166]: Historically, the Hart's Tongue Fern was valued in British folk medicine. Its leaves were used to treat burns, a practice that highlights the plant’s long-standing relationship with people beyond just ornamental use. While modern medicine has advanced, this traditional use adds an interesting layer to the plant’s story and cultural significance.
-                      - heading "Ideal Growing Conditions for the Hart's Tongue Fern" [level=2] [ref=f91e171]
-                      - paragraph [ref=f91e177]:
-                        - generic [ref=f91e178]:
-                          - text: This fern prefers
-                          - strong [ref=f91e179]: damp, shady corners
-                          - text: ", making it ideal for areas with limited sunlight and high moisture retention. It thrives in"
-                          - strong [ref=f91e180]: Zone C
-                          - text: ", which corresponds to many parts of the UK, including London. Here are some key points to consider when planting or caring for this fern:"
-                      - list [ref=f91e185]:
-                        - listitem [level=1] [ref=f91e186]:
-                          - paragraph [ref=f91e187]:
-                            - generic [ref=f91e188]:
-                              - strong [ref=f91e189]: Shade
-                              - text: ": Avoid direct sunlight, which can scorch the fronds. Partial to full shade is ideal."
-                        - listitem [level=1] [ref=f91e190]:
-                          - paragraph [ref=f91e191]:
-                            - generic [ref=f91e192]:
-                              - strong [ref=f91e193]: Soil
-                              - text: ": Moist, well-drained soil rich in organic matter supports healthy growth."
-                        - listitem [level=1] [ref=f91e194]:
-                          - paragraph [ref=f91e195]:
-                            - generic [ref=f91e196]:
-                              - strong [ref=f91e197]: Watering
-                              - text: ": Keep the soil consistently damp but not waterlogged. The fern tolerates occasional dryness but performs best with regular moisture."
-                        - listitem [level=1] [ref=f91e198]:
-                          - paragraph [ref=f91e199]:
-                            - generic [ref=f91e200]:
-                              - strong [ref=f91e201]: Temperature
-                              - text: ": Hardy enough to withstand cold winters, the fern maintains its glossy green appearance even during chilly London Januaries."
-                      - heading "Low Maintenance Benefits" [level=2] [ref=f91e205]
-                      - paragraph [ref=f91e211]:
-                        - generic [ref=f91e212]:
-                          - text: One of the most significant advantages of the Hart's Tongue Fern is its
-                          - strong [ref=f91e213]: low-maintenance
-                          - text: "nature. It does not require frequent pruning or feeding, making it suitable for gardeners who want greenery without much effort. Here’s why it’s a practical choice:"
-                      - list [ref=f91e218]:
-                        - listitem [level=1] [ref=f91e219]:
-                          - paragraph [ref=f91e220]:
-                            - generic [ref=f91e221]:
-                              - strong [ref=f91e222]: Resilient
-                              - text: ": It withstands cold and damp conditions without damage."
-                        - listitem [level=1] [ref=f91e223]:
-                          - paragraph [ref=f91e224]:
-                            - generic [ref=f91e225]:
-                              - strong [ref=f91e226]: Minimal feeding
-                              - text: ": Occasional feeding with a balanced fertiliser during the growing season is sufficient."
-                        - listitem [level=1] [ref=f91e227]:
-                          - paragraph [ref=f91e228]:
-                            - generic [ref=f91e229]:
-                              - strong [ref=f91e230]: Pest-resistant
-                              - text: ": It rarely suffers from pests or diseases."
-                        - listitem [level=1] [ref=f91e231]:
-                          - paragraph [ref=f91e232]:
-                            - generic [ref=f91e233]:
-                              - strong [ref=f91e234]: Slow growing
-                              - text: ": This means less frequent trimming or dividing."
-                      - paragraph [ref=f91e238]:
-                        - generic [ref=f91e239]: Because of these qualities, the Hart's Tongue Fern is ideal for gardeners who want a reliable, attractive plant that fills shady spaces with lush greenery year-round.
-                      - heading "Enhancing Your Garden with Hart's Tongue Fern" [level=2] [ref=f91e244]
-                      - paragraph [ref=f91e250]:
-                        - generic [ref=f91e251]: "This fern works well in a variety of garden styles, from natural woodland settings to formal shade gardens. It pairs nicely with other shade-loving plants such as hostas, ferns with divided fronds, and shade-tolerant ground covers. Here are some practical tips for incorporating it into your garden:"
-                      - list [ref=f91e256]:
-                        - listitem [level=1] [ref=f91e257]:
-                          - paragraph [ref=f91e258]:
-                            - generic [ref=f91e259]: Plant in groups for a fuller look.
-                        - listitem [level=1] [ref=f91e260]:
-                          - paragraph [ref=f91e261]:
-                            - generic [ref=f91e262]: Use as a ground cover under trees or along shaded walls.
-                        - listitem [level=1] [ref=f91e263]:
-                          - paragraph [ref=f91e264]:
-                            - generic [ref=f91e265]: Combine with plants that have contrasting leaf shapes and textures.
-                        - listitem [level=1] [ref=f91e266]:
-                          - paragraph [ref=f91e267]:
-                            - generic [ref=f91e268]: Place near water features or in damp areas where other plants struggle.
-                      - heading "Expert Care During Winter Months" [level=2] [ref=f91e272]
-                      - paragraph [ref=f91e278]:
-                        - generic [ref=f91e279]:
-                          - text: Winter can be a challenging time for many plants, but the Hart's Tongue Fern remains vibrant with the proper care. To ensure it stays healthy through the colder months, consider booking a
-                          - strong [ref=f91e280]
-                          - link "Review with Stuart Savage Landscaping" [ref=f91e281] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/contact-us
-                            - strong [ref=f91e282]:
-                              - generic [ref=f91e283]: Review with Stuart Savage Landscaping
-                          - text: ". Expert gardeners can provide tailored advice and services such as:"
-                      - list [ref=f91e288]:
-                        - listitem [level=1] [ref=f91e289]:
-                          - paragraph [ref=f91e290]:
-                            - generic [ref=f91e291]: Checking soil moisture and adjusting watering schedules.
-                        - listitem [level=1] [ref=f91e292]:
-                          - paragraph [ref=f91e293]:
-                            - generic [ref=f91e294]: Removing dead or damaged fronds to encourage new growth.
-                        - listitem [level=1] [ref=f91e295]:
-                          - paragraph [ref=f91e296]:
-                            - generic [ref=f91e297]: Applying mulch to protect roots from frost.
-                        - listitem [level=1] [ref=f91e298]:
-                          - paragraph [ref=f91e299]:
-                            - generic [ref=f91e300]: Inspecting for any signs of pests or disease.
-                      - paragraph [ref=f91e304]:
-                        - generic [ref=f91e305]: This professional care helps your fern thrive, keeping your garden green and inviting even in the heart of winter.
-                      - paragraph [ref=f91e310]:
-                        - generic [ref=f91e311]: The Hart's Tongue Fern offers a unique combination of beauty, resilience, and ease of care. Its glossy, undivided fronds provide a fresh splash of green in shady, damp corners where many plants fail. With a rich history in British folk medicine and a strong presence in UK gardens, it is a plant worth adding to your collection.
-                    - generic [ref=f91e317]:
-                      - list "Post categories" [ref=f91e319]:
-                        - listitem [ref=f91e320]:
-                          - link "Plant & Horticulture Archive" [ref=f91e321] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                      - generic [ref=f91e324]:
-                        - button "Share via Facebook" [ref=f91e326] [cursor=pointer]:
-                          - img "Facebook" [ref=f91e327]
-                        - button "Share via X (Twitter)" [ref=f91e331] [cursor=pointer]:
-                          - img "X" [ref=f91e332]
-                        - button "Share via LinkedIn" [ref=f91e336] [cursor=pointer]:
-                          - img "LinkedIn" [ref=f91e337]
-                        - button "Share via link" [ref=f91e342] [cursor=pointer]
-                - generic [ref=f91e353]:
-                  - generic [ref=f91e354]:
-                    - heading "Recent Posts" [level=2] [ref=f91e355]
-                    - link "See All" [ref=f91e356] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - generic [ref=f91e358]:
-                    - article [ref=f91e359]:
-                      - generic [ref=f91e360]:
-                        - link "Choosing the Perfect Conifer for Your Garden A Comprehensive Guide" [ref=f91e361] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/choosing-the-perfect-conifer-for-your-garden-a-comprehensive-guide
-                        - link "Choosing the Perfect Conifer for Your Garden A Comprehensive Guide" [ref=f91e366] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/choosing-the-perfect-conifer-for-your-garden-a-comprehensive-guide
-                    - article [ref=f91e373]:
-                      - generic [ref=f91e374]:
-                        - link "Close-up view of a vibrant red hibiscus flower" [ref=f91e375] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/september-plant-of-the-month
-                        - 'link "Celebrate the Hibiscus: Your Guide to This Vibrant Flower" [ref=f91e380] [cursor=pointer]':
-                          - /url: https://www.savageldn.co.uk/post/september-plant-of-the-month
-                    - article [ref=f91e387]:
-                      - generic [ref=f91e388]:
-                        - link "Close-up view of a vibrant pink Japanese Anemone among greenery" [ref=f91e389] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/plant-of-the-month-august
-                        - 'link "Embracing the Beauty of Japanese Anemones: My August Love Affair with Anemone japonica: Plant of the month" [ref=f91e394] [cursor=pointer]':
-                          - /url: https://www.savageldn.co.uk/post/plant-of-the-month-august
-      - contentinfo:
-        - generic [ref=f91e405]:
-          - group
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f91e11]:
+        - group:
+            - banner:
+                - generic [ref=f91e16]:
+                    - group
+            - main:
+                - generic [ref=f91e19]:
+                    - group:
+                        - generic [ref=f91e29]:
+                            - navigation "Blog" [ref=f91e32]:
+                                - list [ref=f91e33] [cursor=pointer]:
+                                    - listitem [ref=f91e34]:
+                                        - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f91e35]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - listitem [ref=f91e36]:
+                                        - link "Plant & Horticulture Archive" [ref=f91e37]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - listitem [ref=f91e38]:
+                                        - link "Project Delivery Archive" [ref=f91e39]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                    - listitem [ref=f91e40]:
+                                        - link "Garden Design Archive" [ref=f91e41]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                    - listitem [ref=f91e42]:
+                                        - link "Supplier & Systems Archive" [ref=f91e43]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                            - generic [ref=f91e45]:
+                                - article [ref=f91e49]:
+                                    - generic [ref=f91e50]:
+                                        - generic [ref=f91e52]:
+                                            - generic [ref=f91e53]:
+                                                - 'heading "Plant of the Month – January: Hart’s Tongue Fern" [level=1] [ref=f91e55]'
+                                                - generic [ref=f91e56]:
+                                                    - list [ref=f91e57]:
+                                                        - listitem [ref=f91e58]:
+                                                            - 'img "Writer: Stuart Savage" [ref=f91e61]'
+                                                            - generic [ref=f91e62] [cursor=pointer]: Stuart Savage
+                                                        - listitem [ref=f91e63]: ·Jan 8
+                                                        - listitem [ref=f91e64]: ·3 min read
+                                                    - button "More actions" [ref=f91e66] [cursor=pointer]
+                                            - button "Rated NaN out of 5 stars." [ref=f91e69] [cursor=pointer]
+                                        - generic [ref=f91e90]:
+                                            - paragraph [ref=f91e92]:
+                                                - generic [ref=f91e93]:
+                                                    - text: Asplenium scolopendrium, commonly known as Hart’s Tongue Fern, is our
+                                                    - strong [ref=f91e94]: Plant of the Month for January
+                                                    - text: – a glossy, evergreen fern that brings structure and fresh green colour to even the shadiest, coldest corners of the garden.
+                                            - figure [ref=f91e104]:
+                                                - generic [ref=f91e105]:
+                                                    - img "Close-up eye-level view of a Hart's Tongue Fern showing its glossy, undivided green fronds in a shaded garden corner" [ref=f91e110] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f91e111]: Hart's Tongue Fern with glossy green fronds in a shady garden
+                                            - paragraph [ref=f91e118]:
+                                                - generic [ref=f91e119]:
+                                                    - text: If you’re in
+                                                    - strong [ref=f91e120]: South London postcodes or the TW, CR, and BR areas
+                                                    - text: ", this is an ideal time to review your winter garden, refresh shady borders, or plan new planting for difficult, damp spots."
+                                            - paragraph [ref=f91e125]:
+                                                - generic [ref=f91e126]:
+                                                    - text: At
+                                                    - strong [ref=f91e127]: Stuart Savage Landscaping
+                                                    - text: ", we offer:"
+                                            - list [ref=f91e129]:
+                                                - listitem [level=1] [ref=f91e130]:
+                                                    - paragraph [ref=f91e131]:
+                                                        - generic [ref=f91e132]:
+                                                            - strong [ref=f91e133]: Winter garden reviews
+                                                            - text: to assess structure, planting and problem areas
+                                                - listitem [level=1] [ref=f91e134]:
+                                                    - paragraph [ref=f91e135]:
+                                                        - generic [ref=f91e136]:
+                                                            - strong [ref=f91e137]: Planting plans
+                                                            - text: tailored to shady, damp or awkward corners
+                                                - listitem [level=1] [ref=f91e138]:
+                                                    - paragraph [ref=f91e139]:
+                                                        - generic [ref=f91e140]:
+                                                            - strong [ref=f91e141]: Shady-corner makeovers
+                                                            - text: that use reliable, low-maintenance plants like Hart’s Tongue Fern for year-round interest
+                                            - paragraph [ref=f91e146]:
+                                                - generic [ref=f91e147]: Book a winter garden review today to get expert, professional advice on how to make the most of your shady spaces for the year ahead.
+                                            - 'heading "January: What Makes the Hart''s Tongue Fern Unique?" [level=2] [ref=f91e152]'
+                                            - paragraph [ref=f91e158]:
+                                                - generic [ref=f91e159]:
+                                                    - text: Unlike many ferns that have divided or feathery fronds, the Hart's Tongue Fern features
+                                                    - strong [ref=f91e160]: undivided, strap-shaped fronds
+                                                    - text: . This distinctive shape gives it a bold and architectural look that contrasts beautifully with other plants in shaded areas. In the UK, this feature is quite rare among ferns, making it a standout choice for gardeners who want something different yet easy to care for.
+                                            - paragraph [ref=f91e165]:
+                                                - generic [ref=f91e166]: Historically, the Hart's Tongue Fern was valued in British folk medicine. Its leaves were used to treat burns, a practice that highlights the plant’s long-standing relationship with people beyond just ornamental use. While modern medicine has advanced, this traditional use adds an interesting layer to the plant’s story and cultural significance.
+                                            - heading "Ideal Growing Conditions for the Hart's Tongue Fern" [level=2] [ref=f91e171]
+                                            - paragraph [ref=f91e177]:
+                                                - generic [ref=f91e178]:
+                                                    - text: This fern prefers
+                                                    - strong [ref=f91e179]: damp, shady corners
+                                                    - text: ", making it ideal for areas with limited sunlight and high moisture retention. It thrives in"
+                                                    - strong [ref=f91e180]: Zone C
+                                                    - text: ", which corresponds to many parts of the UK, including London. Here are some key points to consider when planting or caring for this fern:"
+                                            - list [ref=f91e185]:
+                                                - listitem [level=1] [ref=f91e186]:
+                                                    - paragraph [ref=f91e187]:
+                                                        - generic [ref=f91e188]:
+                                                            - strong [ref=f91e189]: Shade
+                                                            - text: ": Avoid direct sunlight, which can scorch the fronds. Partial to full shade is ideal."
+                                                - listitem [level=1] [ref=f91e190]:
+                                                    - paragraph [ref=f91e191]:
+                                                        - generic [ref=f91e192]:
+                                                            - strong [ref=f91e193]: Soil
+                                                            - text: ": Moist, well-drained soil rich in organic matter supports healthy growth."
+                                                - listitem [level=1] [ref=f91e194]:
+                                                    - paragraph [ref=f91e195]:
+                                                        - generic [ref=f91e196]:
+                                                            - strong [ref=f91e197]: Watering
+                                                            - text: ": Keep the soil consistently damp but not waterlogged. The fern tolerates occasional dryness but performs best with regular moisture."
+                                                - listitem [level=1] [ref=f91e198]:
+                                                    - paragraph [ref=f91e199]:
+                                                        - generic [ref=f91e200]:
+                                                            - strong [ref=f91e201]: Temperature
+                                                            - text: ": Hardy enough to withstand cold winters, the fern maintains its glossy green appearance even during chilly London Januaries."
+                                            - heading "Low Maintenance Benefits" [level=2] [ref=f91e205]
+                                            - paragraph [ref=f91e211]:
+                                                - generic [ref=f91e212]:
+                                                    - text: One of the most significant advantages of the Hart's Tongue Fern is its
+                                                    - strong [ref=f91e213]: low-maintenance
+                                                    - text: "nature. It does not require frequent pruning or feeding, making it suitable for gardeners who want greenery without much effort. Here’s why it’s a practical choice:"
+                                            - list [ref=f91e218]:
+                                                - listitem [level=1] [ref=f91e219]:
+                                                    - paragraph [ref=f91e220]:
+                                                        - generic [ref=f91e221]:
+                                                            - strong [ref=f91e222]: Resilient
+                                                            - text: ": It withstands cold and damp conditions without damage."
+                                                - listitem [level=1] [ref=f91e223]:
+                                                    - paragraph [ref=f91e224]:
+                                                        - generic [ref=f91e225]:
+                                                            - strong [ref=f91e226]: Minimal feeding
+                                                            - text: ": Occasional feeding with a balanced fertiliser during the growing season is sufficient."
+                                                - listitem [level=1] [ref=f91e227]:
+                                                    - paragraph [ref=f91e228]:
+                                                        - generic [ref=f91e229]:
+                                                            - strong [ref=f91e230]: Pest-resistant
+                                                            - text: ": It rarely suffers from pests or diseases."
+                                                - listitem [level=1] [ref=f91e231]:
+                                                    - paragraph [ref=f91e232]:
+                                                        - generic [ref=f91e233]:
+                                                            - strong [ref=f91e234]: Slow growing
+                                                            - text: ": This means less frequent trimming or dividing."
+                                            - paragraph [ref=f91e238]:
+                                                - generic [ref=f91e239]: Because of these qualities, the Hart's Tongue Fern is ideal for gardeners who want a reliable, attractive plant that fills shady spaces with lush greenery year-round.
+                                            - heading "Enhancing Your Garden with Hart's Tongue Fern" [level=2] [ref=f91e244]
+                                            - paragraph [ref=f91e250]:
+                                                - generic [ref=f91e251]: "This fern works well in a variety of garden styles, from natural woodland settings to formal shade gardens. It pairs nicely with other shade-loving plants such as hostas, ferns with divided fronds, and shade-tolerant ground covers. Here are some practical tips for incorporating it into your garden:"
+                                            - list [ref=f91e256]:
+                                                - listitem [level=1] [ref=f91e257]:
+                                                    - paragraph [ref=f91e258]:
+                                                        - generic [ref=f91e259]: Plant in groups for a fuller look.
+                                                - listitem [level=1] [ref=f91e260]:
+                                                    - paragraph [ref=f91e261]:
+                                                        - generic [ref=f91e262]: Use as a ground cover under trees or along shaded walls.
+                                                - listitem [level=1] [ref=f91e263]:
+                                                    - paragraph [ref=f91e264]:
+                                                        - generic [ref=f91e265]: Combine with plants that have contrasting leaf shapes and textures.
+                                                - listitem [level=1] [ref=f91e266]:
+                                                    - paragraph [ref=f91e267]:
+                                                        - generic [ref=f91e268]: Place near water features or in damp areas where other plants struggle.
+                                            - heading "Expert Care During Winter Months" [level=2] [ref=f91e272]
+                                            - paragraph [ref=f91e278]:
+                                                - generic [ref=f91e279]:
+                                                    - text: Winter can be a challenging time for many plants, but the Hart's Tongue Fern remains vibrant with the proper care. To ensure it stays healthy through the colder months, consider booking a
+                                                    - strong [ref=f91e280]
+                                                    - link "Review with Stuart Savage Landscaping" [ref=f91e281] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/contact-us
+                                                        - strong [ref=f91e282]:
+                                                            - generic [ref=f91e283]: Review with Stuart Savage Landscaping
+                                                    - text: ". Expert gardeners can provide tailored advice and services such as:"
+                                            - list [ref=f91e288]:
+                                                - listitem [level=1] [ref=f91e289]:
+                                                    - paragraph [ref=f91e290]:
+                                                        - generic [ref=f91e291]: Checking soil moisture and adjusting watering schedules.
+                                                - listitem [level=1] [ref=f91e292]:
+                                                    - paragraph [ref=f91e293]:
+                                                        - generic [ref=f91e294]: Removing dead or damaged fronds to encourage new growth.
+                                                - listitem [level=1] [ref=f91e295]:
+                                                    - paragraph [ref=f91e296]:
+                                                        - generic [ref=f91e297]: Applying mulch to protect roots from frost.
+                                                - listitem [level=1] [ref=f91e298]:
+                                                    - paragraph [ref=f91e299]:
+                                                        - generic [ref=f91e300]: Inspecting for any signs of pests or disease.
+                                            - paragraph [ref=f91e304]:
+                                                - generic [ref=f91e305]: This professional care helps your fern thrive, keeping your garden green and inviting even in the heart of winter.
+                                            - paragraph [ref=f91e310]:
+                                                - generic [ref=f91e311]: The Hart's Tongue Fern offers a unique combination of beauty, resilience, and ease of care. Its glossy, undivided fronds provide a fresh splash of green in shady, damp corners where many plants fail. With a rich history in British folk medicine and a strong presence in UK gardens, it is a plant worth adding to your collection.
+                                        - generic [ref=f91e317]:
+                                            - list "Post categories" [ref=f91e319]:
+                                                - listitem [ref=f91e320]:
+                                                    - link "Plant & Horticulture Archive" [ref=f91e321] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                            - generic [ref=f91e324]:
+                                                - button "Share via Facebook" [ref=f91e326] [cursor=pointer]:
+                                                    - img "Facebook" [ref=f91e327]
+                                                - button "Share via X (Twitter)" [ref=f91e331] [cursor=pointer]:
+                                                    - img "X" [ref=f91e332]
+                                                - button "Share via LinkedIn" [ref=f91e336] [cursor=pointer]:
+                                                    - img "LinkedIn" [ref=f91e337]
+                                                - button "Share via link" [ref=f91e342] [cursor=pointer]
+                                - generic [ref=f91e353]:
+                                    - generic [ref=f91e354]:
+                                        - heading "Recent Posts" [level=2] [ref=f91e355]
+                                        - link "See All" [ref=f91e356] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - generic [ref=f91e358]:
+                                        - article [ref=f91e359]:
+                                            - generic [ref=f91e360]:
+                                                - link "Choosing the Perfect Conifer for Your Garden A Comprehensive Guide" [ref=f91e361] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/choosing-the-perfect-conifer-for-your-garden-a-comprehensive-guide
+                                                - link "Choosing the Perfect Conifer for Your Garden A Comprehensive Guide" [ref=f91e366] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/choosing-the-perfect-conifer-for-your-garden-a-comprehensive-guide
+                                        - article [ref=f91e373]:
+                                            - generic [ref=f91e374]:
+                                                - link "Close-up view of a vibrant red hibiscus flower" [ref=f91e375] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/september-plant-of-the-month
+                                                - 'link "Celebrate the Hibiscus: Your Guide to This Vibrant Flower" [ref=f91e380] [cursor=pointer]':
+                                                    - /url: https://www.savageldn.co.uk/post/september-plant-of-the-month
+                                        - article [ref=f91e387]:
+                                            - generic [ref=f91e388]:
+                                                - link "Close-up view of a vibrant pink Japanese Anemone among greenery" [ref=f91e389] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/plant-of-the-month-august
+                                                - 'link "Embracing the Beauty of Japanese Anemones: My August Love Affair with Anemone japonica: Plant of the month" [ref=f91e394] [cursor=pointer]':
+                                                    - /url: https://www.savageldn.co.uk/post/plant-of-the-month-august
+            - contentinfo:
+                - generic [ref=f91e405]:
+                    - group
+    - region "bottom of page"

@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.gayville-zen-sanctuary-balham.tsx');
+const filePath = path.join(
+  process.cwd(),
+  "src",
+  "routes",
+  "case-studies.gayville-zen-sanctuary-balham.tsx",
+);
 
 const gayvilleCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -146,5 +151,5 @@ function GayvilleZenSanctuaryCaseStudy() {
 }
 `;
 
-fs.writeFileSync(filePath, gayvilleCode, 'utf8');
+fs.writeFileSync(filePath, gayvilleCode, "utf8");
 console.log("Successfully created Gayville Zen Sanctuary case study route.");

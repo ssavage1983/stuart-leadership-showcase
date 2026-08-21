@@ -1,173 +1,173 @@
 - generic [ref=f121e3]:
-  - region "top of page"
-  - generic [ref=f121e11]:
-    - group:
-      - banner:
-        - generic [ref=f121e16]:
-          - group
-      - main:
-        - generic [ref=f121e19]:
-          - group:
-            - generic [ref=f121e29]:
-              - navigation "Blog" [ref=f121e32]:
-                - list [ref=f121e33] [cursor=pointer]:
-                  - listitem [ref=f121e34]:
-                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f121e35]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - listitem [ref=f121e36]:
-                    - link "Plant & Horticulture Archive" [ref=f121e37]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - listitem [ref=f121e38]:
-                    - link "Project Delivery Archive" [ref=f121e39]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                  - listitem [ref=f121e40]:
-                    - link "Garden Design Archive" [ref=f121e41]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                  - listitem [ref=f121e42]:
-                    - link "Supplier & Systems Archive" [ref=f121e43]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-              - generic [ref=f121e45]:
-                - article [ref=f121e49]:
-                  - generic [ref=f121e50]:
-                    - generic [ref=f121e52]:
-                      - generic [ref=f121e53]:
-                        - 'heading "THE NEW STANDARD IN NOCTURNAL GARDEN DESIGN: WHY YOUR OUTDOOR SPACE SHOULD LIVE AT NIGHT" [level=1] [ref=f121e55]'
-                        - generic [ref=f121e56]:
-                          - list [ref=f121e57]:
-                            - listitem [ref=f121e58]:
-                              - 'img "Writer: Stuart Savage" [ref=f121e61]'
-                              - generic [ref=f121e62] [cursor=pointer]: Stuart Savage
-                            - listitem [ref=f121e63]: ·Jan 20
-                            - listitem [ref=f121e64]: ·4 min read
-                          - button "More actions" [ref=f121e66] [cursor=pointer]
-                      - paragraph [ref=f121e69]: "Updated: Aug 3"
-                      - button "Rated NaN out of 5 stars." [ref=f121e70] [cursor=pointer]
-                    - generic [ref=f121e91]:
-                      - heading "The Daylight Delusion and the Shift in Modern Living" [level=2] [ref=f121e96]
-                      - paragraph [ref=f121e102]:
-                        - generic [ref=f121e103]: "For decades, the landscaping industry has been obsessed with the midday sun—a fleeting, idealistic moment that most working professionals only witness on their lunch break or through a distant office window. We flick through glossy magazines showing sun-drenched patios and vibrant summer borders, dreaming of replicating them in our own plots. But here is the uncomfortable truth for the modern homeowner: you primarily experience your home, and therefore your landscape, in the evenings."
-                      - paragraph [ref=f121e109]:
-                        - generic [ref=f121e110]:
-                          - generic [ref=f121e111]: If you work a 9-to-5 or navigate a high-pressure career in the city, your garden is often just a dark, unused void outside your window by the time you get home. It’s more than a missed aesthetic opportunity; it’s a missed opportunity for restoration, wellness, and mental decompression. The traditional "Daylight Bias" in gardening ignores the reality of our 24-hour lives. At
-                          - link "Stuart Savage Landscaping" [ref=f121e112] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/
-                          - generic [ref=f121e115]: ", we believe it’s time to challenge the outdated approach that treats gardens as \"daytime-only\" assets. A truly valuable outdoor space is a 24-hour sanctuary that bridges the gap between high-end architectural aesthetics and the reality of your daily schedule through innovative"
-                          - strong [ref=f121e116]:
-                            - generic [ref=f121e117]: nocturnal garden design
-                          - generic [ref=f121e118]: .
-                      - figure [ref=f121e125]:
-                        - generic [ref=f121e129]: "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio."
-                      - heading "The 'Dead' Garden Dilemma and the Psychology of Space" [level=3] [ref=f121e137]
-                      - paragraph [ref=f121e143]:
-                        - generic [ref=f121e144]: Think about your current garden after 7 PM. Is it an inviting extension of your living room, or a black hole? When a garden isn't designed specifically for the night, it creates a psychological barrier. We call this "The Mirror Effect." Without external illumination, the glass of your bifold doors or kitchen windows reflects only the interior lights, turning your windows into dark mirrors. This leads to a phenomenon called "Interior Claustrophobia," where your living space feels significantly smaller and more restrictive because the outdoor area is visually and emotionally inaccessible.
-                      - figure [ref=f121e155]:
-                        - link [ref=f121e156] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/portfolio-collections/location/brixton-jungle-garden-transformation
-                          - generic [ref=f121e157]:
-                            - img "Cosy garden at night with wooden benches, lush plants, and string lights creating a warm ambiance. Soft lighting highlights greenery." [ref=f121e162]
-                            - button "Expand image"
-                        - generic [ref=f121e163]: A beautifully illuminated nocturnal garden showcases precision uplighting on various tropical plants, including palms, creating a sculptural focal point that seamlessly bridges interior and exterior spaces.
-                      - separator [ref=f121e171]
-                      - 'heading "Entering the Enchanting Nocturnal Garden Design Sanctuary: A Three-Layered Masterclass" [level=3] [ref=f121e179]'
-                      - paragraph [ref=f121e185]:
-                        - generic [ref=f121e186]:
-                          - generic [ref=f121e187]: At
-                          - link "The Moonlight Garden Design Co." [ref=f121e189] [cursor=pointer]:
-                            - /url: https://www.moonlight-studio.uk/
-                          - generic [ref=f121e193]: ", we have pioneered a design philosophy focused on creating a magical evening experience that serves your well-being. This isn't about turning night into day with stadium-level illumination; it is about the mastery of contrast and the subtle play of warm light. Through our specialised"
-                          - strong [ref=f121e195]:
-                            - generic [ref=f121e196]: nocturnal garden design
-                          - generic [ref=f121e198]: "process, we create magic through three specific layers:"
-                      - list [ref=f121e204]:
-                        - listitem [level=1] [ref=f121e205]:
-                          - paragraph [ref=f121e206]:
-                            - generic [ref=f121e207]:
-                              - strong [ref=f121e208]:
-                                - generic [ref=f121e209]: "Shadow & Silhouette:"
-                              - generic [ref=f121e210]: We use low-voltage LED spotlights to highlight the sculptural forms of multi-stem trees (such as
-                              - emphasis [ref=f121e211]:
-                                - generic [ref=f121e212]: Betula utilis jacquemontii
-                              - generic [ref=f121e213]: or
-                              - emphasis [ref=f121e214]:
-                                - generic [ref=f121e215]: Acer palmatum
-                              - generic [ref=f121e216]: ). By using specific beam angles—often a narrow 15-degree spread—we can uplight the "skeleton" of the garden, creating a sense of verticality and drama. This technique, known as "Moonlighting" when placed high in the canopy, casts dappled shadows across your paving, mimicking the natural movement of a forest at midnight.
-                        - listitem [level=1] [ref=f121e217]:
-                          - paragraph [ref=f121e218]:
-                            - generic [ref=f121e219]:
-                              - strong [ref=f121e220]:
-                                - generic [ref=f121e221]: "Texture & Depth:"
-                              - generic [ref=f121e222]: A garden has a tactile life that only emerges under artificial light. By "grazing" light across stone walls, bespoke western red cedar fencing, or textured porcelain paving, we emphasise the physical quality of the materials. This creates a rich visual tapestry that makes the space feel expensive, hand-crafted, and layered. We avoid "flat" lighting, instead using shadow to define the boundaries of your sanctuary and make a small plot feel infinitely deeper.
-                        - listitem [level=1] [ref=f121e223]:
-                          - paragraph [ref=f121e224]:
-                            - generic [ref=f121e225]:
-                              - strong [ref=f121e226]:
-                                - generic [ref=f121e227]: "The Emotional Anchor:"
-                              - generic [ref=f121e228]: We focus heavily on the science of the Kelvin scale, almost exclusively using ultra-warm 2700K LEDs. Unlike the cold, blue light found in standard security fixtures, this warm glow mimics the soft amber of a sunset or a crackling fire. It is biologically designed to support melatonin production and respect your natural circadian rhythm, helping you decompress as you transition from a high-pressure office to a restorative home environment.
-                      - 'heading "The Synergy of Design and Build: A Meticulous Foundation" [level=3] [ref=f121e233]'
-                      - paragraph [ref=f121e239]:
-                        - generic [ref=f121e240]:
-                          - generic [ref=f121e241]: What sets our philosophy apart is the bridge between the artistic and the authoritative. While our design studio,
-                          - link "Moonlight Studio" [ref=f121e243] [cursor=pointer]:
-                            - /url: https://www.moonlight-studio.uk/
-                          - generic [ref=f121e247]: ", provides the enchanting visionary modelling,"
-                          - link "Stuart Savage Landscaping" [ref=f121e249] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/
-                          - generic [ref=f121e253]: ensures the structural integrity of that vision. A pretty render is useless if it isn't backed by the "Operational Discipline" required for a high-end build.
-                      - paragraph [ref=f121e259]:
-                        - generic [ref=f121e260]:
-                          - generic [ref=f121e261]: A successful project in
-                          - strong [ref=f121e262]:
-                            - generic [ref=f121e263]: nocturnal garden design
-                          - generic [ref=f121e264]: requires more than just creative flair; it requires specialised subframe engineering. For our London clients, this means using rot-proof composite subframes that withstand damp city soil and comply with regulatory electrical infrastructure requirements. We use SWA (Steel Wire Armoured) cabling buried to exact depths, connected via IP68 waterproof junctions to ensure your sanctuary functions perfectly through every British storm. Furthermore, we implement precise 1:80 drainage gradients to ensure no standing water ruins your evening views or compromises the stone. When you design for the night, you must build for the decades.
-                      - figure [ref=f121e274]:
-                        - generic [ref=f121e275]:
-                          - img "View from inside a modern Balham SW12 living room looking through bifold doors into a garden designed with nocturnal garden design principles, featuring warm evening lighting that visually extends the living space." [ref=f121e280] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f121e283]:
-                          - strong [ref=f121e284]:
-                            - generic [ref=f121e285]: "Breaking the Mirror Effect:"
-                          - generic [ref=f121e286]: A seamless transition from a modern Balham living room into a masterfully lit nocturnal garden. By illuminating the landscape's depth, the glass reflection is eliminated, visually extending the interior into the outdoor sanctuary.
-                      - separator [ref=f121e290]
-                      - 'heading "The Power of Cinematic Planning: Eliminating the Guesswork" [level=3] [ref=f121e298]'
-                      - paragraph [ref=f121e304]:
-                        - generic [ref=f121e305]: It can be hard to visualise how a dark, rectangular plot can become a moonlit retreat. That’s why we don't just draw flat plans; we build cinematic 3D worlds. Our remote design process lets you virtually walk through your future garden at exactly 19:00, just before a single spade hits the ground.
-                      - paragraph [ref=f121e312]:
-                        - generic [ref=f121e313]:
-                          - generic [ref=f121e314]: Through our specialised approach to
-                          - strong [ref=f121e315]:
-                            - generic [ref=f121e316]: nocturnal garden design
-                          - generic [ref=f121e317]: ", you can see exactly how the light falls on your porcelain patio, how the silver-leafed planting (such as"
-                          - emphasis [ref=f121e318]:
-                            - generic [ref=f121e319]: Artemisia
-                          - generic [ref=f121e320]: or
-                          - emphasis [ref=f121e321]:
-                            - generic [ref=f121e322]: Stachys
-                          - generic [ref=f121e323]: ) shimmers under the moon, and how glare is managed so you only see the effect of the light, never the source. This technical insight eliminates the risk of "buyer's remorse" and ensures your investment delivers exactly the atmosphere you desire. Our blueprints provide a precise framework, allowing for a seamless handover to our build teams or your local contractor. It is a collaborative and fulfilling experience that ensures your distinct dreams are met with structural heritage.
-                    - generic [ref=f121e337]:
-                      - list "Post categories" [ref=f121e339]:
-                        - listitem [ref=f121e340]:
-                          - link "Project Delivery Archive" [ref=f121e341] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                      - generic [ref=f121e344]:
-                        - button "Share via Facebook" [ref=f121e346] [cursor=pointer]:
-                          - img "Facebook" [ref=f121e347]
-                        - button "Share via X (Twitter)" [ref=f121e351] [cursor=pointer]:
-                          - img "X" [ref=f121e352]
-                        - button "Share via LinkedIn" [ref=f121e356] [cursor=pointer]:
-                          - img "LinkedIn" [ref=f121e357]
-                        - button "Share via link" [ref=f121e362] [cursor=pointer]
-                - generic [ref=f121e373]:
-                  - generic [ref=f121e374]:
-                    - heading "Recent Posts" [level=2] [ref=f121e375]
-                    - link "See All" [ref=f121e376] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - article [ref=f121e379]:
-                    - generic [ref=f121e380]:
-                      - 'link "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [ref=f121e381] [cursor=pointer]':
-                        - /url: https://www.savageldn.co.uk/post/designing-for-scent
-                      - 'link "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [ref=f121e386] [cursor=pointer]':
-                        - /url: https://www.savageldn.co.uk/post/designing-for-scent
-      - contentinfo:
-        - generic [ref=f121e397]:
-          - group
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f121e11]:
+        - group:
+            - banner:
+                - generic [ref=f121e16]:
+                    - group
+            - main:
+                - generic [ref=f121e19]:
+                    - group:
+                        - generic [ref=f121e29]:
+                            - navigation "Blog" [ref=f121e32]:
+                                - list [ref=f121e33] [cursor=pointer]:
+                                    - listitem [ref=f121e34]:
+                                        - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f121e35]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - listitem [ref=f121e36]:
+                                        - link "Plant & Horticulture Archive" [ref=f121e37]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - listitem [ref=f121e38]:
+                                        - link "Project Delivery Archive" [ref=f121e39]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                    - listitem [ref=f121e40]:
+                                        - link "Garden Design Archive" [ref=f121e41]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                    - listitem [ref=f121e42]:
+                                        - link "Supplier & Systems Archive" [ref=f121e43]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                            - generic [ref=f121e45]:
+                                - article [ref=f121e49]:
+                                    - generic [ref=f121e50]:
+                                        - generic [ref=f121e52]:
+                                            - generic [ref=f121e53]:
+                                                - 'heading "THE NEW STANDARD IN NOCTURNAL GARDEN DESIGN: WHY YOUR OUTDOOR SPACE SHOULD LIVE AT NIGHT" [level=1] [ref=f121e55]'
+                                                - generic [ref=f121e56]:
+                                                    - list [ref=f121e57]:
+                                                        - listitem [ref=f121e58]:
+                                                            - 'img "Writer: Stuart Savage" [ref=f121e61]'
+                                                            - generic [ref=f121e62] [cursor=pointer]: Stuart Savage
+                                                        - listitem [ref=f121e63]: ·Jan 20
+                                                        - listitem [ref=f121e64]: ·4 min read
+                                                    - button "More actions" [ref=f121e66] [cursor=pointer]
+                                            - paragraph [ref=f121e69]: "Updated: Aug 3"
+                                            - button "Rated NaN out of 5 stars." [ref=f121e70] [cursor=pointer]
+                                        - generic [ref=f121e91]:
+                                            - heading "The Daylight Delusion and the Shift in Modern Living" [level=2] [ref=f121e96]
+                                            - paragraph [ref=f121e102]:
+                                                - generic [ref=f121e103]: "For decades, the landscaping industry has been obsessed with the midday sun—a fleeting, idealistic moment that most working professionals only witness on their lunch break or through a distant office window. We flick through glossy magazines showing sun-drenched patios and vibrant summer borders, dreaming of replicating them in our own plots. But here is the uncomfortable truth for the modern homeowner: you primarily experience your home, and therefore your landscape, in the evenings."
+                                            - paragraph [ref=f121e109]:
+                                                - generic [ref=f121e110]:
+                                                    - generic [ref=f121e111]: If you work a 9-to-5 or navigate a high-pressure career in the city, your garden is often just a dark, unused void outside your window by the time you get home. It’s more than a missed aesthetic opportunity; it’s a missed opportunity for restoration, wellness, and mental decompression. The traditional "Daylight Bias" in gardening ignores the reality of our 24-hour lives. At
+                                                    - link "Stuart Savage Landscaping" [ref=f121e112] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/
+                                                    - generic [ref=f121e115]: ', we believe it’s time to challenge the outdated approach that treats gardens as "daytime-only" assets. A truly valuable outdoor space is a 24-hour sanctuary that bridges the gap between high-end architectural aesthetics and the reality of your daily schedule through innovative'
+                                                    - strong [ref=f121e116]:
+                                                        - generic [ref=f121e117]: nocturnal garden design
+                                                    - generic [ref=f121e118]: .
+                                            - figure [ref=f121e125]:
+                                                - generic [ref=f121e129]: "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio."
+                                            - heading "The 'Dead' Garden Dilemma and the Psychology of Space" [level=3] [ref=f121e137]
+                                            - paragraph [ref=f121e143]:
+                                                - generic [ref=f121e144]: Think about your current garden after 7 PM. Is it an inviting extension of your living room, or a black hole? When a garden isn't designed specifically for the night, it creates a psychological barrier. We call this "The Mirror Effect." Without external illumination, the glass of your bifold doors or kitchen windows reflects only the interior lights, turning your windows into dark mirrors. This leads to a phenomenon called "Interior Claustrophobia," where your living space feels significantly smaller and more restrictive because the outdoor area is visually and emotionally inaccessible.
+                                            - figure [ref=f121e155]:
+                                                - link [ref=f121e156] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/portfolio-collections/location/brixton-jungle-garden-transformation
+                                                    - generic [ref=f121e157]:
+                                                        - img "Cosy garden at night with wooden benches, lush plants, and string lights creating a warm ambiance. Soft lighting highlights greenery." [ref=f121e162]
+                                                        - button "Expand image"
+                                                - generic [ref=f121e163]: A beautifully illuminated nocturnal garden showcases precision uplighting on various tropical plants, including palms, creating a sculptural focal point that seamlessly bridges interior and exterior spaces.
+                                            - separator [ref=f121e171]
+                                            - 'heading "Entering the Enchanting Nocturnal Garden Design Sanctuary: A Three-Layered Masterclass" [level=3] [ref=f121e179]'
+                                            - paragraph [ref=f121e185]:
+                                                - generic [ref=f121e186]:
+                                                    - generic [ref=f121e187]: At
+                                                    - link "The Moonlight Garden Design Co." [ref=f121e189] [cursor=pointer]:
+                                                        - /url: https://www.moonlight-studio.uk/
+                                                    - generic [ref=f121e193]: ", we have pioneered a design philosophy focused on creating a magical evening experience that serves your well-being. This isn't about turning night into day with stadium-level illumination; it is about the mastery of contrast and the subtle play of warm light. Through our specialised"
+                                                    - strong [ref=f121e195]:
+                                                        - generic [ref=f121e196]: nocturnal garden design
+                                                    - generic [ref=f121e198]: "process, we create magic through three specific layers:"
+                                            - list [ref=f121e204]:
+                                                - listitem [level=1] [ref=f121e205]:
+                                                    - paragraph [ref=f121e206]:
+                                                        - generic [ref=f121e207]:
+                                                            - strong [ref=f121e208]:
+                                                                - generic [ref=f121e209]: "Shadow & Silhouette:"
+                                                            - generic [ref=f121e210]: We use low-voltage LED spotlights to highlight the sculptural forms of multi-stem trees (such as
+                                                            - emphasis [ref=f121e211]:
+                                                                - generic [ref=f121e212]: Betula utilis jacquemontii
+                                                            - generic [ref=f121e213]: or
+                                                            - emphasis [ref=f121e214]:
+                                                                - generic [ref=f121e215]: Acer palmatum
+                                                            - generic [ref=f121e216]: ). By using specific beam angles—often a narrow 15-degree spread—we can uplight the "skeleton" of the garden, creating a sense of verticality and drama. This technique, known as "Moonlighting" when placed high in the canopy, casts dappled shadows across your paving, mimicking the natural movement of a forest at midnight.
+                                                - listitem [level=1] [ref=f121e217]:
+                                                    - paragraph [ref=f121e218]:
+                                                        - generic [ref=f121e219]:
+                                                            - strong [ref=f121e220]:
+                                                                - generic [ref=f121e221]: "Texture & Depth:"
+                                                            - generic [ref=f121e222]: A garden has a tactile life that only emerges under artificial light. By "grazing" light across stone walls, bespoke western red cedar fencing, or textured porcelain paving, we emphasise the physical quality of the materials. This creates a rich visual tapestry that makes the space feel expensive, hand-crafted, and layered. We avoid "flat" lighting, instead using shadow to define the boundaries of your sanctuary and make a small plot feel infinitely deeper.
+                                                - listitem [level=1] [ref=f121e223]:
+                                                    - paragraph [ref=f121e224]:
+                                                        - generic [ref=f121e225]:
+                                                            - strong [ref=f121e226]:
+                                                                - generic [ref=f121e227]: "The Emotional Anchor:"
+                                                            - generic [ref=f121e228]: We focus heavily on the science of the Kelvin scale, almost exclusively using ultra-warm 2700K LEDs. Unlike the cold, blue light found in standard security fixtures, this warm glow mimics the soft amber of a sunset or a crackling fire. It is biologically designed to support melatonin production and respect your natural circadian rhythm, helping you decompress as you transition from a high-pressure office to a restorative home environment.
+                                            - 'heading "The Synergy of Design and Build: A Meticulous Foundation" [level=3] [ref=f121e233]'
+                                            - paragraph [ref=f121e239]:
+                                                - generic [ref=f121e240]:
+                                                    - generic [ref=f121e241]: What sets our philosophy apart is the bridge between the artistic and the authoritative. While our design studio,
+                                                    - link "Moonlight Studio" [ref=f121e243] [cursor=pointer]:
+                                                        - /url: https://www.moonlight-studio.uk/
+                                                    - generic [ref=f121e247]: ", provides the enchanting visionary modelling,"
+                                                    - link "Stuart Savage Landscaping" [ref=f121e249] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/
+                                                    - generic [ref=f121e253]: ensures the structural integrity of that vision. A pretty render is useless if it isn't backed by the "Operational Discipline" required for a high-end build.
+                                            - paragraph [ref=f121e259]:
+                                                - generic [ref=f121e260]:
+                                                    - generic [ref=f121e261]: A successful project in
+                                                    - strong [ref=f121e262]:
+                                                        - generic [ref=f121e263]: nocturnal garden design
+                                                    - generic [ref=f121e264]: requires more than just creative flair; it requires specialised subframe engineering. For our London clients, this means using rot-proof composite subframes that withstand damp city soil and comply with regulatory electrical infrastructure requirements. We use SWA (Steel Wire Armoured) cabling buried to exact depths, connected via IP68 waterproof junctions to ensure your sanctuary functions perfectly through every British storm. Furthermore, we implement precise 1:80 drainage gradients to ensure no standing water ruins your evening views or compromises the stone. When you design for the night, you must build for the decades.
+                                            - figure [ref=f121e274]:
+                                                - generic [ref=f121e275]:
+                                                    - img "View from inside a modern Balham SW12 living room looking through bifold doors into a garden designed with nocturnal garden design principles, featuring warm evening lighting that visually extends the living space." [ref=f121e280] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f121e283]:
+                                                    - strong [ref=f121e284]:
+                                                        - generic [ref=f121e285]: "Breaking the Mirror Effect:"
+                                                    - generic [ref=f121e286]: A seamless transition from a modern Balham living room into a masterfully lit nocturnal garden. By illuminating the landscape's depth, the glass reflection is eliminated, visually extending the interior into the outdoor sanctuary.
+                                            - separator [ref=f121e290]
+                                            - 'heading "The Power of Cinematic Planning: Eliminating the Guesswork" [level=3] [ref=f121e298]'
+                                            - paragraph [ref=f121e304]:
+                                                - generic [ref=f121e305]: It can be hard to visualise how a dark, rectangular plot can become a moonlit retreat. That’s why we don't just draw flat plans; we build cinematic 3D worlds. Our remote design process lets you virtually walk through your future garden at exactly 19:00, just before a single spade hits the ground.
+                                            - paragraph [ref=f121e312]:
+                                                - generic [ref=f121e313]:
+                                                    - generic [ref=f121e314]: Through our specialised approach to
+                                                    - strong [ref=f121e315]:
+                                                        - generic [ref=f121e316]: nocturnal garden design
+                                                    - generic [ref=f121e317]: ", you can see exactly how the light falls on your porcelain patio, how the silver-leafed planting (such as"
+                                                    - emphasis [ref=f121e318]:
+                                                        - generic [ref=f121e319]: Artemisia
+                                                    - generic [ref=f121e320]: or
+                                                    - emphasis [ref=f121e321]:
+                                                        - generic [ref=f121e322]: Stachys
+                                                    - generic [ref=f121e323]: ) shimmers under the moon, and how glare is managed so you only see the effect of the light, never the source. This technical insight eliminates the risk of "buyer's remorse" and ensures your investment delivers exactly the atmosphere you desire. Our blueprints provide a precise framework, allowing for a seamless handover to our build teams or your local contractor. It is a collaborative and fulfilling experience that ensures your distinct dreams are met with structural heritage.
+                                        - generic [ref=f121e337]:
+                                            - list "Post categories" [ref=f121e339]:
+                                                - listitem [ref=f121e340]:
+                                                    - link "Project Delivery Archive" [ref=f121e341] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                            - generic [ref=f121e344]:
+                                                - button "Share via Facebook" [ref=f121e346] [cursor=pointer]:
+                                                    - img "Facebook" [ref=f121e347]
+                                                - button "Share via X (Twitter)" [ref=f121e351] [cursor=pointer]:
+                                                    - img "X" [ref=f121e352]
+                                                - button "Share via LinkedIn" [ref=f121e356] [cursor=pointer]:
+                                                    - img "LinkedIn" [ref=f121e357]
+                                                - button "Share via link" [ref=f121e362] [cursor=pointer]
+                                - generic [ref=f121e373]:
+                                    - generic [ref=f121e374]:
+                                        - heading "Recent Posts" [level=2] [ref=f121e375]
+                                        - link "See All" [ref=f121e376] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - article [ref=f121e379]:
+                                        - generic [ref=f121e380]:
+                                            - 'link "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [ref=f121e381] [cursor=pointer]':
+                                                - /url: https://www.savageldn.co.uk/post/designing-for-scent
+                                            - 'link "The January Sanctuary: Designing for Scent, Sight, and Survival in 2026" [ref=f121e386] [cursor=pointer]':
+                                                - /url: https://www.savageldn.co.uk/post/designing-for-scent
+            - contentinfo:
+                - generic [ref=f121e397]:
+                    - group
+    - region "bottom of page"

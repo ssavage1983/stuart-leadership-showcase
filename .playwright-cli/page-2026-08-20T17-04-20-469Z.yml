@@ -1,212 +1,212 @@
 - generic [ref=f79e3]:
-  - region "top of page"
-  - generic [ref=f79e11]:
-    - group:
-      - banner:
-        - generic [ref=f79e16]:
-          - group
-      - main:
-        - generic [ref=f79e19]:
-          - group:
-            - generic [ref=f79e29]:
-              - navigation "Blog" [ref=f79e32]:
-                - list [ref=f79e33] [cursor=pointer]:
-                  - listitem [ref=f79e34]:
-                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f79e35]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - listitem [ref=f79e36]:
-                    - link "Plant & Horticulture Archive" [ref=f79e37]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - listitem [ref=f79e38]:
-                    - link "Project Delivery Archive" [ref=f79e39]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                  - listitem [ref=f79e40]:
-                    - link "Garden Design Archive" [ref=f79e41]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                  - listitem [ref=f79e42]:
-                    - link "Supplier & Systems Archive" [ref=f79e43]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-              - generic [ref=f79e45]:
-                - article [ref=f79e49]:
-                  - generic [ref=f79e50]:
-                    - generic [ref=f79e52]:
-                      - generic [ref=f79e53]:
-                        - heading "What to Expect from a Garden Consultation Overview" [level=1] [ref=f79e55]
-                        - generic [ref=f79e56]:
-                          - list [ref=f79e57]:
-                            - listitem [ref=f79e58]:
-                              - 'img "Writer: Stuart Savage" [ref=f79e61]'
-                              - generic [ref=f79e62] [cursor=pointer]: Stuart Savage
-                            - listitem [ref=f79e63]: ·Jan 15
-                            - listitem [ref=f79e64]: ·4 min read
-                          - button "More actions" [ref=f79e66] [cursor=pointer]
-                      - button "Rated NaN out of 5 stars." [ref=f79e69] [cursor=pointer]
-                    - generic [ref=f79e90]:
-                      - paragraph [ref=f79e92]:
-                        - generic [ref=f79e93]: Embarking on the journey to transform your outdoor space is a venture that is both exciting and intricate. A garden consultation serves as the pivotal first step in this process, offering clarity, inspiration, and a bespoke plan tailored to your unique environment and aspirations.
-                      - paragraph [ref=f79e95]:
-                        - generic [ref=f79e96]: As someone deeply invested in crafting exquisite gardens across South West London, I find that understanding what to anticipate during this initial meeting can significantly enhance the experience and outcome.
-                      - paragraph [ref=f79e101]:
-                        - generic [ref=f79e102]: A garden consultation is not merely a casual chat; it is a comprehensive dialogue and assessment that lays the foundation for a successful garden transformation. It is an opportunity to explore your desires, evaluate the existing conditions, and begin to envision a harmonious outdoor sanctuary that complements your home and lifestyle.
-                      - 'heading "Garden Consultation Overview: The Initial Meeting" [level=2] [ref=f79e107]'
-                      - paragraph [ref=f79e113]:
-                        - generic [ref=f79e114]: "The garden consultation typically begins with a thorough discussion of your preferences, lifestyle, and the practical aspects of your outdoor space. I encourage you to consider the following aspects before our meeting:"
-                      - list [ref=f79e119]:
-                        - listitem [level=1] [ref=f79e120]:
-                          - paragraph [ref=f79e121]:
-                            - generic [ref=f79e122]:
-                              - strong [ref=f79e123]: Purpose and Use
-                              - text: ": Will your garden serve as a tranquil retreat, a lively entertaining area, or a family-friendly play space?"
-                        - listitem [level=1] [ref=f79e124]:
-                          - paragraph [ref=f79e125]:
-                            - generic [ref=f79e126]:
-                              - strong [ref=f79e127]: Style Preferences
-                              - text: ": Are you drawn to formal, contemporary, cottage, or naturalistic garden styles?"
-                        - listitem [level=1] [ref=f79e128]:
-                          - paragraph [ref=f79e129]:
-                            - generic [ref=f79e130]:
-                              - strong [ref=f79e131]: Maintenance Expectations
-                              - text: ": How much time are you willing to dedicate to upkeep?"
-                        - listitem [level=1] [ref=f79e132]:
-                          - paragraph [ref=f79e133]:
-                            - generic [ref=f79e134]:
-                              - strong [ref=f79e135]: Budget Considerations
-                              - text: ": Establishing a realistic budget helps guide design choices and material selections."
-                      - paragraph [ref=f79e139]:
-                        - generic [ref=f79e140]: During the consultation, I will conduct a detailed site survey, noting the soil quality, sunlight patterns, drainage, and existing vegetation. This technical evaluation is crucial for selecting appropriate plants and materials that will thrive in your garden’s microclimate.
-                      - figure [ref=f79e147]:
-                        - generic [ref=f79e148]:
-                          - img "Eye-level view of a garden designer examining soil and plants in a residential garden" [ref=f79e153] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f79e154]: Garden site survey in progress
-                      - paragraph [ref=f79e161]:
-                        - generic [ref=f79e162]: The dialogue is collaborative; I welcome your ideas and concerns, ensuring that the final design reflects your vision while adhering to sound horticultural and landscaping principles. This meeting often culminates in a preliminary sketch or mood board, providing a tangible glimpse of the potential transformation.
-                      - heading "The Importance of Detailed Planning and Design" [level=2] [ref=f79e167]
-                      - paragraph [ref=f79e173]:
-                        - generic [ref=f79e174]: Following the initial consultation, the next phase involves meticulous planning and the development of the design. This stage is where creativity meets precision. I translate the insights gathered into detailed drawings, planting plans, and material specifications.
-                      - paragraph [ref=f79e179]:
-                        - generic [ref=f79e180]: "A well-crafted design will consider:"
-                      - list [ref=f79e185]:
-                        - listitem [level=1] [ref=f79e186]:
-                          - paragraph [ref=f79e187]:
-                            - generic [ref=f79e188]:
-                              - strong [ref=f79e189]: Spatial Organisation
-                              - text: ": Defining zones for dining, relaxation, play, and gardening."
-                        - listitem [level=1] [ref=f79e190]:
-                          - paragraph [ref=f79e191]:
-                            - generic [ref=f79e192]:
-                              - strong [ref=f79e193]: Plant Selection
-                              - text: ": Choosing species that offer seasonal interest, biodiversity, and suitability to the local climate."
-                        - listitem [level=1] [ref=f79e194]:
-                          - paragraph [ref=f79e195]:
-                            - generic [ref=f79e196]:
-                              - strong [ref=f79e197]: Complex Landscaping Elements
-                              - text: ": Incorporating paths, patios, water features, and lighting to enhance functionality and aesthetics."
-                        - listitem [level=1] [ref=f79e198]:
-                          - paragraph [ref=f79e199]:
-                            - generic [ref=f79e200]:
-                              - strong [ref=f79e201]: Sustainability
-                              - text: ": Employing eco-friendly practices such as rainwater harvesting, native planting, and permeable surfaces."
-                      - paragraph [ref=f79e205]:
-                        - generic [ref=f79e206]: Throughout this process, I maintain open communication, providing updates and seeking your feedback to ensure alignment with your expectations.
-                      - figure [ref=f79e213]:
-                        - generic [ref=f79e214]:
-                          - img "Wide angle view of a detailed garden design plan laid out on a table" [ref=f79e219] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f79e220]: Detailed garden design plan with planting and hardscape elements
-                      - heading "How to Get a Garden Makeover for Free?" [level=2] [ref=f79e227]
-                      - paragraph [ref=f79e233]:
-                        - generic [ref=f79e234]: "While a comprehensive garden transformation typically involves investment, there are avenues to obtain a garden makeover at no direct cost, particularly through community initiatives or competitions. Here are some practical suggestions:"
-                      - list [ref=f79e239]:
-                        - listitem [level=1] [ref=f79e240]:
-                          - paragraph [ref=f79e241]:
-                            - generic [ref=f79e242]:
-                              - strong [ref=f79e243]: Local Council Grants and Schemes
-                              - text: ": Some councils in South West London offer grants for environmental improvements or community gardening projects. Researching these opportunities can yield financial support or free services."
-                        - listitem [level=1] [ref=f79e244]:
-                          - paragraph [ref=f79e245]:
-                            - generic [ref=f79e246]:
-                              - strong [ref=f79e247]: Community Partnerships
-                              - text: ": Collaborating with local horticultural societies or volunteer groups may provide access to expertise and labour."
-                        - listitem [level=1] [ref=f79e248]:
-                          - paragraph [ref=f79e249]:
-                            - generic [ref=f79e250]:
-                              - strong [ref=f79e251]: Competitions and Giveaways
-                              - text: ": Occasionally, landscaping companies or garden centres run contests offering free makeovers or consultations."
-                        - listitem [level=1] [ref=f79e252]:
-                          - paragraph [ref=f79e253]:
-                            - generic [ref=f79e254]:
-                              - strong [ref=f79e255]: Bartering Services
-                              - text: ": If you possess skills or services that are valuable to a landscaper, a mutually beneficial exchange can be arranged."
-                      - paragraph [ref=f79e259]:
-                        - generic [ref=f79e260]: While these options can be advantageous, it is essential to approach them with realistic expectations regarding scope and timelines.
-                      - 'heading "Booking Your Garden Consultation: What to Prepare" [level=2] [ref=f79e265]'
-                      - paragraph [ref=f79e271]:
-                        - generic [ref=f79e272]: "To ensure a productive and efficient consultation, preparation is key. I recommend the following steps before booking your garden consultation:"
-                      - list [ref=f79e277]:
-                        - listitem [level=1] [ref=f79e278]:
-                          - paragraph [ref=f79e279]:
-                            - generic [ref=f79e280]:
-                              - strong [ref=f79e281]: Gather Inspiration
-                              - text: ": Collect images, magazine clippings, or digital boards that reflect your style preferences."
-                        - listitem [level=1] [ref=f79e282]:
-                          - paragraph [ref=f79e283]:
-                            - generic [ref=f79e284]:
-                              - strong [ref=f79e285]: Measure Your Garden
-                              - text: ": Having approximate dimensions of your outdoor space aids in initial discussions."
-                        - listitem [level=1] [ref=f79e286]:
-                          - paragraph [ref=f79e287]:
-                            - generic [ref=f79e288]:
-                              - strong [ref=f79e289]: List Priorities and Challenges
-                              - text: ": Note any specific requirements or issues such as privacy concerns, drainage problems, or accessibility needs."
-                        - listitem [level=1] [ref=f79e290]:
-                          - paragraph [ref=f79e291]:
-                            - generic [ref=f79e292]: To secure your garden consultation, please use the booking form available on my website. This ensures a seamless scheduling process, allowing me to prepare adequately for our meeting.
-                      - paragraph [ref=f79e296]:
-                        - generic [ref=f79e297]: By arriving prepared, you enable a focused and fruitful consultation that respects your time and investment.
-                      - heading "The Journey Beyond the Consultation" [level=2] [ref=f79e302]
-                      - paragraph [ref=f79e308]:
-                        - generic [ref=f79e309]: The garden consultation is but the commencement of a rewarding journey. Following the design approval, I oversee the construction phase, coordinating skilled craftsmen and suppliers to bring the vision to life with precision and care.
-                      - paragraph [ref=f79e314]:
-                        - generic [ref=f79e315]: Throughout the project, I remain your dedicated point of contact, ensuring that every detail aligns with the agreed plan and quality standards. Upon completion, I provide guidance on garden maintenance and seasonal care to preserve the beauty and vitality of your new outdoor haven.
-                      - paragraph [ref=f79e320]:
-                        - generic [ref=f79e321]:
-                          - text: For a comprehensive view of my previous projects and to see the transformations I've achieved, I invite you to explore my
-                          - link "portfolio" [ref=f79e322] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/portfolio
-                          - text: and connect with me via
-                          - link "social media" [ref=f79e324] [cursor=pointer]:
-                            - /url: https://linktr.ee/StuartSavagelandscaping2
-                          - text: .
-                      - paragraph [ref=f79e333]:
-                        - generic [ref=f79e334]: Embarking on a garden transformation is a profound investment in your home’s character and your personal well-being. A professional garden consultation is the essential first step, offering clarity, expertise, and inspiration. I look forward to guiding you through this process with the utmost dedication and craftsmanship.
-                      - paragraph [ref=f79e339]:
-                        - generic [ref=f79e340]: Should you wish to begin this journey, please do not hesitate to book your garden consultation through the booking form on my website.
-                    - generic [ref=f79e349]:
-                      - list "Post categories" [ref=f79e351]:
-                        - listitem [ref=f79e352]:
-                          - link "Project Delivery Archive" [ref=f79e353] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                      - generic [ref=f79e356]:
-                        - button "Share via Facebook" [ref=f79e358] [cursor=pointer]:
-                          - img "Facebook" [ref=f79e359]
-                        - button "Share via X (Twitter)" [ref=f79e363] [cursor=pointer]:
-                          - img "X" [ref=f79e364]
-                        - button "Share via LinkedIn" [ref=f79e368] [cursor=pointer]:
-                          - img "LinkedIn" [ref=f79e369]
-                        - button "Share via link" [ref=f79e374] [cursor=pointer]
-                - generic [ref=f79e385]:
-                  - generic [ref=f79e386]:
-                    - heading "Recent Posts" [level=2] [ref=f79e387]
-                    - link "See All" [ref=f79e388] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - article [ref=f79e391]:
-                    - generic [ref=f79e392]:
-                      - link "Eye-level view of a wooden garden bench under a large oak tree" [ref=f79e393] [cursor=pointer]:
-                        - /url: https://www.savageldn.co.uk/post/perfect-garden-bench
-                      - link "Choosing the Best Garden Benches" [ref=f79e398] [cursor=pointer]:
-                        - /url: https://www.savageldn.co.uk/post/perfect-garden-bench
-      - contentinfo:
-        - generic [ref=f79e409]:
-          - group
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f79e11]:
+        - group:
+            - banner:
+                - generic [ref=f79e16]:
+                    - group
+            - main:
+                - generic [ref=f79e19]:
+                    - group:
+                        - generic [ref=f79e29]:
+                            - navigation "Blog" [ref=f79e32]:
+                                - list [ref=f79e33] [cursor=pointer]:
+                                    - listitem [ref=f79e34]:
+                                        - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f79e35]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - listitem [ref=f79e36]:
+                                        - link "Plant & Horticulture Archive" [ref=f79e37]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - listitem [ref=f79e38]:
+                                        - link "Project Delivery Archive" [ref=f79e39]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                    - listitem [ref=f79e40]:
+                                        - link "Garden Design Archive" [ref=f79e41]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                    - listitem [ref=f79e42]:
+                                        - link "Supplier & Systems Archive" [ref=f79e43]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                            - generic [ref=f79e45]:
+                                - article [ref=f79e49]:
+                                    - generic [ref=f79e50]:
+                                        - generic [ref=f79e52]:
+                                            - generic [ref=f79e53]:
+                                                - heading "What to Expect from a Garden Consultation Overview" [level=1] [ref=f79e55]
+                                                - generic [ref=f79e56]:
+                                                    - list [ref=f79e57]:
+                                                        - listitem [ref=f79e58]:
+                                                            - 'img "Writer: Stuart Savage" [ref=f79e61]'
+                                                            - generic [ref=f79e62] [cursor=pointer]: Stuart Savage
+                                                        - listitem [ref=f79e63]: ·Jan 15
+                                                        - listitem [ref=f79e64]: ·4 min read
+                                                    - button "More actions" [ref=f79e66] [cursor=pointer]
+                                            - button "Rated NaN out of 5 stars." [ref=f79e69] [cursor=pointer]
+                                        - generic [ref=f79e90]:
+                                            - paragraph [ref=f79e92]:
+                                                - generic [ref=f79e93]: Embarking on the journey to transform your outdoor space is a venture that is both exciting and intricate. A garden consultation serves as the pivotal first step in this process, offering clarity, inspiration, and a bespoke plan tailored to your unique environment and aspirations.
+                                            - paragraph [ref=f79e95]:
+                                                - generic [ref=f79e96]: As someone deeply invested in crafting exquisite gardens across South West London, I find that understanding what to anticipate during this initial meeting can significantly enhance the experience and outcome.
+                                            - paragraph [ref=f79e101]:
+                                                - generic [ref=f79e102]: A garden consultation is not merely a casual chat; it is a comprehensive dialogue and assessment that lays the foundation for a successful garden transformation. It is an opportunity to explore your desires, evaluate the existing conditions, and begin to envision a harmonious outdoor sanctuary that complements your home and lifestyle.
+                                            - 'heading "Garden Consultation Overview: The Initial Meeting" [level=2] [ref=f79e107]'
+                                            - paragraph [ref=f79e113]:
+                                                - generic [ref=f79e114]: "The garden consultation typically begins with a thorough discussion of your preferences, lifestyle, and the practical aspects of your outdoor space. I encourage you to consider the following aspects before our meeting:"
+                                            - list [ref=f79e119]:
+                                                - listitem [level=1] [ref=f79e120]:
+                                                    - paragraph [ref=f79e121]:
+                                                        - generic [ref=f79e122]:
+                                                            - strong [ref=f79e123]: Purpose and Use
+                                                            - text: ": Will your garden serve as a tranquil retreat, a lively entertaining area, or a family-friendly play space?"
+                                                - listitem [level=1] [ref=f79e124]:
+                                                    - paragraph [ref=f79e125]:
+                                                        - generic [ref=f79e126]:
+                                                            - strong [ref=f79e127]: Style Preferences
+                                                            - text: ": Are you drawn to formal, contemporary, cottage, or naturalistic garden styles?"
+                                                - listitem [level=1] [ref=f79e128]:
+                                                    - paragraph [ref=f79e129]:
+                                                        - generic [ref=f79e130]:
+                                                            - strong [ref=f79e131]: Maintenance Expectations
+                                                            - text: ": How much time are you willing to dedicate to upkeep?"
+                                                - listitem [level=1] [ref=f79e132]:
+                                                    - paragraph [ref=f79e133]:
+                                                        - generic [ref=f79e134]:
+                                                            - strong [ref=f79e135]: Budget Considerations
+                                                            - text: ": Establishing a realistic budget helps guide design choices and material selections."
+                                            - paragraph [ref=f79e139]:
+                                                - generic [ref=f79e140]: During the consultation, I will conduct a detailed site survey, noting the soil quality, sunlight patterns, drainage, and existing vegetation. This technical evaluation is crucial for selecting appropriate plants and materials that will thrive in your garden’s microclimate.
+                                            - figure [ref=f79e147]:
+                                                - generic [ref=f79e148]:
+                                                    - img "Eye-level view of a garden designer examining soil and plants in a residential garden" [ref=f79e153] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f79e154]: Garden site survey in progress
+                                            - paragraph [ref=f79e161]:
+                                                - generic [ref=f79e162]: The dialogue is collaborative; I welcome your ideas and concerns, ensuring that the final design reflects your vision while adhering to sound horticultural and landscaping principles. This meeting often culminates in a preliminary sketch or mood board, providing a tangible glimpse of the potential transformation.
+                                            - heading "The Importance of Detailed Planning and Design" [level=2] [ref=f79e167]
+                                            - paragraph [ref=f79e173]:
+                                                - generic [ref=f79e174]: Following the initial consultation, the next phase involves meticulous planning and the development of the design. This stage is where creativity meets precision. I translate the insights gathered into detailed drawings, planting plans, and material specifications.
+                                            - paragraph [ref=f79e179]:
+                                                - generic [ref=f79e180]: "A well-crafted design will consider:"
+                                            - list [ref=f79e185]:
+                                                - listitem [level=1] [ref=f79e186]:
+                                                    - paragraph [ref=f79e187]:
+                                                        - generic [ref=f79e188]:
+                                                            - strong [ref=f79e189]: Spatial Organisation
+                                                            - text: ": Defining zones for dining, relaxation, play, and gardening."
+                                                - listitem [level=1] [ref=f79e190]:
+                                                    - paragraph [ref=f79e191]:
+                                                        - generic [ref=f79e192]:
+                                                            - strong [ref=f79e193]: Plant Selection
+                                                            - text: ": Choosing species that offer seasonal interest, biodiversity, and suitability to the local climate."
+                                                - listitem [level=1] [ref=f79e194]:
+                                                    - paragraph [ref=f79e195]:
+                                                        - generic [ref=f79e196]:
+                                                            - strong [ref=f79e197]: Complex Landscaping Elements
+                                                            - text: ": Incorporating paths, patios, water features, and lighting to enhance functionality and aesthetics."
+                                                - listitem [level=1] [ref=f79e198]:
+                                                    - paragraph [ref=f79e199]:
+                                                        - generic [ref=f79e200]:
+                                                            - strong [ref=f79e201]: Sustainability
+                                                            - text: ": Employing eco-friendly practices such as rainwater harvesting, native planting, and permeable surfaces."
+                                            - paragraph [ref=f79e205]:
+                                                - generic [ref=f79e206]: Throughout this process, I maintain open communication, providing updates and seeking your feedback to ensure alignment with your expectations.
+                                            - figure [ref=f79e213]:
+                                                - generic [ref=f79e214]:
+                                                    - img "Wide angle view of a detailed garden design plan laid out on a table" [ref=f79e219] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f79e220]: Detailed garden design plan with planting and hardscape elements
+                                            - heading "How to Get a Garden Makeover for Free?" [level=2] [ref=f79e227]
+                                            - paragraph [ref=f79e233]:
+                                                - generic [ref=f79e234]: "While a comprehensive garden transformation typically involves investment, there are avenues to obtain a garden makeover at no direct cost, particularly through community initiatives or competitions. Here are some practical suggestions:"
+                                            - list [ref=f79e239]:
+                                                - listitem [level=1] [ref=f79e240]:
+                                                    - paragraph [ref=f79e241]:
+                                                        - generic [ref=f79e242]:
+                                                            - strong [ref=f79e243]: Local Council Grants and Schemes
+                                                            - text: ": Some councils in South West London offer grants for environmental improvements or community gardening projects. Researching these opportunities can yield financial support or free services."
+                                                - listitem [level=1] [ref=f79e244]:
+                                                    - paragraph [ref=f79e245]:
+                                                        - generic [ref=f79e246]:
+                                                            - strong [ref=f79e247]: Community Partnerships
+                                                            - text: ": Collaborating with local horticultural societies or volunteer groups may provide access to expertise and labour."
+                                                - listitem [level=1] [ref=f79e248]:
+                                                    - paragraph [ref=f79e249]:
+                                                        - generic [ref=f79e250]:
+                                                            - strong [ref=f79e251]: Competitions and Giveaways
+                                                            - text: ": Occasionally, landscaping companies or garden centres run contests offering free makeovers or consultations."
+                                                - listitem [level=1] [ref=f79e252]:
+                                                    - paragraph [ref=f79e253]:
+                                                        - generic [ref=f79e254]:
+                                                            - strong [ref=f79e255]: Bartering Services
+                                                            - text: ": If you possess skills or services that are valuable to a landscaper, a mutually beneficial exchange can be arranged."
+                                            - paragraph [ref=f79e259]:
+                                                - generic [ref=f79e260]: While these options can be advantageous, it is essential to approach them with realistic expectations regarding scope and timelines.
+                                            - 'heading "Booking Your Garden Consultation: What to Prepare" [level=2] [ref=f79e265]'
+                                            - paragraph [ref=f79e271]:
+                                                - generic [ref=f79e272]: "To ensure a productive and efficient consultation, preparation is key. I recommend the following steps before booking your garden consultation:"
+                                            - list [ref=f79e277]:
+                                                - listitem [level=1] [ref=f79e278]:
+                                                    - paragraph [ref=f79e279]:
+                                                        - generic [ref=f79e280]:
+                                                            - strong [ref=f79e281]: Gather Inspiration
+                                                            - text: ": Collect images, magazine clippings, or digital boards that reflect your style preferences."
+                                                - listitem [level=1] [ref=f79e282]:
+                                                    - paragraph [ref=f79e283]:
+                                                        - generic [ref=f79e284]:
+                                                            - strong [ref=f79e285]: Measure Your Garden
+                                                            - text: ": Having approximate dimensions of your outdoor space aids in initial discussions."
+                                                - listitem [level=1] [ref=f79e286]:
+                                                    - paragraph [ref=f79e287]:
+                                                        - generic [ref=f79e288]:
+                                                            - strong [ref=f79e289]: List Priorities and Challenges
+                                                            - text: ": Note any specific requirements or issues such as privacy concerns, drainage problems, or accessibility needs."
+                                                - listitem [level=1] [ref=f79e290]:
+                                                    - paragraph [ref=f79e291]:
+                                                        - generic [ref=f79e292]: To secure your garden consultation, please use the booking form available on my website. This ensures a seamless scheduling process, allowing me to prepare adequately for our meeting.
+                                            - paragraph [ref=f79e296]:
+                                                - generic [ref=f79e297]: By arriving prepared, you enable a focused and fruitful consultation that respects your time and investment.
+                                            - heading "The Journey Beyond the Consultation" [level=2] [ref=f79e302]
+                                            - paragraph [ref=f79e308]:
+                                                - generic [ref=f79e309]: The garden consultation is but the commencement of a rewarding journey. Following the design approval, I oversee the construction phase, coordinating skilled craftsmen and suppliers to bring the vision to life with precision and care.
+                                            - paragraph [ref=f79e314]:
+                                                - generic [ref=f79e315]: Throughout the project, I remain your dedicated point of contact, ensuring that every detail aligns with the agreed plan and quality standards. Upon completion, I provide guidance on garden maintenance and seasonal care to preserve the beauty and vitality of your new outdoor haven.
+                                            - paragraph [ref=f79e320]:
+                                                - generic [ref=f79e321]:
+                                                    - text: For a comprehensive view of my previous projects and to see the transformations I've achieved, I invite you to explore my
+                                                    - link "portfolio" [ref=f79e322] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/portfolio
+                                                    - text: and connect with me via
+                                                    - link "social media" [ref=f79e324] [cursor=pointer]:
+                                                        - /url: https://linktr.ee/StuartSavagelandscaping2
+                                                    - text: .
+                                            - paragraph [ref=f79e333]:
+                                                - generic [ref=f79e334]: Embarking on a garden transformation is a profound investment in your home’s character and your personal well-being. A professional garden consultation is the essential first step, offering clarity, expertise, and inspiration. I look forward to guiding you through this process with the utmost dedication and craftsmanship.
+                                            - paragraph [ref=f79e339]:
+                                                - generic [ref=f79e340]: Should you wish to begin this journey, please do not hesitate to book your garden consultation through the booking form on my website.
+                                        - generic [ref=f79e349]:
+                                            - list "Post categories" [ref=f79e351]:
+                                                - listitem [ref=f79e352]:
+                                                    - link "Project Delivery Archive" [ref=f79e353] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                            - generic [ref=f79e356]:
+                                                - button "Share via Facebook" [ref=f79e358] [cursor=pointer]:
+                                                    - img "Facebook" [ref=f79e359]
+                                                - button "Share via X (Twitter)" [ref=f79e363] [cursor=pointer]:
+                                                    - img "X" [ref=f79e364]
+                                                - button "Share via LinkedIn" [ref=f79e368] [cursor=pointer]:
+                                                    - img "LinkedIn" [ref=f79e369]
+                                                - button "Share via link" [ref=f79e374] [cursor=pointer]
+                                - generic [ref=f79e385]:
+                                    - generic [ref=f79e386]:
+                                        - heading "Recent Posts" [level=2] [ref=f79e387]
+                                        - link "See All" [ref=f79e388] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - article [ref=f79e391]:
+                                        - generic [ref=f79e392]:
+                                            - link "Eye-level view of a wooden garden bench under a large oak tree" [ref=f79e393] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/post/perfect-garden-bench
+                                            - link "Choosing the Best Garden Benches" [ref=f79e398] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/post/perfect-garden-bench
+            - contentinfo:
+                - generic [ref=f79e409]:
+                    - group
+    - region "bottom of page"

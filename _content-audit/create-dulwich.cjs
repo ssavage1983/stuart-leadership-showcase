@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.dulwich-garden-transformation.tsx');
+const filePath = path.join(
+  process.cwd(),
+  "src",
+  "routes",
+  "case-studies.dulwich-garden-transformation.tsx",
+);
 
 const dulwichCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -105,5 +110,5 @@ function DulwichGardenTransformationCaseStudy() {
 }
 `;
 
-fs.writeFileSync(filePath, dulwichCode, 'utf8');
+fs.writeFileSync(filePath, dulwichCode, "utf8");
 console.log("Successfully created Dulwich garden transformation case study route.");

@@ -1,10 +1,15 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.dulwich-garden-transformation.tsx');
+const filePath = path.join(
+  process.cwd(),
+  "src",
+  "routes",
+  "case-studies.dulwich-garden-transformation.tsx",
+);
 
 if (fs.existsSync(filePath)) {
-    const expandedDulwichCode = `import { createFileRoute } from '@tanstack/react-router';
+  const expandedDulwichCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, CheckCircle2, ShieldCheck, Clock, Layers, Wrench, FileText } from 'lucide-react';
@@ -122,8 +127,8 @@ function DulwichGardenTransformationCaseStudy() {
 }
 `;
 
-    fs.writeFileSync(filePath, expandedDulwichCode, 'utf8');
-    console.log("Successfully expanded existing Dulwich case study file in place.");
+  fs.writeFileSync(filePath, expandedDulwichCode, "utf8");
+  console.log("Successfully expanded existing Dulwich case study file in place.");
 } else {
-    console.log("File not found.");
+  console.log("File not found.");
 }
