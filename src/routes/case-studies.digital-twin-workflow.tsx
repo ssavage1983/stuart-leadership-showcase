@@ -31,6 +31,16 @@ function DigitalTwinWorkflowCaseStudy() {
           </p>
         </div>
 
+        {/* Featured Case Study Image / Visualisation */}
+        <div className="mb-12 rounded-xl overflow-hidden border shadow-sm">
+          <img
+            src="/images/portfolio/balham-pergola-walkway-design-visualisation.png"
+            alt="Digital Twin 3D Design Visualisation"
+            className="w-full h-auto object-cover max-h-[450px]"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
