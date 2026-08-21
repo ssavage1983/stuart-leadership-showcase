@@ -1,14 +1,19 @@
-import { createFileRoute } from '@tanstack/react-router';
+const fs = require('fs');
+const path = require('path');
+
+const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.clapham-old-town.tsx');
+
+const claphamCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { ArrowLeft, CheckCircle2, ShieldCheck, Clock, Layers, Sparkles } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, ShieldCheck, Clock, Layers, Landmark } from 'lucide-react';
 import { Link } from '@tanstack/react-router';
 
-export const Route = createFileRoute('/case-studies/dulwich-garden-transformation')({
-  component: DulwichGardenTransformationCaseStudy,
+export const Route = createFileRoute('/case-studies/clapham-old-town')({
+  component: ClaphamOldTownCaseStudy,
 });
 
-function DulwichGardenTransformationCaseStudy() {
+function ClaphamOldTownCaseStudy() {
   return (
     <div className="min-h-screen bg-background text-foreground animate-fadeIn transition-opacity duration-700">
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -22,11 +27,11 @@ function DulwichGardenTransformationCaseStudy() {
         {/* Header Section */}
         <div className="space-y-4 mb-8 transform transition-all duration-700 translate-y-0 opacity-100">
           <Badge variant="outline" className="text-xs uppercase tracking-wider animate-pulse flex items-center gap-1.5 w-fit">
-            <Sparkles className="w-3.5 h-3.5 text-primary" /> Project Archive · Heritage Landscaping & Site Engineering
+            <Landmark className="w-3.5 h-3.5 text-primary" /> Project Archive · Heritage Conservation & Structural Masonry
           </Badge>
-          <h1 className="text-4xl font-bold tracking-tight">Dulwich Garden Transformation</h1>
+          <h1 className="text-4xl font-bold tracking-tight">Clapham Old Town Restoration</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            End-to-end operational planning, conservation-aligned stakeholder management, and precision masonry execution for a high-value period property in South London.
+            Balancing heritage conservation with modern outdoor living through precision stone masonry, structural retaining, and classic architectural planting in a historic Clapham property.
           </p>
         </div>
 
@@ -34,12 +39,12 @@ function DulwichGardenTransformationCaseStudy() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 transition-all duration-500">
           <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
             <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Programme Scale</CardTitle>
+              <CardTitle className="text-sm font-medium">Programme Scope</CardTitle>
               <Clock className="w-4 h-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">6-Week Phased Build</div>
-              <p className="text-xs text-muted-foreground mt-1">Strict timeline governance</p>
+              <div className="text-2xl font-bold">Heritage Upgrade</div>
+              <p className="text-xs text-muted-foreground mt-1">Strict conservation compliance</p>
             </CardContent>
           </Card>
 
@@ -49,8 +54,8 @@ function DulwichGardenTransformationCaseStudy() {
               <Layers className="w-4 h-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">Yorkstone & Brick</div>
-              <p className="text-xs text-muted-foreground mt-1">Heritage compliance standards</p>
+              <div className="text-2xl font-bold">Reclaimed Yorkstone</div>
+              <p className="text-xs text-muted-foreground mt-1">Authentic period matching</p>
             </CardContent>
           </Card>
 
@@ -60,8 +65,8 @@ function DulwichGardenTransformationCaseStudy() {
               <ShieldCheck className="w-4 h-4 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">Zero-Defect Handover</div>
-              <p className="text-xs text-muted-foreground mt-1">Rigorous milestone sign-offs</p>
+              <div className="text-2xl font-bold">Zero-Defect Finish</div>
+              <p className="text-xs text-muted-foreground mt-1">Exact engineering tolerances</p>
             </CardContent>
           </Card>
         </div>
@@ -69,72 +74,69 @@ function DulwichGardenTransformationCaseStudy() {
         {/* Detailed Operational Content */}
         <div className="space-y-10 text-muted-foreground leading-relaxed">
           <section className="space-y-4 transition-all duration-500">
-            <h2 className="text-2xl font-semibold text-foreground">Project Background & Operational Context</h2>
+            <h2 className="text-2xl font-semibold text-foreground">Project Background & Architectural Brief</h2>
             <p>
-              Situated within a strict conservation area in Dulwich, this project required balancing contemporary functional design with the exacting historical standards of a substantial period property. The legacy outdoor space suffered from structural grade transitions, poor sub-surface drainage, and deteriorated hardscaping that completely disconnected the exterior footprint from the internal living areas.
+              Located in the prestigious conservation area of Clapham Old Town, this legacy plot required sensitive modernization. The existing footprint suffered from failing retaining walls, disconnected spatial zoning, and compromised drainage that threatened the property's sub-floor ventilation.
             </p>
             <p>
-              The core challenge involved managing logistics across a restricted residential envelope while ensuring all material sourcing and masonry techniques strictly respected local heritage guidelines. The operation demanded meticulous scheduling to coordinate specialist stone masonry, drainage engineers, and horticultural teams without causing disruption to neighboring properties.
+              The brief demanded a seamless extension of the property's classic aesthetic. Operations required navigating strict local authority conservation guidelines, managing heavy material logistics through a restricted urban footprint, and ensuring the new hardscaping looked as though it had always belonged there.
             </p>
           </section>
 
           {/* Structured Layout Grid for Phases */}
           <section className="space-y-6">
-            <h2 className="text-2xl font-semibold text-foreground">Phased Programme Execution & Control</h2>
+            <h2 className="text-2xl font-semibold text-foreground">Phased Operational Execution</h2>
             <p>
-              To maintain absolute control over the critical path and guarantee high quality output, the project was executed through four tightly managed operational phases:
+              To guarantee structural integrity while preserving the site's heritage character, the build was structured into four exacting phases:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
               <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
                 <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">1</div>
-                  Site Survey & Sub-Grade Engineering
+                  Clearance & Structural Engineering
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Comprehensive topographical leveling and installation of a robust land-drainage network to permanently mitigate historical surface pooling.
+                  Careful demolition of failing masonry followed by the installation of reinforced concrete footings and a high-capacity sub-surface drainage network.
                 </p>
               </div>
 
               <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
                 <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">2</div>
-                  Terracing & Structural Retaining
+                  Heritage Masonry & Terracing
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Constructing tiered retaining structures using reclaimed period brickwork and engineering blocks to create stable, highly functional upper and lower garden zones.
+                  Constructing tiered entertaining spaces using reclaimed London stock brick and premium Yorkstone flags, laid with traditional lime-based pointing.
                 </p>
               </div>
 
               <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
                 <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">3</div>
-                  Heritage Paving & Masonry
+                  Conservation Joinery
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Precision laying of Yorkstone flags and setts with traditional lime-based jointing, ensuring seamless aesthetic continuity with the main dwelling's architecture.
+                  Installing bespoke timber boundary treatments designed to offer maximum privacy while fully respecting local conservation visual guidelines.
                 </p>
               </div>
 
               <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
                 <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
                   <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">4</div>
-                  Planting & Commissioning
+                  Classic Planting & Commissioning
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Introducing multi-stem specimen trees, structural evergreens, and integrated low-voltage lighting to establish evening depth and year-round visual balance.
+                  Integrating mature espalier trees, structural box hedging, and automated drip irrigation to deliver an instantly established, low-maintenance finish.
                 </p>
               </div>
             </div>
           </section>
 
           <section className="space-y-4 pt-4">
-            <h2 className="text-2xl font-semibold text-foreground">Risk Management, Governance & Outcome</h2>
+            <h2 className="text-2xl font-semibold text-foreground">Outcome & Professional Value</h2>
             <p>
-              Throughout the 6-week schedule, risk was actively minimized through daily site briefings, strict adherence to health and safety protocols, and weekly progress reporting provided to the client. Material supply chains were managed tightly to prevent lead-time delays on bespoke stone orders.
-            </p>
-            <p>
-              The completed Dulwich transformation successfully delivered an uncompromising, zero-defect finish that elevated both the aesthetic integrity and market valuation of the property. This project highlights core leadership competencies in complex stakeholder management, supply chain coordination, and rigorous operational delivery.
+              The Clapham Old Town project exemplifies high-level stakeholder management and rigorous operational execution. By successfully navigating conservation regulations and maintaining uncompromising quality control, the finished site perfectly balances modern utility with historic architectural dignity.
             </p>
           </section>
         </div>
@@ -142,3 +144,7 @@ function DulwichGardenTransformationCaseStudy() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync(filePath, claphamCode, 'utf8');
+console.log("Successfully expanded Clapham Old Town case study.");
