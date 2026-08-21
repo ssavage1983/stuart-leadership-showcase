@@ -1,4 +1,9 @@
-import { createFileRoute } from '@tanstack/react-router';
+const fs = require('fs');
+const path = require('path');
+
+const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.balham-cottage-courtyard-garden.tsx');
+
+const cottageCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, CheckCircle2, ShieldCheck, Clock, Layers, Sparkles } from 'lucide-react';
@@ -139,3 +144,7 @@ function BalhamCottageCourtyardCaseStudy() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync(filePath, cottageCode, 'utf8');
+console.log("Successfully expanded Balham Cottage Courtyard case study.");
