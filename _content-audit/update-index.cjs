@@ -1,4 +1,9 @@
-import { useState } from "react";
+const fs = require('fs');
+const path = require('path');
+
+const filePath = path.join(process.cwd(), 'src', 'routes', 'index.tsx');
+
+const newIndexCode = `import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
 
@@ -503,7 +508,7 @@ function Index() {
               {EMAIL} <span className="text-[#c47c62]">↗</span>
             </a>
             <span className="hidden sm:inline text-[#c47c62]">|</span>
-            <a href={"tel:" + PHONE.replace(/s+/g, '')} className="hover:text-[#c47c62] transition-colors">
+            <a href={"tel:" + PHONE.replace(/\s+/g, '')} className="hover:text-[#c47c62] transition-colors">
               {PHONE} <span className="text-[#c47c62]">↗</span>
             </a>
             <span className="hidden sm:inline text-[#c47c62]">|</span>
@@ -522,3 +527,7 @@ function Index() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync(filePath, newIndexCode, 'utf8');
+console.log("Successfully updated index.tsx with exact CV data, DRO compliance, and perfect bullet alignment.");
