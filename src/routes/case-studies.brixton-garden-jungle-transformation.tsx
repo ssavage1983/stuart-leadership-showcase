@@ -46,6 +46,16 @@ function BrixtonJungleTransformationCaseStudy() {
           </p>
         </div>
 
+        {/* Featured Case Study Image */}
+        <div className="mb-12 rounded-xl overflow-hidden border shadow-sm">
+          <img
+            src="/images/portfolio/brixton-urban-jungle-warm-evening-lighting.png"
+            alt="Brixton Urban Jungle Warm Evening Lighting"
+            className="w-full h-auto object-cover max-h-[450px]"
+            loading="lazy"
+          />
+        </div>
+
         {/* Metrics Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 transition-all duration-500">
           <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
@@ -108,6 +118,16 @@ function BrixtonJungleTransformationCaseStudy() {
               while protecting adjacent boundaries and interior finishes.
             </p>
           </section>
+
+          {/* Secondary Image */}
+          <div className="rounded-xl overflow-hidden border shadow-sm my-6">
+            <img
+              src="/images/portfolio/brixton-urban-jungle-night-lighting-and-festoon-lights.png"
+              alt="Brixton Urban Jungle Night Lighting and Festoon Lights"
+              className="w-full h-auto object-cover max-h-[400px]"
+              loading="lazy"
+            />
+          </div>
 
           {/* Structured Layout Grid for Phases */}
           <section className="space-y-6">
