@@ -1,11 +1,10 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { Badge } from "@/components/ui/badge";
 
 export const Route = createFileRoute("/case-studies/walworth-sanctuary")({
-  component: CaseStudy,
+  component: WalworthSanctuaryCaseStudy,
 });
 
-function CaseStudy() {
+function WalworthSanctuaryCaseStudy() {
   return (
     <article className="min-h-screen bg-[#f5f1e9] text-[#102845]">
       <header className="bg-[#102845] px-6 py-14 text-[#f8f7f3] sm:py-20">
