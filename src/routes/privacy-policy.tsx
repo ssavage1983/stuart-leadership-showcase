@@ -136,7 +136,8 @@ function PrivacyPolicyComponent() {
             </h2>
             <p className="text-sm text-slate-700 leading-relaxed">
               This website serves exclusively as a historic professional archive for Stuart Savage.
-              It preserves selected writing, project material, case studies, and operational evidence.
+              It preserves selected writing, project material, case studies, and operational
+              evidence.
             </p>
 
             <div className="bg-white p-5 border-l-4 border-[#b99a60] text-sm text-[#102845] rounded shadow-sm space-y-2">
@@ -150,11 +151,13 @@ function PrivacyPolicyComponent() {
               </p>
               <ul className="list-disc list-inside text-xs text-slate-700 leading-relaxed space-y-1 pl-2">
                 <li>
-                  The former limited company <strong>Savage Bespoke Ltd</strong> concluded active trading operations.
+                  The former limited company <strong>Savage Bespoke Ltd</strong> concluded active
+                  trading operations.
                 </li>
                 <li>
                   The former sole trader practices <strong>Stuart Savage Landscaping</strong> and{" "}
-                  <strong>The Moonlight Garden Design Co. (Moonlight Studio)</strong> concluded active trading operations following a strategic review of market conditions.
+                  <strong>The Moonlight Garden Design Co. (Moonlight Studio)</strong> concluded
+                  active trading operations following a strategic review of market conditions.
                 </li>
               </ul>
               <p className="text-xs text-slate-700 leading-relaxed font-semibold pt-1">
@@ -381,13 +384,23 @@ function PrivacyPolicyComponent() {
             </h2>
             <div className="bg-[#c7d0c5] p-6 rounded space-y-2 text-sm text-[#102845]">
               <p>
-                <strong>Name:</strong> Stuart Savage<br />
-                <strong>Email:</strong> <a href="mailto:stuart@savageldn.co.uk" className="font-bold underline">stuart@savageldn.co.uk</a><br />
-                <strong>Phone:</strong> <a href="tel:07762719043" className="font-bold underline">07762 719043</a><br />
+                <strong>Name:</strong> Stuart Savage
+                <br />
+                <strong>Email:</strong>{" "}
+                <a href="mailto:stuart@savageldn.co.uk" className="font-bold underline">
+                  stuart@savageldn.co.uk
+                </a>
+                <br />
+                <strong>Phone:</strong>{" "}
+                <a href="tel:07762719043" className="font-bold underline">
+                  07762 719043
+                </a>
+                <br />
                 <strong>Location:</strong> Kennington, London, UK
               </p>
               <p className="text-xs text-[#41505b] pt-2 border-t border-[#102845]/10">
-                Note: Former business entities concluded active trading operations. No trade services, quotes, or commercial projects are offered through this site.
+                Note: Former business entities concluded active trading operations. No trade
+                services, quotes, or commercial projects are offered through this site.
               </p>
             </div>
           </section>

@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'privacy-policy.tsx');
+const filePath = path.join(process.cwd(), "src", "routes", "privacy-policy.tsx");
 
 const privacyCode = `import { createFileRoute, Link } from "@tanstack/react-router";
 
@@ -403,5 +403,5 @@ function PrivacyPolicyComponent() {
 }
 `;
 
-fs.writeFileSync(filePath, privacyCode, 'utf8');
+fs.writeFileSync(filePath, privacyCode, "utf8");
 console.log("Successfully updated privacy-policy.tsx with DRO-compliant phrasing.");
