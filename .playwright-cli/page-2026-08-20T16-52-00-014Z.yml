@@ -1,317 +1,317 @@
 - generic [ref=f84e1]:
-  - generic [ref=f84e3]:
-    - region "top of page" [active]
-    - generic [ref=f84e11]:
-      - group:
-        - banner:
-          - generic [ref=f84e16]:
+    - generic [ref=f84e3]:
+        - region "top of page" [active]
+        - generic [ref=f84e11]:
             - group:
-              - iframe [ref=f84e18]:
-                - banner [ref=f88e2]:
-                  - link "SAVAGELDN home" [ref=f88e3] [cursor=pointer]:
-                    - /url: https://www.savageldn.co.uk/
-                    - strong [ref=f88e4]: STUART SAVAGE
-                    - generic [ref=f88e5]: Historic professional archive · Operations · Customer experience
-                    - generic [ref=f88e6]: Former businesses closed · Not currently trading
-                  - navigation "Main navigation" [ref=f88e7]:
-                    - link "Home" [ref=f88e8] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/
-                    - link "Portfolio archive" [ref=f88e12] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/portfolio
-                    - link "Blog archive" [ref=f88e17] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/blog
-                    - link "Insights archive" [ref=f88e20] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                    - link "FAQs" [ref=f88e22] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/faqs
-                    - link "Email Stuart" [ref=f88e26] [cursor=pointer]:
-                      - /url: mailto:stuart@savageldn.co.uk
-                      - generic: Email
-                    - link "LinkedIn profile" [ref=f88e30] [cursor=pointer]:
-                      - /url: https://www.linkedin.com/in/stuartsavage
-                      - generic: LinkedIn
-                    - link "Legal, privacy and accessibility" [ref=f88e35] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/privacy-policy
-                      - generic: Legal
-              - iframe [ref=f84e20]:
-                - banner [ref=f89e2]:
-                  - link "SAVAGELDN home" [ref=f89e3] [cursor=pointer]:
-                    - /url: https://www.savageldn.co.uk/
-                    - strong [ref=f89e4]: STUART SAVAGE
-                    - generic [ref=f89e5]: Historic professional archive · Operations · Customer experience
-                    - generic [ref=f89e6]: Former businesses closed · Not currently trading
-                  - navigation "Main navigation" [ref=f89e7]:
-                    - link "Home" [ref=f89e8] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/
-                    - link "Portfolio archive" [ref=f89e12] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/portfolio
-                    - link "Blog archive" [ref=f89e17] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/blog
-                    - link "Insights archive" [ref=f89e20] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                    - link "FAQs" [ref=f89e22] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/faqs
-                    - link "Email Stuart" [ref=f89e26] [cursor=pointer]:
-                      - /url: mailto:stuart@savageldn.co.uk
-                      - generic: Email
-                    - link "LinkedIn profile" [ref=f89e30] [cursor=pointer]:
-                      - /url: https://www.linkedin.com/in/stuartsavage
-                      - generic: LinkedIn
-                    - link "Legal, privacy and accessibility" [ref=f89e35] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/privacy-policy
-                      - generic: Legal
-        - main:
-          - generic [ref=f84e21]:
-            - group:
-              - generic [ref=f84e31]:
-                - navigation "Blog" [ref=f84e34]:
-                  - list [ref=f84e35] [cursor=pointer]:
-                    - listitem [ref=f84e36]:
-                      - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f84e37]:
-                        - /url: https://www.savageldn.co.uk/insights
-                    - listitem [ref=f84e38]:
-                      - link "Plant & Horticulture Archive" [ref=f84e39]:
-                        - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                    - listitem [ref=f84e40]:
-                      - link "Project Delivery Archive" [ref=f84e41]:
-                        - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                    - listitem [ref=f84e42]:
-                      - button "More" [ref=f84e44]
-                - generic [ref=f84e48]:
-                  - article [ref=f84e52]:
-                    - generic [ref=f84e53]:
-                      - generic [ref=f84e55]:
-                        - generic [ref=f84e56]:
-                          - 'heading "THE TROPICAL AWAKENING: HYDRATING THE SOFT TREE FERN (DICKSONIA ANTARCTICA)" [level=1] [ref=f84e58]'
-                          - generic [ref=f84e59]:
-                            - list [ref=f84e60]:
-                              - listitem [ref=f84e61]:
-                                - 'img "Writer: Stuart Savage" [ref=f84e64]'
-                                - generic [ref=f84e65] [cursor=pointer]: Stuart Savage
-                              - listitem [ref=f84e66]: ·Mar 2
-                              - listitem [ref=f84e67]: ·3 min read
-                            - button "More actions" [ref=f84e69] [cursor=pointer]
-                        - paragraph [ref=f84e72]: "Updated: Mar 5"
-                        - button "Rated 0 out of 5 stars. No ratings yet" [ref=f84e73] [cursor=pointer]:
-                          - generic [ref=f84e74]:
-                            - generic [ref=f84e75]: Rated 0 out of 5 stars.
-                            - generic [ref=f84e88]: No ratings yet
-                      - generic [ref=f84e95]:
-                        - heading "The Biological Engine of the Crown." [level=2] [ref=f84e97]
-                        - figure [ref=f84e106]:
-                          - generic [ref=f84e107]:
-                            - img "A low-angle, wide-frame shot of a mature Dicksonia antarctica crown at Blue Hour. The trunk should be dramatically silhouetted against a deep indigo sky, with 2700K warm-white spotlights highlighting its texture and the emerging croziers. Soft Tree Fern in a nocturnal London sanctuary with architectural lighting." [ref=f84e112] [cursor=pointer]
-                            - button "Expand image"
-                        - paragraph [ref=f84e117]:
-                          - generic [ref=f84e118]:
-                            - generic [ref=f84e119]: The Soft Tree Fern (
-                            - emphasis [ref=f84e120]:
-                              - generic [ref=f84e121]: Dicksonia antarctica
-                            - generic [ref=f84e122]: ) serves as the ultimate architectural anchor for any high-performance Tropical London Garden. As we enter the spring awakening, technical discipline must shift toward the precise hydration of the crown. Unlike standard woody shrubs, the tree fern’s "trunk" is actually a vertical rhizome—a pseudo-trunk composed of a central core of modified stems surrounded by a dense, interlocking mat of aerial roots. This month, you must trigger the "unfurling" of new green croziers (fronds) by ensuring consistent moisture within this fibrous core.
-                        - figure [ref=f84e132]:
-                          - generic [ref=f84e133]:
-                            - img "Automated micro-drip irrigation system integrated into a tree fern crown." [ref=f84e138] [cursor=pointer]
-                            - button "Expand image"
-                          - generic [ref=f84e141]:
-                            - strong [ref=f84e142]:
-                              - generic [ref=f84e143]: "Engineering Resilience:"
-                            - generic [ref=f84e144]: Automated hydration ensures the biological engine never stalls, even during dry spells.
-                        - paragraph [ref=f84e146]:
-                          - generic [ref=f84e147]: This moisture serves as the primary conduit for nutrient transport through the xylem, feeding the spectacular biological architecture about to erupt. In the "Urban Heat Island" of South London, dry March winds can lead to rapid desiccation; failure to maintain crown saturation can lead to stunted frond growth or "frond-drop," fundamentally compromising the structural integrity and aesthetic density of your sanctuary's canopy. We recommend a slow, top-down saturation technique that allows the moisture to seep through the entire vertical root system.
-                        - 'heading "SOFT TREE FERN: Fractal Geometry and the Cortisol Drop." [level=3] [ref=f84e153]'
-                        - paragraph [ref=f84e159]:
-                          - generic [ref=f84e160]: There is a profound psychological grounding that occurs when interacting with ancient, prehistoric flora. The dense, repeating fractal patterns of unfurling fern fronds are not merely aesthetic; they are mathematically restorative. According to Attention Restoration Theory (ART), these complex natural geometries provide "soft fascination," allowing the brain to recover from the "directed attention fatigue" of high-pressure urban environments. The deep Heritage Green tones of a hydrated tree fern—sitting in the most soothing part of the visible light spectrum—have been scientifically proven to lower cortisol levels and heart rates. By integrating these "Living Sculptures" into your estate, you are creating more than a garden; you are engineering a restorative sanctuary where mental clarity can return after a high-stakes workday, providing a physiological shield against the stresses of modern city life.
-                        - heading "Pteridomania and the Kew Legacy." [level=3] [ref=f84e166]
-                        - paragraph [ref=f84e172]:
-                          - generic [ref=f84e173]:
-                            - generic [ref=f84e174]: A prehistoric survivor that predates the dinosaurs, the
-                            - emphasis [ref=f84e175]:
-                              - generic [ref=f84e176]: Dicksonia antarctica
-                            - generic [ref=f84e177]: has a storied history in British horticulture. During the Victorian era, "Fern-fever" (Pteridomania) gripped the nation, leading to the creation of elaborate "stumperies" and shaded ferneries. These "living sculptures" were famously used as ballast in the holds of sailing ships returning from the Antipodes, their robust trunks surviving months of darkness and saltwater spray. Upon arrival at the Royal Botanic Gardens, Kew, pioneering botanists realised that these seemingly dead, timber-like trunks could be revived with proper hydration—a testament to a biological resilience spanning millennia. At SAVAGELDN, we continue to harness this Victorian sense of adventure and architectural drama, bringing 19th-century horticultural mystery into the meticulously engineered 21st-century urban estate.
-                        - figure [ref=f84e184]:
-                          - generic [ref=f84e185]:
-                            - img "Unfurling green fronds (croziers) of a Dicksonia antarctica tree fern." [ref=f84e190] [cursor=pointer]
-                            - button "Expand image"
-                          - generic [ref=f84e193]:
-                            - strong [ref=f84e194]:
-                              - generic [ref=f84e195]: "Prehistoric Geometry:"
-                            - generic [ref=f84e196]: The spectacular spring awakening of the Dicksonia's architectural fronds.
-                        - heading "The Founder's Wit:" [level=4] [ref=f84e204]
-                        - blockquote [ref=f84e208]:
-                          - generic [ref=f84e209]: "\"Treating a Dicksonia like a standard shrub is like treating R11 Porcelain like cheap concrete. It’s a pre-dinosaur living sculpture—respect the biology, or stick to plastic plants. If you can't find five minutes to water the crown, you don't own a sanctuary; you own an expensive pile of firewood. We build for those who understand that luxury is maintained through discipline, not just bank transfers.\""
-                        - figure [ref=f84e219]:
-                          - generic [ref=f84e220]:
-                            - img "Tropical garden design in London using tree ferns for privacy and enclosure." [ref=f84e225] [cursor=pointer]
-                            - button "Expand image"
-                          - generic [ref=f84e228]:
-                            - strong [ref=f84e229]: "Naturalised Privacy:"
-                            - text: Creating a psychological shield in high-density urban plots through prehistoric flora.
-                        - heading [level=2] [ref=f84e231]
-                        - link [ref=f84e235] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/
-                          - figure [ref=f84e238]:
-                            - img "Landscaper South London | Luxury Design & Build | SavageLDN" [ref=f84e241]
-                            - generic [ref=f84e242]:
-                              - generic [ref=f84e243]: www.savageldn.co.uk
-                              - generic [ref=f84e244]: Landscaper South London | Luxury Design & Build | SavageLDN
-                              - generic [ref=f84e245]: Transform your garden with Stuart Savage Landscaping, the top landscaping London experts. Landscaping London services.
-                        - link [ref=f84e251] [cursor=pointer]:
-                          - /url: https://www.moonlight-studio.uk/
-                          - figure [ref=f84e254]:
-                            - img "THE MOONLIGHT GARDEN DESIGN CO. | Remote 3D Garden Design & Blueprints" [ref=f84e257]
-                            - generic [ref=f84e258]:
-                              - generic [ref=f84e259]: www.moonlight-studio.uk
-                              - generic [ref=f84e260]: THE MOONLIGHT GARDEN DESIGN CO. | Remote 3D Garden Design & Blueprints
-                              - generic [ref=f84e261]: Transform your garden remotely. We create high-end 3D garden blueprints and nocturnal planting plans for homeowners nationwide. No site visits required.
-                        - heading [level=4] [ref=f84e266]
-                        - 'heading "Planting Insights: Frequently Asked Questions" [level=4] [ref=f84e269]'
-                        - generic [ref=f84e277]:
-                          - generic [ref=f84e281]:
-                            - button [expanded] [ref=f84e282] [cursor=pointer]:
-                              - heading "How often should I water the crown of my Soft Tree Fern in March?" [level=5] [ref=f84e295]
-                            - paragraph [ref=f84e302]:
-                              - generic [ref=f84e303]: As temperatures begin to fluctuate and the plant exits dormancy, the crown should be hydrated 2-3 times per week. During unseasonably warm or windy spells—which are common in the London microclimate—daily hydration becomes mandatory to ensure the developing fronds remain turgid during the critical unfurling phase.
-                          - button [ref=f84e309] [cursor=pointer]:
-                            - heading "Can Dicksonia antarctica truly survive a London winter without damage?" [level=5] [ref=f84e322]
-                          - button [ref=f84e328] [cursor=pointer]:
-                            - heading "Why is my tree fern trunk feeling soft or spongy to the touch?" [level=5] [ref=f84e341]
-                          - button [ref=f84e347] [cursor=pointer]:
-                            - heading "What is the best position for a tree fern in a South London garden?" [level=5] [ref=f84e360]
-                        - iframe [ref=f84e375]:
-                          - generic [ref=f87e2]:
-                            - generic [ref=f87e3]: The Nocturnal Journal
-                            - heading "Featured in Edition 4" [level=3] [ref=f87e4]
-                            - paragraph [ref=f87e5]: This architectural briefing is part of our strategic Spring Awakening roadmap. Join our network of property owners and design professionals receiving uncompromising landscape intelligence and exclusive design protocols.
-                            - link "Subscribe on LinkedIn" [ref=f87e6] [cursor=pointer]:
-                              - /url: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7403885095712894976
-                      - generic [ref=f84e393]:
-                        - list "Post categories" [ref=f84e395]:
-                          - listitem [ref=f84e396]:
-                            - link "Plant & Horticulture Archive" [ref=f84e397] [cursor=pointer]:
-                              - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                        - generic [ref=f84e398]:
-                          - generic [ref=f84e400]:
-                            - button "Share via Facebook" [ref=f84e402] [cursor=pointer]:
-                              - img "Facebook" [ref=f84e403]
-                            - button "Share via X (Twitter)" [ref=f84e407] [cursor=pointer]:
-                              - img "X" [ref=f84e408]
-                            - button "Share via LinkedIn" [ref=f84e412] [cursor=pointer]:
-                              - img "LinkedIn" [ref=f84e413]
-                            - button "Share via link" [ref=f84e418] [cursor=pointer]
-                          - generic [ref=f84e422]:
-                            - generic [ref=f84e423]:
-                              - status "30 views" [ref=f84e425]
-                              - status "0 comments" [ref=f84e427]
-                            - button "Like post" [ref=f84e429]:
-                              - generic [ref=f84e430]: Post not marked as liked
-                              - generic [ref=f84e432] [cursor=pointer]
-                  - generic [ref=f84e441]:
-                    - generic [ref=f84e442]:
-                      - heading "Recent Posts" [level=2] [ref=f84e443]
-                      - link "See All" [ref=f84e444] [cursor=pointer]:
-                        - /url: https://www.savageldn.co.uk/insights
-                    - generic [ref=f84e446]:
-                      - article [ref=f84e447]:
-                        - generic [ref=f84e448]:
-                          - link "THE ARCHITECTURAL BRILLIANCE OF THE WHITE FLOWERING QUINCE (CHAENOMELES SPECIOSA 'NIVALIS')" [ref=f84e449] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/post/white-flowering-quince
-                          - generic [ref=f84e452]:
-                            - link "THE ARCHITECTURAL BRILLIANCE OF THE WHITE FLOWERING QUINCE (CHAENOMELES SPECIOSA 'NIVALIS')" [ref=f84e454] [cursor=pointer]:
-                              - /url: https://www.savageldn.co.uk/post/white-flowering-quince
-                            - generic [ref=f84e455]:
-                              - generic [ref=f84e457]:
-                                - generic [ref=f84e459]:
-                                  - img "57 views" [ref=f84e460]
-                                  - generic [ref=f84e462]: "57"
-                                - generic [ref=f84e464]:
-                                  - img "0 comments" [ref=f84e465]
-                                  - generic [ref=f84e467]: "0"
-                              - button "Like post" [ref=f84e469]:
-                                - generic [ref=f84e470]: Post not marked as liked
-                                - generic [ref=f84e472] [cursor=pointer]
-                      - article [ref=f84e479]:
-                        - generic [ref=f84e480]:
-                          - link "Hart's Tongue Fern with glossy green fronds in a shady garden" [ref=f84e481] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/post/january
-                          - generic [ref=f84e484]:
-                            - 'link "Plant of the Month – January: Hart’s Tongue Fern" [ref=f84e486] [cursor=pointer]':
-                              - /url: https://www.savageldn.co.uk/post/january
-                            - generic [ref=f84e487]:
-                              - generic [ref=f84e489]:
-                                - generic [ref=f84e491]:
-                                  - img "24 views" [ref=f84e492]
-                                  - generic [ref=f84e494]: "24"
-                                - generic [ref=f84e496]:
-                                  - img "0 comments" [ref=f84e497]
-                                  - generic [ref=f84e499]: "0"
-                              - button "Like post" [ref=f84e501]:
-                                - generic [ref=f84e502]: Post not marked as liked
-                                - generic [ref=f84e504] [cursor=pointer]
-                      - article [ref=f84e511]:
-                        - generic [ref=f84e512]:
-                          - link "Close-up view of a vibrant pink Japanese Anemone among greenery" [ref=f84e513] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/post/plant-of-the-month-august
-                          - generic [ref=f84e516]:
-                            - 'link "Embracing the Beauty of Japanese Anemones: My August Love Affair with Anemone japonica: Plant of the month" [ref=f84e518] [cursor=pointer]':
-                              - /url: https://www.savageldn.co.uk/post/plant-of-the-month-august
-                            - generic [ref=f84e519]:
-                              - generic [ref=f84e521]:
-                                - generic [ref=f84e523]:
-                                  - img "22 views" [ref=f84e524]
-                                  - generic [ref=f84e526]: "22"
-                                - generic [ref=f84e528]:
-                                  - img "0 comments" [ref=f84e529]
-                                  - generic [ref=f84e531]: "0"
-                              - button "Like post" [ref=f84e533]:
-                                - generic [ref=f84e534]: 1 like. Post not marked as liked
-                                - generic [ref=f84e535]:
-                                  - generic [ref=f84e536]: "1"
-                                  - generic [ref=f84e537] [cursor=pointer]
-        - contentinfo:
-          - generic [ref=f84e548]:
-            - group:
-              - iframe [ref=f84e552]:
-                - contentinfo [ref=f90e2]:
-                  - generic [ref=f90e3]:
-                    - strong [ref=f90e4]: STUART SAVAGE
-                    - generic [ref=f90e5]: Historic professional archive · Operations · Customer experience · Project delivery
-                    - paragraph [ref=f90e6]: Former landscaping businesses closed in May 2026. Archive only — not currently trading, offering services or seeking commercial work.
-                  - navigation "Footer navigation" [ref=f90e7]:
-                    - link "Home" [ref=f90e8] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/
-                    - link "Blog archive" [ref=f90e12] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/blog
-                    - link "Insights archive" [ref=f90e15] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                    - link "FAQs" [ref=f90e17] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/faqs
-                    - link "Email Stuart" [ref=f90e21] [cursor=pointer]:
-                      - /url: mailto:stuart@savageldn.co.uk
-                    - link "LinkedIn profile" [ref=f90e25] [cursor=pointer]:
-                      - /url: https://www.linkedin.com/in/stuartsavage
-                    - link "Legal, privacy and accessibility" [ref=f90e30] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/privacy-policy
-                  - generic [ref=f90e34]:
-                    - generic [ref=f90e35]: © 2026 Stuart Savage · Kennington, London · Historic professional archive
-                    - generic "Legal information" [ref=f90e36]:
-                      - link "FAQs" [ref=f90e37] [cursor=pointer]:
-                        - /url: https://www.savageldn.co.uk/faqs
-                      - link "Legal, privacy & accessibility" [ref=f90e38] [cursor=pointer]:
+                - banner:
+                    - generic [ref=f84e16]:
+                        - group:
+                            - iframe [ref=f84e18]:
+                                - banner [ref=f88e2]:
+                                    - link "SAVAGELDN home" [ref=f88e3] [cursor=pointer]:
+                                        - /url: https://www.savageldn.co.uk/
+                                        - strong [ref=f88e4]: STUART SAVAGE
+                                        - generic [ref=f88e5]: Historic professional archive · Operations · Customer experience
+                                        - generic [ref=f88e6]: Former businesses closed · Not currently trading
+                                    - navigation "Main navigation" [ref=f88e7]:
+                                        - link "Home" [ref=f88e8] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/
+                                        - link "Portfolio archive" [ref=f88e12] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/portfolio
+                                        - link "Blog archive" [ref=f88e17] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/blog
+                                        - link "Insights archive" [ref=f88e20] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                        - link "FAQs" [ref=f88e22] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/faqs
+                                        - link "Email Stuart" [ref=f88e26] [cursor=pointer]:
+                                            - /url: mailto:stuart@savageldn.co.uk
+                                            - generic: Email
+                                        - link "LinkedIn profile" [ref=f88e30] [cursor=pointer]:
+                                            - /url: https://www.linkedin.com/in/stuartsavage
+                                            - generic: LinkedIn
+                                        - link "Legal, privacy and accessibility" [ref=f88e35] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/privacy-policy
+                                            - generic: Legal
+                            - iframe [ref=f84e20]:
+                                - banner [ref=f89e2]:
+                                    - link "SAVAGELDN home" [ref=f89e3] [cursor=pointer]:
+                                        - /url: https://www.savageldn.co.uk/
+                                        - strong [ref=f89e4]: STUART SAVAGE
+                                        - generic [ref=f89e5]: Historic professional archive · Operations · Customer experience
+                                        - generic [ref=f89e6]: Former businesses closed · Not currently trading
+                                    - navigation "Main navigation" [ref=f89e7]:
+                                        - link "Home" [ref=f89e8] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/
+                                        - link "Portfolio archive" [ref=f89e12] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/portfolio
+                                        - link "Blog archive" [ref=f89e17] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/blog
+                                        - link "Insights archive" [ref=f89e20] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                        - link "FAQs" [ref=f89e22] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/faqs
+                                        - link "Email Stuart" [ref=f89e26] [cursor=pointer]:
+                                            - /url: mailto:stuart@savageldn.co.uk
+                                            - generic: Email
+                                        - link "LinkedIn profile" [ref=f89e30] [cursor=pointer]:
+                                            - /url: https://www.linkedin.com/in/stuartsavage
+                                            - generic: LinkedIn
+                                        - link "Legal, privacy and accessibility" [ref=f89e35] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/privacy-policy
+                                            - generic: Legal
+                - main:
+                    - generic [ref=f84e21]:
+                        - group:
+                            - generic [ref=f84e31]:
+                                - navigation "Blog" [ref=f84e34]:
+                                    - list [ref=f84e35] [cursor=pointer]:
+                                        - listitem [ref=f84e36]:
+                                            - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f84e37]:
+                                                - /url: https://www.savageldn.co.uk/insights
+                                        - listitem [ref=f84e38]:
+                                            - link "Plant & Horticulture Archive" [ref=f84e39]:
+                                                - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                        - listitem [ref=f84e40]:
+                                            - link "Project Delivery Archive" [ref=f84e41]:
+                                                - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                        - listitem [ref=f84e42]:
+                                            - button "More" [ref=f84e44]
+                                - generic [ref=f84e48]:
+                                    - article [ref=f84e52]:
+                                        - generic [ref=f84e53]:
+                                            - generic [ref=f84e55]:
+                                                - generic [ref=f84e56]:
+                                                    - 'heading "THE TROPICAL AWAKENING: HYDRATING THE SOFT TREE FERN (DICKSONIA ANTARCTICA)" [level=1] [ref=f84e58]'
+                                                    - generic [ref=f84e59]:
+                                                        - list [ref=f84e60]:
+                                                            - listitem [ref=f84e61]:
+                                                                - 'img "Writer: Stuart Savage" [ref=f84e64]'
+                                                                - generic [ref=f84e65] [cursor=pointer]: Stuart Savage
+                                                            - listitem [ref=f84e66]: ·Mar 2
+                                                            - listitem [ref=f84e67]: ·3 min read
+                                                        - button "More actions" [ref=f84e69] [cursor=pointer]
+                                                - paragraph [ref=f84e72]: "Updated: Mar 5"
+                                                - button "Rated 0 out of 5 stars. No ratings yet" [ref=f84e73] [cursor=pointer]:
+                                                    - generic [ref=f84e74]:
+                                                        - generic [ref=f84e75]: Rated 0 out of 5 stars.
+                                                        - generic [ref=f84e88]: No ratings yet
+                                            - generic [ref=f84e95]:
+                                                - heading "The Biological Engine of the Crown." [level=2] [ref=f84e97]
+                                                - figure [ref=f84e106]:
+                                                    - generic [ref=f84e107]:
+                                                        - img "A low-angle, wide-frame shot of a mature Dicksonia antarctica crown at Blue Hour. The trunk should be dramatically silhouetted against a deep indigo sky, with 2700K warm-white spotlights highlighting its texture and the emerging croziers. Soft Tree Fern in a nocturnal London sanctuary with architectural lighting." [ref=f84e112] [cursor=pointer]
+                                                        - button "Expand image"
+                                                - paragraph [ref=f84e117]:
+                                                    - generic [ref=f84e118]:
+                                                        - generic [ref=f84e119]: The Soft Tree Fern (
+                                                        - emphasis [ref=f84e120]:
+                                                            - generic [ref=f84e121]: Dicksonia antarctica
+                                                        - generic [ref=f84e122]: ) serves as the ultimate architectural anchor for any high-performance Tropical London Garden. As we enter the spring awakening, technical discipline must shift toward the precise hydration of the crown. Unlike standard woody shrubs, the tree fern’s "trunk" is actually a vertical rhizome—a pseudo-trunk composed of a central core of modified stems surrounded by a dense, interlocking mat of aerial roots. This month, you must trigger the "unfurling" of new green croziers (fronds) by ensuring consistent moisture within this fibrous core.
+                                                - figure [ref=f84e132]:
+                                                    - generic [ref=f84e133]:
+                                                        - img "Automated micro-drip irrigation system integrated into a tree fern crown." [ref=f84e138] [cursor=pointer]
+                                                        - button "Expand image"
+                                                    - generic [ref=f84e141]:
+                                                        - strong [ref=f84e142]:
+                                                            - generic [ref=f84e143]: "Engineering Resilience:"
+                                                        - generic [ref=f84e144]: Automated hydration ensures the biological engine never stalls, even during dry spells.
+                                                - paragraph [ref=f84e146]:
+                                                    - generic [ref=f84e147]: This moisture serves as the primary conduit for nutrient transport through the xylem, feeding the spectacular biological architecture about to erupt. In the "Urban Heat Island" of South London, dry March winds can lead to rapid desiccation; failure to maintain crown saturation can lead to stunted frond growth or "frond-drop," fundamentally compromising the structural integrity and aesthetic density of your sanctuary's canopy. We recommend a slow, top-down saturation technique that allows the moisture to seep through the entire vertical root system.
+                                                - 'heading "SOFT TREE FERN: Fractal Geometry and the Cortisol Drop." [level=3] [ref=f84e153]'
+                                                - paragraph [ref=f84e159]:
+                                                    - generic [ref=f84e160]: There is a profound psychological grounding that occurs when interacting with ancient, prehistoric flora. The dense, repeating fractal patterns of unfurling fern fronds are not merely aesthetic; they are mathematically restorative. According to Attention Restoration Theory (ART), these complex natural geometries provide "soft fascination," allowing the brain to recover from the "directed attention fatigue" of high-pressure urban environments. The deep Heritage Green tones of a hydrated tree fern—sitting in the most soothing part of the visible light spectrum—have been scientifically proven to lower cortisol levels and heart rates. By integrating these "Living Sculptures" into your estate, you are creating more than a garden; you are engineering a restorative sanctuary where mental clarity can return after a high-stakes workday, providing a physiological shield against the stresses of modern city life.
+                                                - heading "Pteridomania and the Kew Legacy." [level=3] [ref=f84e166]
+                                                - paragraph [ref=f84e172]:
+                                                    - generic [ref=f84e173]:
+                                                        - generic [ref=f84e174]: A prehistoric survivor that predates the dinosaurs, the
+                                                        - emphasis [ref=f84e175]:
+                                                            - generic [ref=f84e176]: Dicksonia antarctica
+                                                        - generic [ref=f84e177]: has a storied history in British horticulture. During the Victorian era, "Fern-fever" (Pteridomania) gripped the nation, leading to the creation of elaborate "stumperies" and shaded ferneries. These "living sculptures" were famously used as ballast in the holds of sailing ships returning from the Antipodes, their robust trunks surviving months of darkness and saltwater spray. Upon arrival at the Royal Botanic Gardens, Kew, pioneering botanists realised that these seemingly dead, timber-like trunks could be revived with proper hydration—a testament to a biological resilience spanning millennia. At SAVAGELDN, we continue to harness this Victorian sense of adventure and architectural drama, bringing 19th-century horticultural mystery into the meticulously engineered 21st-century urban estate.
+                                                - figure [ref=f84e184]:
+                                                    - generic [ref=f84e185]:
+                                                        - img "Unfurling green fronds (croziers) of a Dicksonia antarctica tree fern." [ref=f84e190] [cursor=pointer]
+                                                        - button "Expand image"
+                                                    - generic [ref=f84e193]:
+                                                        - strong [ref=f84e194]:
+                                                            - generic [ref=f84e195]: "Prehistoric Geometry:"
+                                                        - generic [ref=f84e196]: The spectacular spring awakening of the Dicksonia's architectural fronds.
+                                                - heading "The Founder's Wit:" [level=4] [ref=f84e204]
+                                                - blockquote [ref=f84e208]:
+                                                    - generic [ref=f84e209]: '"Treating a Dicksonia like a standard shrub is like treating R11 Porcelain like cheap concrete. It’s a pre-dinosaur living sculpture—respect the biology, or stick to plastic plants. If you can''t find five minutes to water the crown, you don''t own a sanctuary; you own an expensive pile of firewood. We build for those who understand that luxury is maintained through discipline, not just bank transfers."'
+                                                - figure [ref=f84e219]:
+                                                    - generic [ref=f84e220]:
+                                                        - img "Tropical garden design in London using tree ferns for privacy and enclosure." [ref=f84e225] [cursor=pointer]
+                                                        - button "Expand image"
+                                                    - generic [ref=f84e228]:
+                                                        - strong [ref=f84e229]: "Naturalised Privacy:"
+                                                        - text: Creating a psychological shield in high-density urban plots through prehistoric flora.
+                                                - heading [level=2] [ref=f84e231]
+                                                - link [ref=f84e235] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/
+                                                    - figure [ref=f84e238]:
+                                                        - img "Landscaper South London | Luxury Design & Build | SavageLDN" [ref=f84e241]
+                                                        - generic [ref=f84e242]:
+                                                            - generic [ref=f84e243]: www.savageldn.co.uk
+                                                            - generic [ref=f84e244]: Landscaper South London | Luxury Design & Build | SavageLDN
+                                                            - generic [ref=f84e245]: Transform your garden with Stuart Savage Landscaping, the top landscaping London experts. Landscaping London services.
+                                                - link [ref=f84e251] [cursor=pointer]:
+                                                    - /url: https://www.moonlight-studio.uk/
+                                                    - figure [ref=f84e254]:
+                                                        - img "THE MOONLIGHT GARDEN DESIGN CO. | Remote 3D Garden Design & Blueprints" [ref=f84e257]
+                                                        - generic [ref=f84e258]:
+                                                            - generic [ref=f84e259]: www.moonlight-studio.uk
+                                                            - generic [ref=f84e260]: THE MOONLIGHT GARDEN DESIGN CO. | Remote 3D Garden Design & Blueprints
+                                                            - generic [ref=f84e261]: Transform your garden remotely. We create high-end 3D garden blueprints and nocturnal planting plans for homeowners nationwide. No site visits required.
+                                                - heading [level=4] [ref=f84e266]
+                                                - 'heading "Planting Insights: Frequently Asked Questions" [level=4] [ref=f84e269]'
+                                                - generic [ref=f84e277]:
+                                                    - generic [ref=f84e281]:
+                                                        - button [expanded] [ref=f84e282] [cursor=pointer]:
+                                                            - heading "How often should I water the crown of my Soft Tree Fern in March?" [level=5] [ref=f84e295]
+                                                        - paragraph [ref=f84e302]:
+                                                            - generic [ref=f84e303]: As temperatures begin to fluctuate and the plant exits dormancy, the crown should be hydrated 2-3 times per week. During unseasonably warm or windy spells—which are common in the London microclimate—daily hydration becomes mandatory to ensure the developing fronds remain turgid during the critical unfurling phase.
+                                                    - button [ref=f84e309] [cursor=pointer]:
+                                                        - heading "Can Dicksonia antarctica truly survive a London winter without damage?" [level=5] [ref=f84e322]
+                                                    - button [ref=f84e328] [cursor=pointer]:
+                                                        - heading "Why is my tree fern trunk feeling soft or spongy to the touch?" [level=5] [ref=f84e341]
+                                                    - button [ref=f84e347] [cursor=pointer]:
+                                                        - heading "What is the best position for a tree fern in a South London garden?" [level=5] [ref=f84e360]
+                                                - iframe [ref=f84e375]:
+                                                    - generic [ref=f87e2]:
+                                                        - generic [ref=f87e3]: The Nocturnal Journal
+                                                        - heading "Featured in Edition 4" [level=3] [ref=f87e4]
+                                                        - paragraph [ref=f87e5]: This architectural briefing is part of our strategic Spring Awakening roadmap. Join our network of property owners and design professionals receiving uncompromising landscape intelligence and exclusive design protocols.
+                                                        - link "Subscribe on LinkedIn" [ref=f87e6] [cursor=pointer]:
+                                                            - /url: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7403885095712894976
+                                            - generic [ref=f84e393]:
+                                                - list "Post categories" [ref=f84e395]:
+                                                    - listitem [ref=f84e396]:
+                                                        - link "Plant & Horticulture Archive" [ref=f84e397] [cursor=pointer]:
+                                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                                - generic [ref=f84e398]:
+                                                    - generic [ref=f84e400]:
+                                                        - button "Share via Facebook" [ref=f84e402] [cursor=pointer]:
+                                                            - img "Facebook" [ref=f84e403]
+                                                        - button "Share via X (Twitter)" [ref=f84e407] [cursor=pointer]:
+                                                            - img "X" [ref=f84e408]
+                                                        - button "Share via LinkedIn" [ref=f84e412] [cursor=pointer]:
+                                                            - img "LinkedIn" [ref=f84e413]
+                                                        - button "Share via link" [ref=f84e418] [cursor=pointer]
+                                                    - generic [ref=f84e422]:
+                                                        - generic [ref=f84e423]:
+                                                            - status "30 views" [ref=f84e425]
+                                                            - status "0 comments" [ref=f84e427]
+                                                        - button "Like post" [ref=f84e429]:
+                                                            - generic [ref=f84e430]: Post not marked as liked
+                                                            - generic [ref=f84e432] [cursor=pointer]
+                                    - generic [ref=f84e441]:
+                                        - generic [ref=f84e442]:
+                                            - heading "Recent Posts" [level=2] [ref=f84e443]
+                                            - link "See All" [ref=f84e444] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/insights
+                                        - generic [ref=f84e446]:
+                                            - article [ref=f84e447]:
+                                                - generic [ref=f84e448]:
+                                                    - link "THE ARCHITECTURAL BRILLIANCE OF THE WHITE FLOWERING QUINCE (CHAENOMELES SPECIOSA 'NIVALIS')" [ref=f84e449] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/post/white-flowering-quince
+                                                    - generic [ref=f84e452]:
+                                                        - link "THE ARCHITECTURAL BRILLIANCE OF THE WHITE FLOWERING QUINCE (CHAENOMELES SPECIOSA 'NIVALIS')" [ref=f84e454] [cursor=pointer]:
+                                                            - /url: https://www.savageldn.co.uk/post/white-flowering-quince
+                                                        - generic [ref=f84e455]:
+                                                            - generic [ref=f84e457]:
+                                                                - generic [ref=f84e459]:
+                                                                    - img "57 views" [ref=f84e460]
+                                                                    - generic [ref=f84e462]: "57"
+                                                                - generic [ref=f84e464]:
+                                                                    - img "0 comments" [ref=f84e465]
+                                                                    - generic [ref=f84e467]: "0"
+                                                            - button "Like post" [ref=f84e469]:
+                                                                - generic [ref=f84e470]: Post not marked as liked
+                                                                - generic [ref=f84e472] [cursor=pointer]
+                                            - article [ref=f84e479]:
+                                                - generic [ref=f84e480]:
+                                                    - link "Hart's Tongue Fern with glossy green fronds in a shady garden" [ref=f84e481] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/post/january
+                                                    - generic [ref=f84e484]:
+                                                        - 'link "Plant of the Month – January: Hart’s Tongue Fern" [ref=f84e486] [cursor=pointer]':
+                                                            - /url: https://www.savageldn.co.uk/post/january
+                                                        - generic [ref=f84e487]:
+                                                            - generic [ref=f84e489]:
+                                                                - generic [ref=f84e491]:
+                                                                    - img "24 views" [ref=f84e492]
+                                                                    - generic [ref=f84e494]: "24"
+                                                                - generic [ref=f84e496]:
+                                                                    - img "0 comments" [ref=f84e497]
+                                                                    - generic [ref=f84e499]: "0"
+                                                            - button "Like post" [ref=f84e501]:
+                                                                - generic [ref=f84e502]: Post not marked as liked
+                                                                - generic [ref=f84e504] [cursor=pointer]
+                                            - article [ref=f84e511]:
+                                                - generic [ref=f84e512]:
+                                                    - link "Close-up view of a vibrant pink Japanese Anemone among greenery" [ref=f84e513] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/post/plant-of-the-month-august
+                                                    - generic [ref=f84e516]:
+                                                        - 'link "Embracing the Beauty of Japanese Anemones: My August Love Affair with Anemone japonica: Plant of the month" [ref=f84e518] [cursor=pointer]':
+                                                            - /url: https://www.savageldn.co.uk/post/plant-of-the-month-august
+                                                        - generic [ref=f84e519]:
+                                                            - generic [ref=f84e521]:
+                                                                - generic [ref=f84e523]:
+                                                                    - img "22 views" [ref=f84e524]
+                                                                    - generic [ref=f84e526]: "22"
+                                                                - generic [ref=f84e528]:
+                                                                    - img "0 comments" [ref=f84e529]
+                                                                    - generic [ref=f84e531]: "0"
+                                                            - button "Like post" [ref=f84e533]:
+                                                                - generic [ref=f84e534]: 1 like. Post not marked as liked
+                                                                - generic [ref=f84e535]:
+                                                                    - generic [ref=f84e536]: "1"
+                                                                    - generic [ref=f84e537] [cursor=pointer]
+                - contentinfo:
+                    - generic [ref=f84e548]:
+                        - group:
+                            - iframe [ref=f84e552]:
+                                - contentinfo [ref=f90e2]:
+                                    - generic [ref=f90e3]:
+                                        - strong [ref=f90e4]: STUART SAVAGE
+                                        - generic [ref=f90e5]: Historic professional archive · Operations · Customer experience · Project delivery
+                                        - paragraph [ref=f90e6]: Former landscaping businesses closed in May 2026. Archive only — not currently trading, offering services or seeking commercial work.
+                                    - navigation "Footer navigation" [ref=f90e7]:
+                                        - link "Home" [ref=f90e8] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/
+                                        - link "Blog archive" [ref=f90e12] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/blog
+                                        - link "Insights archive" [ref=f90e15] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                        - link "FAQs" [ref=f90e17] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/faqs
+                                        - link "Email Stuart" [ref=f90e21] [cursor=pointer]:
+                                            - /url: mailto:stuart@savageldn.co.uk
+                                        - link "LinkedIn profile" [ref=f90e25] [cursor=pointer]:
+                                            - /url: https://www.linkedin.com/in/stuartsavage
+                                        - link "Legal, privacy and accessibility" [ref=f90e30] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/privacy-policy
+                                    - generic [ref=f90e34]:
+                                        - generic [ref=f90e35]: © 2026 Stuart Savage · Kennington, London · Historic professional archive
+                                        - generic "Legal information" [ref=f90e36]:
+                                            - link "FAQs" [ref=f90e37] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/faqs
+                                            - link "Legal, privacy & accessibility" [ref=f90e38] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/privacy-policy
+                                            - link "Contact" [ref=f90e39] [cursor=pointer]:
+                                                - /url: mailto:stuart@savageldn.co.uk
+        - region "bottom of page"
+    - region [ref=f84e553]:
+        - generic [ref=f84e554]:
+            - generic [ref=f84e555]:
+                - generic [ref=f84e557]:
+                    - text: We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies.
+                    - link [ref=f84e558] [cursor=pointer]:
                         - /url: https://www.savageldn.co.uk/privacy-policy
-                      - link "Contact" [ref=f90e39] [cursor=pointer]:
-                        - /url: mailto:stuart@savageldn.co.uk
-    - region "bottom of page"
-  - region [ref=f84e553]:
-    - generic [ref=f84e554]:
-      - generic [ref=f84e555]:
-        - generic [ref=f84e557]:
-          - text: We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies.
-          - link [ref=f84e558] [cursor=pointer]:
-            - /url: https://www.savageldn.co.uk/privacy-policy
-            - text: Privacy Policy
-        - generic [ref=f84e559]:
-          - button "Settings" [ref=f84e560] [cursor=pointer]
-          - button "Decline All" [ref=f84e561] [cursor=pointer]
-          - button "Accept" [ref=f84e562] [cursor=pointer]
-      - button "Close" [ref=f84e564]:
-        - img "Close" [ref=f84e565] [cursor=pointer]
+                        - text: Privacy Policy
+                - generic [ref=f84e559]:
+                    - button "Settings" [ref=f84e560] [cursor=pointer]
+                    - button "Decline All" [ref=f84e561] [cursor=pointer]
+                    - button "Accept" [ref=f84e562] [cursor=pointer]
+            - button "Close" [ref=f84e564]:
+                - img "Close" [ref=f84e565] [cursor=pointer]

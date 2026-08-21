@@ -1,221 +1,221 @@
 - generic [ref=f116e3]:
-  - region "top of page"
-  - generic [ref=f116e11]:
-    - generic:
-      - banner
-      - main:
-        - generic [ref=f116e29]:
-          - navigation "Blog" [ref=f116e32]:
-            - list [ref=f116e33] [cursor=pointer]:
-              - listitem [ref=f116e34]:
-                - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f116e35]:
-                  - /url: https://www.savageldn.co.uk/insights
-              - listitem [ref=f116e36]:
-                - link "Plant & Horticulture Archive" [ref=f116e37]:
-                  - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-              - listitem [ref=f116e38]:
-                - link "Project Delivery Archive" [ref=f116e39]:
-                  - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-              - listitem [ref=f116e40]:
-                - link "Garden Design Archive" [ref=f116e41]:
-                  - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-              - listitem [ref=f116e42]:
-                - link "Supplier & Systems Archive" [ref=f116e43]:
-                  - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-          - generic [ref=f116e45]:
-            - article [ref=f116e49]:
-              - generic [ref=f116e50]:
-                - generic [ref=f116e52]:
-                  - generic [ref=f116e53]:
-                    - heading "Choosing the Perfect Conifer for Your Garden A Comprehensive Guide" [level=1] [ref=f116e55]
-                    - generic [ref=f116e56]:
-                      - list [ref=f116e57]:
-                        - listitem [ref=f116e58]:
-                          - 'img "Writer: Stuart Savage" [ref=f116e61]'
-                          - generic [ref=f116e62] [cursor=pointer]: Stuart Savage
-                        - listitem [ref=f116e63]: ·Nov 18, 2025
-                        - listitem [ref=f116e64]: ·5 min read
-                      - button "More actions" [ref=f116e66] [cursor=pointer]
-                  - paragraph [ref=f116e69]: "Updated: Dec 30, 2025"
-                  - button "Rated NaN out of 5 stars." [ref=f116e70] [cursor=pointer]
-                - generic [ref=f116e91]:
-                  - paragraph [ref=f116e93]:
-                    - generic [ref=f116e94]: When it comes to creating a stunning garden, conifers are often the unsung heroes. These evergreen plants not only provide year-round greenery but also come in a dazzling array of shapes, sizes, and colours. As a plant lover, I find that choosing the right conifer can transform a garden space, adding structure and interest even in the colder months. In this guide, I'll share everything you need to know about selecting the perfect conifer for your garden.
-                  - link "Planting plans" [ref=f116e99] [cursor=pointer]:
-                    - /url: https://www.savageldn.co.uk/planting-services
-                  - figure [ref=f116e107]:
-                    - generic [ref=f116e108]:
-                      - img "Eye-level view of a vibrant conifer garden" [ref=f116e113] [cursor=pointer]
-                      - button "Expand image"
-                    - generic [ref=f116e114]: A beautiful conifer garden showcasing various species
-                  - heading "Understanding Perfect Conifers" [level=2] [ref=f116e121]
-                  - paragraph [ref=f116e127]:
-                    - generic [ref=f116e128]: Conifers are a diverse group of trees and shrubs that belong to the Pinophyta, or gymnosperm, family. They are characterised by their needle-like leaves and cones, often associated with Christmas trees. What makes conifers particularly appealing is their ability to retain their foliage year-round, providing a constant source of colour and texture in the garden.
-                  - paragraph [ref=f116e133]:
-                    - generic [ref=f116e134]: One of the most exciting aspects of conifers is their seasonal colour changes. Many conifers change hue with the seasons, offering a dynamic visual experience. For instance, some may display vibrant greens in spring and summer, transitioning to rich golds and bronzes in autumn. This ability to change colour makes them a fantastic choice for adding interest to your garden during the fall and winter months when many other plants are dormant.
-                  - heading "The Benefits of Conifers in Your Garden" [level=2] [ref=f116e139]
-                  - paragraph [ref=f116e145]:
-                    - generic [ref=f116e146]: "Incorporating conifers into your garden design offers numerous benefits. Here are just a few reasons why I believe every garden should feature these remarkable plants:"
-                  - list [ref=f116e151]:
-                    - listitem [level=1] [ref=f116e152]:
-                      - paragraph [ref=f116e153]:
-                        - generic [ref=f116e154]:
-                          - strong [ref=f116e155]: Evergreen Beauty
-                          - text: ": Unlike deciduous plants that lose their leaves, conifers provide year-round greenery, ensuring your garden looks lively even in the dead of winter."
-                    - listitem [level=1] [ref=f116e158]:
-                      - paragraph [ref=f116e159]:
-                        - generic [ref=f116e160]:
-                          - strong [ref=f116e161]: Variety of Shapes and Sizes
-                          - text: ": From tall, narrow columnar forms to low-growing, globose varieties, conifers come in a wide range of shapes and sizes, making them versatile for various garden designs."
-                    - listitem [level=1] [ref=f116e164]:
-                      - paragraph [ref=f116e165]:
-                        - generic [ref=f116e166]:
-                          - strong [ref=f116e167]: Structural Elements
-                          - text: ": Conifers can serve as focal points, backdrops, or even hedges, adding structure and form to your garden layout."
-                    - listitem [level=1] [ref=f116e170]:
-                      - paragraph [ref=f116e171]:
-                        - generic [ref=f116e172]:
-                          - strong [ref=f116e173]: Wildlife Habitat
-                          - text: ": Many conifers provide shelter and food for birds and other wildlife, making your garden a haven for nature."
-                    - listitem [level=1] [ref=f116e176]:
-                      - paragraph [ref=f116e177]:
-                        - generic [ref=f116e178]:
-                          - strong [ref=f116e179]: Low Maintenance
-                          - text: ": Once established, most conifers require minimal care, making them an excellent choice for busy gardeners."
-                  - heading "Choosing the Right Conifer for Your Space" [level=2] [ref=f116e183]
-                  - paragraph [ref=f116e189]:
-                    - generic [ref=f116e190]: "Selecting the perfect conifer for your garden involves considering several factors, including the plant's ultimate height, spread, and growth habit. Here's a breakdown of some popular conifer shapes and their ideal uses:"
-                  - heading "Columnar Conifers" [level=3] [ref=f116e195]
-                  - paragraph [ref=f116e201]:
-                    - generic [ref=f116e202]: "Columnar conifers are tall and narrow, making them ideal for adding height to a garden without occupying too much space. They work wonderfully in shrub borders or as a striking feature in a lawn. Some popular examples include:"
-                  - list [ref=f116e207]:
-                    - listitem [level=1] [ref=f116e208]:
-                      - paragraph [ref=f116e209]:
-                        - generic [ref=f116e210]:
-                          - strong [ref=f116e211]: Juniperus scopulorum 'Skyrocket'
-                          - text: ": This upright juniper has a striking blue-green colour and can reach heights of up to 15 feet, making it an excellent choice for vertical interest."
-                    - listitem [level=1] [ref=f116e214]:
-                      - paragraph [ref=f116e215]:
-                        - generic [ref=f116e216]:
-                          - strong [ref=f116e217]: Taxus baccata 'Fastigiata Aureomarginata'
-                          - text: ": With its golden-edged foliage, this yew adds a touch of elegance and can be used to create a formal hedge or accent."
-                  - heading "Pyramidal Conifers" [level=3] [ref=f116e221]
-                  - paragraph [ref=f116e227]:
-                    - generic [ref=f116e228]: "Pyramidal conifers have a classic shape, being narrow at the top and broader at the base. They can serve as stunning focal points in extensive gardens or help to conceal unsightly features. Consider these options:"
-                  - list [ref=f116e233]:
-                    - listitem [level=1] [ref=f116e234]:
-                      - paragraph [ref=f116e235]:
-                        - generic [ref=f116e236]:
-                          - strong [ref=f116e237]: Picea albertiana 'Conica'
-                          - text: ": This dwarf Alberta spruce features a compact, conical shape, making it ideal for smaller gardens or as a decorative container plant."
-                    - listitem [level=1] [ref=f116e240]:
-                      - paragraph [ref=f116e241]:
-                        - generic [ref=f116e242]:
-                          - strong [ref=f116e243]: Thuja occidentalis 'Yellow Ribbon'
-                          - text: ": With its vibrant yellow foliage, this pyramidal arborvitae stands out beautifully against darker backgrounds."
-                  - heading "Globose Conifers" [level=3] [ref=f116e247]
-                  - paragraph [ref=f116e253]:
-                    - generic [ref=f116e254]: "Globose conifers are characterised by their round, bun-like shape. They add a playful element to the garden and can be used as punctuation marks in borders or as standalone features. Some favourites include:"
-                  - list [ref=f116e259]:
-                    - listitem [level=1] [ref=f116e260]:
-                      - paragraph [ref=f116e261]:
-                        - generic [ref=f116e262]:
-                          - strong [ref=f116e263]: Chamaecyparis obtusa 'Nana Gracilis'
-                          - text: ": This dwarf hinoki cypress has a dense, rounded form and soft, feathery foliage, making it a charming addition to any garden."
-                    - listitem [level=1] [ref=f116e266]:
-                      - paragraph [ref=f116e267]:
-                        - generic [ref=f116e268]:
-                          - strong [ref=f116e269]: Pinus mugo 'Mops'
-                          - text: ": This dwarf mountain pine has a compact, globose shape and is perfect for rock gardens or as a low hedge."
-                  - figure [ref=f116e275]:
-                    - generic [ref=f116e276]:
-                      - img "Close-up view of a vibrant globose conifer" [ref=f116e281] [cursor=pointer]
-                      - button "Expand image"
-                    - generic [ref=f116e282]: A close-up of a vibrant globose conifer showcasing its unique shape
-                  - heading "Planting and Care Tips" [level=2] [ref=f116e289]
-                  - paragraph [ref=f116e295]:
-                    - generic [ref=f116e296]: "Once you've chosen the right conifer for your garden, it's essential to plant and care for it properly to ensure its success. Here are some tips to help you get started:"
-                  - heading "Planting" [level=3] [ref=f116e301]
-                  - list [ref=f116e307]:
-                    - listitem [level=1] [ref=f116e308]:
-                      - paragraph [ref=f116e309]:
-                        - generic [ref=f116e310]:
-                          - strong [ref=f116e311]: Choose the Right Location
-                          - text: ": Most conifers prefer well-drained soil and full sun, although some varieties can tolerate partial shade. Be sure to check the specific requirements for your chosen species."
-                    - listitem [level=1] [ref=f116e314]:
-                      - paragraph [ref=f116e315]:
-                        - generic [ref=f116e316]:
-                          - strong [ref=f116e317]: Dig a Proper Hole
-                          - text: ": When planting, dig a hole that is twice as wide as the root ball but no deeper than the root ball itself. This encourages healthy root growth."
-                    - listitem [level=1] [ref=f116e320]:
-                      - paragraph [ref=f116e321]:
-                        - generic [ref=f116e322]:
-                          - strong [ref=f116e323]: Water Thoroughly
-                          - text: ": After planting, water your conifer deeply to help settle the soil and eliminate air pockets."
-                  - heading "Maintenance" [level=3] [ref=f116e327]
-                  - list [ref=f116e333]:
-                    - listitem [level=1] [ref=f116e334]:
-                      - paragraph [ref=f116e335]:
-                        - generic [ref=f116e336]:
-                          - strong [ref=f116e337]: Mulching
-                          - text: ": Apply a layer of mulch around the base of your conifer to retain moisture and suppress weeds."
-                    - listitem [level=1] [ref=f116e340]:
-                      - paragraph [ref=f116e341]:
-                        - generic [ref=f116e342]:
-                          - strong [ref=f116e343]: Pruning
-                          - text: ": While most conifers require minimal pruning, you may want to remove any dead or damaged branches to maintain a healthy appearance."
-                    - listitem [level=1] [ref=f116e346]:
-                      - paragraph [ref=f116e347]:
-                        - generic [ref=f116e348]:
-                          - strong [ref=f116e349]: Fertilising
-                          - text: ": A slow-release fertiliser can be beneficial in the spring to promote healthy growth, but be cautious not to over-fertilise."
-                    - listitem [level=1] [ref=f116e352]:
-                      - paragraph [ref=f116e353]:
-                        - generic [ref=f116e354]:
-                          - strong [ref=f116e355]: Pest Management
-                          - text: ": Be vigilant for common pests, such as aphids or spider mites. If you notice any issues, treat them promptly with appropriate measures."
-                  - heading "Seasonal Interest with Conifers" [level=2] [ref=f116e359]
-                  - paragraph [ref=f116e365]:
-                    - generic [ref=f116e366]: One of the most delightful aspects of conifers is their ability to provide seasonal interest. As the months change, so too can the colours and textures of your conifer collection.
-                  - paragraph [ref=f116e371]:
-                    - generic [ref=f116e372]: In autumn, many conifers will display stunning shades of gold, bronze, and even deep purple. This is the perfect time to appreciate their beauty as they stand out against the backdrop of falling leaves.
-                  - paragraph [ref=f116e377]:
-                    - generic [ref=f116e378]: During winter, conifers can take on a magical quality, especially when dusted with snow or frost. Their unique shapes create striking silhouettes against the winter sky, making them a focal point in your garden even in the coldest months.
-                  - figure [ref=f116e385]:
-                    - generic [ref=f116e386]:
-                      - img "High angle view of a winter garden featuring conifers" [ref=f116e391] [cursor=pointer]
-                      - button "Expand image"
-                    - generic [ref=f116e392]: A high-angle view of a winter garden showcasing conifers dusted with snow
-                  - heading "Conclusion" [level=2] [ref=f116e399]
-                  - paragraph [ref=f116e405]:
-                    - generic [ref=f116e406]: Choosing the perfect conifer for your garden can be a rewarding experience that enhances the beauty and structure of your outdoor space. With their evergreen foliage, diverse shapes, and seasonal interest, conifers are a fantastic addition to any garden design.
-                  - paragraph [ref=f116e411]:
-                    - generic [ref=f116e412]: As you embark on your journey to select the ideal conifer, remember to consider each plant's specific needs and how it will fit into your overall garden plan. Whether you opt for a tall columnar variety or a charming globose shape, these remarkable plants are sure to bring joy and beauty to your garden for years to come.
-                  - paragraph [ref=f116e417]:
-                    - generic [ref=f116e418]: So, get out there and explore the wonderful world of conifers! Your garden will thank you for it.
-                - generic [ref=f116e427]:
-                  - list "Post categories" [ref=f116e429]:
-                    - listitem [ref=f116e430]:
-                      - link "Plant & Horticulture Archive" [ref=f116e431] [cursor=pointer]:
-                        - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - generic [ref=f116e434]:
-                    - button "Share via Facebook" [ref=f116e436] [cursor=pointer]:
-                      - img "Facebook" [ref=f116e437]
-                    - button "Share via X (Twitter)" [ref=f116e441] [cursor=pointer]:
-                      - img "X" [ref=f116e442]
-                    - button "Share via LinkedIn" [ref=f116e446] [cursor=pointer]:
-                      - img "LinkedIn" [ref=f116e447]
-                    - button "Share via link" [ref=f116e452] [cursor=pointer]
-            - generic [ref=f116e463]:
-              - generic [ref=f116e464]:
-                - heading "Recent Posts" [level=2] [ref=f116e465]
-                - link "See All" [ref=f116e466] [cursor=pointer]:
-                  - /url: https://www.savageldn.co.uk/insights
-              - article [ref=f116e469]:
-                - generic [ref=f116e470]:
-                  - link "Celebrate June with the Marvelous Rose in Our Plant of the Month Feature" [ref=f116e471] [cursor=pointer]:
-                    - /url: https://www.savageldn.co.uk/post/celebrate-june-with-the-marvelous-rose-in-our-plant-of-the-month-feature
-                  - link "Celebrate June with the Marvelous Rose in Our Plant of the Month Feature" [ref=f116e476] [cursor=pointer]:
-                    - /url: https://www.savageldn.co.uk/post/celebrate-june-with-the-marvelous-rose-in-our-plant-of-the-month-feature
-      - contentinfo
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f116e11]:
+        - generic:
+            - banner
+            - main:
+                - generic [ref=f116e29]:
+                    - navigation "Blog" [ref=f116e32]:
+                        - list [ref=f116e33] [cursor=pointer]:
+                            - listitem [ref=f116e34]:
+                                - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f116e35]:
+                                    - /url: https://www.savageldn.co.uk/insights
+                            - listitem [ref=f116e36]:
+                                - link "Plant & Horticulture Archive" [ref=f116e37]:
+                                    - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                            - listitem [ref=f116e38]:
+                                - link "Project Delivery Archive" [ref=f116e39]:
+                                    - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                            - listitem [ref=f116e40]:
+                                - link "Garden Design Archive" [ref=f116e41]:
+                                    - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                            - listitem [ref=f116e42]:
+                                - link "Supplier & Systems Archive" [ref=f116e43]:
+                                    - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                    - generic [ref=f116e45]:
+                        - article [ref=f116e49]:
+                            - generic [ref=f116e50]:
+                                - generic [ref=f116e52]:
+                                    - generic [ref=f116e53]:
+                                        - heading "Choosing the Perfect Conifer for Your Garden A Comprehensive Guide" [level=1] [ref=f116e55]
+                                        - generic [ref=f116e56]:
+                                            - list [ref=f116e57]:
+                                                - listitem [ref=f116e58]:
+                                                    - 'img "Writer: Stuart Savage" [ref=f116e61]'
+                                                    - generic [ref=f116e62] [cursor=pointer]: Stuart Savage
+                                                - listitem [ref=f116e63]: ·Nov 18, 2025
+                                                - listitem [ref=f116e64]: ·5 min read
+                                            - button "More actions" [ref=f116e66] [cursor=pointer]
+                                    - paragraph [ref=f116e69]: "Updated: Dec 30, 2025"
+                                    - button "Rated NaN out of 5 stars." [ref=f116e70] [cursor=pointer]
+                                - generic [ref=f116e91]:
+                                    - paragraph [ref=f116e93]:
+                                        - generic [ref=f116e94]: When it comes to creating a stunning garden, conifers are often the unsung heroes. These evergreen plants not only provide year-round greenery but also come in a dazzling array of shapes, sizes, and colours. As a plant lover, I find that choosing the right conifer can transform a garden space, adding structure and interest even in the colder months. In this guide, I'll share everything you need to know about selecting the perfect conifer for your garden.
+                                    - link "Planting plans" [ref=f116e99] [cursor=pointer]:
+                                        - /url: https://www.savageldn.co.uk/planting-services
+                                    - figure [ref=f116e107]:
+                                        - generic [ref=f116e108]:
+                                            - img "Eye-level view of a vibrant conifer garden" [ref=f116e113] [cursor=pointer]
+                                            - button "Expand image"
+                                        - generic [ref=f116e114]: A beautiful conifer garden showcasing various species
+                                    - heading "Understanding Perfect Conifers" [level=2] [ref=f116e121]
+                                    - paragraph [ref=f116e127]:
+                                        - generic [ref=f116e128]: Conifers are a diverse group of trees and shrubs that belong to the Pinophyta, or gymnosperm, family. They are characterised by their needle-like leaves and cones, often associated with Christmas trees. What makes conifers particularly appealing is their ability to retain their foliage year-round, providing a constant source of colour and texture in the garden.
+                                    - paragraph [ref=f116e133]:
+                                        - generic [ref=f116e134]: One of the most exciting aspects of conifers is their seasonal colour changes. Many conifers change hue with the seasons, offering a dynamic visual experience. For instance, some may display vibrant greens in spring and summer, transitioning to rich golds and bronzes in autumn. This ability to change colour makes them a fantastic choice for adding interest to your garden during the fall and winter months when many other plants are dormant.
+                                    - heading "The Benefits of Conifers in Your Garden" [level=2] [ref=f116e139]
+                                    - paragraph [ref=f116e145]:
+                                        - generic [ref=f116e146]: "Incorporating conifers into your garden design offers numerous benefits. Here are just a few reasons why I believe every garden should feature these remarkable plants:"
+                                    - list [ref=f116e151]:
+                                        - listitem [level=1] [ref=f116e152]:
+                                            - paragraph [ref=f116e153]:
+                                                - generic [ref=f116e154]:
+                                                    - strong [ref=f116e155]: Evergreen Beauty
+                                                    - text: ": Unlike deciduous plants that lose their leaves, conifers provide year-round greenery, ensuring your garden looks lively even in the dead of winter."
+                                        - listitem [level=1] [ref=f116e158]:
+                                            - paragraph [ref=f116e159]:
+                                                - generic [ref=f116e160]:
+                                                    - strong [ref=f116e161]: Variety of Shapes and Sizes
+                                                    - text: ": From tall, narrow columnar forms to low-growing, globose varieties, conifers come in a wide range of shapes and sizes, making them versatile for various garden designs."
+                                        - listitem [level=1] [ref=f116e164]:
+                                            - paragraph [ref=f116e165]:
+                                                - generic [ref=f116e166]:
+                                                    - strong [ref=f116e167]: Structural Elements
+                                                    - text: ": Conifers can serve as focal points, backdrops, or even hedges, adding structure and form to your garden layout."
+                                        - listitem [level=1] [ref=f116e170]:
+                                            - paragraph [ref=f116e171]:
+                                                - generic [ref=f116e172]:
+                                                    - strong [ref=f116e173]: Wildlife Habitat
+                                                    - text: ": Many conifers provide shelter and food for birds and other wildlife, making your garden a haven for nature."
+                                        - listitem [level=1] [ref=f116e176]:
+                                            - paragraph [ref=f116e177]:
+                                                - generic [ref=f116e178]:
+                                                    - strong [ref=f116e179]: Low Maintenance
+                                                    - text: ": Once established, most conifers require minimal care, making them an excellent choice for busy gardeners."
+                                    - heading "Choosing the Right Conifer for Your Space" [level=2] [ref=f116e183]
+                                    - paragraph [ref=f116e189]:
+                                        - generic [ref=f116e190]: "Selecting the perfect conifer for your garden involves considering several factors, including the plant's ultimate height, spread, and growth habit. Here's a breakdown of some popular conifer shapes and their ideal uses:"
+                                    - heading "Columnar Conifers" [level=3] [ref=f116e195]
+                                    - paragraph [ref=f116e201]:
+                                        - generic [ref=f116e202]: "Columnar conifers are tall and narrow, making them ideal for adding height to a garden without occupying too much space. They work wonderfully in shrub borders or as a striking feature in a lawn. Some popular examples include:"
+                                    - list [ref=f116e207]:
+                                        - listitem [level=1] [ref=f116e208]:
+                                            - paragraph [ref=f116e209]:
+                                                - generic [ref=f116e210]:
+                                                    - strong [ref=f116e211]: Juniperus scopulorum 'Skyrocket'
+                                                    - text: ": This upright juniper has a striking blue-green colour and can reach heights of up to 15 feet, making it an excellent choice for vertical interest."
+                                        - listitem [level=1] [ref=f116e214]:
+                                            - paragraph [ref=f116e215]:
+                                                - generic [ref=f116e216]:
+                                                    - strong [ref=f116e217]: Taxus baccata 'Fastigiata Aureomarginata'
+                                                    - text: ": With its golden-edged foliage, this yew adds a touch of elegance and can be used to create a formal hedge or accent."
+                                    - heading "Pyramidal Conifers" [level=3] [ref=f116e221]
+                                    - paragraph [ref=f116e227]:
+                                        - generic [ref=f116e228]: "Pyramidal conifers have a classic shape, being narrow at the top and broader at the base. They can serve as stunning focal points in extensive gardens or help to conceal unsightly features. Consider these options:"
+                                    - list [ref=f116e233]:
+                                        - listitem [level=1] [ref=f116e234]:
+                                            - paragraph [ref=f116e235]:
+                                                - generic [ref=f116e236]:
+                                                    - strong [ref=f116e237]: Picea albertiana 'Conica'
+                                                    - text: ": This dwarf Alberta spruce features a compact, conical shape, making it ideal for smaller gardens or as a decorative container plant."
+                                        - listitem [level=1] [ref=f116e240]:
+                                            - paragraph [ref=f116e241]:
+                                                - generic [ref=f116e242]:
+                                                    - strong [ref=f116e243]: Thuja occidentalis 'Yellow Ribbon'
+                                                    - text: ": With its vibrant yellow foliage, this pyramidal arborvitae stands out beautifully against darker backgrounds."
+                                    - heading "Globose Conifers" [level=3] [ref=f116e247]
+                                    - paragraph [ref=f116e253]:
+                                        - generic [ref=f116e254]: "Globose conifers are characterised by their round, bun-like shape. They add a playful element to the garden and can be used as punctuation marks in borders or as standalone features. Some favourites include:"
+                                    - list [ref=f116e259]:
+                                        - listitem [level=1] [ref=f116e260]:
+                                            - paragraph [ref=f116e261]:
+                                                - generic [ref=f116e262]:
+                                                    - strong [ref=f116e263]: Chamaecyparis obtusa 'Nana Gracilis'
+                                                    - text: ": This dwarf hinoki cypress has a dense, rounded form and soft, feathery foliage, making it a charming addition to any garden."
+                                        - listitem [level=1] [ref=f116e266]:
+                                            - paragraph [ref=f116e267]:
+                                                - generic [ref=f116e268]:
+                                                    - strong [ref=f116e269]: Pinus mugo 'Mops'
+                                                    - text: ": This dwarf mountain pine has a compact, globose shape and is perfect for rock gardens or as a low hedge."
+                                    - figure [ref=f116e275]:
+                                        - generic [ref=f116e276]:
+                                            - img "Close-up view of a vibrant globose conifer" [ref=f116e281] [cursor=pointer]
+                                            - button "Expand image"
+                                        - generic [ref=f116e282]: A close-up of a vibrant globose conifer showcasing its unique shape
+                                    - heading "Planting and Care Tips" [level=2] [ref=f116e289]
+                                    - paragraph [ref=f116e295]:
+                                        - generic [ref=f116e296]: "Once you've chosen the right conifer for your garden, it's essential to plant and care for it properly to ensure its success. Here are some tips to help you get started:"
+                                    - heading "Planting" [level=3] [ref=f116e301]
+                                    - list [ref=f116e307]:
+                                        - listitem [level=1] [ref=f116e308]:
+                                            - paragraph [ref=f116e309]:
+                                                - generic [ref=f116e310]:
+                                                    - strong [ref=f116e311]: Choose the Right Location
+                                                    - text: ": Most conifers prefer well-drained soil and full sun, although some varieties can tolerate partial shade. Be sure to check the specific requirements for your chosen species."
+                                        - listitem [level=1] [ref=f116e314]:
+                                            - paragraph [ref=f116e315]:
+                                                - generic [ref=f116e316]:
+                                                    - strong [ref=f116e317]: Dig a Proper Hole
+                                                    - text: ": When planting, dig a hole that is twice as wide as the root ball but no deeper than the root ball itself. This encourages healthy root growth."
+                                        - listitem [level=1] [ref=f116e320]:
+                                            - paragraph [ref=f116e321]:
+                                                - generic [ref=f116e322]:
+                                                    - strong [ref=f116e323]: Water Thoroughly
+                                                    - text: ": After planting, water your conifer deeply to help settle the soil and eliminate air pockets."
+                                    - heading "Maintenance" [level=3] [ref=f116e327]
+                                    - list [ref=f116e333]:
+                                        - listitem [level=1] [ref=f116e334]:
+                                            - paragraph [ref=f116e335]:
+                                                - generic [ref=f116e336]:
+                                                    - strong [ref=f116e337]: Mulching
+                                                    - text: ": Apply a layer of mulch around the base of your conifer to retain moisture and suppress weeds."
+                                        - listitem [level=1] [ref=f116e340]:
+                                            - paragraph [ref=f116e341]:
+                                                - generic [ref=f116e342]:
+                                                    - strong [ref=f116e343]: Pruning
+                                                    - text: ": While most conifers require minimal pruning, you may want to remove any dead or damaged branches to maintain a healthy appearance."
+                                        - listitem [level=1] [ref=f116e346]:
+                                            - paragraph [ref=f116e347]:
+                                                - generic [ref=f116e348]:
+                                                    - strong [ref=f116e349]: Fertilising
+                                                    - text: ": A slow-release fertiliser can be beneficial in the spring to promote healthy growth, but be cautious not to over-fertilise."
+                                        - listitem [level=1] [ref=f116e352]:
+                                            - paragraph [ref=f116e353]:
+                                                - generic [ref=f116e354]:
+                                                    - strong [ref=f116e355]: Pest Management
+                                                    - text: ": Be vigilant for common pests, such as aphids or spider mites. If you notice any issues, treat them promptly with appropriate measures."
+                                    - heading "Seasonal Interest with Conifers" [level=2] [ref=f116e359]
+                                    - paragraph [ref=f116e365]:
+                                        - generic [ref=f116e366]: One of the most delightful aspects of conifers is their ability to provide seasonal interest. As the months change, so too can the colours and textures of your conifer collection.
+                                    - paragraph [ref=f116e371]:
+                                        - generic [ref=f116e372]: In autumn, many conifers will display stunning shades of gold, bronze, and even deep purple. This is the perfect time to appreciate their beauty as they stand out against the backdrop of falling leaves.
+                                    - paragraph [ref=f116e377]:
+                                        - generic [ref=f116e378]: During winter, conifers can take on a magical quality, especially when dusted with snow or frost. Their unique shapes create striking silhouettes against the winter sky, making them a focal point in your garden even in the coldest months.
+                                    - figure [ref=f116e385]:
+                                        - generic [ref=f116e386]:
+                                            - img "High angle view of a winter garden featuring conifers" [ref=f116e391] [cursor=pointer]
+                                            - button "Expand image"
+                                        - generic [ref=f116e392]: A high-angle view of a winter garden showcasing conifers dusted with snow
+                                    - heading "Conclusion" [level=2] [ref=f116e399]
+                                    - paragraph [ref=f116e405]:
+                                        - generic [ref=f116e406]: Choosing the perfect conifer for your garden can be a rewarding experience that enhances the beauty and structure of your outdoor space. With their evergreen foliage, diverse shapes, and seasonal interest, conifers are a fantastic addition to any garden design.
+                                    - paragraph [ref=f116e411]:
+                                        - generic [ref=f116e412]: As you embark on your journey to select the ideal conifer, remember to consider each plant's specific needs and how it will fit into your overall garden plan. Whether you opt for a tall columnar variety or a charming globose shape, these remarkable plants are sure to bring joy and beauty to your garden for years to come.
+                                    - paragraph [ref=f116e417]:
+                                        - generic [ref=f116e418]: So, get out there and explore the wonderful world of conifers! Your garden will thank you for it.
+                                - generic [ref=f116e427]:
+                                    - list "Post categories" [ref=f116e429]:
+                                        - listitem [ref=f116e430]:
+                                            - link "Plant & Horticulture Archive" [ref=f116e431] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - generic [ref=f116e434]:
+                                        - button "Share via Facebook" [ref=f116e436] [cursor=pointer]:
+                                            - img "Facebook" [ref=f116e437]
+                                        - button "Share via X (Twitter)" [ref=f116e441] [cursor=pointer]:
+                                            - img "X" [ref=f116e442]
+                                        - button "Share via LinkedIn" [ref=f116e446] [cursor=pointer]:
+                                            - img "LinkedIn" [ref=f116e447]
+                                        - button "Share via link" [ref=f116e452] [cursor=pointer]
+                        - generic [ref=f116e463]:
+                            - generic [ref=f116e464]:
+                                - heading "Recent Posts" [level=2] [ref=f116e465]
+                                - link "See All" [ref=f116e466] [cursor=pointer]:
+                                    - /url: https://www.savageldn.co.uk/insights
+                            - article [ref=f116e469]:
+                                - generic [ref=f116e470]:
+                                    - link "Celebrate June with the Marvelous Rose in Our Plant of the Month Feature" [ref=f116e471] [cursor=pointer]:
+                                        - /url: https://www.savageldn.co.uk/post/celebrate-june-with-the-marvelous-rose-in-our-plant-of-the-month-feature
+                                    - link "Celebrate June with the Marvelous Rose in Our Plant of the Month Feature" [ref=f116e476] [cursor=pointer]:
+                                        - /url: https://www.savageldn.co.uk/post/celebrate-june-with-the-marvelous-rose-in-our-plant-of-the-month-feature
+            - contentinfo
+    - region "bottom of page"

@@ -4,9 +4,11 @@ description: Use when turning portfolio case studies, operational achievements, 
 ---
 
 # Purpose
+
 Convert operational case studies and portfolio content into high-impact, professional LinkedIn posts to drive executive personal branding.
 
 # Execution Rules
+
 1. **Tone & Style:** Authoritative, candid, warm, and corporate. Focus on operational leadership, risk mitigation, and commercial delivery.
 2. **Localization:** Use strict UK English spelling throughout (e.g., programme, organisation, centre).
 3. **Structure & Formatting:**

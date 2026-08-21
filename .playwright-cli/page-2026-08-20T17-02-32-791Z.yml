@@ -1,117 +1,117 @@
 - generic [ref=f22e3]:
-  - region "top of page"
-  - generic [ref=f22e11]:
-    - group:
-      - banner:
-        - generic [ref=f22e16]:
-          - group
-      - main:
-        - generic [ref=f22e19]:
-          - group:
-            - generic [ref=f22e29]:
-              - navigation "Blog" [ref=f22e32]:
-                - list [ref=f22e33] [cursor=pointer]:
-                  - listitem [ref=f22e34]:
-                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f22e35]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - listitem [ref=f22e36]:
-                    - link "Plant & Horticulture Archive" [ref=f22e37]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - listitem [ref=f22e38]:
-                    - link "Project Delivery Archive" [ref=f22e39]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                  - listitem [ref=f22e40]:
-                    - link "Garden Design Archive" [ref=f22e41]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                  - listitem [ref=f22e42]:
-                    - link "Supplier & Systems Archive" [ref=f22e43]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-              - generic [ref=f22e45]:
-                - article [ref=f22e49]:
-                  - generic [ref=f22e50]:
-                    - generic [ref=f22e52]:
-                      - generic [ref=f22e53]:
-                        - 'heading "Structural Foundations: Greenwich Garden Engineering" [level=1] [ref=f22e55]'
-                        - generic [ref=f22e56]:
-                          - list [ref=f22e57]:
-                            - listitem [ref=f22e58]:
-                              - 'img "Writer: Stuart Savage" [ref=f22e61]'
-                              - generic [ref=f22e62] [cursor=pointer]: Stuart Savage
-                            - listitem [ref=f22e63]: ·Mar 19
-                            - listitem [ref=f22e64]: ·1 min read
-                          - button "More actions" [ref=f22e66] [cursor=pointer]
-                      - button "Rated NaN out of 5 stars." [ref=f22e69] [cursor=pointer]
-                    - generic [ref=f22e90]:
-                      - figure [ref=f22e94]:
-                        - generic [ref=f22e95]:
-                          - img "A split-screen technical cross-section. The left side shows a cracked, sinking patio on a dot-and-dab mortar bed with visible water pooling in the voids. The right side shows a flawless R11 porcelain terrace supported by a permanent composite subframe over heavily compacted MOT Type 1, demonstrating absolute structural integrity." [ref=f22e100] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f22e103]:
-                          - strong [ref=f22e104]:
-                            - generic [ref=f22e105]: "SUB-BASE PHYSICS:"
-                          - generic [ref=f22e106]: Composite subframe execution on heavy South London clay.
-                      - heading [level=2] [ref=f22e115]:
-                        - generic [ref=f22e116]:
-                          - text: "Greenwich Garden Engineering:"
-                          - strong [ref=f22e117]: Precision Sub-Base Physics & Structural Foundations
-                      - paragraph [ref=f22e125]:
-                        - generic [ref=f22e126]:
-                          - generic [ref=f22e127]: The fundamental failure of amateur landscaping is the dangerous assumption that the ground is static. In South London, the ground is your primary landlord, and it is entirely unforgiving. At Stuart Savage Landscaping, our approach to
-                          - text: Greenwich Garden Engineering
-                          - generic [ref=f22e128]: is defined by uncompromising sub-base physics. Sinking patios, fractured stonework, and pooling water are not inevitable acts of nature; they are the direct result of rapid, negligent construction and a failure to respect the local topography.
-                      - paragraph [ref=f22e133]:
-                        - generic [ref=f22e134]:
-                          - generic [ref=f22e135]: A 3D cinematic render is merely a promise; the physical build is the reality. Delivering elite South London landscaping requires an uncompromising dedication to structural integrity. Homeowners in
-                          - link "Greenwich" [ref=f22e136] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/greenwich
-                          - generic [ref=f22e139]: ", Balham, and beyond trust SavageLDN to translate exacting digital twins into tangible, permanent sanctuaries."
-                      - paragraph [ref=f22e144]:
-                        - generic [ref=f22e145]: Stuart Savage Landscaping does not guess the ground; SavageLDN engineers it. By conducting strict topographical site audits, Stuart Savage Landscaping maps exact gradient falls and identifies structural vulnerabilities long before an excavator arrives on your estate. This rigorous pre-construction discipline ensures that your capital investment is protected against the notorious volumetric expansion of the South London clay profile.
-                      - generic [ref=f22e150]:
-                        - link "COMMISSION A PHYSICAL BUILD" [ref=f22e154] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/contact-us
-                        - link "VIEW OUR STRUCTUAL GUARANTEE" [ref=f22e159] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/guarantee
-                      - link "EXPLORE OUR PROCESS" [ref=f22e164] [cursor=pointer]:
-                        - /url: https://www.savageldn.co.uk/our-process
-                    - generic [ref=f22e198]:
-                      - list "Post categories" [ref=f22e200]:
-                        - listitem [ref=f22e201]:
-                          - link "Garden Design Archive" [ref=f22e202] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                      - generic [ref=f22e205]:
-                        - button "Share via Facebook" [ref=f22e207] [cursor=pointer]:
-                          - img "Facebook" [ref=f22e208]
-                        - button "Share via X (Twitter)" [ref=f22e212] [cursor=pointer]:
-                          - img "X" [ref=f22e213]
-                        - button "Share via LinkedIn" [ref=f22e217] [cursor=pointer]:
-                          - img "LinkedIn" [ref=f22e218]
-                        - button "Share via link" [ref=f22e223] [cursor=pointer]
-                - generic [ref=f22e234]:
-                  - generic [ref=f22e235]:
-                    - heading "Recent Posts" [level=2] [ref=f22e236]
-                    - link "See All" [ref=f22e237] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - generic [ref=f22e239]:
-                    - article [ref=f22e240]:
-                      - generic [ref=f22e241]:
-                        - link "Mastering the Art of Shadow in Garden Lighting Design" [ref=f22e242] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/the-technical-engine-garden-lighting-design
-                        - link "Mastering the Art of Shadow in Garden Lighting Design" [ref=f22e247] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/the-technical-engine-garden-lighting-design
-                    - article [ref=f22e254]:
-                      - generic [ref=f22e255]:
-                        - link "Eye-level view of a wooden garden bench under a large oak tree" [ref=f22e256] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/perfect-garden-bench
-                        - link "Choosing the Best Garden Benches" [ref=f22e261] [cursor=pointer]:
-                          - /url: https://www.savageldn.co.uk/post/perfect-garden-bench
-                    - article [ref=f22e268]:
-                      - generic [ref=f22e269]:
-                        - 'link "Creating an Eco-Friendly Garden in South London: Transform Your Outdoor Space" [ref=f22e270] [cursor=pointer]':
-                          - /url: https://www.savageldn.co.uk/post/eco-garden-design-london-s-green-oasis
-                        - 'link "Creating an Eco-Friendly Garden in South London: Transform Your Outdoor Space" [ref=f22e275] [cursor=pointer]':
-                          - /url: https://www.savageldn.co.uk/post/eco-garden-design-london-s-green-oasis
-      - contentinfo:
-        - generic [ref=f22e286]:
-          - group
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f22e11]:
+        - group:
+            - banner:
+                - generic [ref=f22e16]:
+                    - group
+            - main:
+                - generic [ref=f22e19]:
+                    - group:
+                        - generic [ref=f22e29]:
+                            - navigation "Blog" [ref=f22e32]:
+                                - list [ref=f22e33] [cursor=pointer]:
+                                    - listitem [ref=f22e34]:
+                                        - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f22e35]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - listitem [ref=f22e36]:
+                                        - link "Plant & Horticulture Archive" [ref=f22e37]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - listitem [ref=f22e38]:
+                                        - link "Project Delivery Archive" [ref=f22e39]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                    - listitem [ref=f22e40]:
+                                        - link "Garden Design Archive" [ref=f22e41]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                    - listitem [ref=f22e42]:
+                                        - link "Supplier & Systems Archive" [ref=f22e43]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                            - generic [ref=f22e45]:
+                                - article [ref=f22e49]:
+                                    - generic [ref=f22e50]:
+                                        - generic [ref=f22e52]:
+                                            - generic [ref=f22e53]:
+                                                - 'heading "Structural Foundations: Greenwich Garden Engineering" [level=1] [ref=f22e55]'
+                                                - generic [ref=f22e56]:
+                                                    - list [ref=f22e57]:
+                                                        - listitem [ref=f22e58]:
+                                                            - 'img "Writer: Stuart Savage" [ref=f22e61]'
+                                                            - generic [ref=f22e62] [cursor=pointer]: Stuart Savage
+                                                        - listitem [ref=f22e63]: ·Mar 19
+                                                        - listitem [ref=f22e64]: ·1 min read
+                                                    - button "More actions" [ref=f22e66] [cursor=pointer]
+                                            - button "Rated NaN out of 5 stars." [ref=f22e69] [cursor=pointer]
+                                        - generic [ref=f22e90]:
+                                            - figure [ref=f22e94]:
+                                                - generic [ref=f22e95]:
+                                                    - img "A split-screen technical cross-section. The left side shows a cracked, sinking patio on a dot-and-dab mortar bed with visible water pooling in the voids. The right side shows a flawless R11 porcelain terrace supported by a permanent composite subframe over heavily compacted MOT Type 1, demonstrating absolute structural integrity." [ref=f22e100] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f22e103]:
+                                                    - strong [ref=f22e104]:
+                                                        - generic [ref=f22e105]: "SUB-BASE PHYSICS:"
+                                                    - generic [ref=f22e106]: Composite subframe execution on heavy South London clay.
+                                            - heading [level=2] [ref=f22e115]:
+                                                - generic [ref=f22e116]:
+                                                    - text: "Greenwich Garden Engineering:"
+                                                    - strong [ref=f22e117]: Precision Sub-Base Physics & Structural Foundations
+                                            - paragraph [ref=f22e125]:
+                                                - generic [ref=f22e126]:
+                                                    - generic [ref=f22e127]: The fundamental failure of amateur landscaping is the dangerous assumption that the ground is static. In South London, the ground is your primary landlord, and it is entirely unforgiving. At Stuart Savage Landscaping, our approach to
+                                                    - text: Greenwich Garden Engineering
+                                                    - generic [ref=f22e128]: is defined by uncompromising sub-base physics. Sinking patios, fractured stonework, and pooling water are not inevitable acts of nature; they are the direct result of rapid, negligent construction and a failure to respect the local topography.
+                                            - paragraph [ref=f22e133]:
+                                                - generic [ref=f22e134]:
+                                                    - generic [ref=f22e135]: A 3D cinematic render is merely a promise; the physical build is the reality. Delivering elite South London landscaping requires an uncompromising dedication to structural integrity. Homeowners in
+                                                    - link "Greenwich" [ref=f22e136] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/greenwich
+                                                    - generic [ref=f22e139]: ", Balham, and beyond trust SavageLDN to translate exacting digital twins into tangible, permanent sanctuaries."
+                                            - paragraph [ref=f22e144]:
+                                                - generic [ref=f22e145]: Stuart Savage Landscaping does not guess the ground; SavageLDN engineers it. By conducting strict topographical site audits, Stuart Savage Landscaping maps exact gradient falls and identifies structural vulnerabilities long before an excavator arrives on your estate. This rigorous pre-construction discipline ensures that your capital investment is protected against the notorious volumetric expansion of the South London clay profile.
+                                            - generic [ref=f22e150]:
+                                                - link "COMMISSION A PHYSICAL BUILD" [ref=f22e154] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/contact-us
+                                                - link "VIEW OUR STRUCTUAL GUARANTEE" [ref=f22e159] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/guarantee
+                                            - link "EXPLORE OUR PROCESS" [ref=f22e164] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/our-process
+                                        - generic [ref=f22e198]:
+                                            - list "Post categories" [ref=f22e200]:
+                                                - listitem [ref=f22e201]:
+                                                    - link "Garden Design Archive" [ref=f22e202] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                            - generic [ref=f22e205]:
+                                                - button "Share via Facebook" [ref=f22e207] [cursor=pointer]:
+                                                    - img "Facebook" [ref=f22e208]
+                                                - button "Share via X (Twitter)" [ref=f22e212] [cursor=pointer]:
+                                                    - img "X" [ref=f22e213]
+                                                - button "Share via LinkedIn" [ref=f22e217] [cursor=pointer]:
+                                                    - img "LinkedIn" [ref=f22e218]
+                                                - button "Share via link" [ref=f22e223] [cursor=pointer]
+                                - generic [ref=f22e234]:
+                                    - generic [ref=f22e235]:
+                                        - heading "Recent Posts" [level=2] [ref=f22e236]
+                                        - link "See All" [ref=f22e237] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - generic [ref=f22e239]:
+                                        - article [ref=f22e240]:
+                                            - generic [ref=f22e241]:
+                                                - link "Mastering the Art of Shadow in Garden Lighting Design" [ref=f22e242] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/the-technical-engine-garden-lighting-design
+                                                - link "Mastering the Art of Shadow in Garden Lighting Design" [ref=f22e247] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/the-technical-engine-garden-lighting-design
+                                        - article [ref=f22e254]:
+                                            - generic [ref=f22e255]:
+                                                - link "Eye-level view of a wooden garden bench under a large oak tree" [ref=f22e256] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/perfect-garden-bench
+                                                - link "Choosing the Best Garden Benches" [ref=f22e261] [cursor=pointer]:
+                                                    - /url: https://www.savageldn.co.uk/post/perfect-garden-bench
+                                        - article [ref=f22e268]:
+                                            - generic [ref=f22e269]:
+                                                - 'link "Creating an Eco-Friendly Garden in South London: Transform Your Outdoor Space" [ref=f22e270] [cursor=pointer]':
+                                                    - /url: https://www.savageldn.co.uk/post/eco-garden-design-london-s-green-oasis
+                                                - 'link "Creating an Eco-Friendly Garden in South London: Transform Your Outdoor Space" [ref=f22e275] [cursor=pointer]':
+                                                    - /url: https://www.savageldn.co.uk/post/eco-garden-design-london-s-green-oasis
+            - contentinfo:
+                - generic [ref=f22e286]:
+                    - group
+    - region "bottom of page"

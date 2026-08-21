@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.clapham-old-town.tsx');
+const filePath = path.join(process.cwd(), "src", "routes", "case-studies.clapham-old-town.tsx");
 
 const claphamCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -146,5 +146,5 @@ function ClaphamOldTownCaseStudy() {
 }
 `;
 
-fs.writeFileSync(filePath, claphamCode, 'utf8');
+fs.writeFileSync(filePath, claphamCode, "utf8");
 console.log("Successfully expanded Clapham Old Town case study.");

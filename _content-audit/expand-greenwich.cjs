@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.modern-cottage-greenwich.tsx');
+const filePath = path.join(
+  process.cwd(),
+  "src",
+  "routes",
+  "case-studies.modern-cottage-greenwich.tsx",
+);
 
 const greenwichCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -146,5 +151,5 @@ function ModernCottageGreenwichCaseStudy() {
 }
 `;
 
-fs.writeFileSync(filePath, greenwichCode, 'utf8');
+fs.writeFileSync(filePath, greenwichCode, "utf8");
 console.log("Successfully expanded Modern Cottage Greenwich case study in place.");

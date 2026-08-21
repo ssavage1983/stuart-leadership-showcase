@@ -1,281 +1,281 @@
 - generic [ref=f91e3]:
-  - region "top of page"
-  - generic [ref=f91e11]:
-    - group:
-      - banner:
-        - generic [ref=f91e16]:
-          - group
-      - main:
-        - generic [ref=f91e19]:
-          - group:
-            - generic [ref=f91e29]:
-              - navigation "Blog" [ref=f91e32]:
-                - list [ref=f91e33] [cursor=pointer]:
-                  - listitem [ref=f91e34]:
-                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f91e35]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - listitem [ref=f91e36]:
-                    - link "Plant & Horticulture Archive" [ref=f91e37]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
-                  - listitem [ref=f91e38]:
-                    - link "Project Delivery Archive" [ref=f91e39]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                  - listitem [ref=f91e40]:
-                    - link "Garden Design Archive" [ref=f91e41]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
-                  - listitem [ref=f91e42]:
-                    - link "Supplier & Systems Archive" [ref=f91e43]:
-                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
-              - generic [ref=f91e45]:
-                - article [ref=f91e49]:
-                  - generic [ref=f91e53]:
-                    - generic [ref=f91e55]:
-                      - generic [ref=f91e56]:
-                        - heading "Breaking Down Garden Design Costs in the UK" [level=1] [ref=f91e58]
-                        - generic [ref=f91e59]:
-                          - list [ref=f91e60]:
-                            - listitem [ref=f91e61]:
-                              - 'img "Writer: Stuart Savage" [ref=f91e64]'
-                              - generic [ref=f91e65] [cursor=pointer]: Stuart Savage
-                            - listitem [ref=f91e66]: ·Mar 2
-                            - listitem [ref=f91e67]: ·6 min read
-                          - button "More actions" [ref=f91e69] [cursor=pointer]
-                      - paragraph [ref=f91e72]: "Updated: Mar 4"
-                      - button "Rated NaN out of 5 stars." [ref=f91e73] [cursor=pointer]
-                    - generic [ref=f91e94]:
-                      - paragraph [ref=f91e96]:
-                        - generic [ref=f91e97]: "Transforming an outdoor space into a refined garden sanctuary is a pursuit that many homeowners in South West London find deeply rewarding. Yet the journey from concept to completion often prompts a pivotal question: What are the true costs of garden design? Having guided numerous clients through this process, I am well-placed to elucidate the various factors that influence garden design costs in the UK, offering clarity and insight to those embarking on their own garden transformations."
-                      - heading "Understanding the Components of Garden Design Costs" [level=2] [ref=f91e102]
-                      - paragraph [ref=f91e108]:
-                        - generic [ref=f91e109]: Garden design costs encompass a spectrum of elements, each contributing to the overall investment required to realise a bespoke outdoor environment. It is essential to appreciate that these costs are not merely financial figures but reflect the quality, craftsmanship, and longevity of the garden created.
-                      - paragraph [ref=f91e115]:
-                        - generic [ref=f91e116]: At the outset, the design fee itself is a fundamental component. This fee covers the initial consultation, site survey, conceptual sketches, and detailed plans. The complexity of the design, the size of the garden, and the level of detail required all influence this charge. For instance, a modest courtyard garden will naturally incur a lower design fee than an extensive, multi-tiered landscape.
-                      - paragraph [ref=f91e121]:
-                        - generic [ref=f91e122]: Following the design phase, the construction costs come into play. These include materials, labour, and any specialist installations such as water features, lighting, or bespoke structures. The choice of materials—whether natural stone, timber, or composite decking—significantly affects the budget. Labour costs also vary depending on the required expertise and the project duration.
-                      - paragraph [ref=f91e127]:
-                        - generic [ref=f91e128]: Maintenance considerations, though often overlooked in initial budgeting, are equally important. A garden designed with sustainability and ease of upkeep in mind may command a higher upfront cost but will yield savings and satisfaction over time.
-                      - figure [ref=f91e135]:
-                        - link [ref=f91e136] [cursor=pointer]:
-                          - /url: http://www.savageldn.co.uk/decking
-                          - generic [ref=f91e137]:
-                            - img "Garden with gravel path, wooden planters with yellow flowers, and a wooden shed. Sunny, tranquil setting with lush greenery." [ref=f91e142]
-                            - button "Expand image"
-                        - generic [ref=f91e143]: Composite decking and Raj Green 600 x 600mm Paving Slabs from London Stone
-                      - 'heading "Garden Design Costs: What Influences the Price?" [level=2] [ref=f91e150]'
-                      - paragraph [ref=f91e156]:
-                        - generic [ref=f91e157]: Several factors determine the final garden design costs, each deserving careful consideration to ensure the project aligns with both the vision and the budget.
-                      - list [ref=f91e162]:
-                        - listitem [level=1] [ref=f91e163]:
-                          - paragraph [ref=f91e164]:
-                            - strong [ref=f91e166]: Size and Topography of the Garden
-                          - paragraph [ref=f91e167]:
-                            - generic [ref=f91e168]: Larger gardens naturally require more materials and labour, but the terrain also plays a crucial role. Sloping or uneven ground may require additional groundwork, retaining walls, or drainage solutions, all of which increase the cost.
-                        - listitem [level=1] [ref=f91e171]:
-                          - paragraph [ref=f91e172]:
-                            - generic [ref=f91e173]:
-                              - link "Design Complexity and Features" [ref=f91e174] [cursor=pointer]:
-                                - /url: https://www.savageldn.co.uk/garden-design
-                                - strong [ref=f91e175]:
-                                  - generic [ref=f91e176]: Design Complexity and Features
-                              - link [ref=f91e177] [cursor=pointer]:
-                                - /url: https://www.savageldn.co.uk/garden-design
-                          - paragraph [ref=f91e179]:
-                            - generic [ref=f91e180]: Intricate designs with multiple zones, bespoke features, or elaborate planting schemes demand more time and specialised skills. For example, incorporating a formal water feature or a bespoke pergola will increase costs compared to a simpler layout.
-                        - listitem [level=1] [ref=f91e183]:
-                          - paragraph [ref=f91e184]:
-                            - strong [ref=f91e186]: Material Selection
-                          - paragraph [ref=f91e187]:
-                            - generic [ref=f91e188]: The choice between premium natural stone and more economical concrete pavers can dramatically alter the budget. Similarly, opting for mature plants rather than seedlings will raise initial costs but accelerate the garden’s maturity.
-                        - listitem [level=1] [ref=f91e191]:
-                          - paragraph [ref=f91e192]:
-                            - generic [ref=f91e193]:
-                              - link "Labour and Contractor Expertise" [ref=f91e194] [cursor=pointer]:
-                                - /url: https://www.savageldn.co.uk/testimonials
-                                - strong [ref=f91e195]:
-                                  - generic [ref=f91e196]: Labour and Contractor Expertise
-                              - link [ref=f91e197] [cursor=pointer]:
-                                - /url: https://www.savageldn.co.uk/testimonials
-                          - paragraph [ref=f91e199]:
-                            - generic [ref=f91e200]: Employing highly skilled landscapers and artisans ensures superior results but comes at a higher cost. It is prudent to engage professionals with a proven track record, particularly for complex projects.
-                        - listitem [level=1] [ref=f91e203]:
-                          - paragraph [ref=f91e204]:
-                            - strong [ref=f91e206]: Location and Accessibility
-                          - paragraph [ref=f91e207]:
-                            - generic [ref=f91e208]: In South West London, accessibility can influence costs. Gardens in areas with restricted vehicle access or requiring permits may incur additional logistical expenses.
-                        - listitem [level=1] [ref=f91e211]:
-                          - paragraph [ref=f91e212]:
-                            - strong [ref=f91e214]: Season and Timing
-                          - paragraph [ref=f91e215]:
-                            - generic [ref=f91e216]: Undertaking garden construction during peak seasons may affect the availability and pricing of materials and labour.
-                      - paragraph [ref=f91e220]:
-                        - generic [ref=f91e221]: By understanding these variables, homeowners can better anticipate the financial commitment and make informed decisions throughout the process.
-                      - heading "What is the Average Cost of a Garden Makeover?" [level=3] [ref=f91e226]
-                      - paragraph [ref=f91e232]:
-                        - generic [ref=f91e233]: To provide a practical framework, it is helpful to consider typical price ranges for garden makeovers in the UK, particularly the South West London market.
-                      - list [ref=f91e238]:
-                        - listitem [level=1] [ref=f91e239]:
-                          - paragraph [ref=f91e240]:
-                            - generic [ref=f91e241]:
-                              - strong [ref=f91e242]: Basic Garden Makeover
-                              - text: ": For smaller gardens or straightforward designs, costs generally start from £5,000 to £10,000. This might include simple paving, turfing, and basic planting."
-                        - listitem [level=1] [ref=f91e245]:
-                          - paragraph [ref=f91e246]:
-                            - generic [ref=f91e247]:
-                              - strong [ref=f91e248]: Mid-Range Garden Transformation
-                              - text: ": More elaborate projects with bespoke features, high-quality materials, and professional planting schemes typically range from £10,000 to £25,000."
-                        - listitem [level=1] [ref=f91e251]:
-                          - paragraph [ref=f91e252]:
-                            - generic [ref=f91e253]:
-                              - strong [ref=f91e254]: High-End Garden Design and Construction
-                              - text: ": For extensive gardens featuring complex landscaping, premium materials, water features, lighting, and bespoke structures, costs can exceed £25,000 and often reach upwards of £50,000."
-                      - paragraph [ref=f91e258]:
-                        - generic [ref=f91e259]: It is important to note that these figures are indicative and subject to the specific requirements and aspirations of each project. I always recommend arranging a personalised consultation to obtain a precise quotation tailored to your garden’s unique characteristics.
-                      - figure [ref=f91e266]:
-                        - generic [ref=f91e267]:
-                          - img "Lush garden with a gray sofa on a wooden deck, surrounded by vibrant flowers and plants. Brick house and gray fence in the background." [ref=f91e272] [cursor=pointer]
-                          - button "Expand image"
-                        - generic [ref=f91e273]: A recently finished garden showcasing diverse planting and bespoke timber slatted fencing
-                      - heading "Practical Tips for Managing Garden Design Costs" [level=3] [ref=f91e280]
-                      - heading "Navigating garden design costs with prudence and foresight can ensure a rewarding outcome without undue financial strain. Here are some actionable recommendations:" [level=6] [ref=f91e286]
-                      - list [ref=f91e292]:
-                        - listitem [level=1] [ref=f91e293]:
-                          - paragraph [ref=f91e294]:
-                            - link "Prioritise Your Needs and Wishes" [ref=f91e296] [cursor=pointer]:
-                              - /url: https://www.savageldn.co.uk/services
-                              - strong [ref=f91e297]:
-                                - generic [ref=f91e298]: Prioritise Your Needs and Wishes
-                      - paragraph [ref=f91e300]:
-                        - generic [ref=f91e301]: Begin by listing essential features and those that are desirable but not critical. This clarity helps focus the budget on what matters most.
-                      - list [ref=f91e306]:
-                        - listitem [level=1] [ref=f91e307]:
-                          - paragraph [ref=f91e308]:
-                            - generic [ref=f91e309]:
-                              - link "Opt for Phased Development" [ref=f91e310] [cursor=pointer]:
-                                - /url: https://www.savageldn.co.uk/garden-design
-                                - strong [ref=f91e311]:
-                                  - generic [ref=f91e312]: Opt for Phased Development
-                              - strong [ref=f91e313]
-                      - paragraph [ref=f91e315]:
-                        - generic [ref=f91e316]: If budget constraints exist, consider implementing the garden in stages. This approach allows costs to be spread over time while progressively enhancing the space.
-                      - list [ref=f91e321]:
-                        - listitem [level=1] [ref=f91e322]:
-                          - paragraph [ref=f91e323]:
-                            - link "Select Materials Wisely" [ref=f91e325] [cursor=pointer]:
-                              - /url: https://www.savageldn.co.uk/hardscaping-costs
-                              - strong [ref=f91e326]:
-                                - generic [ref=f91e327]: Select Materials Wisely
-                      - paragraph [ref=f91e329]:
-                        - generic [ref=f91e330]: Balance aesthetics with durability and maintenance. Sometimes, a less expensive material with a similar appearance can achieve the desired effect without compromising quality.
-                      - list [ref=f91e335]:
-                        - listitem [level=1] [ref=f91e336]:
-                          - paragraph [ref=f91e337]:
-                            - link "Engage a Professional Early" [ref=f91e339] [cursor=pointer]:
-                              - /url: https://www.savageldn.co.uk/faq
-                              - strong [ref=f91e340]:
-                                - generic [ref=f91e341]: Engage a Professional Early
-                      - paragraph [ref=f91e343]:
-                        - generic [ref=f91e344]: Early involvement of a garden designer can prevent costly mistakes and optimise the use of space and resources.
-                      - list [ref=f91e349]:
-                        - listitem [level=1] [ref=f91e350]:
-                          - paragraph [ref=f91e351]:
-                            - link "Request Detailed Quotes" [ref=f91e353] [cursor=pointer]:
-                              - /url: https://www.savageldn.co.uk/our-process
-                              - strong [ref=f91e354]:
-                                - generic [ref=f91e355]: Request Detailed Quotes
-                      - paragraph [ref=f91e357]:
-                        - generic [ref=f91e358]: Ensure all quotes are itemised to understand where funds are allocated. This transparency aids in making informed adjustments.
-                      - list [ref=f91e363]:
-                        - listitem [level=1] [ref=f91e364]:
-                          - paragraph [ref=f91e365]:
-                            - link "Consider Maintenance Costs" [ref=f91e367] [cursor=pointer]:
-                              - /url: https://www.savageldn.co.uk/garden-maintenance-pricing
-                              - strong [ref=f91e368]:
-                                - generic [ref=f91e369]: Consider Maintenance Costs
-                      - paragraph [ref=f91e371]:
-                        - generic [ref=f91e372]: Factor in ongoing maintenance when selecting plants and materials to avoid unexpected future expenses.
-                      - paragraph [ref=f91e377]:
-                        - strong [ref=f91e379]: By adopting these strategies, homeowners can control their garden design costs while creating a space that delights and endures.
-                      - heading "Securing Your Garden Transformation with Stuart Savage Landscaping" [level=3] [ref=f91e384]
-                      - paragraph [ref=f91e390]:
-                        - generic [ref=f91e391]: Embarking on a garden transformation is a significant undertaking, one that benefits immensely from expert guidance and meticulous execution. At Stuart Savage Landscaping, we pride ourselves on delivering a seamless, high-quality experience from initial design through to final construction. Our commitment to craftsmanship and client satisfaction ensures that each garden we create is a testament to both beauty and functionality.
-                      - blockquote [ref=f91e397]:
-                        - generic [ref=f91e398]: To explore how we can bring your garden vision to life, I invite you to use the booking form on our website to arrange a personalised garden quote. This initial step allows us to understand your aspirations and provide a detailed proposal tailored to your outdoor space.
-                      - paragraph [ref=f91e405]:
-                        - generic [ref=f91e406]:
-                          - text: For inspiration and to view examples of our completed projects, please visit our
-                          - link "portfolio" [ref=f91e407] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/portfolio
-                          - text: and connect with us on
-                          - link "social media" [ref=f91e409] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/social
-                          - text: . We look forward to partnering with you to craft a garden that is both a sanctuary and a source of enduring pride.
-                      - paragraph [ref=f91e418]:
-                        - generic [ref=f91e419]: Should you wish to delve deeper into the specifics of garden design costs or require bespoke advice, do not hesitate to reach out. Your garden transformation awaits, and with careful planning and expert support, it will be a journey marked by elegance and satisfaction.
-                      - paragraph [ref=f91e424]:
-                        - generic [ref=f91e425]:
-                          - text: For further information on
-                          - link "garden design prices" [ref=f91e426] [cursor=pointer]:
-                            - /url: https://savageldn.co.uk/pricing
-                          - text: ", please consult our dedicated page."
-                      - link [ref=f91e433] [cursor=pointer]:
-                        - /url: https://savageldn.co.uk/pricing
-                        - figure [ref=f91e436]:
-                          - img "Garden Design Pricing & 3D Plans | SAVAGELDN" [ref=f91e439]
-                          - generic [ref=f91e440]:
-                            - generic [ref=f91e441]: savageldn.co.uk
-                            - generic [ref=f91e442]: Garden Design Pricing & 3D Plans | SAVAGELDN
-                            - generic [ref=f91e443]: Transparent investment packages for bespoke 3D top-down perspective plans. From London site visits to affordable professional remote design nationwide.
-                      - separator [ref=f91e450]
-                      - heading "Frequently Asked Questions - Garden Design Pricing" [level=3] [ref=f91e455]
-                      - generic [ref=f91e463]:
-                        - generic [ref=f91e467]:
-                          - button [expanded] [ref=f91e468] [cursor=pointer]:
-                            - heading "How much does professional garden design cost at Stuart Savage Landscaping?" [level=4] [ref=f91e481]
-                          - paragraph [ref=f91e488]:
-                            - generic [ref=f91e489]:
-                              - text: Our design fees are structured to provide a forensic roadmap for your transformation. For remote 3D garden design through The
-                              - link "Moonlight Garden Design Co" [ref=f91e490] [cursor=pointer]:
-                                - /url: https://www.moonlight-studio.uk/
-                              - text: ., we are currently offering a 40% OFF Launch Offer to help South London homeowners visualise their space. For full design-and-build projects, we typically work with overall garden budgets starting from £20,000 to ensure we can deliver the meticulous, architectural finish our brand is known for.
-                        - button [ref=f91e496] [cursor=pointer]:
-                          - heading "What are the price brackets for a garden makeover in South West London?" [level=4] [ref=f91e509]
-                        - button [ref=f91e515] [cursor=pointer]:
-                          - heading "Do you offer 3D design plans as a standalone service?" [level=4] [ref=f91e528]
-                        - button [ref=f91e534] [cursor=pointer]:
-                          - heading "What is included in a Stuart Savage Landscaping quote?" [level=4] [ref=f91e547]
-                      - link [ref=f91e554] [cursor=pointer]:
-                        - /url: https://www.moonlight-studio.uk/
-                        - figure [ref=f91e557]:
-                          - img "THE MOONLIGHT GARDEN DESIGN CO. | Remote 3D Garden Design & Blueprints" [ref=f91e560]
-                          - generic [ref=f91e561]:
-                            - generic [ref=f91e562]: www.moonlight-studio.uk
-                            - generic [ref=f91e563]: THE MOONLIGHT GARDEN DESIGN CO. | Remote 3D Garden Design & Blueprints
-                            - generic [ref=f91e564]: Transform your garden remotely. We create high-end 3D garden blueprints and nocturnal planting plans for homeowners nationwide. No site visits required.
-                    - generic [ref=f91e570]:
-                      - list "Post categories" [ref=f91e572]:
-                        - listitem [ref=f91e573]:
-                          - link "Project Delivery Archive" [ref=f91e574] [cursor=pointer]:
-                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
-                      - generic [ref=f91e577]:
-                        - button "Share via Facebook" [ref=f91e579] [cursor=pointer]:
-                          - img "Facebook" [ref=f91e580]
-                        - button "Share via X (Twitter)" [ref=f91e584] [cursor=pointer]:
-                          - img "X" [ref=f91e585]
-                        - button "Share via LinkedIn" [ref=f91e589] [cursor=pointer]:
-                          - img "LinkedIn" [ref=f91e590]
-                        - button "Share via link" [ref=f91e595] [cursor=pointer]
-                - generic [ref=f91e606]:
-                  - generic [ref=f91e607]:
-                    - heading "Recent Posts" [level=2] [ref=f91e608]
-                    - link "See All" [ref=f91e609] [cursor=pointer]:
-                      - /url: https://www.savageldn.co.uk/insights
-                  - article [ref=f91e612]:
-                    - generic [ref=f91e613]:
-                      - link "Mastering the Art of Shadow in Garden Lighting Design" [ref=f91e614] [cursor=pointer]:
-                        - /url: https://www.savageldn.co.uk/post/the-technical-engine-garden-lighting-design
-                      - link "Mastering the Art of Shadow in Garden Lighting Design" [ref=f91e619] [cursor=pointer]:
-                        - /url: https://www.savageldn.co.uk/post/the-technical-engine-garden-lighting-design
-      - contentinfo:
-        - generic [ref=f91e630]:
-          - group
-  - region "bottom of page"
+    - region "top of page"
+    - generic [ref=f91e11]:
+        - group:
+            - banner:
+                - generic [ref=f91e16]:
+                    - group
+            - main:
+                - generic [ref=f91e19]:
+                    - group:
+                        - generic [ref=f91e29]:
+                            - navigation "Blog" [ref=f91e32]:
+                                - list [ref=f91e33] [cursor=pointer]:
+                                    - listitem [ref=f91e34]:
+                                        - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f91e35]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - listitem [ref=f91e36]:
+                                        - link "Plant & Horticulture Archive" [ref=f91e37]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                                    - listitem [ref=f91e38]:
+                                        - link "Project Delivery Archive" [ref=f91e39]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                    - listitem [ref=f91e40]:
+                                        - link "Garden Design Archive" [ref=f91e41]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                                    - listitem [ref=f91e42]:
+                                        - link "Supplier & Systems Archive" [ref=f91e43]:
+                                            - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                            - generic [ref=f91e45]:
+                                - article [ref=f91e49]:
+                                    - generic [ref=f91e53]:
+                                        - generic [ref=f91e55]:
+                                            - generic [ref=f91e56]:
+                                                - heading "Breaking Down Garden Design Costs in the UK" [level=1] [ref=f91e58]
+                                                - generic [ref=f91e59]:
+                                                    - list [ref=f91e60]:
+                                                        - listitem [ref=f91e61]:
+                                                            - 'img "Writer: Stuart Savage" [ref=f91e64]'
+                                                            - generic [ref=f91e65] [cursor=pointer]: Stuart Savage
+                                                        - listitem [ref=f91e66]: ·Mar 2
+                                                        - listitem [ref=f91e67]: ·6 min read
+                                                    - button "More actions" [ref=f91e69] [cursor=pointer]
+                                            - paragraph [ref=f91e72]: "Updated: Mar 4"
+                                            - button "Rated NaN out of 5 stars." [ref=f91e73] [cursor=pointer]
+                                        - generic [ref=f91e94]:
+                                            - paragraph [ref=f91e96]:
+                                                - generic [ref=f91e97]: "Transforming an outdoor space into a refined garden sanctuary is a pursuit that many homeowners in South West London find deeply rewarding. Yet the journey from concept to completion often prompts a pivotal question: What are the true costs of garden design? Having guided numerous clients through this process, I am well-placed to elucidate the various factors that influence garden design costs in the UK, offering clarity and insight to those embarking on their own garden transformations."
+                                            - heading "Understanding the Components of Garden Design Costs" [level=2] [ref=f91e102]
+                                            - paragraph [ref=f91e108]:
+                                                - generic [ref=f91e109]: Garden design costs encompass a spectrum of elements, each contributing to the overall investment required to realise a bespoke outdoor environment. It is essential to appreciate that these costs are not merely financial figures but reflect the quality, craftsmanship, and longevity of the garden created.
+                                            - paragraph [ref=f91e115]:
+                                                - generic [ref=f91e116]: At the outset, the design fee itself is a fundamental component. This fee covers the initial consultation, site survey, conceptual sketches, and detailed plans. The complexity of the design, the size of the garden, and the level of detail required all influence this charge. For instance, a modest courtyard garden will naturally incur a lower design fee than an extensive, multi-tiered landscape.
+                                            - paragraph [ref=f91e121]:
+                                                - generic [ref=f91e122]: Following the design phase, the construction costs come into play. These include materials, labour, and any specialist installations such as water features, lighting, or bespoke structures. The choice of materials—whether natural stone, timber, or composite decking—significantly affects the budget. Labour costs also vary depending on the required expertise and the project duration.
+                                            - paragraph [ref=f91e127]:
+                                                - generic [ref=f91e128]: Maintenance considerations, though often overlooked in initial budgeting, are equally important. A garden designed with sustainability and ease of upkeep in mind may command a higher upfront cost but will yield savings and satisfaction over time.
+                                            - figure [ref=f91e135]:
+                                                - link [ref=f91e136] [cursor=pointer]:
+                                                    - /url: http://www.savageldn.co.uk/decking
+                                                    - generic [ref=f91e137]:
+                                                        - img "Garden with gravel path, wooden planters with yellow flowers, and a wooden shed. Sunny, tranquil setting with lush greenery." [ref=f91e142]
+                                                        - button "Expand image"
+                                                - generic [ref=f91e143]: Composite decking and Raj Green 600 x 600mm Paving Slabs from London Stone
+                                            - 'heading "Garden Design Costs: What Influences the Price?" [level=2] [ref=f91e150]'
+                                            - paragraph [ref=f91e156]:
+                                                - generic [ref=f91e157]: Several factors determine the final garden design costs, each deserving careful consideration to ensure the project aligns with both the vision and the budget.
+                                            - list [ref=f91e162]:
+                                                - listitem [level=1] [ref=f91e163]:
+                                                    - paragraph [ref=f91e164]:
+                                                        - strong [ref=f91e166]: Size and Topography of the Garden
+                                                    - paragraph [ref=f91e167]:
+                                                        - generic [ref=f91e168]: Larger gardens naturally require more materials and labour, but the terrain also plays a crucial role. Sloping or uneven ground may require additional groundwork, retaining walls, or drainage solutions, all of which increase the cost.
+                                                - listitem [level=1] [ref=f91e171]:
+                                                    - paragraph [ref=f91e172]:
+                                                        - generic [ref=f91e173]:
+                                                            - link "Design Complexity and Features" [ref=f91e174] [cursor=pointer]:
+                                                                - /url: https://www.savageldn.co.uk/garden-design
+                                                                - strong [ref=f91e175]:
+                                                                    - generic [ref=f91e176]: Design Complexity and Features
+                                                            - link [ref=f91e177] [cursor=pointer]:
+                                                                - /url: https://www.savageldn.co.uk/garden-design
+                                                    - paragraph [ref=f91e179]:
+                                                        - generic [ref=f91e180]: Intricate designs with multiple zones, bespoke features, or elaborate planting schemes demand more time and specialised skills. For example, incorporating a formal water feature or a bespoke pergola will increase costs compared to a simpler layout.
+                                                - listitem [level=1] [ref=f91e183]:
+                                                    - paragraph [ref=f91e184]:
+                                                        - strong [ref=f91e186]: Material Selection
+                                                    - paragraph [ref=f91e187]:
+                                                        - generic [ref=f91e188]: The choice between premium natural stone and more economical concrete pavers can dramatically alter the budget. Similarly, opting for mature plants rather than seedlings will raise initial costs but accelerate the garden’s maturity.
+                                                - listitem [level=1] [ref=f91e191]:
+                                                    - paragraph [ref=f91e192]:
+                                                        - generic [ref=f91e193]:
+                                                            - link "Labour and Contractor Expertise" [ref=f91e194] [cursor=pointer]:
+                                                                - /url: https://www.savageldn.co.uk/testimonials
+                                                                - strong [ref=f91e195]:
+                                                                    - generic [ref=f91e196]: Labour and Contractor Expertise
+                                                            - link [ref=f91e197] [cursor=pointer]:
+                                                                - /url: https://www.savageldn.co.uk/testimonials
+                                                    - paragraph [ref=f91e199]:
+                                                        - generic [ref=f91e200]: Employing highly skilled landscapers and artisans ensures superior results but comes at a higher cost. It is prudent to engage professionals with a proven track record, particularly for complex projects.
+                                                - listitem [level=1] [ref=f91e203]:
+                                                    - paragraph [ref=f91e204]:
+                                                        - strong [ref=f91e206]: Location and Accessibility
+                                                    - paragraph [ref=f91e207]:
+                                                        - generic [ref=f91e208]: In South West London, accessibility can influence costs. Gardens in areas with restricted vehicle access or requiring permits may incur additional logistical expenses.
+                                                - listitem [level=1] [ref=f91e211]:
+                                                    - paragraph [ref=f91e212]:
+                                                        - strong [ref=f91e214]: Season and Timing
+                                                    - paragraph [ref=f91e215]:
+                                                        - generic [ref=f91e216]: Undertaking garden construction during peak seasons may affect the availability and pricing of materials and labour.
+                                            - paragraph [ref=f91e220]:
+                                                - generic [ref=f91e221]: By understanding these variables, homeowners can better anticipate the financial commitment and make informed decisions throughout the process.
+                                            - heading "What is the Average Cost of a Garden Makeover?" [level=3] [ref=f91e226]
+                                            - paragraph [ref=f91e232]:
+                                                - generic [ref=f91e233]: To provide a practical framework, it is helpful to consider typical price ranges for garden makeovers in the UK, particularly the South West London market.
+                                            - list [ref=f91e238]:
+                                                - listitem [level=1] [ref=f91e239]:
+                                                    - paragraph [ref=f91e240]:
+                                                        - generic [ref=f91e241]:
+                                                            - strong [ref=f91e242]: Basic Garden Makeover
+                                                            - text: ": For smaller gardens or straightforward designs, costs generally start from £5,000 to £10,000. This might include simple paving, turfing, and basic planting."
+                                                - listitem [level=1] [ref=f91e245]:
+                                                    - paragraph [ref=f91e246]:
+                                                        - generic [ref=f91e247]:
+                                                            - strong [ref=f91e248]: Mid-Range Garden Transformation
+                                                            - text: ": More elaborate projects with bespoke features, high-quality materials, and professional planting schemes typically range from £10,000 to £25,000."
+                                                - listitem [level=1] [ref=f91e251]:
+                                                    - paragraph [ref=f91e252]:
+                                                        - generic [ref=f91e253]:
+                                                            - strong [ref=f91e254]: High-End Garden Design and Construction
+                                                            - text: ": For extensive gardens featuring complex landscaping, premium materials, water features, lighting, and bespoke structures, costs can exceed £25,000 and often reach upwards of £50,000."
+                                            - paragraph [ref=f91e258]:
+                                                - generic [ref=f91e259]: It is important to note that these figures are indicative and subject to the specific requirements and aspirations of each project. I always recommend arranging a personalised consultation to obtain a precise quotation tailored to your garden’s unique characteristics.
+                                            - figure [ref=f91e266]:
+                                                - generic [ref=f91e267]:
+                                                    - img "Lush garden with a gray sofa on a wooden deck, surrounded by vibrant flowers and plants. Brick house and gray fence in the background." [ref=f91e272] [cursor=pointer]
+                                                    - button "Expand image"
+                                                - generic [ref=f91e273]: A recently finished garden showcasing diverse planting and bespoke timber slatted fencing
+                                            - heading "Practical Tips for Managing Garden Design Costs" [level=3] [ref=f91e280]
+                                            - heading "Navigating garden design costs with prudence and foresight can ensure a rewarding outcome without undue financial strain. Here are some actionable recommendations:" [level=6] [ref=f91e286]
+                                            - list [ref=f91e292]:
+                                                - listitem [level=1] [ref=f91e293]:
+                                                    - paragraph [ref=f91e294]:
+                                                        - link "Prioritise Your Needs and Wishes" [ref=f91e296] [cursor=pointer]:
+                                                            - /url: https://www.savageldn.co.uk/services
+                                                            - strong [ref=f91e297]:
+                                                                - generic [ref=f91e298]: Prioritise Your Needs and Wishes
+                                            - paragraph [ref=f91e300]:
+                                                - generic [ref=f91e301]: Begin by listing essential features and those that are desirable but not critical. This clarity helps focus the budget on what matters most.
+                                            - list [ref=f91e306]:
+                                                - listitem [level=1] [ref=f91e307]:
+                                                    - paragraph [ref=f91e308]:
+                                                        - generic [ref=f91e309]:
+                                                            - link "Opt for Phased Development" [ref=f91e310] [cursor=pointer]:
+                                                                - /url: https://www.savageldn.co.uk/garden-design
+                                                                - strong [ref=f91e311]:
+                                                                    - generic [ref=f91e312]: Opt for Phased Development
+                                                            - strong [ref=f91e313]
+                                            - paragraph [ref=f91e315]:
+                                                - generic [ref=f91e316]: If budget constraints exist, consider implementing the garden in stages. This approach allows costs to be spread over time while progressively enhancing the space.
+                                            - list [ref=f91e321]:
+                                                - listitem [level=1] [ref=f91e322]:
+                                                    - paragraph [ref=f91e323]:
+                                                        - link "Select Materials Wisely" [ref=f91e325] [cursor=pointer]:
+                                                            - /url: https://www.savageldn.co.uk/hardscaping-costs
+                                                            - strong [ref=f91e326]:
+                                                                - generic [ref=f91e327]: Select Materials Wisely
+                                            - paragraph [ref=f91e329]:
+                                                - generic [ref=f91e330]: Balance aesthetics with durability and maintenance. Sometimes, a less expensive material with a similar appearance can achieve the desired effect without compromising quality.
+                                            - list [ref=f91e335]:
+                                                - listitem [level=1] [ref=f91e336]:
+                                                    - paragraph [ref=f91e337]:
+                                                        - link "Engage a Professional Early" [ref=f91e339] [cursor=pointer]:
+                                                            - /url: https://www.savageldn.co.uk/faq
+                                                            - strong [ref=f91e340]:
+                                                                - generic [ref=f91e341]: Engage a Professional Early
+                                            - paragraph [ref=f91e343]:
+                                                - generic [ref=f91e344]: Early involvement of a garden designer can prevent costly mistakes and optimise the use of space and resources.
+                                            - list [ref=f91e349]:
+                                                - listitem [level=1] [ref=f91e350]:
+                                                    - paragraph [ref=f91e351]:
+                                                        - link "Request Detailed Quotes" [ref=f91e353] [cursor=pointer]:
+                                                            - /url: https://www.savageldn.co.uk/our-process
+                                                            - strong [ref=f91e354]:
+                                                                - generic [ref=f91e355]: Request Detailed Quotes
+                                            - paragraph [ref=f91e357]:
+                                                - generic [ref=f91e358]: Ensure all quotes are itemised to understand where funds are allocated. This transparency aids in making informed adjustments.
+                                            - list [ref=f91e363]:
+                                                - listitem [level=1] [ref=f91e364]:
+                                                    - paragraph [ref=f91e365]:
+                                                        - link "Consider Maintenance Costs" [ref=f91e367] [cursor=pointer]:
+                                                            - /url: https://www.savageldn.co.uk/garden-maintenance-pricing
+                                                            - strong [ref=f91e368]:
+                                                                - generic [ref=f91e369]: Consider Maintenance Costs
+                                            - paragraph [ref=f91e371]:
+                                                - generic [ref=f91e372]: Factor in ongoing maintenance when selecting plants and materials to avoid unexpected future expenses.
+                                            - paragraph [ref=f91e377]:
+                                                - strong [ref=f91e379]: By adopting these strategies, homeowners can control their garden design costs while creating a space that delights and endures.
+                                            - heading "Securing Your Garden Transformation with Stuart Savage Landscaping" [level=3] [ref=f91e384]
+                                            - paragraph [ref=f91e390]:
+                                                - generic [ref=f91e391]: Embarking on a garden transformation is a significant undertaking, one that benefits immensely from expert guidance and meticulous execution. At Stuart Savage Landscaping, we pride ourselves on delivering a seamless, high-quality experience from initial design through to final construction. Our commitment to craftsmanship and client satisfaction ensures that each garden we create is a testament to both beauty and functionality.
+                                            - blockquote [ref=f91e397]:
+                                                - generic [ref=f91e398]: To explore how we can bring your garden vision to life, I invite you to use the booking form on our website to arrange a personalised garden quote. This initial step allows us to understand your aspirations and provide a detailed proposal tailored to your outdoor space.
+                                            - paragraph [ref=f91e405]:
+                                                - generic [ref=f91e406]:
+                                                    - text: For inspiration and to view examples of our completed projects, please visit our
+                                                    - link "portfolio" [ref=f91e407] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/portfolio
+                                                    - text: and connect with us on
+                                                    - link "social media" [ref=f91e409] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/social
+                                                    - text: . We look forward to partnering with you to craft a garden that is both a sanctuary and a source of enduring pride.
+                                            - paragraph [ref=f91e418]:
+                                                - generic [ref=f91e419]: Should you wish to delve deeper into the specifics of garden design costs or require bespoke advice, do not hesitate to reach out. Your garden transformation awaits, and with careful planning and expert support, it will be a journey marked by elegance and satisfaction.
+                                            - paragraph [ref=f91e424]:
+                                                - generic [ref=f91e425]:
+                                                    - text: For further information on
+                                                    - link "garden design prices" [ref=f91e426] [cursor=pointer]:
+                                                        - /url: https://savageldn.co.uk/pricing
+                                                    - text: ", please consult our dedicated page."
+                                            - link [ref=f91e433] [cursor=pointer]:
+                                                - /url: https://savageldn.co.uk/pricing
+                                                - figure [ref=f91e436]:
+                                                    - img "Garden Design Pricing & 3D Plans | SAVAGELDN" [ref=f91e439]
+                                                    - generic [ref=f91e440]:
+                                                        - generic [ref=f91e441]: savageldn.co.uk
+                                                        - generic [ref=f91e442]: Garden Design Pricing & 3D Plans | SAVAGELDN
+                                                        - generic [ref=f91e443]: Transparent investment packages for bespoke 3D top-down perspective plans. From London site visits to affordable professional remote design nationwide.
+                                            - separator [ref=f91e450]
+                                            - heading "Frequently Asked Questions - Garden Design Pricing" [level=3] [ref=f91e455]
+                                            - generic [ref=f91e463]:
+                                                - generic [ref=f91e467]:
+                                                    - button [expanded] [ref=f91e468] [cursor=pointer]:
+                                                        - heading "How much does professional garden design cost at Stuart Savage Landscaping?" [level=4] [ref=f91e481]
+                                                    - paragraph [ref=f91e488]:
+                                                        - generic [ref=f91e489]:
+                                                            - text: Our design fees are structured to provide a forensic roadmap for your transformation. For remote 3D garden design through The
+                                                            - link "Moonlight Garden Design Co" [ref=f91e490] [cursor=pointer]:
+                                                                - /url: https://www.moonlight-studio.uk/
+                                                            - text: ., we are currently offering a 40% OFF Launch Offer to help South London homeowners visualise their space. For full design-and-build projects, we typically work with overall garden budgets starting from £20,000 to ensure we can deliver the meticulous, architectural finish our brand is known for.
+                                                - button [ref=f91e496] [cursor=pointer]:
+                                                    - heading "What are the price brackets for a garden makeover in South West London?" [level=4] [ref=f91e509]
+                                                - button [ref=f91e515] [cursor=pointer]:
+                                                    - heading "Do you offer 3D design plans as a standalone service?" [level=4] [ref=f91e528]
+                                                - button [ref=f91e534] [cursor=pointer]:
+                                                    - heading "What is included in a Stuart Savage Landscaping quote?" [level=4] [ref=f91e547]
+                                            - link [ref=f91e554] [cursor=pointer]:
+                                                - /url: https://www.moonlight-studio.uk/
+                                                - figure [ref=f91e557]:
+                                                    - img "THE MOONLIGHT GARDEN DESIGN CO. | Remote 3D Garden Design & Blueprints" [ref=f91e560]
+                                                    - generic [ref=f91e561]:
+                                                        - generic [ref=f91e562]: www.moonlight-studio.uk
+                                                        - generic [ref=f91e563]: THE MOONLIGHT GARDEN DESIGN CO. | Remote 3D Garden Design & Blueprints
+                                                        - generic [ref=f91e564]: Transform your garden remotely. We create high-end 3D garden blueprints and nocturnal planting plans for homeowners nationwide. No site visits required.
+                                        - generic [ref=f91e570]:
+                                            - list "Post categories" [ref=f91e572]:
+                                                - listitem [ref=f91e573]:
+                                                    - link "Project Delivery Archive" [ref=f91e574] [cursor=pointer]:
+                                                        - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                                            - generic [ref=f91e577]:
+                                                - button "Share via Facebook" [ref=f91e579] [cursor=pointer]:
+                                                    - img "Facebook" [ref=f91e580]
+                                                - button "Share via X (Twitter)" [ref=f91e584] [cursor=pointer]:
+                                                    - img "X" [ref=f91e585]
+                                                - button "Share via LinkedIn" [ref=f91e589] [cursor=pointer]:
+                                                    - img "LinkedIn" [ref=f91e590]
+                                                - button "Share via link" [ref=f91e595] [cursor=pointer]
+                                - generic [ref=f91e606]:
+                                    - generic [ref=f91e607]:
+                                        - heading "Recent Posts" [level=2] [ref=f91e608]
+                                        - link "See All" [ref=f91e609] [cursor=pointer]:
+                                            - /url: https://www.savageldn.co.uk/insights
+                                    - article [ref=f91e612]:
+                                        - generic [ref=f91e613]:
+                                            - link "Mastering the Art of Shadow in Garden Lighting Design" [ref=f91e614] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/post/the-technical-engine-garden-lighting-design
+                                            - link "Mastering the Art of Shadow in Garden Lighting Design" [ref=f91e619] [cursor=pointer]:
+                                                - /url: https://www.savageldn.co.uk/post/the-technical-engine-garden-lighting-design
+            - contentinfo:
+                - generic [ref=f91e630]:
+                    - group
+    - region "bottom of page"

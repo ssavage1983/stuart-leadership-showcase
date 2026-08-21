@@ -4,9 +4,11 @@ description: Use when updating, drafting, or filtering CV content across the Mas
 ---
 
 # Purpose
+
 Filter, structure, and refine career experience into one of the three supported portfolio CV variants on stuart-leadership-showcase.lovable.app.
 
 # Execution Rules
+
 1. **Select Perspective:**
    - **Master Executive CV:** Comprehensive 4-page equivalent detailing full operational impact metrics and complete role histories across all chapters.
    - **Executive Operations CV:** Streamlined 2-page equivalent focused on P&L accountability, supply chain management, digital transformation, and commercial project delivery.

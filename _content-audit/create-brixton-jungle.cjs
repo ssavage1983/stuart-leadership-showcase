@@ -1,7 +1,12 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.brixton-garden-jungle-transformation.tsx');
+const filePath = path.join(
+  process.cwd(),
+  "src",
+  "routes",
+  "case-studies.brixton-garden-jungle-transformation.tsx",
+);
 
 const brixtonJungleCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -149,5 +154,7 @@ function BrixtonJungleTransformationCaseStudy() {
 }
 `;
 
-fs.writeFileSync(filePath, brixtonJungleCode, 'utf8');
-console.log("Successfully created and expanded Brixton Jungle Transformation case study with enhanced layout.");
+fs.writeFileSync(filePath, brixtonJungleCode, "utf8");
+console.log(
+  "Successfully created and expanded Brixton Jungle Transformation case study with enhanced layout.",
+);

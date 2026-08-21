@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
-const filePath = path.join(process.cwd(), 'src', 'routes', 'index.tsx');
+const filePath = path.join(process.cwd(), "src", "routes", "index.tsx");
 
 const newIndexCode = `import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
@@ -529,5 +529,7 @@ function Index() {
 }
 `;
 
-fs.writeFileSync(filePath, newIndexCode, 'utf8');
-console.log("Successfully updated index.tsx with exact CV data, DRO compliance, and perfect bullet alignment.");
+fs.writeFileSync(filePath, newIndexCode, "utf8");
+console.log(
+  "Successfully updated index.tsx with exact CV data, DRO compliance, and perfect bullet alignment.",
+);
