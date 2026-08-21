@@ -1,11 +1,11 @@
-import { createFileRoute } from '@tanstack/react-router';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
-import { ArrowLeft, CheckCircle2, Truck, Workflow, ShieldCheck } from 'lucide-react';
-import { Link } from '@tanstack/react-router';
+import { createFileRoute } from "@tanstack/react-router";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { ArrowLeft, CheckCircle2, Truck, Workflow, ShieldCheck } from "lucide-react";
+import { Link } from "@tanstack/react-router";
 
-export const Route = createFileRoute('/case-studies/supply-chain-control')({
+export const Route = createFileRoute("/case-studies/supply-chain-control")({
   component: SupplyChainControlCaseStudy,
 });
 
@@ -13,15 +13,21 @@ function SupplyChainControlCaseStudy() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <Link to="/" className="inline-flex items-center text-muted-foreground hover:text-foreground mb-8 text-sm transition-colors">
+        <Link
+          to="/"
+          className="inline-flex items-center text-muted-foreground hover:text-foreground mb-8 text-sm transition-colors"
+        >
           <ArrowLeft className="w-4 h-4 mr-2" /> Back to Overview
         </Link>
 
         <div className="space-y-4 mb-8">
-          <Badge variant="outline" className="text-xs uppercase tracking-wider">Operations Archive · Logistics Control</Badge>
+          <Badge variant="outline" className="text-xs uppercase tracking-wider">
+            Operations Archive · Logistics Control
+          </Badge>
           <h1 className="text-4xl font-bold tracking-tight">Supply Chain Control</h1>
           <p className="text-xl text-muted-foreground">
-            Rigorous coordination of materials, specialist artisans, plant logistics, and site dependencies to eliminate bottlenecks across complex builds.
+            Rigorous coordination of materials, specialist artisans, plant logistics, and site
+            dependencies to eliminate bottlenecks across complex builds.
           </p>
         </div>
 
@@ -62,10 +68,15 @@ function SupplyChainControlCaseStudy() {
           <section className="space-y-4">
             <h2 className="text-2xl font-semibold text-foreground">Operational Overview</h2>
             <p>
-              In demanding project environments, material delays or uncoordinated deliveries can paralyze a site and inflate labor costs. Supply Chain Control represents the operational discipline required to sequence heavy aggregates, vitrified porcelain, structural timber, and specialized plants with absolute reliability.
+              In demanding project environments, material delays or uncoordinated deliveries can
+              paralyze a site and inflate labor costs. Supply Chain Control represents the
+              operational discipline required to sequence heavy aggregates, vitrified porcelain,
+              structural timber, and specialized plants with absolute reliability.
             </p>
             <p>
-              By treating delivery logistics as a synchronized chain rather than isolated purchases, projects maintain steady momentum while safeguarding delicate materials from premature weather exposure or site damage.
+              By treating delivery logistics as a synchronized chain rather than isolated purchases,
+              projects maintain steady momentum while safeguarding delicate materials from premature
+              weather exposure or site damage.
             </p>
           </section>
 
@@ -74,15 +85,27 @@ function SupplyChainControlCaseStudy() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-primary mr-3 mt-1 shrink-0" />
-                <span><strong>Staged Procurement Schedules:</strong> Aligning material orders with site readiness—ensuring sub-base aggregates arrive before excavation finishes, while fragile finishes arrive strictly post-heavy machinery.</span>
+                <span>
+                  <strong>Staged Procurement Schedules:</strong> Aligning material orders with site
+                  readiness—ensuring sub-base aggregates arrive before excavation finishes, while
+                  fragile finishes arrive strictly post-heavy machinery.
+                </span>
               </li>
               <li className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-primary mr-3 mt-1 shrink-0" />
-                <span><strong>Specialist Supplier Vetted Networks:</strong> Maintaining direct partnerships with premier UK nurseries and masonry fabricators to guarantee stock authenticity and grade consistency.</span>
+                <span>
+                  <strong>Specialist Supplier Vetted Networks:</strong> Maintaining direct
+                  partnerships with premier UK nurseries and masonry fabricators to guarantee stock
+                  authenticity and grade consistency.
+                </span>
               </li>
               <li className="flex items-start">
                 <CheckCircle2 className="w-5 h-5 text-primary mr-3 mt-1 shrink-0" />
-                <span><strong>Urban Access Logistics:</strong> Managing restricted parking, narrow London streets, and multi-stage offloading for properties with challenging access profiles.</span>
+                <span>
+                  <strong>Urban Access Logistics:</strong> Managing restricted parking, narrow
+                  London streets, and multi-stage offloading for properties with challenging access
+                  profiles.
+                </span>
               </li>
             </ul>
           </section>
@@ -90,7 +113,9 @@ function SupplyChainControlCaseStudy() {
           <section className="space-y-4">
             <h2 className="text-2xl font-semibold text-foreground">Professional Value & Outcome</h2>
             <p>
-              Rigorous supply chain management eliminates downtime, protects profit margins, and ensures that projects are delivered on schedule and to uncompromising quality standards.
+              Rigorous supply chain management eliminates downtime, protects profit margins, and
+              ensures that projects are delivered on schedule and to uncompromising quality
+              standards.
             </p>
           </section>
         </div>

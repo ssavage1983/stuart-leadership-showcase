@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 const digitalTwinCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -205,8 +205,16 @@ function SupplyChainControlCaseStudy() {
 }
 `;
 
-const routesDir = path.join(process.cwd(), 'src', 'routes');
-fs.writeFileSync(path.join(routesDir, 'case-studies.digital-twin-workflow.tsx'), digitalTwinCode, 'utf8');
-fs.writeFileSync(path.join(routesDir, 'case-studies.supply-chain-control.tsx'), supplyChainCode, 'utf8');
+const routesDir = path.join(process.cwd(), "src", "routes");
+fs.writeFileSync(
+  path.join(routesDir, "case-studies.digital-twin-workflow.tsx"),
+  digitalTwinCode,
+  "utf8",
+);
+fs.writeFileSync(
+  path.join(routesDir, "case-studies.supply-chain-control.tsx"),
+  supplyChainCode,
+  "utf8",
+);
 
 console.log("Successfully created digital-twin-workflow and supply-chain-control route files.");
