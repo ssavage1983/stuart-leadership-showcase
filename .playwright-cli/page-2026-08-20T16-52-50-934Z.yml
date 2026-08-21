@@ -1,0 +1,228 @@
+- generic [active] [ref=f103e1]:
+  - generic [ref=f103e3]:
+    - region "top of page"
+    - generic [ref=f103e11]:
+      - group:
+        - banner:
+          - generic [ref=f103e16]:
+            - group
+        - main:
+          - generic [ref=f103e19]:
+            - group:
+              - generic [ref=f103e29]:
+                - navigation "Blog" [ref=f103e32]:
+                  - list [ref=f103e33] [cursor=pointer]:
+                    - listitem [ref=f103e34]:
+                      - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f103e35]:
+                        - /url: https://www.savageldn.co.uk/insights
+                    - listitem [ref=f103e36]:
+                      - link "Plant & Horticulture Archive" [ref=f103e37]:
+                        - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                    - listitem [ref=f103e38]:
+                      - link "Project Delivery Archive" [ref=f103e39]:
+                        - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                    - listitem [ref=f103e40]:
+                      - link "Garden Design Archive" [ref=f103e41]:
+                        - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                    - listitem [ref=f103e42]:
+                      - link "Supplier & Systems Archive" [ref=f103e43]:
+                        - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                - generic [ref=f103e45]:
+                  - article [ref=f103e49]:
+                    - generic [ref=f103e50]:
+                      - generic [ref=f103e52]:
+                        - generic [ref=f103e53]:
+                          - 'heading "Luxury Garden Upholstery by Kirsty Kissell Furnishings: The Finishing Touch for Your Outdoor Space" [level=1] [ref=f103e55]'
+                          - generic [ref=f103e56]:
+                            - list [ref=f103e57]:
+                              - listitem [ref=f103e58]:
+                                - 'img "Writer: Stuart Savage" [ref=f103e61]'
+                                - generic [ref=f103e62] [cursor=pointer]: Stuart Savage
+                              - listitem [ref=f103e63]: ·Feb 12
+                              - listitem [ref=f103e64]: ·5 min read
+                            - button "More actions" [ref=f103e66] [cursor=pointer]
+                        - button "Rated NaN out of 5 stars." [ref=f103e69] [cursor=pointer]
+                      - generic [ref=f103e90]:
+                        - figure [ref=f103e94]:
+                          - generic [ref=f103e95]:
+                            - img "A cockapoo sitting on a lilac garden bench featuring handmade Garden upholstery and seat pads." [ref=f103e100] [cursor=pointer]
+                            - button "Expand image"
+                          - generic [ref=f103e101]: A lilac sanctuary for our furry friends. Bespoke garden upholstery provides the perfect soft landing for cinematic dusk, blending seamlessly with the Architecture of Stillness in this London retreat.
+                        - paragraph [ref=f103e105]:
+                          - generic [ref=f103e106]: In high-end garden design, we often focus on the "Architecture of Stillness"—the structural integrity of Western Red Cedar screens and the sleek lines of R11 anti-slip porcelain. These elements provide the skeletal framework of a professional landscape, but they require a softer counterpoint to transition from a "site" to a "sanctuary". A true professional-grade garden isn't complete until the textures invite you to stay and experience the space. This is where premium garden upholstery becomes the defining element of the design, bridging the gap between cold architecture and human comfort.
+                        - paragraph [ref=f103e112]:
+                          - generic [ref=f103e113]:
+                            - text: At
+                            - strong [ref=f103e114]: Stuart Savage Landscaping
+                            - text: ", we design high-end London gardens where architecture, planting and"
+                            - strong [ref=f103e115]: luxury garden upholstery
+                            - text: work together as one cohesive experience. Explore our full range of
+                            - link "garden design and landscaping services in London" [ref=f103e116] [cursor=pointer]:
+                              - /url: https://www.savageldn.co.uk/services
+                              - strong [ref=f103e117]:
+                                - generic [ref=f103e118]: garden design and landscaping services in London
+                            - text: to see how structure, planting and upholstery come together in our projects.
+                        - paragraph [ref=f103e123]:
+                          - generic [ref=f103e124]:
+                            - text: I am proud to announce that
+                            - link "Kirsty Kissell Furnishings" [ref=f103e125] [cursor=pointer]:
+                              - /url: https://www.kirstykissellfurnishings.com/
+                              - strong [ref=f103e126]:
+                                - generic [ref=f103e127]: Kirsty Kissell Furnishings
+                            - text: is a preferred supplier for Stuart Savage Landscaping. Kirsty’s work represents the pinnacle of handmade craftsmanship in the UK, providing the soft, tactile contrast needed to balance the hard, unapologetic materials of a modern London landscape.
+                        - paragraph [ref=f103e132]:
+                          - generic [ref=f103e133]: The frustration of dealing with soggy, faded cushions is all too familiar to many garden enthusiasts. Imagine a space meant for relaxation, compromised by unsightly and uncomfortable furnishings. Garden cushions that lose their charm and functionality due to the harsh elements can turn an outdoor retreat into a source of annoyance.
+                        - figure [ref=f103e140]:
+                          - generic [ref=f103e141]:
+                            - img "Bespoke floral Garden upholstery on rustic timber chairs set against a pink garden wall." [ref=f103e146] [cursor=pointer]
+                            - button "Expand image"
+                          - generic [ref=f103e147]: Where rustic heritage meets modern comfort. Handmade garden upholstery by Kirsty Kissell Furnishings breathes new life into reclaimed timber, creating a tactile sanctuary in this London garden.
+                        - heading "Why handmade garden upholstery changes everything" [level=2] [ref=f103e154]:
+                          - strong [ref=f103e156]:
+                            - generic [ref=f103e157]: Why handmade garden upholstery changes everything
+                        - paragraph [ref=f103e162]:
+                          - generic [ref=f103e163]: When we design a 'Nocturnal Sanctuary,' we aim for a cinematic 19:00 dusk atmosphere. At this hour, under an amber glow of 2700K ultra-warm LEDs, every shadow and texture is magnified. High-street, off-the-shelf cushions often fall flat under this scrutiny; they lack the density, precision of fit, and fabric depth required for a luxury setting. In contrast, bespoke cushions and textiles retain their form and vibrancy, even in the demanding, damp London climate.
+                        - paragraph [ref=f103e169]:
+                          - generic [ref=f103e170]: Kirsty Kissell specialises in creating pieces that are as durable as they are beautiful. By focusing on bespoke commissions, she ensures that every item is a unique response to the garden’s layout. Whether it is a monochromatic striped seat pad that echoes the linear rhythm of cedar battening or a vibrant, botanical-print accent cushion that draws the eye, every piece is hand-finished to ensure it complements the specific dimensions of your seating.
+                        - paragraph [ref=f103e176]:
+                          - generic [ref=f103e177]: To start a bespoke order, clients can expect a seamless process that begins with a personalised consultation to understand their specific needs and garden aesthetics. Following the consultation, a design proposal is created and shared for client approval. Once approved, the crafting process begins, assuring a tailored and unique addition to your outdoor space.
+                        - heading "Technical precision and durability" [level=3] [ref=f103e183]:
+                          - strong [ref=f103e185]:
+                            - generic [ref=f103e186]: Technical precision and durability
+                        - paragraph [ref=f103e191]:
+                          - generic [ref=f103e192]: The difference between standard outdoor cushions and professional-grade soft furnishings lies in the technical execution of the hidden details. Kirsty selects high-performance outdoor fabrics that offer industry-leading UV resistance and water repellency, while maintaining a handle and softness that rival those of interior velvet or linen. Furthermore, these materials are not only luxurious but also easy to care for.
+                        - paragraph [ref=f103e198]:
+                          - generic [ref=f103e199]: Each piece is designed for easy cleaning, ensuring that they remain pristine and inviting with minimal effort. Simply wipe down spills and stains with a damp cloth, or lightly clean with a mild soap solution for tougher marks. By choosing these durable fabrics, clients can have confidence that their luxury investment will withstand the elements and maintain its elegance over time.
+                        - list [ref=f103e205]:
+                          - listitem [level=1] [ref=f103e206]:
+                            - paragraph [ref=f103e207]:
+                              - generic [ref=f103e208]:
+                                - strong [ref=f103e209]:
+                                  - generic [ref=f103e210]: "Tailored fit:"
+                                - generic [ref=f103e211]: Each piece is designed to fit custom-built benches perfectly. Unbroken lines. Intentional comfort. This eliminates the awkward gaps and sliding cushions often seen in mass-produced items, ensuring the furniture's lines remain clean and intentional.
+                          - listitem [level=1] [ref=f103e212]:
+                            - paragraph [ref=f103e213]:
+                              - generic [ref=f103e214]:
+                                - strong [ref=f103e215]:
+                                  - generic [ref=f103e216]: "Colour curation and contrast:"
+                                - generic [ref=f103e217]: Whether it’s matching a lilac-painted timber bench or providing a stark, high-contrast pop against a gritstone wall, the ability to choose exact patterns allows for a fully curated aesthetic.
+                            - list [ref=f103e218]:
+                              - listitem [level=2] [ref=f103e219]:
+                                - paragraph [ref=f103e220]:
+                                  - generic [ref=f103e221]: This is essential for maintaining a cohesive brand palette across the entire project. What colours tell the story of your identity and transform your garden into a personalised expression of your brand?
+                              - listitem [level=2] [ref=f103e223]:
+                                - paragraph [ref=f103e224]:
+                                  - generic [ref=f103e225]: By choosing hues and patterns that resonate with your unique style, your outdoor space becomes an extension of self-expression, elevating bespoke design beyond mere matching and into a realm of personal narrative.
+                          - listitem [level=1] [ref=f103e227]:
+                            - paragraph [ref=f103e228]:
+                              - generic [ref=f103e229]:
+                                - strong [ref=f103e230]:
+                                  - generic [ref=f103e231]: "The \"Savage\" standard:"
+                                - generic [ref=f103e232]: We recommend Kirsty because her attention to detail aligns with our commitment to premium, authentic textures. Every seam is straight, and every zip is concealed, reflecting the same precision we bring to our porcelain paving.
+                        - figure [ref=f103e239]:
+                          - generic [ref=f103e240]:
+                            - img "Close-up of handmade luxury Garden upholstery with black and white striped seat pad and botanical cushions." [ref=f103e245] [cursor=pointer]
+                            - button "Expand image"
+                          - generic [ref=f103e246]: The details that define luxury. From monochromatic stripes to vibrant botanical prints, our bespoke Garden upholstery brings the sophistication of the lounge to the outdoor room, ready for a 19:00 dusk.
+                        - 'heading "Case study: The lilac bench and striped textiles" [level=3] [ref=f103e253]':
+                          - strong [ref=f103e255]:
+                            - generic [ref=f103e256]: "Case study: The lilac bench and striped textiles"
+                        - paragraph [ref=f103e261]:
+                          - generic [ref=f103e262]: Without the right soft furnishings, a painted bench can feel ornamental rather than functional. By adding a high-contrast, black-and-white striped seat pad, the bench is immediately grounded in the design. The addition of vibrant floral accent cushions creates a layered, lived-in feel that beckons the user to sit down. This specific application demonstrates how colour theory and textile choice can elevate a simple garden corner into a cinematic focal point.
+                        - paragraph [ref=f103e268]:
+                          - generic [ref=f103e269]: Furthermore, the inclusion of textured throws—like a deep fuchsia pink mohair-style blanket—adds a layer of warmth for those cooler London evenings. This ensures the garden remains a viable "outdoor room" long after the sun goes down, reinforcing the concept of the garden as a permanent extension of the home’s interior luxury.
+                        - heading "Elevate your outdoor experience." [level=2] [ref=f103e275]:
+                          - strong [ref=f103e277]:
+                            - generic [ref=f103e278]: Elevate your outdoor experience.
+                        - paragraph [ref=f103e283]:
+                          - generic [ref=f103e284]: Adding handmade elements to your garden design isn't just about comfort; it's about creating a destination. A simple seating nook becomes a luxury lounge when outfitted with the right textures. It is the difference between a garden that looks good in a photograph and a garden that feels incredible to inhabit.
+                        - paragraph [ref=f103e290]:
+                          - generic [ref=f103e291]: By investing in bespoke soft furnishings, you ensure your outdoor space has the same level of sophistication as your living room. Kirsty’s dedication to her craft ensures that these pieces are not just seasonal accessories, but long-term investments in your lifestyle. Each item is crafted with longevity in mind, offering an impressive lifespan even under rigorous outdoor conditions. Additionally, they come with a comprehensive warranty, providing assurance of quality and durability. This not only builds trust but also positions the purchase as a wise, lasting investment for discerning clients who value both style and substance.
+                        - paragraph [ref=f103e297]:
+                          - generic [ref=f103e298]:
+                            - emphasis [ref=f103e299]:
+                              - generic [ref=f103e300]: To explore the full range of bespoke outdoor cushions and soft furnishings, visit
+                            - link "Kirsty Kissell Furnishings" [ref=f103e301] [cursor=pointer]:
+                              - /url: https://www.kirstykissellfurnishings.com/
+                              - emphasis [ref=f103e302]:
+                                - generic [ref=f103e303]: Kirsty Kissell Furnishings
+                            - emphasis [ref=f103e305]:
+                              - generic [ref=f103e306]: "and connect with us on Instagram:"
+                        - list [ref=f103e308]:
+                          - listitem [level=1] [ref=f103e309]:
+                            - paragraph [ref=f103e310]:
+                              - generic [ref=f103e311]:
+                                - emphasis [ref=f103e312]:
+                                  - generic [ref=f103e313]: "Follow Kirsty on Instagram:"
+                                - link "@kirstykissellfurnishings" [ref=f103e314] [cursor=pointer]:
+                                  - /url: https://www.instagram.com/kirstykissellfurnishings/?hl=en
+                                  - emphasis [ref=f103e315]:
+                                    - generic [ref=f103e316]: "@kirstykissellfurnishings"
+                          - listitem [level=1] [ref=f103e318]:
+                            - paragraph [ref=f103e319]:
+                              - generic [ref=f103e320]:
+                                - emphasis [ref=f103e321]:
+                                  - generic [ref=f103e322]: "Follow Stuart Savage Landscaping on Instagram:"
+                                - link "@stuart.savage.landscaping" [ref=f103e323] [cursor=pointer]:
+                                  - /url: https://www.instagram.com/stuart.savage.landscaping/
+                                  - emphasis [ref=f103e324]:
+                                    - generic [ref=f103e325]: "@stuart.savage.landscaping"
+                        - paragraph [ref=f103e330]:
+                          - generic [ref=f103e331]:
+                            - text: Ready to upgrade your garden with
+                            - strong [ref=f103e332]: luxury garden upholstery and bespoke outdoor cushions in London
+                            - text: "?"
+                            - strong [ref=f103e333]: Book a consultation with
+                            - link "Stuart Savage Landscaping" [ref=f103e334] [cursor=pointer]:
+                              - /url: https://www.savageldn.co.uk/contact-us
+                              - strong [ref=f103e335]:
+                                - generic [ref=f103e336]: Stuart Savage Landscaping
+                            - text: to discuss your project.
+                        - blockquote [ref=f103e339]:
+                          - emphasis [ref=f103e343]:
+                            - generic [ref=f103e344]: We invite you to schedule a private consultation or viewing to experience the luxury and craftsmanship firsthand. Our personalised approach ensures that each client's unique needs and visions are brought to life.
+                        - blockquote [ref=f103e347]:
+                          - emphasis [ref=f103e351]:
+                            - generic [ref=f103e352]: Imagine your first dusk gathering on your new cushions, where the gentle hum of conversation mingles with the clinking of glasses. The vivid colours and textures weave an atmosphere that transforms an evening in your garden into a cinematic experience, leaving a lasting impression.
+                      - generic [ref=f103e358]:
+                        - list "Post categories" [ref=f103e360]:
+                          - listitem [ref=f103e361]:
+                            - link "Supplier & Systems Archive" [ref=f103e362] [cursor=pointer]:
+                              - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                        - generic [ref=f103e365]:
+                          - button "Share via Facebook" [ref=f103e367] [cursor=pointer]:
+                            - img "Facebook" [ref=f103e368]
+                          - button "Share via X (Twitter)" [ref=f103e372] [cursor=pointer]:
+                            - img "X" [ref=f103e373]
+                          - button "Share via LinkedIn" [ref=f103e377] [cursor=pointer]:
+                            - img "LinkedIn" [ref=f103e378]
+                          - button "Share via link" [ref=f103e383] [cursor=pointer]
+                  - generic [ref=f103e394]:
+                    - generic [ref=f103e395]:
+                      - heading "Recent Posts" [level=2] [ref=f103e396]
+                      - link "See All" [ref=f103e397] [cursor=pointer]:
+                        - /url: https://www.savageldn.co.uk/insights
+                    - article [ref=f103e400]:
+                      - generic [ref=f103e401]:
+                        - link "tropical plants garden brixton" [ref=f103e402] [cursor=pointer]:
+                          - /url: https://www.savageldn.co.uk/post/shoot-gardening-review
+                        - link "Why We Use Shoot Gardening Technology" [ref=f103e407] [cursor=pointer]:
+                          - /url: https://www.savageldn.co.uk/post/shoot-gardening-review
+        - contentinfo:
+          - generic [ref=f103e418]:
+            - group
+    - region "bottom of page"
+  - region [ref=f103e422]:
+    - generic [ref=f103e423]:
+      - generic [ref=f103e424]:
+        - generic [ref=f103e426]:
+          - text: We use cookies on our website to see how you interact with it. By accepting, you agree to our use of such cookies.
+          - link [ref=f103e427] [cursor=pointer]:
+            - /url: https://www.savageldn.co.uk/privacy-policy
+            - text: Privacy Policy
+        - generic [ref=f103e428]:
+          - button "Settings" [ref=f103e429] [cursor=pointer]
+          - button "Decline All" [ref=f103e430] [cursor=pointer]
+          - button "Accept" [ref=f103e431] [cursor=pointer]
+      - button "Close" [ref=f103e433]:
+        - img "Close" [ref=f103e434] [cursor=pointer]

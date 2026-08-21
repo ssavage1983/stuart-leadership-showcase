@@ -1,0 +1,549 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<style>
+  :root {
+    --brand-light-stone: #f9f9f7;
+    --brand-light-sage: #eef2f0;
+    --brand-black-green: #1a2e26;
+    --brand-heritage-green: #1e4d3b;
+    --brand-charcoal: #4a4a4a;
+    --brand-champagne-gold: #bfa87e;
+    --brand-pale-sprout: #c5f1b2;
+  }
+
+  /* Structural Reset */
+  .tbc-root, .tbc-root * {
+    box-sizing: border-box;
+  }
+
+  .tbc-root {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--brand-charcoal);
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    overflow-x: hidden;
+    background-color: var(--brand-light-stone);
+  }
+
+  /* Breadcrumb Bar */
+  .tbc-breadcrumb-bar {
+    background-color: var(--brand-light-stone);
+    padding: 1.5rem 0 1.25rem;
+  }
+
+  .tbc-breadcrumb-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--brand-charcoal);
+  }
+
+  .tbc-breadcrumb-nav a {
+    color: var(--brand-champagne-gold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .tbc-breadcrumb-nav a:hover {
+    color: var(--brand-black-green);
+  }
+
+  .tbc-breadcrumb-sep {
+    color: var(--brand-charcoal);
+    opacity: 0.4;
+  }
+
+  /* Typography */
+  .tbc-root h1, .tbc-root h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--brand-black-green);
+    margin: 0 0 1.25rem 0;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
+  .tbc-root h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+    margin: 0 0 1rem 0;
+    line-height: 1.3;
+  }
+
+  .tbc-root p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 1.5rem 0;
+  }
+
+  /* Shell / Container */
+  .tbc-shell {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* INJECTION 1: THE STRUCTURAL HERO */
+  .tbc-hero {
+    position: relative;
+    background-color: var(--brand-black-green);
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 6px solid var(--brand-champagne-gold);
+  }
+
+  .tbc-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .tbc-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(26, 46, 38, 0.6); 
+    z-index: 2;
+  }
+
+  .tbc-hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 850px;
+    padding: 2rem 1.5rem;
+  }
+
+  .tbc-hero h1 {
+    color: var(--brand-light-stone);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .tbc-hero p {
+    color: var(--brand-light-stone);
+    font-size: 1.15rem;
+    max-width: 750px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  /* INJECTION 2: PROJECT SCOPE & SCALE */
+  .tbc-scope {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .tbc-scope p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  /* INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE */
+  .tbc-hardscaping {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+    border-bottom: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .tbc-hardscaping-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .tbc-hardscaping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tbc-hardscaping-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--brand-charcoal);
+  }
+
+  .tbc-hardscaping-list li::before {
+    content: '■';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 0.65rem;
+    color: var(--brand-champagne-gold);
+  }
+
+  .tbc-hardscaping-list strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+  }
+
+  /* VISUAL MATRIX & ARCHITECTURAL DATA */
+  .tbc-gallery-section {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .tbc-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .tbc-gallery-item {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/5;
+    border-bottom: 4px solid var(--brand-champagne-gold);
+    box-shadow: 0 10px 25px rgba(26, 46, 38, 0.05);
+    background-color: var(--brand-black-green);
+    cursor: pointer;
+  }
+
+  .tbc-gallery-item::after {
+    content: '\f00e';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: var(--brand-champagne-gold);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .tbc-gallery-item:hover::after {
+    opacity: 1;
+  }
+
+  .tbc-gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease, filter 0.5s ease;
+  }
+
+  .tbc-gallery-item:hover .tbc-gallery-img {
+    transform: scale(1.05);
+    filter: brightness(0.6);
+  }
+
+  .tbc-gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 1rem 1rem;
+    background: linear-gradient(to top, rgba(26,46,38,0.9), transparent);
+    color: var(--brand-light-stone);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  /* LIGHTBOX CSS */
+  .tbc-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 46, 38, 0.95);
+    backdrop-filter: blur(5px);
+    overflow: auto;
+  }
+
+  .tbc-lightbox.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.4s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .tbc-lightbox-img {
+    max-width: 90%;
+    max-height: 80vh;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    border: 3px solid var(--brand-champagne-gold);
+    display: block;
+    margin: auto;
+  }
+
+  .tbc-lightbox-caption {
+    margin-top: 1.5rem;
+    color: var(--brand-champagne-gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .tbc-lightbox-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: var(--brand-champagne-gold);
+    font-size: 40px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    line-height: 1;
+  }
+
+  .tbc-lightbox-close:hover {
+    color: var(--brand-light-stone);
+  }
+
+  /* INJECTION 4: THE DESIGN-ONLY INTERNAL LINKING MATRIX */
+  .tbc-matrix {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .tbc-matrix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .tbc-matrix-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    color: var(--brand-champagne-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border: 1px solid var(--brand-champagne-gold);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    background-color: var(--brand-light-stone);
+  }
+
+  .tbc-matrix-link:hover {
+    background-color: var(--brand-pale-sprout);
+    color: var(--brand-black-green);
+    border-color: var(--brand-pale-sprout);
+  }
+
+  @media (max-width: 900px) {
+    .tbc-gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 768px) {
+    .tbc-hero { min-height: 400px; }
+    .tbc-scope, .tbc-hardscaping, .tbc-gallery-section, .tbc-matrix { padding: 3.5rem 0; }
+    .tbc-gallery-grid { grid-template-columns: 1fr; }
+    .tbc-lightbox-close { top: 15px; right: 20px; }
+  }
+</style>
+
+<div class="tbc-root">
+  
+  <div class="tbc-breadcrumb-bar">
+    <div class="tbc-shell">
+      <nav class="tbc-breadcrumb-nav">
+        <a href="/" target="_top">HOME</a>
+        <span class="tbc-breadcrumb-sep">/</span>
+        <a href="/portfolio" target="_top">PORTFOLIO</a>
+        <span class="tbc-breadcrumb-sep">/</span>
+        <span>TOOTING BEC CIRCLES (SW17)</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- INJECTION 1: THE STRUCTURAL HERO -->
+  <header class="tbc-hero">
+    <img src="https://static.wixstatic.com/media/a005fe_db14927aa33142c09443a13759cdfd7d~mv2.jpg" 
+         class="tbc-hero-bg" 
+         alt="Precision-laid Tumbled Multi-Mint Indian Sandstone steps from London Stone connecting tiered levels in a South London garden renovation by Stuart Savage Landscaping.">
+    <div class="tbc-hero-overlay"></div>
+    <div class="tbc-shell tbc-hero-content">
+      <h1>GEOMETRIC HARMONY: TOOTING BEC CIRCLES (SW17)</h1>
+      <p>We do not deal in rough drafts. Explore how we mathematically resolved this urban sanctuary before a single stone was laid.</p>
+    </div>
+  </header>
+
+  <!-- INJECTION 2: PROJECT SCOPE & SCALE -->
+  <section class="tbc-scope">
+    <div class="tbc-shell">
+      <h2>ARCHITECTURAL SCOPE & SCALE</h2>
+      <p>A complex transformation resolving a disjointed, multi-level plot into a cohesive, highly functional retreat by balancing hard geometric layouts with a lush horticultural plan.</p>
+    </div>
+  </section>
+
+  <!-- INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE -->
+  <section class="tbc-hardscaping">
+    <div class="tbc-shell">
+      <div class="tbc-hardscaping-content">
+        <h2>ARCHITECTURAL HARDSCAPING & SOFT CANOPY</h2>
+        <ul class="tbc-hardscaping-list">
+          <li><strong>Level Management:</strong> Specified structural oak sleeper retaining walls (sourced from Suregreen) to safely manage the changing elevations and add warmth to the borders.</li>
+          <li><strong>Precision Paving & Steps:</strong> Mapped the specification of Tumbled Multi-Mint Indian Sandstone from London Stone, featuring precision-laid masonry steps to facilitate effortless movement across the tiers.</li>
+          <li><strong>Geometric Contrast:</strong> Engineered circular lawn focal points to intentionally break rigid sightlines, complemented by a striking vertical oak planter to maximise the planting surface.</li>
+          <li><strong>Curved Sleeper Architecture:</strong> Designed bespoke, curved raised beds utilising heavy-duty upright Oak Railway Sleepers—naturally dense timbers specified for a 20-year lifespan.</li>
+          <li><strong>Biological Integration:</strong> Specified borders enriched with BS3882:2015 certified screened topsoil and Heritage Quartz Gravel to anchor a curated selection of mature shade-loving plants, climbing varieties, and focal specimen trees.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISUAL MATRIX & ARCHITECTURAL DATA (WITH LIGHTBOX) -->
+  <section class="tbc-gallery-section">
+    <div class="tbc-shell">
+        <h2 style="text-align: center; margin-bottom: 2.5rem;">VISUAL MATRIX & ARCHITECTURAL BLUEPRINTS</h2>
+        
+        <div class="tbc-gallery-grid" id="tbc-gallery">
+            <div class="tbc-gallery-item">
+                <img src="https://static.wixstatic.com/media/956b38_4bcc4021ff36454ab330843b5ab91b5d~mv2.jpg" class="tbc-gallery-img" alt="3D Top-Down Spatial Map of Tooting Bec Circles" loading="lazy">
+                <span class="tbc-gallery-caption">1. 3D Top-Down Spatial Map</span>
+            </div>
+            
+            <div class="tbc-gallery-item">
+                <img src="https://static.wixstatic.com/media/956b38_55402c159f224c73ba2ae50bd98ccdbc~mv2.jpg" class="tbc-gallery-img" alt="Pre-Master Plan Site Intelligence for SW17 Garden" loading="lazy">
+                <span class="tbc-gallery-caption">2. Pre-Master Plan Site Intelligence</span>
+            </div>
+
+            <div class="tbc-gallery-item">
+                <img src="https://static.wixstatic.com/media/956b38_2632fcbfdd8d469abfaa386bcc9f911c~mv2.jpg" class="tbc-gallery-img" alt="Engineered Structural Geometry before planting" loading="lazy">
+                <span class="tbc-gallery-caption">3. Engineered Structural Geometry</span>
+            </div>
+
+            <div class="tbc-gallery-item">
+                <img src="https://static.wixstatic.com/media/956b38_54074b6fd57d4474943197ee96d548c5~mv2.jpg" class="tbc-gallery-img" alt="Precision Paving and Step Layout in Tumbled Mint Sandstone" loading="lazy">
+                <span class="tbc-gallery-caption">4. Precision Paving & Step Layout</span>
+            </div>
+
+            <div class="tbc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_19bbb17f87184511a1195b2cd5342679~mv2.jpg" class="tbc-gallery-img" alt="Executed Level Management daytime view" loading="lazy">
+                <span class="tbc-gallery-caption">5. Executed Level Management</span>
+            </div>
+
+            <div class="tbc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_497bb4926e1d414b85ed79154afe3275~mv2.jpg" class="tbc-gallery-img" alt="Vertical Oak Planter Specification and Horticulture" loading="lazy">
+                <span class="tbc-gallery-caption">6. Vertical Oak Planter Specification</span>
+            </div>
+
+            <div class="tbc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_d596e2b76e6f41c3ac2312dc51156165~mv2.jpg" class="tbc-gallery-img" alt="Biological Integration 1-Year Post-Design" loading="lazy">
+                <span class="tbc-gallery-caption">7. Biological Integration (1-Year Post-Design)</span>
+            </div>
+
+            <div class="tbc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_77f028485856475ba948ef9f537c4311~mv2.jpg" class="tbc-gallery-img" alt="Nocturnal Architectural Lighting Tooting Bec" loading="lazy">
+                <span class="tbc-gallery-caption">8. Nocturnal Architectural Lighting</span>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- INJECTION 4: THE DESIGN-ONLY INTERNAL LINKING MATRIX -->
+  <section class="tbc-matrix">
+    <div class="tbc-shell">
+      <h2>EXPLORE OUR LUXURY ESTATE ARCHITECTURE</h2>
+      <div class="tbc-matrix-grid">
+        <a href="/garden-design-london" class="tbc-matrix-link" target="_top">London Master Planning & Consultations</a>
+        <a href="/3d-garden-design-uk" class="tbc-matrix-link" target="_top">Remote 3D Design Nationwide</a>
+        <a href="/materials-specification" class="tbc-matrix-link" target="_top">Architectural Material Specifications</a>
+        <a href="/design-process" class="tbc-matrix-link" target="_top">The 5-Stage Client Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX HTML OVERLAY -->
+  <div id="tbc-lightbox" class="tbc-lightbox">
+      <span class="tbc-lightbox-close">&times;</span>
+      <img class="tbc-lightbox-img" id="tbc-lightbox-img" alt="Enlarged Blueprint Image">
+      <div class="tbc-lightbox-caption" id="tbc-lightbox-caption"></div>
+  </div>
+
+  <!-- LIGHTBOX JAVASCRIPT -->
+  <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const lightbox = document.getElementById('tbc-lightbox');
+          const lightboxImg = document.getElementById('tbc-lightbox-img');
+          const lightboxCaption = document.getElementById('tbc-lightbox-caption');
+          const closeBtn = document.querySelector('.tbc-lightbox-close');
+          const galleryItems = document.querySelectorAll('.tbc-gallery-item');
+
+          galleryItems.forEach(item => {
+              item.addEventListener('click', () => {
+                  lightbox.classList.add('active');
+                  const img = item.querySelector('.tbc-gallery-img');
+                  const caption = item.querySelector('.tbc-gallery-caption');
+                  
+                  lightboxImg.src = img.src.replace('/v1/fit/w_800', '');
+                  lightboxCaption.innerHTML = caption.innerHTML;
+              });
+          });
+
+          const closeLightbox = () => {
+              lightbox.classList.remove('active');
+          };
+
+          closeBtn.addEventListener('click', closeLightbox);
+          
+          lightbox.addEventListener('click', (e) => {
+              if (e.target === lightbox) {
+                  closeLightbox();
+              }
+          });
+
+          document.addEventListener('keydown', (e) => {
+              if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                  closeLightbox();
+              }
+          });
+      });
+  </script>
+
+</div>

@@ -1,0 +1,547 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<style>
+  :root {
+    --brand-light-stone: #f9f9f7;
+    --brand-light-sage: #eef2f0;
+    --brand-black-green: #1a2e26;
+    --brand-heritage-green: #1e4d3b;
+    --brand-charcoal: #4a4a4a;
+    --brand-champagne-gold: #bfa87e;
+    --brand-pale-sprout: #c5f1b2;
+  }
+
+  /* Structural Reset */
+  .ws-root, .ws-root * {
+    box-sizing: border-box;
+  }
+
+  .ws-root {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--brand-charcoal);
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    overflow-x: hidden;
+    background-color: var(--brand-light-stone);
+  }
+
+  /* Breadcrumb Bar */
+  .ws-breadcrumb-bar {
+    background-color: var(--brand-light-stone);
+    padding: 1.5rem 0 1.25rem;
+  }
+
+  .ws-breadcrumb-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--brand-charcoal);
+  }
+
+  .ws-breadcrumb-nav a {
+    color: var(--brand-champagne-gold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .ws-breadcrumb-nav a:hover {
+    color: var(--brand-black-green);
+  }
+
+  .ws-breadcrumb-sep {
+    color: var(--brand-charcoal);
+    opacity: 0.4;
+  }
+
+  /* Typography */
+  .ws-root h1, .ws-root h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--brand-black-green);
+    margin: 0 0 1.25rem 0;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
+  .ws-root h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+    margin: 0 0 1rem 0;
+    line-height: 1.3;
+  }
+
+  .ws-root p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 1.5rem 0;
+  }
+
+  /* Shell / Container */
+  .ws-shell {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* INJECTION 1: THE STRUCTURAL HERO */
+  .ws-hero {
+    position: relative;
+    background-color: var(--brand-black-green);
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 6px solid var(--brand-champagne-gold);
+  }
+
+  .ws-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .ws-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(26, 46, 38, 0.6); 
+    z-index: 2;
+  }
+
+  .ws-hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 850px;
+    padding: 2rem 1.5rem;
+  }
+
+  .ws-hero h1 {
+    color: var(--brand-light-stone);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .ws-hero p {
+    color: var(--brand-light-stone);
+    font-size: 1.15rem;
+    max-width: 750px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  /* INJECTION 2: PROJECT SCOPE & SCALE */
+  .ws-scope {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .ws-scope p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  /* INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE */
+  .ws-hardscaping {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+    border-bottom: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .ws-hardscaping-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .ws-hardscaping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ws-hardscaping-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--brand-charcoal);
+  }
+
+  .ws-hardscaping-list li::before {
+    content: '■';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 0.65rem;
+    color: var(--brand-champagne-gold);
+  }
+
+  .ws-hardscaping-list strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+  }
+
+  /* VISUAL MATRIX & ARCHITECTURAL DATA */
+  .ws-gallery-section {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .ws-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .ws-gallery-item {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/5;
+    border-bottom: 4px solid var(--brand-champagne-gold);
+    box-shadow: 0 10px 25px rgba(26, 46, 38, 0.05);
+    background-color: var(--brand-black-green);
+    cursor: pointer;
+  }
+
+  /* Make specific feature images span differently if needed, here we'll let it flow 3 columns */
+  
+  .ws-gallery-item::after {
+    content: '\f00e';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: var(--brand-champagne-gold);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .ws-gallery-item:hover::after {
+    opacity: 1;
+  }
+
+  .ws-gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease, filter 0.5s ease;
+  }
+
+  .ws-gallery-item:hover .ws-gallery-img {
+    transform: scale(1.05);
+    filter: brightness(0.6);
+  }
+
+  .ws-gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 1rem 1rem;
+    background: linear-gradient(to top, rgba(26,46,38,0.9), transparent);
+    color: var(--brand-light-stone);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  /* LIGHTBOX CSS */
+  .ws-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 46, 38, 0.95);
+    backdrop-filter: blur(5px);
+    overflow: auto;
+  }
+
+  .ws-lightbox.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.4s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .ws-lightbox-img {
+    max-width: 90%;
+    max-height: 80vh;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    border: 3px solid var(--brand-champagne-gold);
+    display: block;
+    margin: auto;
+  }
+
+  .ws-lightbox-caption {
+    margin-top: 1.5rem;
+    color: var(--brand-champagne-gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .ws-lightbox-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: var(--brand-champagne-gold);
+    font-size: 40px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    line-height: 1;
+  }
+
+  .ws-lightbox-close:hover {
+    color: var(--brand-light-stone);
+  }
+
+  /* INJECTION 4: THE DESIGN-ONLY INTERNAL LINKING MATRIX */
+  .ws-matrix {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .ws-matrix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .ws-matrix-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    color: var(--brand-champagne-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border: 1px solid var(--brand-champagne-gold);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    background-color: var(--brand-light-stone);
+  }
+
+  .ws-matrix-link:hover {
+    background-color: var(--brand-pale-sprout);
+    color: var(--brand-black-green);
+    border-color: var(--brand-pale-sprout);
+  }
+
+  @media (max-width: 900px) {
+    .ws-gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 768px) {
+    .ws-hero { min-height: 400px; }
+    .ws-scope, .ws-hardscaping, .ws-gallery-section, .ws-matrix { padding: 3.5rem 0; }
+    .ws-gallery-grid { grid-template-columns: 1fr; }
+    .ws-lightbox-close { top: 15px; right: 20px; }
+  }
+</style>
+
+<div class="ws-root">
+  
+  <div class="ws-breadcrumb-bar">
+    <div class="ws-shell">
+      <nav class="ws-breadcrumb-nav">
+        <a href="/" target="_top">HOME</a>
+        <span class="ws-breadcrumb-sep">/</span>
+        <a href="/portfolio" target="_top">PORTFOLIO</a>
+        <span class="ws-breadcrumb-sep">/</span>
+        <span>WALWORTH SANCTUARY</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- INJECTION 1: THE STRUCTURAL HERO -->
+  <header class="ws-hero">
+    <img src="https://static.wixstatic.com/media/a005fe_72d0035bd17f41e0aba409b3f58d0db7~mv2.jpg" 
+         class="ws-hero-bg" 
+         alt="Modern Walworth backyard with Lugano clay pavers, porcelain tile terrace, and warm garden lighting at night, designed by The Moonlight Garden Design Co.">
+    <div class="ws-hero-overlay"></div>
+    <div class="ws-shell ws-hero-content">
+      <h1>THE WALWORTH SANCTUARY (SE17)</h1>
+      <p>We do not deal in rough drafts. Explore how we mathematically resolved this urban sanctuary before a single stone was laid.</p>
+    </div>
+  </header>
+
+  <!-- INJECTION 2: PROJECT SCOPE & SCALE -->
+  <section class="ws-scope">
+    <div class="ws-shell">
+      <h2>ARCHITECTURAL SCOPE & SCALE</h2>
+      <p>A comprehensive front entrance and rear courtyard renovation, transforming a tired urban plot into a highly structured, multi-textured nocturnal retreat using contrasting luxury materials.</p>
+    </div>
+  </section>
+
+  <!-- INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE -->
+  <section class="ws-hardscaping">
+    <div class="ws-shell">
+      <div class="ws-hardscaping-content">
+        <h2>ARCHITECTURAL HARDSCAPING & SOFT CANOPY</h2>
+        <ul class="ws-hardscaping-list">
+          <li><strong>Dual-Zone Sub-Base Engineering:</strong> Full clearance and structural preparation across both the front and rear elevations to create perfectly level sub-bases.</li>
+          <li><strong>Material Contrast & Paving:</strong> Sleek Kandla Grey Porcelain tiles paired with traditional Lugano Clay Pavers to balance crisp modern lines with timeless texture. The rear architecture is further defined by the installation of precision stone coping.</li>
+          <li><strong>Geometric Precision:</strong> The clay pavers were meticulously laid in a 45-degree herringbone pattern, expanding into an additional tiled zone in the rear courtyard to create a seamless sense of movement within the compact footprint.</li>
+          <li><strong>Bespoke Boundaries:</strong> Installation of a bespoke, black powder-coated steel garden gate featuring an integrated lock system, securing the perimeter with a modern, heavy-duty aesthetic.</li>
+          <li><strong>Multi-Textured Permeable Surfaces:</strong> The structural geometry is softened by contrasting gravel borders, utilising Spanish Gold 20mm chippings and a dedicated rear installation of 20mm Polar Ice® Gravel to bounce ambient light into the space.</li>
+          <li><strong>Spatial Optimisation & Aesthetics:</strong> Integration of discreet bin storage and 'Vert' (vertical) planting systems to free up valuable floor space. High-contrast materials were selected specifically to reflect ambient and moonlight, creating a dramatic sanctuary after dark.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISUAL MATRIX & ARCHITECTURAL DATA (WITH LIGHTBOX) -->
+  <section class="ws-gallery-section">
+    <div class="ws-shell">
+        <h2 style="text-align: center; margin-bottom: 2.5rem;">VISUAL MATRIX & ARCHITECTURAL BLUEPRINTS</h2>
+        
+        <div class="ws-gallery-grid" id="ws-gallery">
+            <div class="ws-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_14825c6b28854bc4a2d015f7eaa90350~mv2.jpg" class="ws-gallery-img" alt="3D Render Back Courtyard Spatial Layout" loading="lazy">
+                <span class="ws-gallery-caption">1. 3D Spatial Blueprint (Rear)</span>
+            </div>
+            
+            <div class="ws-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_05733651c2334c9abffae85aba11f359~mv2.png" class="ws-gallery-img" alt="Kandla Grey & Herringbone Entrance Completed" loading="lazy">
+                <span class="ws-gallery-caption">2. Kandla Grey & Herringbone Entrance</span>
+            </div>
+
+            <div class="ws-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_8a38be9aa7614c948af2c7402d42f528~mv2.png" class="ws-gallery-img" alt="Finished evening view of the rear courtyard with lighting" loading="lazy">
+                <span class="ws-gallery-caption">3. Nocturnal Sanctuary Integration</span>
+            </div>
+
+            <div class="ws-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_91816596ff414e05bcf39b5ef1fdf4b2~mv2.jpg" class="ws-gallery-img" alt="Close up paving herringbone with Lugano Clay Pavers" loading="lazy">
+                <span class="ws-gallery-caption">4. 45-Degree Herringbone Lugano Clay</span>
+            </div>
+
+            <div class="ws-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_12943763b5834439b4e5371f1edca583~mv2.jpg" class="ws-gallery-img" alt="Front after with planting and integrated bin storage" loading="lazy">
+                <span class="ws-gallery-caption">5. Integrated Bin Storage & Softscaping</span>
+            </div>
+
+            <div class="ws-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_ab47b045f66f451a8ed289bf7a62e1d6~mv2.jpg" class="ws-gallery-img" alt="Pre-Master Plan Intelligence Front Elevation" loading="lazy">
+                <span class="ws-gallery-caption">6. Pre-Master Plan Intelligence (Front)</span>
+            </div>
+
+            <div class="ws-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_689c1b9f1c5d42f0aab53e08842db66c~mv2.jpg" class="ws-gallery-img" alt="Pre-Master Plan Intelligence Rear Elevation" loading="lazy">
+                <span class="ws-gallery-caption">7. Pre-Master Plan Intelligence (Rear)</span>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- INJECTION 4: THE DESIGN-ONLY INTERNAL LINKING MATRIX -->
+  <section class="ws-matrix">
+    <div class="ws-shell">
+      <h2>EXPLORE OUR LUXURY ESTATE ARCHITECTURE</h2>
+      <div class="ws-matrix-grid">
+        <a href="/garden-design-london" class="ws-matrix-link" target="_top">London Master Planning & Consultations</a>
+        <a href="/3d-garden-design-uk" class="ws-matrix-link" target="_top">Remote 3D Design Nationwide</a>
+        <a href="/materials-specification" class="ws-matrix-link" target="_top">Architectural Material Specifications</a>
+        <a href="/design-process" class="ws-matrix-link" target="_top">The 5-Stage Client Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX HTML OVERLAY -->
+  <div id="ws-lightbox" class="ws-lightbox">
+      <span class="ws-lightbox-close">&times;</span>
+      <img class="ws-lightbox-img" id="ws-lightbox-img" alt="Enlarged Blueprint Image">
+      <div class="ws-lightbox-caption" id="ws-lightbox-caption"></div>
+  </div>
+
+  <!-- LIGHTBOX JAVASCRIPT -->
+  <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const lightbox = document.getElementById('ws-lightbox');
+          const lightboxImg = document.getElementById('ws-lightbox-img');
+          const lightboxCaption = document.getElementById('ws-lightbox-caption');
+          const closeBtn = document.querySelector('.ws-lightbox-close');
+          const galleryItems = document.querySelectorAll('.ws-gallery-item');
+
+          galleryItems.forEach(item => {
+              item.addEventListener('click', () => {
+                  lightbox.classList.add('active');
+                  const img = item.querySelector('.ws-gallery-img');
+                  const caption = item.querySelector('.ws-gallery-caption');
+                  
+                  lightboxImg.src = img.src.replace('/v1/fit/w_800', '');
+                  lightboxCaption.innerHTML = caption.innerHTML;
+              });
+          });
+
+          const closeLightbox = () => {
+              lightbox.classList.remove('active');
+          };
+
+          closeBtn.addEventListener('click', closeLightbox);
+          
+          lightbox.addEventListener('click', (e) => {
+              if (e.target === lightbox) {
+                  closeLightbox();
+              }
+          });
+
+          document.addEventListener('keydown', (e) => {
+              if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                  closeLightbox();
+              }
+          });
+      });
+  </script>
+
+</div>
