@@ -1,4 +1,9 @@
-import { createFileRoute } from '@tanstack/react-router';
+const fs = require('fs');
+const path = require('path');
+
+const filePath = path.join(process.cwd(), 'src', 'routes', 'case-studies.balham-cottage-courtyard-garden.tsx');
+
+const expandedBalhamCode = `import { createFileRoute } from '@tanstack/react-router';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -108,3 +113,7 @@ function BalhamCottageCourtyardCaseStudy() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync(filePath, expandedBalhamCode, 'utf8');
+console.log("Successfully updated Balham case study with fade-in and smooth animation styles.");
