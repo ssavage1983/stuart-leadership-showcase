@@ -10,7 +10,7 @@ const linkedInArticles = "https://www.linkedin.com/in/stuartsavage/recent-activi
 
 export const linkedInWriting: LinkedInWriting[] = [
   {
-    title: "The Nocturnal Sanctuary | Edition 5: The National Expansion",
+    title: "Edition 5: The National Expansion: The National Expansion",
     published: "30 March 2026",
     type: "Newsletter",
     description:
@@ -18,7 +18,7 @@ export const linkedInWriting: LinkedInWriting[] = [
     url: linkedInArticles,
   },
   {
-    title: "The Spring Awakening & Structural Planning: Edition 4",
+    title: "Edition 4: The Spring Awakening & Structural Planning",
     published: "6 March 2026",
     type: "Newsletter",
     description:
@@ -34,7 +34,7 @@ export const linkedInWriting: LinkedInWriting[] = [
     url: linkedInArticles,
   },
   {
-    title: "The Nocturnal Journal | Edition 02: The Technical Engine",
+    title: "Edition 2: The Technical Engine",
     published: "3 February 2026",
     type: "Newsletter",
     description:
@@ -42,7 +42,7 @@ export const linkedInWriting: LinkedInWriting[] = [
     url: linkedInArticles,
   },
   {
-    title: "The Nocturnal Sanctuary | Edition 1: Winter Architecture",
+    title: "Edition 1: Winter Architecture",
     published: "20 January 2026",
     type: "Newsletter",
     description:
