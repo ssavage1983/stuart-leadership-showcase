@@ -35,6 +35,16 @@ function BalhamCottageCourtyardCaseStudy() {
           </p>
         </div>
 
+        {/* Featured Case Study Image */}
+        <div className="mb-12 rounded-xl overflow-hidden border shadow-sm">
+          <img
+            src="/images/portfolio/balham-cottage-courtyard-daytime-dining-and-raised-planters.jpg"
+            alt="Balham Cottage Courtyard Daytime Dining and Raised Planters"
+            className="w-full h-auto object-cover max-h-[450px]"
+            loading="lazy"
+          />
+        </div>
+
         {/* Metrics Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 transition-all duration-500">
           <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
@@ -89,6 +99,16 @@ function BalhamCottageCourtyardCaseStudy() {
               create a charming, secluded retreat.
             </p>
           </section>
+
+          {/* Secondary Image */}
+          <div className="rounded-xl overflow-hidden border shadow-sm my-6">
+            <img
+              src="/images/portfolio/balham-cottage-courtyard-dusk-lighting-and-alliums.jpg"
+              alt="Balham Cottage Courtyard Dusk Lighting and Alliums"
+              className="w-full h-auto object-cover max-h-[400px]"
+              loading="lazy"
+            />
+          </div>
 
           {/* Structured Layout Grid for Phases */}
           <section className="space-y-6">
