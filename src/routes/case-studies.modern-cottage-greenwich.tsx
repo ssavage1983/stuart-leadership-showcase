@@ -1,191 +1,115 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, CheckCircle2, ShieldCheck, Clock, Layers, Home } from "lucide-react";
-import { Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/case-studies/modern-cottage-greenwich")({
-  component: ModernCottageGreenwichCaseStudy,
+  component: CaseStudy,
 });
 
-function ModernCottageGreenwichCaseStudy() {
+function CaseStudy() {
   return (
-    <div className="min-h-screen bg-[#f7f4ee] text-[#102a43] font-sans antialiased py-12 px-6 animate-fadeIn transition-opacity duration-700">
-      <div className="max-w-4xl mx-auto px-4 py-12">
-        <Link
-          to="/case-studies"
-          className="inline-flex items-center text-muted-foreground hover:text-foreground mb-8 text-sm transition-colors duration-300 transform hover:-translate-x-1"
-        >
-          <ArrowLeft className="w-4 h-4 mr-2" /> Back to Case Studies Archive
-        </Link>
-
-        {/* Header Section */}
-        <div className="space-y-4 mb-8 transform transition-all duration-700 translate-y-0 opacity-100">
-          <Badge
-            variant="outline"
-            className="text-xs uppercase tracking-wider animate-pulse flex items-center gap-1.5 w-fit"
+    <article className="min-h-screen bg-[#f5f1e9] text-[#102845]">
+      <header className="bg-[#102845] px-6 py-14 text-[#f8f7f3] sm:py-20">
+        <div className="mx-auto max-w-4xl">
+          <Link
+            to="/case-studies"
+            className="text-xs font-bold uppercase tracking-widest text-[#c9ad72] hover:text-white"
           >
-            <Home className="w-3.5 h-3.5 text-primary" /> Project Archive · Heritage Integration &
-            Contemporary Hard Landscaping
-          </Badge>
-          <h1 className="text-4xl font-bold tracking-tight">Modern Cottage, Greenwich</h1>
-          <p className="text-xl text-muted-foreground leading-relaxed">
+            &larr; Case studies archive
+          </Link>
+          <p className="mt-10 text-xs font-bold uppercase tracking-widest text-[#c9ad72]">
+            Project Archive · Heritage Integration & Contemporary Hard Landscaping
+          </p>
+          <h1 className="mt-4 font-serif text-4xl font-normal leading-tight sm:text-6xl">
+            Modern Cottage, Greenwich
+          </h1>
+          <p className="mt-6 max-w-3xl text-base text-[#f8f7f3]/75">
             Bridging historic character with contemporary clean lines through precision hard
             landscaping, structural timber detailing, and integrated level thresholds in a historic
             Greenwich setting.
           </p>
         </div>
+      </header>
 
-        {/* Featured Case Study Image */}
-        <div className="mb-12 rounded-xl overflow-hidden border shadow-sm">
-          <img
-            src="/images/portfolio/greenwich-modern-cottage-garden-overview.jpg"
-            alt="Greenwich Modern Cottage Garden Overview"
-            className="w-full h-auto object-cover max-h-[450px]"
-            loading="lazy"
-          />
-        </div>
+      <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
+        <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700 shadow-sm">
+          <strong className="block text-[#102845]">Archive-only notice</strong>
+          This historic project record is retained for reference and as evidence for future
+          professional leadership roles. SAVAGELDN and The Moonlight Garden Design Co. closed in May
+          2026; their former URLs are inactive business archives, not current offers or invitations
+          to book.
+        </aside>
 
-        {/* Metrics Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 transition-all duration-500">
-          <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Design Approach</CardTitle>
-              <Clock className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Heritage Blend</div>
-              <p className="text-xs text-muted-foreground mt-1">Balancing old & new architecture</p>
-            </CardContent>
-          </Card>
-
-          <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Material Execution</CardTitle>
-              <Layers className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Porcelain & Oak</div>
-              <p className="text-xs text-muted-foreground mt-1">Durable, high-spec finishes</p>
-            </CardContent>
-          </Card>
-
-          <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Quality Standard</CardTitle>
-              <ShieldCheck className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Zero-Defect Handover</div>
-              <p className="text-xs text-muted-foreground mt-1">Seamless indoor-outdoor flow</p>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Detailed Operational Content */}
-        <div className="space-y-10 text-muted-foreground leading-relaxed">
-          <section className="space-y-4 transition-all duration-500">
-            <h2 className="text-2xl font-semibold text-foreground">
-              Project Background & Architectural Context
-            </h2>
-            <p>
-              Situated in the historic borough of Greenwich, this property presented a fascinating
-              spatial juxtaposition: a charming period cottage coupled with a fragmented, poorly
-              draining rear garden that lacked functional continuity with the interior. The
-              objective was to modernize the exterior layout while respecting the historical
-              integrity of the primary dwelling.
-            </p>
-            <p>
-              The logistical plan required careful handling of heavy porcelain units and structural
-              timber frameworks through restricted side access, ensuring absolute protection of the
-              property's vintage brickwork and existing structural thresholds.
-            </p>
-          </section>
-
-          {/* Secondary Image */}
-          <div className="rounded-xl overflow-hidden border shadow-sm my-6">
+        <div className="mt-10">
+          <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
             <img
-              src="/images/portfolio/greenwich-modern-cottage-shade-planting-detail.jpg"
-              alt="Greenwich Modern Cottage Shade Planting Detail"
-              className="w-full h-auto object-cover max-h-[400px]"
+              src="/images/portfolio/greenwich-modern-cottage-garden-overview.jpg"
+              alt="Modern Cottage, Greenwich"
+              className="h-auto w-full object-cover max-h-[480px]"
               loading="lazy"
             />
+          </figure>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Design / Focus
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Heritage Blend</div>
+            </div>
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Materials / Scope
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Porcelain & Oak</div>
+            </div>
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Quality Standard
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Zero-Defect Handover</div>
+            </div>
           </div>
 
-          {/* Structured Layout Grid for Phases */}
-          <section className="space-y-6">
-            <h2 className="text-2xl font-semibold text-foreground">Phased Operational Execution</h2>
-            <p>
-              To achieve flawless technical execution and maintain strict milestone discipline, the
-              build was divided into four distinct phases:
-            </p>
+          <div className="space-y-8 text-base text-slate-700 leading-relaxed bg-white p-8 rounded border border-[#102845]/15 shadow-sm">
+            <section className="space-y-4">
+              <h2 className="font-serif text-2xl font-normal text-[#102845]">
+                Project Overview & Context
+              </h2>
+              <p>
+                This project demonstrates rigorous operational planning, stakeholder management, and
+                precision execution within a challenging urban footprint. Every phase was governed
+                by strict quality milestones and comprehensive risk management to ensure a
+                zero-defect handover.
+              </p>
+              <p>
+                Through disciplined supply chain coordination and detailed structural detailing, the
+                installation achieves lasting functional reliability alongside exceptional aesthetic
+                presentation.
+              </p>
+            </section>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
-              <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
-                <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">
-                    1
-                  </div>
-                  Threshold Alignment & Drainage
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Correcting legacy grade discrepancies to establish flush internal-to-external door
-                  thresholds backed by a high-capacity sub-surface drainage grid.
-                </p>
-              </div>
-
-              <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
-                <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">
-                    2
-                  </div>
-                  Precision Hard Landscaping
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Laying external-grade vitrified porcelain paving with slurry priming and exterior
-                  jointing compounds to guarantee long-term slip resistance and frost durability.
-                </p>
-              </div>
-
-              <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
-                <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">
-                    3
-                  </div>
-                  Architectural Joinery & Screening
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Constructing bespoke timber boundaries and seating features that soften the hard
-                  edges and introduce natural warmth against the stone paving.
-                </p>
-              </div>
-
-              <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
-                <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">
-                    4
-                  </div>
-                  Planting & Environmental Polish
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Integrating layered perennial planting beds and low-profile architectural lighting
-                  to frame the garden contours and provide evening visual depth.
-                </p>
-              </div>
+            <div className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+              <img
+                src="/images/portfolio/greenwich-modern-cottage-shade-planting-detail.jpg"
+                alt="Modern Cottage, Greenwich detail"
+                className="h-auto w-full object-cover max-h-[444px]"
+                loading="lazy"
+              />
             </div>
-          </section>
 
-          <section className="space-y-4 pt-4">
-            <h2 className="text-2xl font-semibold text-foreground">Outcome & Professional Value</h2>
-            <p>
-              The Modern Cottage transformation successfully bridges historical charm with modern
-              operational utility. Through careful material governance, risk mitigation, and
-              structured site sequencing, the project was delivered on schedule and to a zero-defect
-              standard.
-            </p>
-          </section>
+            <section className="space-y-4 pt-4 border-t border-[#102845]/10">
+              <h2 className="font-serif text-2xl font-normal text-[#102845]">
+                Operational Governance & Delivery
+              </h2>
+              <p>
+                From initial site survey to final commissioning, operations were structured around
+                transparent milestone tracking, minimal neighborhood disruption, and uncompromising
+                material standards.
+              </p>
+            </section>
+          </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
