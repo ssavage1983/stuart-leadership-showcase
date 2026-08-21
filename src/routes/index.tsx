@@ -510,7 +510,7 @@ function Index() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link
-              to="/case-studies/balham-transformation"
+              to="/case-studies/balham-cottage-courtyard-garden"
               className="block border border-[#102a43]/16 bg-white rounded overflow-hidden group shadow-sm"
             >
               <img
