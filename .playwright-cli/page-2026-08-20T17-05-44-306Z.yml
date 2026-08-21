@@ -1,0 +1,102 @@
+- generic [ref=f103e3]:
+  - region "top of page"
+  - generic [ref=f103e11]:
+    - generic:
+      - banner
+      - main:
+        - generic [ref=f103e29]:
+          - navigation "Blog" [ref=f103e32]:
+            - list [ref=f103e33] [cursor=pointer]:
+              - listitem [ref=f103e34]:
+                - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f103e35]:
+                  - /url: https://www.savageldn.co.uk/insights
+              - listitem [ref=f103e36]:
+                - link "Plant & Horticulture Archive" [ref=f103e37]:
+                  - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+              - listitem [ref=f103e38]:
+                - link "Project Delivery Archive" [ref=f103e39]:
+                  - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+              - listitem [ref=f103e40]:
+                - link "Garden Design Archive" [ref=f103e41]:
+                  - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+              - listitem [ref=f103e42]:
+                - link "Supplier & Systems Archive" [ref=f103e43]:
+                  - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+          - generic [ref=f103e45]:
+            - article [ref=f103e49]:
+              - generic [ref=f103e50]:
+                - generic [ref=f103e52]:
+                  - generic [ref=f103e53]:
+                    - heading "Why We Use Shoot Gardening Technology" [level=1] [ref=f103e55]
+                    - generic [ref=f103e56]:
+                      - list [ref=f103e57]:
+                        - listitem [ref=f103e58]:
+                          - 'img "Writer: Stuart Savage" [ref=f103e61]'
+                          - generic [ref=f103e62] [cursor=pointer]: Stuart Savage
+                        - listitem [ref=f103e63]: ·Dec 10, 2025
+                        - listitem [ref=f103e64]: ·1 min read
+                      - button "More actions" [ref=f103e66] [cursor=pointer]
+                  - paragraph [ref=f103e69]: "Updated: Jan 14"
+                  - button "Rated NaN out of 5 stars." [ref=f103e70] [cursor=pointer]
+                - generic [ref=f103e91]:
+                  - figure [ref=f103e95]:
+                    - generic [ref=f103e96]:
+                      - img "Collage of various plants and flowers, including ferns, grasses, blue and pink flowers, and leafy greens. Lush, vibrant greenery theme." [ref=f103e101] [cursor=pointer]
+                      - button "Expand image"
+                    - generic [ref=f103e102]: Modern Cottage Garden Mood Board
+                  - 'heading "Shoot Gardening: Bridging the Gap Between Design and Reality" [level=2] [ref=f103e106]'
+                  - paragraph [ref=f103e114]:
+                    - generic [ref=f103e115]: "In the world of high-end garden design, the \"reveal\" is everything. Clients fall in love with the 3D visuals, the lighting concepts, and the atmosphere we create during the presentation phase. But the long-term success of a garden—the difference between a space that thrives for decades and one that fails in a year—relies on something far less glamorous than renders: horticultural data."
+                  - paragraph [ref=f103e123]:
+                    - generic [ref=f103e124]:
+                      - generic [ref=f103e125]: For years, running
+                      - strong [ref=f103e126]:
+                        - generic [ref=f103e127]: Stuart Savage Landscaping
+                      - generic [ref=f103e128]: ", I searched for a system that could bridge the gap between my creative vision and the practical reality of horticulture. As a designer and landscaper, I didn't just need a plant database; I needed a professional management suite that could handle complex planting palettes for both my physical builds in London and my remote design clients across the UK. I needed a tool as rigorous in soil science as I am in aesthetics."
+                  - paragraph [ref=f103e133]:
+                    - generic [ref=f103e134]:
+                      - generic [ref=f103e135]: That is why
+                      - link "Shoot Gardening" [ref=f103e136] [cursor=pointer]:
+                        - /url: https://www.shootgardening.com/
+                        - strong [ref=f103e137]:
+                          - generic [ref=f103e138]: Shoot Gardening
+                      - generic [ref=f103e140]: has become the unsung hero of my design process. It is the "back-end engine" that powers the beautiful front-end designs we produce at
+                      - link "The Moonlight Garden Design Co" [ref=f103e141] [cursor=pointer]:
+                        - /url: https://www.moonlight-studio.uk/
+                        - emphasis [ref=f103e142]:
+                          - generic [ref=f103e143]: The Moonlight Garden Design Co
+                      - emphasis [ref=f103e145]:
+                        - generic [ref=f103e146]: .
+                      - generic [ref=f103e147]: and execute at
+                      - emphasis [ref=f103e148]:
+                        - generic [ref=f103e149]: Stuart Savage Landscaping
+                      - generic [ref=f103e150]: .
+                  - paragraph [ref=f103e155]:
+                    - emphasis [ref=f103e157]:
+                      - generic [ref=f103e158]: (Continue with the rest of the article body below...)
+                - generic [ref=f103e175]:
+                  - list "Post categories" [ref=f103e177]:
+                    - listitem [ref=f103e178]:
+                      - link "Supplier & Systems Archive" [ref=f103e179] [cursor=pointer]:
+                        - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+                  - generic [ref=f103e182]:
+                    - button "Share via Facebook" [ref=f103e184] [cursor=pointer]:
+                      - img "Facebook" [ref=f103e185]
+                    - button "Share via X (Twitter)" [ref=f103e189] [cursor=pointer]:
+                      - img "X" [ref=f103e190]
+                    - button "Share via LinkedIn" [ref=f103e194] [cursor=pointer]:
+                      - img "LinkedIn" [ref=f103e195]
+                    - button "Share via link" [ref=f103e200] [cursor=pointer]
+            - generic [ref=f103e211]:
+              - generic [ref=f103e212]:
+                - heading "Recent Posts" [level=2] [ref=f103e213]
+                - link "See All" [ref=f103e214] [cursor=pointer]:
+                  - /url: https://www.savageldn.co.uk/insights
+              - article [ref=f103e217]:
+                - generic [ref=f103e218]:
+                  - link "Eye-level view of a stone-paved garden patio with integrated lighting and lush greenery" [ref=f103e219] [cursor=pointer]:
+                    - /url: https://www.savageldn.co.uk/post/creative-gardens
+                  - 'link "CREATIVE GARDEN PATIO DESIGNS FOR EVERY HOME: PATIO DESIGN INSPIRATION" [ref=f103e224] [cursor=pointer]':
+                    - /url: https://www.savageldn.co.uk/post/creative-gardens
+      - contentinfo
+  - region "bottom of page"

@@ -1,0 +1,555 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<style>
+  :root {
+    --brand-light-stone: #f9f9f7;
+    --brand-light-sage: #eef2f0;
+    --brand-black-green: #1a2e26;
+    --brand-heritage-green: #1e4d3b;
+    --brand-charcoal: #4a4a4a;
+    --brand-champagne-gold: #bfa87e;
+    --brand-pale-sprout: #c5f1b2;
+  }
+
+  /* Structural Reset */
+  .bcc-root, .bcc-root * {
+    box-sizing: border-box;
+  }
+
+  .bcc-root {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--brand-charcoal);
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    overflow-x: hidden;
+    background-color: var(--brand-light-stone);
+  }
+
+  /* Breadcrumb Bar */
+  .bcc-breadcrumb-bar {
+    background-color: var(--brand-light-stone);
+    padding: 1.5rem 0 1.25rem;
+  }
+
+  .bcc-breadcrumb-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--brand-charcoal);
+  }
+
+  .bcc-breadcrumb-nav a {
+    color: var(--brand-champagne-gold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .bcc-breadcrumb-nav a:hover {
+    color: var(--brand-black-green);
+  }
+
+  .bcc-breadcrumb-sep {
+    color: var(--brand-charcoal);
+    opacity: 0.4;
+  }
+
+  /* Typography */
+  .bcc-root h1, .bcc-root h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--brand-black-green);
+    margin: 0 0 1.25rem 0;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
+  .bcc-root h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+    margin: 0 0 1rem 0;
+    line-height: 1.3;
+  }
+
+  .bcc-root p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 1.5rem 0;
+  }
+
+  /* Shell / Container */
+  .bcc-shell {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* INJECTION 1: THE STRUCTURAL HERO */
+  .bcc-hero {
+    position: relative;
+    background-color: var(--brand-black-green);
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 6px solid var(--brand-champagne-gold);
+  }
+
+  .bcc-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .bcc-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(26, 46, 38, 0.6); 
+    z-index: 2;
+  }
+
+  .bcc-hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 850px;
+    padding: 2rem 1.5rem;
+  }
+
+  .bcc-hero h1 {
+    color: var(--brand-light-stone);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .bcc-hero p {
+    color: var(--brand-light-stone);
+    font-size: 1.15rem;
+    max-width: 750px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  /* INJECTION 2: PROJECT SCOPE & SCALE */
+  .bcc-scope {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .bcc-scope p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  /* INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE */
+  .bcc-hardscaping {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+    border-bottom: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .bcc-hardscaping-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .bcc-hardscaping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bcc-hardscaping-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--brand-charcoal);
+  }
+
+  .bcc-hardscaping-list li::before {
+    content: '■';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 0.65rem;
+    color: var(--brand-champagne-gold);
+  }
+
+  .bcc-hardscaping-list strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+  }
+
+  /* VISUAL MATRIX & ARCHITECTURAL DATA */
+  .bcc-gallery-section {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .bcc-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .bcc-gallery-item {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/5;
+    border-bottom: 4px solid var(--brand-champagne-gold);
+    box-shadow: 0 10px 25px rgba(26, 46, 38, 0.05);
+    background-color: var(--brand-black-green);
+    cursor: pointer;
+  }
+
+  /* Overlay icon to signify it is clickable */
+  .bcc-gallery-item::after {
+    content: '\f00e';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: var(--brand-champagne-gold);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .bcc-gallery-item:hover::after {
+    opacity: 1;
+  }
+
+  .bcc-gallery-media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease, filter 0.5s ease;
+  }
+
+  .bcc-gallery-item:hover .bcc-gallery-media {
+    transform: scale(1.05);
+    filter: brightness(0.6);
+  }
+
+  .bcc-gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 1rem 1rem;
+    background: linear-gradient(to top, rgba(26,46,38,0.9), transparent);
+    color: var(--brand-light-stone);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  /* LIGHTBOX CSS */
+  .bcc-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 46, 38, 0.95);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+  }
+
+  .bcc-lightbox.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.4s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .bcc-lightbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-height: 80vh;
+  }
+
+  .bcc-lightbox-element {
+    max-width: 100%;
+    max-height: 80vh;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    border: 3px solid var(--brand-champagne-gold);
+    display: block;
+    margin: auto;
+  }
+
+  .bcc-lightbox-caption {
+    margin-top: 1.5rem;
+    color: var(--brand-champagne-gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .bcc-lightbox-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: var(--brand-champagne-gold);
+    font-size: 40px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    line-height: 1;
+    z-index: 10000;
+  }
+
+  .bcc-lightbox-close:hover {
+    color: var(--brand-light-stone);
+  }
+
+  /* INJECTION 4: THE DESIGN-ONLY INTERNAL LINKING MATRIX */
+  .bcc-matrix {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .bcc-matrix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .bcc-matrix-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    color: var(--brand-champagne-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border: 1px solid var(--brand-champagne-gold);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    background-color: var(--brand-light-stone);
+  }
+
+  .bcc-matrix-link:hover {
+    background-color: var(--brand-pale-sprout);
+    color: var(--brand-black-green);
+    border-color: var(--brand-pale-sprout);
+  }
+
+  @media (max-width: 900px) {
+    .bcc-gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 768px) {
+    .bcc-hero { min-height: 400px; }
+    .bcc-scope, .bcc-hardscaping, .bcc-gallery-section, .bcc-matrix { padding: 3.5rem 0; }
+    .bcc-gallery-grid { grid-template-columns: 1fr; }
+    .bcc-lightbox-close { top: 15px; right: 20px; }
+  }
+</style>
+
+<div class="bcc-root">
+  
+  <div class="bcc-breadcrumb-bar">
+    <div class="bcc-shell">
+      <nav class="bcc-breadcrumb-nav">
+        <a href="/" target="_top">HOME</a>
+        <span class="bcc-breadcrumb-sep">/</span>
+        <a href="/portfolio" target="_top">PORTFOLIO</a>
+        <span class="bcc-breadcrumb-sep">/</span>
+        <span>BALHAM COTTAGE COURTYARD</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- INJECTION 1: THE STRUCTURAL HERO -->
+  <header class="bcc-hero">
+    <img src="https://static.wixstatic.com/media/a005fe_5bc6ecaef1ac49caaec364dec62d5fd3~mv2.jpg" 
+         class="bcc-hero-bg" 
+         alt="Professional masonry and hard landscaping for a Balham courtyard garden featuring stone steps, bespoke brick planters, and clean geometric lines.">
+    <div class="bcc-hero-overlay"></div>
+    <div class="bcc-shell bcc-hero-content">
+      <h1>THE CHILD-FRIENDLY OASIS: BALHAM COTTAGE COURTYARD</h1>
+      <p>We do not deal in rough drafts. Explore how we mathematically resolved this urban sanctuary before a single stone was laid.</p>
+    </div>
+  </header>
+
+  <!-- INJECTION 2: PROJECT SCOPE & SCALE -->
+  <section class="bcc-scope">
+    <div class="bcc-shell">
+      <h2>ARCHITECTURAL SCOPE & SCALE</h2>
+      <p>A comprehensive family-focused garden renovation designed to improve safety, usability, and visual appeal, integrating elevated tumbled limestone, bespoke brick masonry, and layered cottage softscaping.</p>
+    </div>
+  </section>
+
+  <!-- INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE -->
+  <section class="bcc-hardscaping">
+    <div class="bcc-shell">
+      <div class="bcc-hardscaping-content">
+        <h2>ARCHITECTURAL HARDSCAPING & SOFT CANOPY</h2>
+        <ul class="bcc-hardscaping-list">
+          <li><strong>Structural Raised Base:</strong> Construction of a reinforced raised area (2.90m x 2.80m) to support the patio without compromising the structural integrity of the boundary fences or planters. Engineered with shuttering plywood, a poured ballast/cement mix, and heavy-duty reinforcement mesh to ensure zero cracking and movement.</li>
+          <li><strong>Precision Limestone Paving:</strong> 28.2m² of Dijon Tumbled Limestone Pavers (600x400x30mm) laid flawlessly across a multi-zone layout. Finished with Kerakoll #43 'Limestone' grout and protected with Lithofin MN Stain Stop sealant for ultimate, slip-resistant longevity.</li>
+          <li><strong>Bespoke Brick Architecture:</strong> Custom-built raised bed planters constructed from 500 Cottage Facing Bricks. Internally waterproofed with Black Jack to ensure absolute structural integrity and prevent moisture bleed through the masonry.</li>
+          <li><strong>Brick Pathway Detailing:</strong> Intricate setting of brick pathways linking the planters, creating clean, geometric access routes across the courtyard.</li>
+          <li><strong>Biological Sub-Base:</strong> Excavation of trenches and planters, enriched with jumbo bulk bags of premium topsoil to prime the biological foundation for deep root establishment.</li>
+          <li><strong>Textural Gravel Surfaces:</strong> Installation of decorative gravel and soil integration to create a low-maintenance, permeable finish across the non-paved zones.</li>
+          <li><strong>Child-Safe Flora:</strong> A low-maintenance, English Cottage Garden planting scheme featuring safe, tactile plants including Siberian bugloss and giant allium, adding layered texture and seasonal interest without demanding high upkeep.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISUAL MATRIX & ARCHITECTURAL DATA (WITH LIGHTBOX) -->
+  <section class="bcc-gallery-section">
+    <div class="bcc-shell">
+        <h2 style="text-align: center; margin-bottom: 2.5rem;">VISUAL MATRIX & ARCHITECTURAL BLUEPRINTS</h2>
+        
+        <div class="bcc-gallery-grid" id="bcc-gallery">
+            <div class="bcc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_83795358ed1f46e783522d83266a67c6~mv2.jpg" class="bcc-gallery-media" alt="Overview of the Balham Cottage Courtyard featuring Dijon Limestone and Bespoke Brick Masonry" loading="lazy">
+                <span class="bcc-gallery-caption">1. Structural Masonry & Spatial Geometry</span>
+            </div>
+            
+            <div class="bcc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_f1d3cb6347bb47918756692260a09cc2~mv2.jpg" class="bcc-gallery-media" alt="Modern Courtyard Dining with Grey Slatted Fence in London" loading="lazy">
+                <span class="bcc-gallery-caption">2. Modern Courtyard Dining</span>
+            </div>
+
+            <div class="bcc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_beecdee9012b42178c5de097b3653afb~mv2.png" class="bcc-gallery-media" alt="Lighting Specification Plan for Balham Cottage Courtyard" loading="lazy">
+                <span class="bcc-gallery-caption">3. Lighting Specification Plan</span>
+            </div>
+
+            <div class="bcc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_28b9dae7fc664028a621ae25b7748ee7~mv2.jpg" class="bcc-gallery-media" alt="Cottage Softscaping featuring Alliums and Lavender" loading="lazy">
+                <span class="bcc-gallery-caption">4. Verified Softscaping: Alliums & Lavender</span>
+            </div>
+
+            <div class="bcc-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_b65dae770299421097cf533b6a36f35f~mv2.jpg" class="bcc-gallery-media" alt="Garden Design Site Survey Measurement Sketch" loading="lazy">
+                <span class="bcc-gallery-caption">5. Pre-Master Plan Site Intelligence</span>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- INJECTION 4: THE DESIGN-ONLY INTERNAL LINKING MATRIX -->
+  <section class="bcc-matrix">
+    <div class="bcc-shell">
+      <h2>EXPLORE OUR LUXURY ESTATE ARCHITECTURE</h2>
+      <div class="bcc-matrix-grid">
+        <a href="/garden-design-london" class="bcc-matrix-link" target="_top">London Master Planning & Consultations</a>
+        <a href="/3d-garden-design-uk" class="bcc-matrix-link" target="_top">Remote 3D Design Nationwide</a>
+        <a href="/materials-specification" class="bcc-matrix-link" target="_top">Architectural Material Specifications</a>
+        <a href="/design-process" class="bcc-matrix-link" target="_top">The 5-Stage Client Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX HTML OVERLAY -->
+  <div id="bcc-lightbox" class="bcc-lightbox">
+      <span class="bcc-lightbox-close">&times;</span>
+      <div class="bcc-lightbox-container" id="bcc-lightbox-container"></div>
+      <div class="bcc-lightbox-caption" id="bcc-lightbox-caption"></div>
+  </div>
+
+  <!-- LIGHTBOX JAVASCRIPT -->
+  <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const lightbox = document.getElementById('bcc-lightbox');
+          const lightboxContainer = document.getElementById('bcc-lightbox-container');
+          const lightboxCaption = document.getElementById('bcc-lightbox-caption');
+          const closeBtn = document.querySelector('.bcc-lightbox-close');
+          const galleryItems = document.querySelectorAll('.bcc-gallery-item');
+
+          galleryItems.forEach(item => {
+              item.addEventListener('click', () => {
+                  lightbox.classList.add('active');
+                  const media = item.querySelector('.bcc-gallery-media');
+                  const caption = item.querySelector('.bcc-gallery-caption');
+                  
+                  lightboxCaption.innerHTML = caption.innerHTML;
+                  lightboxContainer.innerHTML = ''; // Clear previous
+
+                  if (media.tagName.toLowerCase() === 'IMG') {
+                      const img = document.createElement('img');
+                      img.src = media.src.replace('/v1/fit/w_800', '');
+                      img.className = 'bcc-lightbox-element';
+                      img.alt = media.alt;
+                      lightboxContainer.appendChild(img);
+                  }
+              });
+          });
+
+          const closeLightbox = () => {
+              lightbox.classList.remove('active');
+              lightboxContainer.innerHTML = '';
+          };
+
+          closeBtn.addEventListener('click', closeLightbox);
+          
+          lightbox.addEventListener('click', (e) => {
+              if (e.target === lightbox || e.target.classList.contains('bcc-lightbox-container')) {
+                  closeLightbox();
+              }
+          });
+
+          document.addEventListener('keydown', (e) => {
+              if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                  closeLightbox();
+              }
+          });
+      });
+  </script>
+
+</div>

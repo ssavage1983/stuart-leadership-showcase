@@ -1,0 +1,527 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<style>
+  :root {
+    --brand-light-stone: #f9f9f7;
+    --brand-light-sage: #eef2f0;
+    --brand-black-green: #1a2e26;
+    --brand-heritage-green: #1e4d3b;
+    --brand-charcoal: #4a4a4a;
+    --brand-champagne-gold: #bfa87e;
+    --brand-pale-sprout: #c5f1b2;
+  }
+
+  /* Structural Reset */
+  .bj-root, .bj-root * {
+    box-sizing: border-box;
+  }
+
+  .bj-root {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--brand-charcoal);
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    overflow-x: hidden;
+    background-color: var(--brand-light-stone);
+  }
+
+  /* Breadcrumb Bar */
+  .bj-breadcrumb-bar {
+    background-color: var(--brand-light-stone);
+    padding: 1.5rem 0 1.25rem;
+  }
+
+  .bj-breadcrumb-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--brand-charcoal);
+  }
+
+  .bj-breadcrumb-nav a {
+    color: var(--brand-champagne-gold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .bj-breadcrumb-nav a:hover {
+    color: var(--brand-black-green);
+  }
+
+  .bj-breadcrumb-sep {
+    color: var(--brand-charcoal);
+    opacity: 0.4;
+  }
+
+  /* Typography */
+  .bj-root h1, .bj-root h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--brand-black-green);
+    margin: 0 0 1.25rem 0;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
+  .bj-root h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+    margin: 0 0 1rem 0;
+    line-height: 1.3;
+  }
+
+  .bj-root p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 1.5rem 0;
+  }
+
+  /* Shell / Container */
+  .bj-shell {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* INJECTION 1: THE STRUCTURAL HERO */
+  .bj-hero {
+    position: relative;
+    background-color: var(--brand-black-green);
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 6px solid var(--brand-champagne-gold);
+  }
+
+  .bj-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .bj-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(26, 46, 38, 0.6); 
+    z-index: 2;
+  }
+
+  .bj-hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 850px;
+    padding: 2rem 1.5rem;
+  }
+
+  .bj-hero h1 {
+    color: var(--brand-light-stone);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .bj-hero p {
+    color: var(--brand-light-stone);
+    font-size: 1.15rem;
+    max-width: 750px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  /* INJECTION 2: PROJECT SCOPE & SCALE */
+  .bj-scope {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .bj-scope p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  /* INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE */
+  .bj-hardscaping {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+    border-bottom: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .bj-hardscaping-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .bj-hardscaping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .bj-hardscaping-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--brand-charcoal);
+  }
+
+  .bj-hardscaping-list li::before {
+    content: '■';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 0.65rem;
+    color: var(--brand-champagne-gold);
+  }
+
+  .bj-hardscaping-list strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+  }
+
+  /* INJECTION 4: VISUAL MATRIX & HORTICULTURAL DATA */
+  .bj-gallery-section {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .bj-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .bj-gallery-item {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    border-bottom: 4px solid var(--brand-champagne-gold);
+    box-shadow: 0 10px 25px rgba(26, 46, 38, 0.05);
+    background-color: var(--brand-black-green);
+    cursor: pointer;
+  }
+
+  /* Added overlay icon to signify it is clickable */
+  .bj-gallery-item::after {
+    content: '\f00e';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: var(--brand-champagne-gold);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .bj-gallery-item:hover::after {
+    opacity: 1;
+  }
+
+  .bj-gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease, filter 0.5s ease;
+  }
+
+  .bj-gallery-item:hover .bj-gallery-img {
+    transform: scale(1.05);
+    filter: brightness(0.6);
+  }
+
+  .bj-gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 1rem 1rem;
+    background: linear-gradient(to top, rgba(26,46,38,0.9), transparent);
+    color: var(--brand-light-stone);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  /* LIGHTBOX CSS */
+  .bj-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 46, 38, 0.95);
+    backdrop-filter: blur(5px);
+    overflow: auto;
+  }
+
+  .bj-lightbox.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.4s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .bj-lightbox-img {
+    max-width: 90%;
+    max-height: 80vh;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    border: 3px solid var(--brand-champagne-gold);
+    display: block;
+    margin: auto;
+  }
+
+  .bj-lightbox-caption {
+    margin-top: 1.5rem;
+    color: var(--brand-champagne-gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .bj-lightbox-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: var(--brand-champagne-gold);
+    font-size: 40px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    line-height: 1;
+  }
+
+  .bj-lightbox-close:hover {
+    color: var(--brand-light-stone);
+  }
+
+  /* INJECTION 5: THE DESIGN-ONLY INTERNAL LINKING MATRIX */
+  .bj-matrix {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .bj-matrix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .bj-matrix-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    color: var(--brand-champagne-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border: 1px solid var(--brand-champagne-gold);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    background-color: var(--brand-light-stone);
+  }
+
+  .bj-matrix-link:hover {
+    background-color: var(--brand-pale-sprout);
+    color: var(--brand-black-green);
+    border-color: var(--brand-pale-sprout);
+  }
+
+  @media (max-width: 768px) {
+    .bj-hero { min-height: 400px; }
+    .bj-scope, .bj-hardscaping, .bj-gallery-section, .bj-matrix { padding: 3.5rem 0; }
+    .bj-gallery-grid { grid-template-columns: 1fr; }
+    .bj-lightbox-close { top: 15px; right: 20px; }
+  }
+</style>
+
+<div class="bj-root">
+  
+  <div class="bj-breadcrumb-bar">
+    <div class="bj-shell">
+      <nav class="bj-breadcrumb-nav">
+        <a href="/" target="_top">HOME</a>
+        <span class="bj-breadcrumb-sep">/</span>
+        <a href="/portfolio" target="_top">PORTFOLIO</a>
+        <span class="bj-breadcrumb-sep">/</span>
+        <span>BRIXTON JUNGLE TRANSFORMATION</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- INJECTION 1: THE STRUCTURAL HERO -->
+  <header class="bj-hero">
+    <img src="https://static.wixstatic.com/media/a005fe_ca832b0e08eb4d0c88803b1482c9dace~mv2.jpg" 
+         class="bj-hero-bg" 
+         alt="A cinematic Jungle Sanctuary in South London featuring integrated lighting and timber architecture.">
+    <div class="bj-hero-overlay"></div>
+    <div class="bj-shell bj-hero-content">
+      <h1>BRIXTON JUNGLE GARDEN TRANSFORMATION</h1>
+      <p>We do not deal in rough drafts. Explore how we mathematically resolved this urban sanctuary before a single stone was laid.</p>
+    </div>
+  </header>
+
+  <!-- INJECTION 2: PROJECT SCOPE & SCALE -->
+  <section class="bj-scope">
+    <div class="bj-shell">
+      <h2>ARCHITECTURAL SCOPE & SCALE</h2>
+      <p>A dramatic urban overhaul in Brixton, SW2. This 'Jungle Sanctuary' was engineered to maximise visual depth and absolute seclusion within a compact footprint, featuring tiered reclaimed brick walls, tropical planting with Tree Ferns and Silver Birch, and advanced 12V LED lighting.</p>
+    </div>
+  </section>
+
+  <!-- INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE -->
+  <section class="bj-hardscaping">
+    <div class="bj-shell">
+      <div class="bj-hardscaping-content">
+        <h2>ARCHITECTURAL HARDSCAPING & SOFT CANOPY</h2>
+        <ul class="bj-hardscaping-list">
+          <li><strong>Level Management:</strong> Specified tiered retaining walls utilizing reclaimed heritage brick and oak sleepers to manage challenging garden elevations and add established character.</li>
+          <li><strong>Bespoke Timber Architecture:</strong> Engineered an integrated timber seating and dining zone built with premium hardwoods to create a highly functional entertaining space.</li>
+          <li><strong>Privacy Engineering:</strong> Mapped perimeter slatted fencing designed to completely block neighbouring sightlines in a high-density urban plot, establishing absolute "Visual Silence".</li>
+          <li><strong>Tropical Flora:</strong> Curated a layered planting scheme anchored by striking Tree Ferns and Silver Birch to create a dense, prehistoric aesthetic.</li>
+          <li><strong>Advanced LED Lighting:</strong> Specified a 12V low-voltage LED design featuring warm step lighting and uplighting to cast dramatic silhouettes across the tropical canopy at twilight.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- INJECTION 4: VISUAL MATRIX & ARCHITECTURAL DATA (NOW WITH LIGHTBOX) -->
+  <section class="bj-gallery-section">
+    <div class="bj-shell">
+        <h2 style="text-align: center; margin-bottom: 2.5rem;">VISUAL MATRIX & HORTICULTURAL BLUEPRINTS</h2>
+        
+        <div class="bj-gallery-grid" id="bj-gallery">
+            <div class="bj-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_64e050c6c0264efea76ae954a0d56628~mv2.png" class="bj-gallery-img" alt="Brixton afternoon view of the tropical sanctuary" loading="lazy">
+                <span class="bj-gallery-caption">1. Daytime Spatial Blueprint</span>
+            </div>
+            
+            <div class="bj-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_be20a9b5672c486c8beaba32b784a968~mv2.png" class="bj-gallery-img" alt="Brixton evening view highlighting the 12V LED lighting scheme" loading="lazy">
+                <span class="bj-gallery-caption">2. Evening Lighting Specification</span>
+            </div>
+
+            <div class="bj-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_8820b6d2050a4be28e7b45a2ca0ad56a~mv2.png" class="bj-gallery-img" alt="Entertaining zone in use within the Brixton Jungle Sanctuary" loading="lazy">
+                <span class="bj-gallery-caption">3. Engineered Entertaining Flow</span>
+            </div>
+
+            <div class="bj-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_006d063c053c4feabed0553d812844d9~mv2.jpg" class="bj-gallery-img" alt="Looking back towards the house with an established Tree Fern" loading="lazy">
+                <span class="bj-gallery-caption">4. Architectural Integration & Canopy</span>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- INJECTION 5: THE DESIGN-ONLY INTERNAL LINKING MATRIX -->
+  <section class="bj-matrix">
+    <div class="bj-shell">
+      <h2>EXPLORE OUR LUXURY ESTATE ARCHITECTURE</h2>
+      <div class="bj-matrix-grid">
+        <a href="/garden-design-london" class="bj-matrix-link" target="_top">London Master Planning & Consultations</a>
+        <a href="/3d-garden-design-uk" class="bj-matrix-link" target="_top">Remote 3D Design Nationwide</a>
+        <a href="/materials-specification" class="bj-matrix-link" target="_top">Architectural Material Specifications</a>
+        <a href="/design-process" class="bj-matrix-link" target="_top">The 5-Stage Client Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX HTML OVERLAY -->
+  <div id="bj-lightbox" class="bj-lightbox">
+      <span class="bj-lightbox-close">&times;</span>
+      <img class="bj-lightbox-img" id="bj-lightbox-img" alt="Enlarged Blueprint Image">
+      <div class="bj-lightbox-caption" id="bj-lightbox-caption"></div>
+  </div>
+
+  <!-- LIGHTBOX JAVASCRIPT -->
+  <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const lightbox = document.getElementById('bj-lightbox');
+          const lightboxImg = document.getElementById('bj-lightbox-img');
+          const lightboxCaption = document.getElementById('bj-lightbox-caption');
+          const closeBtn = document.querySelector('.bj-lightbox-close');
+          const galleryItems = document.querySelectorAll('.bj-gallery-item');
+
+          galleryItems.forEach(item => {
+              item.addEventListener('click', () => {
+                  const img = item.querySelector('.bj-gallery-img');
+                  const caption = item.querySelector('.bj-gallery-caption');
+                  
+                  lightbox.classList.add('active');
+                  // Forcing highest quality image string on click
+                  lightboxImg.src = img.src.replace('/v1/fit/w_800', '');
+                  lightboxCaption.innerHTML = caption.innerHTML;
+              });
+          });
+
+          const closeLightbox = () => {
+              lightbox.classList.remove('active');
+          };
+
+          closeBtn.addEventListener('click', closeLightbox);
+          
+          lightbox.addEventListener('click', (e) => {
+              if (e.target !== lightboxImg && e.target !== lightboxCaption) {
+                  closeLightbox();
+              }
+          });
+
+          document.addEventListener('keydown', (e) => {
+              if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                  closeLightbox();
+              }
+          });
+      });
+  </script>
+
+</div>

@@ -1,0 +1,115 @@
+- generic [ref=f25e3]:
+  - region "top of page"
+  - generic [ref=f25e11]:
+    - group:
+      - banner:
+        - generic [ref=f25e16]:
+          - group
+      - main:
+        - generic [ref=f25e19]:
+          - group:
+            - generic [ref=f25e29]:
+              - navigation "Blog" [ref=f25e32]:
+                - list [ref=f25e33] [cursor=pointer]:
+                  - listitem [ref=f25e34]:
+                    - link "STUART SAVAGE LANDSCAPING'S POSTS" [ref=f25e35]:
+                      - /url: https://www.savageldn.co.uk/insights
+                  - listitem [ref=f25e36]:
+                    - link "Plant & Horticulture Archive" [ref=f25e37]:
+                      - /url: https://www.savageldn.co.uk/insights/categories/plant-horticulture-archive
+                  - listitem [ref=f25e38]:
+                    - link "Project Delivery Archive" [ref=f25e39]:
+                      - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                  - listitem [ref=f25e40]:
+                    - link "Garden Design Archive" [ref=f25e41]:
+                      - /url: https://www.savageldn.co.uk/insights/categories/garden-design-archive
+                  - listitem [ref=f25e42]:
+                    - link "Supplier & Systems Archive" [ref=f25e43]:
+                      - /url: https://www.savageldn.co.uk/insights/categories/supplier-systems-archive
+              - generic [ref=f25e45]:
+                - article [ref=f25e49]:
+                  - generic [ref=f25e50]:
+                    - generic [ref=f25e52]:
+                      - generic [ref=f25e53]:
+                        - heading "CRAFT YOUR DREAM GARDEN WITH CUSTOM GARDEN DESIGNS" [level=1] [ref=f25e55]
+                        - generic [ref=f25e56]:
+                          - list [ref=f25e57]:
+                            - listitem [ref=f25e58]:
+                              - 'img "Writer: Stuart Savage" [ref=f25e61]'
+                              - generic [ref=f25e62] [cursor=pointer]: Stuart Savage
+                            - listitem [ref=f25e63]: ·Mar 30
+                            - listitem [ref=f25e64]: ·1 min read
+                          - button "More actions" [ref=f25e66] [cursor=pointer]
+                      - button "Rated NaN out of 5 stars." [ref=f25e69] [cursor=pointer]
+                    - generic [ref=f25e90]:
+                      - figure [ref=f25e94]:
+                        - generic [ref=f25e100]:
+                          - strong [ref=f25e101]: Dulwich Sanctuary 3D Garden Walkthrough
+                          - text: ": Floorplanner 3D tour of a bespoke London garden design and landscaping project I created, showcasing custom planting, relaxing seating areas, and a tranquil modern outdoor sanctuary."
+                      - heading "How Much Do Custom Garden Designs and Landscaping Cost?" [level=2] [ref=f25e110]
+                      - paragraph [ref=f25e116]:
+                        - generic [ref=f25e117]: Creating a garden that truly reflects your personality and lifestyle is a wonderful journey. When you choose custom garden designs, you open the door to a space that is uniquely yours. It’s not just about planting flowers or laying paths; it’s about crafting an outdoor sanctuary that brings joy, peace, and beauty to your home. Whether you have a small urban plot or a sprawling backyard, bespoke garden design can transform your outdoor area into a dream come true.
+                      - paragraph [ref=f25e123]:
+                        - strong [ref=f25e125]:
+                          - generic [ref=f25e126]: "For most clients, the big question is:"
+                      - blockquote [ref=f25e129]:
+                        - generic [ref=f25e130]: how much does bespoke garden design and landscaping actually cost?
+                      - paragraph [ref=f25e134]:
+                        - generic [ref=f25e135]: Below, you’ll find clear design packages, hardscaping rates, and softscaping investment guidelines to help you match your dream garden to a realistic budget.
+                      - figure [ref=f25e148]:
+                        - generic [ref=f25e149]:
+                          - img "Eye-level view of a beautifully designed garden pathway with lush greenery" [ref=f25e154] [cursor=pointer]
+                          - button "Expand image"
+                        - generic [ref=f25e157]:
+                          - strong [ref=f25e158]: "Illuminated custom garden pathway with lush greenery:"
+                          - text: subtle lighting guides a bespoke path along a modern house, creating a serene and inviting nighttime ambience for contemporary outdoor spaces.
+                      - figure [ref=f25e184]:
+                        - generic [ref=f25e185]:
+                          - img "Cosy outdoor compact roof terrace at dusk with white sectional seating, cushions, and a throw blanket. Warm lighting, purple and white flowers add charm, in Clapham North SW4" [ref=f25e190] [cursor=pointer]
+                          - button "Expand image"
+                        - generic [ref=f25e193]:
+                          - strong [ref=f25e194]: "Cosy compact roof terrace in Clapham North SW4:"
+                          - text: at dusk, featuring white sectional seating with cushions and a throw blanket, warm ambient lighting, and purple and white flowers – the perfect small outdoor space inspiration for London homes.
+                    - generic [ref=f25e211]:
+                      - list "Post categories" [ref=f25e213]:
+                        - listitem [ref=f25e214]:
+                          - link "Project Delivery Archive" [ref=f25e215] [cursor=pointer]:
+                            - /url: https://www.savageldn.co.uk/insights/categories/project-delivery-archive
+                      - generic [ref=f25e218]:
+                        - button "Share via Facebook" [ref=f25e220] [cursor=pointer]:
+                          - img "Facebook" [ref=f25e221]
+                        - button "Share via X (Twitter)" [ref=f25e225] [cursor=pointer]:
+                          - img "X" [ref=f25e226]
+                        - button "Share via LinkedIn" [ref=f25e230] [cursor=pointer]:
+                          - img "LinkedIn" [ref=f25e231]
+                        - button "Share via link" [ref=f25e236] [cursor=pointer]
+                - generic [ref=f25e247]:
+                  - generic [ref=f25e248]:
+                    - heading "Recent Posts" [level=2] [ref=f25e249]
+                    - link "See All" [ref=f25e250] [cursor=pointer]:
+                      - /url: https://www.savageldn.co.uk/insights
+                  - generic [ref=f25e252]:
+                    - article [ref=f25e253]:
+                      - generic [ref=f25e254]:
+                        - 'link "Top Landscaping Options Clapham: Transform Your Garden with Expert Care" [ref=f25e255] [cursor=pointer]':
+                          - /url: https://www.savageldn.co.uk/post/top-landscaping-options-clapham-transform-your-garden-with-expert-care
+                        - 'link "Top Landscaping Options Clapham: Transform Your Garden with Expert Care" [ref=f25e260] [cursor=pointer]':
+                          - /url: https://www.savageldn.co.uk/post/top-landscaping-options-clapham-transform-your-garden-with-expert-care
+                    - article [ref=f25e267]:
+                      - generic [ref=f25e268]:
+                        - link "south london garden 3d design render" [ref=f25e269] [cursor=pointer]:
+                          - /url: https://www.savageldn.co.uk/post/breaking-down-garden-design-costs-in-the-uk
+                        - link "Breaking Down Garden Design Costs in the UK" [ref=f25e274] [cursor=pointer]:
+                          - /url: https://www.savageldn.co.uk/post/breaking-down-garden-design-costs-in-the-uk
+                    - article [ref=f25e281]:
+                      - generic [ref=f25e282]:
+                        - 'link "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f25e283] [cursor=pointer]':
+                          - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
+                          - 'img "A garden transformed: Moving from a dark void to an inviting nocturnal sanctuary through cinematic 3D modelling. A high-end 3D cinematic render illustrating nocturnal garden design with warm LED uplighting on multi-stem birch trees and a contemporary stone patio." [ref=f25e287]':
+                            - img "Load video" [ref=f25e290]
+                        - 'link "THE NEW STANDARD IN NOCTURNAL GARDEN DESIGN: WHY YOUR OUTDOOR SPACE SHOULD LIVE AT NIGHT" [ref=f25e295] [cursor=pointer]':
+                          - /url: https://www.savageldn.co.uk/post/nocturnal-garden-design
+      - contentinfo:
+        - generic [ref=f25e306]:
+          - group
+  - region "bottom of page"

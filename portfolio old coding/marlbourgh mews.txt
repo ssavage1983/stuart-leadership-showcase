@@ -1,0 +1,556 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+<style>
+  :root {
+    --brand-light-stone: #f9f9f7;
+    --brand-light-sage: #eef2f0;
+    --brand-black-green: #1a2e26;
+    --brand-heritage-green: #1e4d3b;
+    --brand-charcoal: #4a4a4a;
+    --brand-champagne-gold: #bfa87e;
+    --brand-pale-sprout: #c5f1b2;
+  }
+
+  /* Structural Reset */
+  .mm-root, .mm-root * {
+    box-sizing: border-box;
+  }
+
+  .mm-root {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--brand-charcoal);
+    width: 100%;
+    margin: 0;
+    padding: 0 !important;
+    overflow-x: hidden;
+    background-color: var(--brand-light-stone);
+  }
+
+  /* Breadcrumb Bar */
+  .mm-breadcrumb-bar {
+    background-color: var(--brand-light-stone);
+    padding: 1.5rem 0 1.25rem;
+  }
+
+  .mm-breadcrumb-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--brand-charcoal);
+  }
+
+  .mm-breadcrumb-nav a {
+    color: var(--brand-champagne-gold);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .mm-breadcrumb-nav a:hover {
+    color: var(--brand-black-green);
+  }
+
+  .mm-breadcrumb-sep {
+    color: var(--brand-charcoal);
+    opacity: 0.4;
+  }
+
+  /* Typography */
+  .mm-root h1, .mm-root h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--brand-black-green);
+    margin: 0 0 1.25rem 0;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
+  .mm-root h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+    margin: 0 0 1rem 0;
+    line-height: 1.3;
+  }
+
+  .mm-root p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 1.5rem 0;
+  }
+
+  /* Shell / Container */
+  .mm-shell {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* INJECTION 1: THE STRUCTURAL HERO */
+  .mm-hero {
+    position: relative;
+    background-color: var(--brand-black-green);
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 6px solid var(--brand-champagne-gold);
+  }
+
+  .mm-hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  .mm-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(26, 46, 38, 0.6); 
+    z-index: 2;
+  }
+
+  .mm-hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 850px;
+    padding: 2rem 1.5rem;
+  }
+
+  .mm-hero h1 {
+    color: var(--brand-light-stone);
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .mm-hero p {
+    color: var(--brand-light-stone);
+    font-size: 1.15rem;
+    max-width: 750px;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  /* INJECTION 2: PROJECT SCOPE & SCALE */
+  .mm-scope {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .mm-scope p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+
+  /* INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE */
+  .mm-hardscaping {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+    border-bottom: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .mm-hardscaping-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .mm-hardscaping-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mm-hardscaping-list li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    position: relative;
+    color: var(--brand-charcoal);
+  }
+
+  .mm-hardscaping-list li::before {
+    content: '■';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font-size: 0.65rem;
+    color: var(--brand-champagne-gold);
+  }
+
+  .mm-hardscaping-list strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--brand-heritage-green);
+  }
+
+  /* INJECTION 4: VISUAL MATRIX & HORTICULTURAL DATA */
+  .mm-gallery-section {
+    background-color: var(--brand-light-stone);
+    padding: 5rem 0;
+    border-top: 1px solid rgba(26, 46, 38, 0.05);
+  }
+
+  .mm-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .mm-gallery-item {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+    border-bottom: 4px solid var(--brand-champagne-gold);
+    box-shadow: 0 10px 25px rgba(26, 46, 38, 0.05);
+    background-color: var(--brand-black-green);
+    cursor: pointer;
+  }
+
+  /* Added overlay icon to signify it is clickable */
+  .mm-gallery-item::after {
+    content: '\f00e';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: var(--brand-champagne-gold);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .mm-gallery-item:hover::after {
+    opacity: 1;
+  }
+
+  .mm-gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease, filter 0.5s ease;
+  }
+
+  .mm-gallery-item:hover .mm-gallery-img {
+    transform: scale(1.05);
+    filter: brightness(0.6);
+  }
+
+  .mm-gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5rem 1rem 1rem;
+    background: linear-gradient(to top, rgba(26,46,38,0.9), transparent);
+    color: var(--brand-light-stone);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    pointer-events: none;
+    z-index: 5;
+  }
+
+  /* LIGHTBOX CSS */
+  .mm-lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 46, 38, 0.95);
+    backdrop-filter: blur(5px);
+    overflow: auto;
+  }
+
+  .mm-lightbox.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.4s ease;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .mm-lightbox-img {
+    max-width: 90%;
+    max-height: 80vh;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    border: 3px solid var(--brand-champagne-gold);
+    display: block;
+    margin: auto;
+  }
+
+  .mm-lightbox-caption {
+    margin-top: 1.5rem;
+    color: var(--brand-champagne-gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .mm-lightbox-close {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: var(--brand-champagne-gold);
+    font-size: 40px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    line-height: 1;
+  }
+
+  .mm-lightbox-close:hover {
+    color: var(--brand-light-stone);
+  }
+
+  /* INJECTION 5: THE DESIGN-ONLY INTERNAL LINKING MATRIX */
+  .mm-matrix {
+    background-color: var(--brand-light-sage);
+    padding: 5rem 0;
+    text-align: center;
+  }
+
+  .mm-matrix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .mm-matrix-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    color: var(--brand-champagne-gold);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    border: 1px solid var(--brand-champagne-gold);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    background-color: var(--brand-light-stone);
+  }
+
+  .mm-matrix-link:hover {
+    background-color: var(--brand-pale-sprout);
+    color: var(--brand-black-green);
+    border-color: var(--brand-pale-sprout);
+  }
+
+  @media (max-width: 900px) {
+    .mm-gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: 768px) {
+    .mm-hero { min-height: 400px; }
+    .mm-scope, .mm-hardscaping, .mm-gallery-section, .mm-matrix { padding: 3.5rem 0; }
+    .mm-gallery-grid { grid-template-columns: 1fr; }
+    .mm-lightbox-close { top: 15px; right: 20px; }
+  }
+</style>
+
+<div class="mm-root">
+  
+  <div class="mm-breadcrumb-bar">
+    <div class="mm-shell">
+      <nav class="mm-breadcrumb-nav">
+        <a href="/" target="_top">HOME</a>
+        <span class="mm-breadcrumb-sep">/</span>
+        <a href="/portfolio" target="_top">PORTFOLIO</a>
+        <span class="mm-breadcrumb-sep">/</span>
+        <span>MARLBOROUGH MEWS SANCTUARY</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- INJECTION 1: THE STRUCTURAL HERO -->
+  <header class="mm-hero">
+    <img src="https://static.wixstatic.com/media/a005fe_5e1bcaa3dfc64ed3bf85fdac50277831~mv2.jpg" 
+         class="mm-hero-bg" 
+         alt="Marlborough Mews garden featuring Lugano clay pavers, reclaimed railway sleepers, and a large Soft Tree Fern.">
+    <div class="mm-hero-overlay"></div>
+    <div class="mm-shell mm-hero-content">
+      <h1>THE MARLBOROUGH MEWS SANCTUARY</h1>
+      <p>We do not deal in rough drafts. Explore how we mathematically resolved this urban sanctuary before a single stone was laid.</p>
+    </div>
+  </header>
+
+  <!-- INJECTION 2: PROJECT SCOPE & SCALE -->
+  <section class="mm-scope">
+    <div class="mm-shell">
+      <h2>ARCHITECTURAL SCOPE & SCALE</h2>
+      <p>A highly textured urban transformation engineered on a strict timeline, blending premium clay pavers, extensive reclaimed sleeper architecture, and a curated tropical planting scheme.</p>
+    </div>
+  </section>
+
+  <!-- INJECTION 3: HARDSCAPING & SPATIAL GEOMETRY SCHEDULE -->
+  <section class="mm-hardscaping">
+    <div class="mm-shell">
+      <div class="mm-hardscaping-content">
+        <h2>ARCHITECTURAL HARDSCAPING & SOFT CANOPY</h2>
+        <ul class="mm-hardscaping-list">
+          <li><strong>Sub-Base Engineering:</strong> A strict 1:80 fall was established to master surface drainage, seamlessly integrating a locking 600x450mm recessed manhole cover to maintain unbroken visual lines.</li>
+          <li><strong>Lugano Clay Paving:</strong> 11.8m² of highly textured Lugano Clay Pavers (204x50x60mm) meticulously mapped and locked in with premium kiln-dried sand.</li>
+          <li><strong>Permeable Surfaces:</strong> 23m² of 12-20mm Spanish Gold Chippings permanently retained by professional-grade 65mm brown Core Edge flexible metal edging.</li>
+          <li><strong>Bespoke Sleeper Architecture:</strong> Engineering of custom built-in seating and raised planters, heavily specified using 32 Reclaimed English Softwood Railway Sleepers (2600x250x125mm) to provide immediate architectural maturity.</li>
+          <li><strong>Architectural Flora:</strong> A structural planting palette enriched with 2400L of premium compost, anchored by an imposing Dicksonia antarctica (Soft Tree Fern) to establish a striking, prehistoric silhouette against the urban boundaries.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- INJECTION 4: VISUAL MATRIX & ARCHITECTURAL DATA (NOW WITH LIGHTBOX) -->
+  <section class="mm-gallery-section">
+    <div class="mm-shell">
+        <h2 style="text-align: center; margin-bottom: 2.5rem;">VISUAL MATRIX & HORTICULTURAL BLUEPRINTS</h2>
+        
+        <div class="mm-gallery-grid" id="mm-gallery">
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_d59bf9a0bcfd477cbf38bb9671f5aa85~mv2.jpg" class="mm-gallery-img" alt="2D Master Plan Layout" loading="lazy">
+                <span class="mm-gallery-caption">1. 2D Architectural Layout</span>
+            </div>
+            
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_0f15f805c2a94498aebb9347a4440e35~mv2.jpg" class="mm-gallery-img" alt="3D Top-Down Perspective Render" loading="lazy">
+                <span class="mm-gallery-caption">2. 3D Top-Down Render</span>
+            </div>
+
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_42670f4af74a4679b8848aeb6becea59~mv2.jpg" class="mm-gallery-img" alt="3D Eye-Level Perspective Render" loading="lazy">
+                <span class="mm-gallery-caption">3. 3D Eye-Level Perspective</span>
+            </div>
+
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_5bf1683487874edc9f72917b2fe94a01~mv2.jpg" class="mm-gallery-img" alt="Lighting Specification Plan" loading="lazy">
+                <span class="mm-gallery-caption">4. Lighting Specification</span>
+            </div>
+
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_287cc0d097ec4687a9b145fc32868155~mv2.jpg" class="mm-gallery-img" alt="Numbered Planting Plan" loading="lazy">
+                <span class="mm-gallery-caption">5. Numbered Planting Blueprint</span>
+            </div>
+
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_d0035a96ab0148e08534bdb18d3465bf~mv2.jpg" class="mm-gallery-img" alt="Shade Loving Plants Ferns and Hostas" loading="lazy">
+                <span class="mm-gallery-caption">6. Verified Shade Flora Specification</span>
+            </div>
+
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_64fe586cb82a4c8d9cc9cbc58b7ac58d~mv2.jpeg" class="mm-gallery-img" alt="1 Year On Daytime Establishment" loading="lazy">
+                <span class="mm-gallery-caption">7. Biological Establishment (1 Year On)</span>
+            </div>
+
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_2ad1b542c31046d18f3b3fdaeb41ba17~mv2.jpg" class="mm-gallery-img" alt="Musa basjoo centre stage illuminated at night looking back into house" loading="lazy">
+                <span class="mm-gallery-caption">8. Indoor-Outdoor Lighting Flow</span>
+            </div>
+
+            <div class="mm-gallery-item">
+                <img src="https://static.wixstatic.com/media/a005fe_444995be79554255928846237223b5f0~mv2.jpeg" class="mm-gallery-img" alt="1 Year On Nocturnal Aesthetic" loading="lazy">
+                <span class="mm-gallery-caption">9. Nocturnal Sanctuary (1 Year On)</span>
+            </div>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- INJECTION 5: THE DESIGN-ONLY INTERNAL LINKING MATRIX -->
+  <section class="mm-matrix">
+    <div class="mm-shell">
+      <h2>EXPLORE OUR LUXURY ESTATE ARCHITECTURE</h2>
+      <div class="mm-matrix-grid">
+        <a href="/garden-design-london" class="mm-matrix-link" target="_top">London Master Planning & Consultations</a>
+        <a href="/3d-garden-design-uk" class="mm-matrix-link" target="_top">Remote 3D Design Nationwide</a>
+        <a href="/materials-specification" class="mm-matrix-link" target="_top">Architectural Material Specifications</a>
+        <a href="/design-process" class="mm-matrix-link" target="_top">The 5-Stage Client Journey</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX HTML OVERLAY -->
+  <div id="mm-lightbox" class="mm-lightbox">
+      <span class="mm-lightbox-close">&times;</span>
+      <img class="mm-lightbox-img" id="mm-lightbox-img" alt="Enlarged Blueprint Image">
+      <div class="mm-lightbox-caption" id="mm-lightbox-caption"></div>
+  </div>
+
+  <!-- LIGHTBOX JAVASCRIPT -->
+  <script>
+      document.addEventListener('DOMContentLoaded', () => {
+          const lightbox = document.getElementById('mm-lightbox');
+          const lightboxImg = document.getElementById('mm-lightbox-img');
+          const lightboxCaption = document.getElementById('mm-lightbox-caption');
+          const closeBtn = document.querySelector('.mm-lightbox-close');
+          const galleryItems = document.querySelectorAll('.mm-gallery-item');
+
+          galleryItems.forEach(item => {
+              item.addEventListener('click', () => {
+                  const img = item.querySelector('.mm-gallery-img');
+                  const caption = item.querySelector('.mm-gallery-caption');
+                  
+                  lightbox.classList.add('active');
+                  // Forcing highest quality image string on click
+                  lightboxImg.src = img.src.replace('/v1/fit/w_800', '');
+                  lightboxCaption.innerHTML = caption.innerHTML;
+              });
+          });
+
+          const closeLightbox = () => {
+              lightbox.classList.remove('active');
+          };
+
+          closeBtn.addEventListener('click', closeLightbox);
+          
+          lightbox.addEventListener('click', (e) => {
+              if (e.target !== lightboxImg && e.target !== lightboxCaption) {
+                  closeLightbox();
+              }
+          });
+
+          document.addEventListener('keydown', (e) => {
+              if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+                  closeLightbox();
+              }
+          });
+      });
+  </script>
+
+</div>

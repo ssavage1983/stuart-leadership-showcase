@@ -1,0 +1,232 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-rule: var(--rule);
+  --color-clay: var(--clay);
+  --color-porcelain: var(--porcelain);
+  --color-stone: var(--stone);
+  --color-bluegrey: var(--bluegrey);
+  --color-slate: var(--slate);
+  --color-navy: var(--navy);
+  --color-terracotta: var(--terracotta);
+  --color-gold: var(--gold);
+  --color-ink: var(--ink);
+  --font-display: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --radius: 0.25rem;
+  /* Brand palette */
+  --porcelain: #f8f7f3;
+  --stone: #e7e2d9;
+  --bluegrey: #d7e0e8;
+  --slate: #4a5568;
+  --navy: #1a365d;
+  --terracotta: #c0846c;
+  --gold: #c9ad72;
+  --ink: #172033;
+
+  --background: var(--porcelain);
+  --foreground: var(--ink);
+  --card: #fdfcfa;
+  --card-foreground: var(--ink);
+  --popover: #fdfcfa;
+  --popover-foreground: var(--ink);
+  --primary: var(--navy);
+  --primary-foreground: var(--porcelain);
+  --secondary: var(--stone);
+  --secondary-foreground: var(--navy);
+  --muted: var(--stone);
+  --muted-foreground: var(--slate);
+  --accent: var(--terracotta);
+  --accent-foreground: var(--porcelain);
+  --clay: var(--terracotta);
+  --destructive: oklch(0.5 0.2 27);
+  --destructive-foreground: var(--porcelain);
+  --border: var(--stone);
+  --rule: #d8d2c6;
+  --input: var(--stone);
+  --ring: var(--gold);
+  --shadow-elegant:
+    0 1px 2px color-mix(in oklab, var(--ink) 6%, transparent),
+    0 18px 40px -28px color-mix(in oklab, var(--ink) 34%, transparent);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  h1 {
+    line-height: 1.02;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent) 22%, transparent);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility eyebrow {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+@utility rule-line {
+  border-top: 1px solid var(--color-rule);
+}
+
+@utility card-elegant {
+  box-shadow: var(--shadow-elegant);
+  transition:
+    box-shadow 200ms ease,
+    transform 200ms ease,
+    border-color 200ms ease;
+
+  &:hover {
+    border-color: color-mix(in oklab, var(--color-accent) 35%, var(--color-border));
+    box-shadow:
+      0 2px 4px color-mix(in oklab, var(--foreground) 6%, transparent),
+      0 24px 50px -30px color-mix(in oklab, var(--foreground) 40%, transparent);
+    transform: translateY(-2px);
+  }
+}
+
+@utility surface-dark {
+  background-color: var(--navy);
+  color: var(--porcelain);
+
+  & h1,
+  & h2,
+  & h3,
+  & dt,
+  & strong {
+    color: var(--porcelain);
+  }
+
+  & .eyebrow {
+    color: var(--gold);
+  }
+
+  & a:hover {
+    color: var(--gold);
+  }
+
+  & .rule-line,
+  & [class*="border"] {
+    border-color: color-mix(in oklab, var(--porcelain) 22%, transparent);
+  }
+}
+
+@utility disclosure {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 320ms cubic-bezier(0.22, 1, 0.36, 1);
+
+  & > * {
+    overflow: hidden;
+  }
+}
+
+@utility disclosure-open {
+  grid-template-rows: 1fr;
+}
+
+@utility role-row {
+  position: relative;
+  transition: background-color 220ms ease;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    height: 1px;
+    width: 0;
+    background: var(--color-accent);
+    transition: width 380ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  &:hover::before,
+  &:focus-within::before {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: color-mix(in oklab, var(--stone) 40%, transparent);
+  }
+}
