@@ -31,6 +31,16 @@ function SupplyChainControlCaseStudy() {
           </p>
         </div>
 
+        {/* Featured Case Study Image / Visualisation */}
+        <div className="mb-12 rounded-xl overflow-hidden border shadow-sm">
+          <img
+            src="/images/portfolio/balham-cottage-courtyard-daytime-dining-and-raised-planters.jpg"
+            alt="Supply Chain Control Logistics"
+            className="w-full h-auto object-cover max-h-[450px]"
+            loading="lazy"
+          />
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between pb-2">
