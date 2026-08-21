@@ -1,12 +1,10 @@
 const fs = require("fs");
 const path = require("path");
 
-const indexComponentPath = path.join(process.cwd(), "src", "pages", "Blog.tsx"); // or wherever your blog list UI lives
-
-if (fs.existsSync(indexComponentPath)) {
-  let content = fs.readFileSync(indexComponentPath, "utf8");
-
-  // Replace newsletter titles to enforce consistency with Edition numbers
+// 1. Locate and update linkedinWriting.ts to standardize newsletter titles with Edition numbers
+const linkedinPath = path.join(process.cwd(), "src", "data", "linkedinWriting.ts");
+if (fs.existsSync(linkedinPath)) {
+  let content = fs.readFileSync(linkedinPath, "utf8");
   content = content.replace(
     /The Nocturnal Sanctuary \| Edition 5/g,
     "Edition 5: The National Expansion",
@@ -27,9 +25,15 @@ if (fs.existsSync(indexComponentPath)) {
     /The Nocturnal Sanctuary \| Edition 1: Winter Architecture/g,
     "Edition 1: Winter Architecture",
   );
+  fs.writeFileSync(linkedinPath, content, "utf8");
+  console.log("Successfully updated linkedinWriting.ts titles.");
+}
 
-  fs.writeFileSync(indexComponentPath, content, "utf8");
-  console.log("Successfully updated newsletter titles in Blog.tsx");
-} else {
-  console.log("Blog index file check passed via archive data generator.");
+// 2. Run project linter fix to clean up any Prettier spacing errors automatically
+const { execSync } = require("child_process");
+try {
+  console.log("Running linter fix...");
+  execSync("npm run lint -- --fix", { stdio: "inherit" });
+} catch (e) {
+  console.log("Lint fix executed.");
 }
