@@ -1,4 +1,9 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+const fs = require('fs');
+const path = require('path');
+
+const filePath = path.join(process.cwd(), 'src', 'routes', 'privacy-policy.tsx');
+
+const privacyCode = `import { createFileRoute, Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/privacy-policy")({
   component: PrivacyPolicyComponent,
@@ -34,7 +39,7 @@ function PrivacyPolicyComponent() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-20 mix-blend-overlay"
           style={{
-            backgroundImage: `url('/images/portfolio/tooting-bec-japanese-garden-seating-and-warm-night-lighting.jpg')`,
+            backgroundImage: \`url('/images/portfolio/tooting-bec-japanese-garden-seating-and-warm-night-lighting.jpg')\`,
           }}
         />
         <div className="absolute inset-0 z-0 bg-gradient-to-r from-[#102845] via-[#102845]/95 to-[#102845]/60" />
@@ -396,3 +401,7 @@ function PrivacyPolicyComponent() {
     </div>
   );
 }
+`;
+
+fs.writeFileSync(filePath, privacyCode, 'utf8');
+console.log("Successfully updated privacy-policy.tsx with DRO-compliant phrasing.");
