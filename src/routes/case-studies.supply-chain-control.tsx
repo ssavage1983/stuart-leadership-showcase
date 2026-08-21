@@ -1,135 +1,105 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { ArrowLeft, CheckCircle2, Truck, Workflow, ShieldCheck } from "lucide-react";
-import { Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/case-studies/supply-chain-control")({
-  component: SupplyChainControlCaseStudy,
+  component: CaseStudy,
 });
 
-function SupplyChainControlCaseStudy() {
+function CaseStudy() {
   return (
-    <div className="min-h-screen bg-[#f7f4ee] text-[#102a43] font-sans antialiased py-12 px-6">
-      <div className="max-w-4xl mx-auto px-4 py-12">
-        <Link
-          to="/case-studies"
-          className="inline-flex items-center text-muted-foreground hover:text-foreground mb-8 text-sm transition-colors"
-        >
-          <ArrowLeft className="w-4 h-4 mr-2" /> Back to Case Studies Archive
-        </Link>
-
-        <div className="space-y-4 mb-8">
-          <Badge variant="outline" className="text-xs uppercase tracking-wider">
+    <article className="min-h-screen bg-[#f5f1e9] text-[#102845]">
+      <header className="bg-[#102845] px-6 py-14 text-[#f8f7f3] sm:py-20">
+        <div className="mx-auto max-w-4xl">
+          <Link
+            to="/case-studies"
+            className="text-xs font-bold uppercase tracking-widest text-[#c9ad72] hover:text-white"
+          >
+            &larr; Case studies archive
+          </Link>
+          <p className="mt-10 text-xs font-bold uppercase tracking-widest text-[#c9ad72]">
             Operations Archive · Logistics Control
-          </Badge>
-          <h1 className="text-4xl font-bold tracking-tight">Supply Chain Control</h1>
-          <p className="text-xl text-muted-foreground">
+          </p>
+          <h1 className="mt-4 font-serif text-4xl font-normal leading-tight sm:text-6xl">
+            Supply Chain Control
+          </h1>
+          <p className="mt-6 max-w-3xl text-base text-[#f8f7f3]/75">
             Rigorous coordination of materials, specialist artisans, plant logistics, and site
             dependencies to eliminate bottlenecks across complex builds.
           </p>
         </div>
+      </header>
 
-        {/* Featured Case Study Image / Visualisation */}
-        <div className="mb-12 rounded-xl overflow-hidden border shadow-sm">
-          <img
-            src="/images/portfolio/balham-cottage-courtyard-daytime-dining-and-raised-planters.jpg"
-            alt="Supply Chain Control Logistics"
-            className="w-full h-auto object-cover max-h-[450px]"
-            loading="lazy"
-          />
-        </div>
+      <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
+        <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700 shadow-sm">
+          <strong className="block text-[#102845]">Archive-only notice</strong>
+          This historic project record is retained for reference and as evidence for future
+          professional leadership roles. SAVAGELDN and The Moonlight Garden Design Co. closed in May
+          2026; their former URLs are inactive business archives, not current offers or invitations
+          to book.
+        </aside>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Procurement</CardTitle>
-              <Truck className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Just-in-Time</div>
-              <p className="text-xs text-muted-foreground mt-1">Zero site congestion</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Dependency Mapping</CardTitle>
-              <Workflow className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Critical Path</div>
-              <p className="text-xs text-muted-foreground mt-1">Synchronised sub-contractors</p>
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Quality Assurance</CardTitle>
-              <ShieldCheck className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Zero Defect</div>
-              <p className="text-xs text-muted-foreground mt-1">Strict material inspection</p>
-            </CardContent>
-          </Card>
-        </div>
+        <div className="mt-10">
+          <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+            <img
+              src="/images/portfolio/balham-cottage-courtyard-daytime-dining-and-raised-planters.jpg"
+              alt="Supply Chain Control"
+              className="h-auto w-full object-cover max-h-[480px]"
+              loading="lazy"
+            />
+          </figure>
 
-        <div className="space-y-8 text-muted-foreground leading-relaxed">
-          <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-foreground">Operational Overview</h2>
-            <p>
-              In demanding project environments, material delays or uncoordinated deliveries can
-              paralyze a site and inflate labor costs. Supply Chain Control represents the
-              operational discipline required to sequence heavy aggregates, vitrified porcelain,
-              structural timber, and specialized plants with absolute reliability.
-            </p>
-            <p>
-              By treating delivery logistics as a synchronized chain rather than isolated purchases,
-              projects maintain steady momentum while safeguarding delicate materials from premature
-              weather exposure or site damage.
-            </p>
-          </section>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Design / Focus
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Just-in-Time</div>
+            </div>
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Materials / Scope
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Critical Path</div>
+            </div>
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Quality Standard
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Zero Defect</div>
+            </div>
+          </div>
 
-          <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-foreground">Core Execution Pillars</h2>
-            <ul className="space-y-3">
-              <li className="flex items-start">
-                <CheckCircle2 className="w-5 h-5 text-primary mr-3 mt-1 shrink-0" />
-                <span>
-                  <strong>Staged Procurement Schedules:</strong> Aligning material orders with site
-                  readiness—ensuring sub-base aggregates arrive before excavation finishes, while
-                  fragile finishes arrive strictly post-heavy machinery.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle2 className="w-5 h-5 text-primary mr-3 mt-1 shrink-0" />
-                <span>
-                  <strong>Specialist Supplier Vetted Networks:</strong> Maintaining direct
-                  partnerships with premier UK nurseries and masonry fabricators to guarantee stock
-                  authenticity and grade consistency.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle2 className="w-5 h-5 text-primary mr-3 mt-1 shrink-0" />
-                <span>
-                  <strong>Urban Access Logistics:</strong> Managing restricted parking, narrow
-                  London streets, and multi-stage offloading for properties with challenging access
-                  profiles.
-                </span>
-              </li>
-            </ul>
-          </section>
+          <div className="space-y-8 text-base text-slate-700 leading-relaxed bg-white p-8 rounded border border-[#102845]/15 shadow-sm">
+            <section className="space-y-4">
+              <h2 className="font-serif text-2xl font-normal text-[#102845]">
+                Project Overview & Context
+              </h2>
+              <p>
+                This project demonstrates rigorous operational planning, stakeholder management, and
+                precision execution within a challenging urban footprint. Every phase was governed
+                by strict quality milestones and comprehensive risk management to ensure a
+                zero-defect handover.
+              </p>
+              <p>
+                Through disciplined supply chain coordination and detailed structural detailing, the
+                installation achieves lasting functional reliability alongside exceptional aesthetic
+                presentation.
+              </p>
+            </section>
 
-          <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-foreground">Professional Value & Outcome</h2>
-            <p>
-              Rigorous supply chain management eliminates downtime, protects profit margins, and
-              ensures that projects are delivered on schedule and to uncompromising quality
-              standards.
-            </p>
-          </section>
+            <section className="space-y-4 pt-4 border-t border-[#102845]/10">
+              <h2 className="font-serif text-2xl font-normal text-[#102845]">
+                Operational Governance & Delivery
+              </h2>
+              <p>
+                From initial site survey to final commissioning, operations were structured around
+                transparent milestone tracking, minimal neighborhood disruption, and uncompromising
+                material standards.
+              </p>
+            </section>
+          </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 }

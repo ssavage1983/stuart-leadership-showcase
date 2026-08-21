@@ -1,190 +1,114 @@
-import { createFileRoute } from "@tanstack/react-router";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { Badge } from "@/components/ui/badge";
-import { ArrowLeft, CheckCircle2, ShieldCheck, Clock, Layers, Leaf } from "lucide-react";
-import { Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/case-studies/walworth-sanctuary")({
-  component: WalworthSanctuaryCaseStudy,
+  component: CaseStudy,
 });
 
-function WalworthSanctuaryCaseStudy() {
+function CaseStudy() {
   return (
-    <div className="min-h-screen bg-[#f7f4ee] text-[#102a43] font-sans antialiased py-12 px-6 animate-fadeIn transition-opacity duration-700">
-      <div className="max-w-4xl mx-auto px-4 py-12">
-        <Link
-          to="/case-studies"
-          className="inline-flex items-center text-muted-foreground hover:text-foreground mb-8 text-sm transition-colors duration-300 transform hover:-translate-x-1"
-        >
-          <ArrowLeft className="w-4 h-4 mr-2" /> Back to Case Studies Archive
-        </Link>
-
-        {/* Header Section */}
-        <div className="space-y-4 mb-8 transform transition-all duration-700 translate-y-0 opacity-100">
-          <Badge
-            variant="outline"
-            className="text-xs uppercase tracking-wider animate-pulse flex items-center gap-1.5 w-fit"
+    <article className="min-h-screen bg-[#f5f1e9] text-[#102845]">
+      <header className="bg-[#102845] px-6 py-14 text-[#f8f7f3] sm:py-20">
+        <div className="mx-auto max-w-4xl">
+          <Link
+            to="/case-studies"
+            className="text-xs font-bold uppercase tracking-widest text-[#c9ad72] hover:text-white"
           >
-            <Leaf className="w-3.5 h-3.5 text-primary" /> Project Archive · Urban Biodiversity &
-            Restorative Design
-          </Badge>
-          <h1 className="text-4xl font-bold tracking-tight">Walworth Sanctuary</h1>
-          <p className="text-xl text-muted-foreground leading-relaxed">
+            &larr; Case studies archive
+          </Link>
+          <p className="mt-10 text-xs font-bold uppercase tracking-widest text-[#c9ad72]">
+            Project Archive · Urban Biodiversity & Restorative Design
+          </p>
+          <h1 className="mt-4 font-serif text-4xl font-normal leading-tight sm:text-6xl">
+            Walworth Sanctuary
+          </h1>
+          <p className="mt-6 max-w-3xl text-base text-[#f8f7f3]/75">
             Transforming a depleted urban plot into a restorative, bio-diverse haven balancing
             precise structural hardscaping with immersive, low-maintenance ecological planting.
           </p>
         </div>
+      </header>
 
-        {/* Featured Case Study Image */}
-        <div className="mb-12 rounded-xl overflow-hidden border shadow-sm">
-          <img
-            src="/images/portfolio/walworth-front-garden-slatted-bin-store-and-planting.jpg"
-            alt="Walworth Front Garden Slatted Bin Store and Planting"
-            className="w-full h-auto object-cover max-h-[450px]"
-            loading="lazy"
-          />
-        </div>
+      <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
+        <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700 shadow-sm">
+          <strong className="block text-[#102845]">Archive-only notice</strong>
+          This historic project record is retained for reference and as evidence for future
+          professional leadership roles. SAVAGELDN and The Moonlight Garden Design Co. closed in May
+          2026; their former URLs are inactive business archives, not current offers or invitations
+          to book.
+        </aside>
 
-        {/* Metrics Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 transition-all duration-500">
-          <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Programme Scope</CardTitle>
-              <Clock className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Ecological Reset</div>
-              <p className="text-xs text-muted-foreground mt-1">Biodiverse structural planting</p>
-            </CardContent>
-          </Card>
-
-          <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Material Governance</CardTitle>
-              <Layers className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Sustainable Sourcing</div>
-              <p className="text-xs text-muted-foreground mt-1">Reclaimed stone & native timber</p>
-            </CardContent>
-          </Card>
-
-          <Card className="hover:border-primary/50 transition-all duration-300 transform hover:-translate-y-1 shadow-sm hover:shadow-md">
-            <CardHeader className="flex flex-row items-center justify-between pb-2">
-              <CardTitle className="text-sm font-medium">Quality Assurance</CardTitle>
-              <ShieldCheck className="w-4 h-4 text-muted-foreground" />
-            </CardHeader>
-            <CardContent>
-              <div className="text-2xl font-bold">Zero-Defect Handover</div>
-              <p className="text-xs text-muted-foreground mt-1">Integrated water management</p>
-            </CardContent>
-          </Card>
-        </div>
-
-        {/* Detailed Operational Content */}
-        <div className="space-y-10 text-muted-foreground leading-relaxed">
-          <section className="space-y-4 transition-all duration-500">
-            <h2 className="text-2xl font-semibold text-foreground">
-              Project Background & Environmental Brief
-            </h2>
-            <p>
-              Located in the densely populated district of Walworth, this project centered on
-              converting a sterile, underutilized residential courtyard into a thriving
-              micro-ecosystem. The client sought a sanctuary that offered psychological respite
-              while actively supporting local urban wildlife and pollinators.
-            </p>
-            <p>
-              Successfully delivering this required merging hard architectural boundaries with soft,
-              naturalistic landscaping. The operational focus was placed heavily on sustainable
-              material procurement, deep soil remediation, and passive rainwater retention to ensure
-              the garden remained environmentally resilient.
-            </p>
-          </section>
-
-          {/* Secondary Image */}
-          <div className="rounded-xl overflow-hidden border shadow-sm my-6">
+        <div className="mt-10">
+          <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
             <img
-              src="/images/portfolio/walworth-rear-garden-privacy-planting-and-lighting.png"
-              alt="Walworth Rear Garden Privacy Planting and Lighting"
-              className="w-full h-auto object-cover max-h-[400px]"
+              src="/images/portfolio/walworth-front-garden-slatted-bin-store-and-planting.jpg"
+              alt="Walworth Sanctuary"
+              className="h-auto w-full object-cover max-h-[480px]"
               loading="lazy"
             />
+          </figure>
+
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Design / Focus
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Ecological Reset</div>
+            </div>
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Materials / Scope
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Sustainable Sourcing</div>
+            </div>
+            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+              <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
+                Quality Standard
+              </span>
+              <div className="mt-2 text-xl font-bold text-[#102845]">Zero-Defect Handover</div>
+            </div>
           </div>
 
-          {/* Structured Layout Grid for Phases */}
-          <section className="space-y-6">
-            <h2 className="text-2xl font-semibold text-foreground">Phased Operational Execution</h2>
-            <p>
-              To strictly manage the ecological integration and structural integrity of the build,
-              the project followed four key phases:
-            </p>
+          <div className="space-y-8 text-base text-slate-700 leading-relaxed bg-white p-8 rounded border border-[#102845]/15 shadow-sm">
+            <section className="space-y-4">
+              <h2 className="font-serif text-2xl font-normal text-[#102845]">
+                Project Overview & Context
+              </h2>
+              <p>
+                This project demonstrates rigorous operational planning, stakeholder management, and
+                precision execution within a challenging urban footprint. Every phase was governed
+                by strict quality milestones and comprehensive risk management to ensure a
+                zero-defect handover.
+              </p>
+              <p>
+                Through disciplined supply chain coordination and detailed structural detailing, the
+                installation achieves lasting functional reliability alongside exceptional aesthetic
+                presentation.
+              </p>
+            </section>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
-              <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
-                <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">
-                    1
-                  </div>
-                  Soil Remediation & Grading
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Excavating depleted urban soil and importing rich, organic compost blends to
-                  restore microbiome health and create optimal planting conditions.
-                </p>
-              </div>
-
-              <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
-                <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">
-                    2
-                  </div>
-                  Sustainable Hardscaping
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Installing permeable pathways using reclaimed brick and locally sourced natural
-                  stone, allowing rainwater to organically infiltrate the water table.
-                </p>
-              </div>
-
-              <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
-                <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">
-                    3
-                  </div>
-                  Biodiverse Planting Matrix
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Executing a high-density planting plan of native perennials, ornamental grasses,
-                  and pollinator-friendly shrubs for multi-seasonal visual and ecological interest.
-                </p>
-              </div>
-
-              <div className="p-6 rounded-xl border bg-card text-card-foreground shadow-sm space-y-2">
-                <div className="flex items-center gap-3 text-foreground font-semibold text-lg">
-                  <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center text-primary text-sm font-bold">
-                    4
-                  </div>
-                  Habitat Integration
-                </div>
-                <p className="text-sm text-muted-foreground">
-                  Incorporating discrete wildlife habitats, insect hotels, and low-level ambient
-                  lighting designed to minimize light pollution for nocturnal species.
-                </p>
-              </div>
+            <div className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+              <img
+                src="/images/portfolio/walworth-rear-garden-privacy-planting-and-lighting.png"
+                alt="Walworth Sanctuary detail"
+                className="h-auto w-full object-cover max-h-[444px]"
+                loading="lazy"
+              />
             </div>
-          </section>
 
-          <section className="space-y-4 pt-4">
-            <h2 className="text-2xl font-semibold text-foreground">Outcome & Professional Value</h2>
-            <p>
-              The Walworth Sanctuary proves that rigorous project management and ecological
-              sensitivity are not mutually exclusive. By executing strict supply chain governance
-              and precision site engineering, the finished garden functions as a robust,
-              low-maintenance urban retreat that actively gives back to the local environment.
-            </p>
-          </section>
+            <section className="space-y-4 pt-4 border-t border-[#102845]/10">
+              <h2 className="font-serif text-2xl font-normal text-[#102845]">
+                Operational Governance & Delivery
+              </h2>
+              <p>
+                From initial site survey to final commissioning, operations were structured around
+                transparent milestone tracking, minimal neighborhood disruption, and uncompromising
+                material standards.
+              </p>
+            </section>
+          </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
