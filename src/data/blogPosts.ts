@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-21",
     category: "Historic Practice Archive",
     excerpt:
-      "Creating a beautiful garden is a wonderful way to enhance your home’s charm and enjoy peaceful outdoor moments. If you’re looking to refresh your outd...",
+      "Creating a beautiful garden is a wonderful way to enhance your home’s charm and enjoy peaceful outdoor moments. If you’re looking to refresh your outd",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -71,7 +71,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-30",
     category: "Historic Practice Archive",
     excerpt:
-      "Creating a garden that truly reflects your personality and lifestyle is a wonderful journey. When you choose custom garden designs, you open the door ...",
+      "Creating a garden that truly reflects your personality and lifestyle is a wonderful journey. When you choose custom garden designs, you open the door ",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -99,7 +99,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-19",
     category: "Historic Practice Archive",
     excerpt:
-      "The fundamental failure of amateur landscaping is the dangerous assumption that the ground is static. In South London, the ground is your primary land...",
+      "The fundamental failure of amateur landscaping is the dangerous assumption that the ground is static. In South London, the ground is your primary land",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -132,7 +132,7 @@ export const blogPosts: BlogPost[] = [
     oldUrl: "https://www.savageldn.co.uk/post/soft-tree-fern-hydration-guide-2026",
     date: "2026-03-02",
     category: "Historic Practice Archive",
-    excerpt: "The Biological Engine of the Crown...",
+    excerpt: "The Biological Engine of the Crown",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -164,7 +164,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-02",
     category: "Historic Practice Archive",
     excerpt:
-      "Transforming an outdoor space into a refined garden sanctuary is a pursuit that many homeowners find deeply rewarding. Yet the journey from concept to...",
+      "Transforming an outdoor space into a refined garden sanctuary is a pursuit that many homeowners find deeply rewarding. Yet the journey from concept to",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -184,8 +184,8 @@ export const blogPosts: BlogPost[] = [
       "Location and Accessibility: Gardens in areas with restricted vehicle access or requiring permits often incur additional logistical expenses.",
       "What is the Average Cost of a Garden Makeover?",
       "To provide a practical framework, here are historic price ranges used by the former practice to manage client expectations in the South West London market:",
-      "Basic Garden Makeover: For smaller gardens or straightforward designs, costs generally start from £5,000 to £10,000. This might include simple paving, turfing, and basic planting.",
-      "Mid-Range Garden Transformation: More elaborate projects with bespoke features, high-quality materials, and professional planting schemes typically range from £10,000 to £25,000.",
+      "Basic Garden Makeover: For smaller gardens or straightforward designs, costs generally start from Standard project scope. This might include simple paving, turfing, and basic planting.",
+      "Mid-Range Garden Transformation: More elaborate projects with bespoke features, high-quality materials, and professional planting schemes typically range from Mid-scale project scope.",
       "High-End Garden Design and Construction: For extensive gardens featuring complex landscaping, premium materials, water features, lighting, and bespoke structures, costs can exceed £25,000 and often reach upwards of £50,000.",
       "Practical Tips for Managing Garden Design Costs",
       "Navigating garden design costs with prudence and foresight can ensure a rewarding outcome without undue financial strain. Here are some actionable recommendations for structural budgeting:",
@@ -195,7 +195,7 @@ export const blogPosts: BlogPost[] = [
       "Engage a Professional Early: Early involvement of a garden designer can prevent costly mistakes and optimise the use of space and resources.",
       "Request Detailed Quotes: Ensure all quotes are itemised to understand where funds are allocated. This transparency aids in making informed adjustments.",
       "Historic Practice Pricing Framework",
-      "In the former practice, garden design fees were structured to provide a forensic roadmap for project delivery. Full design-and-build projects typically operated with overall garden budgets from £20,000 upwards to deliver architectural finishes, including 2700K lighting, R11 porcelain, bespoke timber fencing, and SuDS-compliant drainage.",
+      "In the former practice, garden design fees were structured to provide a forensic roadmap for project delivery. Full design-and-build projects typically operated with overall garden budgets Historic project tier to deliver architectural finishes, including 2700K lighting, R11 porcelain, bespoke timber fencing, and SuDS-compliant drainage.",
     ],
   },
   {
@@ -205,7 +205,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-17",
     category: "Historic Practice Archive",
     excerpt:
-      "In the former practice's design ecosystem, the philosophy was never to merely illuminate a space, but to illuminate its textures. Lighting is a physic...",
+      "In the former practice's design ecosystem, the philosophy was never to merely illuminate a space, but to illuminate its textures. Lighting is a physic",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -233,7 +233,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-12",
     category: "Historic Practice Archive",
     excerpt:
-      "In the former practice's high-end garden designs, there was often a focus on the 'Architecture of Stillness'—the structural integrity of Western Red C...",
+      "In the former practice's high-end garden designs, there was often a focus on the 'Architecture of Stillness'—the structural integrity of Western Red C",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -261,7 +261,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-31",
     category: "Historic Practice Archive",
     excerpt:
-      "As we stand on the threshold of February, the urban garden often feels caught in a liminal space—suspended between the skeletal remains of winter and ...",
+      "As we stand on the threshold of February, the urban garden often feels caught in a liminal space—suspended between the skeletal remains of winter and ",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -289,7 +289,7 @@ export const blogPosts: BlogPost[] = [
     oldUrl: "https://www.savageldn.co.uk/post/nocturnal-garden-design",
     date: "2026-01-20",
     category: "Historic Practice Archive",
-    excerpt: "The Daylight Delusion and the Shift in Modern Living...",
+    excerpt: "The Daylight Delusion and the Shift in Modern Living",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -315,7 +315,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-15",
     category: "Historic Practice Archive",
     excerpt:
-      "Embarking on the journey to transform an outdoor space is a venture that is both exciting and intricate. A garden consultation serves as the pivotal f...",
+      "Embarking on the journey to transform an outdoor space is a venture that is both exciting and intricate. A garden consultation serves as the pivotal f",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-09",
     category: "Historic Practice Archive",
     excerpt:
-      "Gardening in the UK is evolving rapidly, with research indicating that hundreds of plant species bloom during the winter months. This shift presents u...",
+      "Gardening in the UK is evolving rapidly, with research indicating that hundreds of plant species bloom during the winter months. This shift presents u",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -387,7 +387,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-08",
     category: "Historic Practice Archive",
     excerpt:
-      "Asplenium scolopendrium, commonly known as Hart’s Tongue Fern, is an exceptional evergreen fern that brings structure and fresh green colour to even t...",
+      "Asplenium scolopendrium, commonly known as Hart’s Tongue Fern, is an exceptional evergreen fern that brings structure and fresh green colour to even t",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -416,7 +416,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-31",
     category: "Historic Practice Archive",
     excerpt:
-      "Transforming an outdoor space into a refined sanctuary requires a thoughtful approach to garden patio design. The garden patio is not merely an extens...",
+      "Transforming an outdoor space into a refined sanctuary requires a thoughtful approach to garden patio design. The garden patio is not merely an extens",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -444,7 +444,7 @@ export const blogPosts: BlogPost[] = [
     oldUrl: "https://www.savageldn.co.uk/post/shoot-gardening-review",
     date: "2025-12-10",
     category: "Historic Practice Archive",
-    excerpt: "Shoot Gardening: Bridging the Gap Between Design and Reality...",
+    excerpt: "Shoot Gardening: Bridging the Gap Between Design and Reality",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -467,7 +467,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-08",
     category: "Historic Practice Archive",
     excerpt:
-      "Adding a deck to an outdoor space transforms its usability and aesthetic appeal, creating a stylish, functional area for relaxing and entertaining. Pr...",
+      "Adding a deck to an outdoor space transforms its usability and aesthetic appeal, creating a stylish, functional area for relaxing and entertaining. Pr",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -498,7 +498,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-04",
     category: "Historic Practice Archive",
     excerpt:
-      "Selecting the ideal garden bench for an outdoor area can completely transform its ambiance, establishing a dedicated place to unwind, appreciate natur...",
+      "Selecting the ideal garden bench for an outdoor area can completely transform its ambiance, establishing a dedicated place to unwind, appreciate natur",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -523,7 +523,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-11-18",
     category: "Historic Practice Archive",
     excerpt:
-      "Conifers are the foundational structural elements of professional landscape design, providing year-round evergreen form, rich textures, and remarkable...",
+      "Conifers are the foundational structural elements of professional landscape design, providing year-round evergreen form, rich textures, and remarkable",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -546,7 +546,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-10-05",
     category: "Historic Practice Archive",
     excerpt:
-      "Designing a garden that thrives and delights requires a clear, actionable strategy that bridges site analysis, soil science, and aesthetic balance....",
+      "Designing a garden that thrives and delights requires a clear, actionable strategy that bridges site analysis, soil science, and aesthetic balance.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -572,7 +572,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-09-11",
     category: "Historic Practice Archive",
     excerpt:
-      "Cultivating a thriving urban garden requires navigating unique environmental conditions, including restricted sunlight profiles, urban pollution, and ...",
+      "Cultivating a thriving urban garden requires navigating unique environmental conditions, including restricted sunlight profiles, urban pollution, and ",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -594,7 +594,7 @@ export const blogPosts: BlogPost[] = [
     oldUrl: "https://www.savageldn.co.uk/post/september-plant-of-the-month",
     date: "2025-09-01",
     category: "Historic Practice Archive",
-    excerpt: "The Allure of Hibiscus...",
+    excerpt: "The Allure of Hibiscus",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -647,7 +647,7 @@ export const blogPosts: BlogPost[] = [
       "Maintenance is vital for the success of the planting plan. Thoughtful plant selection reduces the need for watering, fertilisation, and pest control, promoting sustainability. Grouping plants with similar care needs simplifies maintenance, while mulch and native plants help retain moisture and support beneficial insects.",
       "Conclusion",
       "In conclusion, planting plans are foundational in gardening and landscape design. They cover plant selection, design, maintenance, and seasonal changes. These plans create beautiful, functional, sustainable spaces that enhance surroundings and support local ecosystems.",
-      "Use the booking form on the website to book a garden quote. Explore my portfolio and follow me on social media for more inspiration and ideas.",
+      "This historic article is retained as a static reference for past horticultural insights.",
     ],
   },
 ];
