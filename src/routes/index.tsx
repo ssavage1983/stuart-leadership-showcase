@@ -390,6 +390,8 @@ function Index() {
           <div className="lg:col-span-4 flex justify-center lg:justify-end">
             <figure className="relative w-full max-w-[340px] rounded border border-[#f7f4ee]/30 bg-[#091d2f] shadow-2xl overflow-hidden">
               <img
+                loading="lazy"
+                decoding="async"
                 src="/images/profile/stuart-savage.jpg"
                 alt="Stuart Savage"
                 width="680"

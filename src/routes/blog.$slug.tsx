@@ -67,6 +67,8 @@ function ArchivedBlogPost() {
           {post.heroImage ? (
             <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
               <img
+                loading="lazy"
+                decoding="async"
                 src={post.heroImage}
                 alt={post.imageCaption ?? post.title}
                 width="1200"
