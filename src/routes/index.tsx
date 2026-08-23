@@ -549,7 +549,18 @@ function Index() {
                           </p>
                           <ul className="list-none space-y-2">
                             {role.responsibilities.map((pt, i) => (
-                              <BulletItem key={i}>{pt}</BulletItem>
+                              <BulletItem key={i}>
+                                {typeof pt === "string" && pt.includes(":") ? (
+                                  <>
+                                    <strong className="font-bold text-[#102a43]">
+                                      {pt.split(":")[0]}:
+                                    </strong>
+                                    {pt.split(":").slice(1).join(":")}
+                                  </>
+                                ) : (
+                                  pt
+                                )}
+                              </BulletItem>
                             ))}
                           </ul>
                         </div>
@@ -562,7 +573,18 @@ function Index() {
                           </p>
                           <ul className="list-none space-y-2">
                             {role.achievements.map((pt, i) => (
-                              <BulletItem key={i}>{pt}</BulletItem>
+                              <BulletItem key={i}>
+                                {typeof pt === "string" && pt.includes(":") ? (
+                                  <>
+                                    <strong className="font-bold text-[#102a43]">
+                                      {pt.split(":")[0]}:
+                                    </strong>
+                                    {pt.split(":").slice(1).join(":")}
+                                  </>
+                                ) : (
+                                  pt
+                                )}
+                              </BulletItem>
                             ))}
                           </ul>
                         </div>
