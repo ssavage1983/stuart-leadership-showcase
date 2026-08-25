@@ -81,7 +81,6 @@ export const linkedInWriting: LinkedInWriting[] = [
       "A professional reflection on reducing uncertainty through a clear digital blueprint before delivery.",
     url: "https://www.linkedin.com/pulse/design-gap-why-digital-blueprint-uk-homeowners-smartest-stuart-savage-jvj5f/",
   },
-  ,
   {
     title: "Shoot Gardening: A Professional Designer's Review",
     url: "https://www.shootgardening.com/articles/shoot-gardening-a-professional-designers-review",
