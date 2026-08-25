@@ -58,7 +58,7 @@ function BlogComponent() {
         </div>
       </nav>
 
-      <header className="relative overflow-hidden bg-[#102845] px-6 py-20 text-white sm:py-28">
+      <header className="relative overflow-hidden bg-[#091d2f] px-6 py-20 text-white sm:py-28">
         <div
           className="absolute inset-0 bg-cover bg-center opacity-25 mix-blend-overlay"
           style={{
@@ -154,7 +154,7 @@ function BlogComponent() {
                   <Link
                     to="/blog/$slug"
                     params={{ slug: post.slug }}
-                    className="hover:text-[#b99a60]"
+                    className="group relative block h-56 overflow-hidden bg-[#e8e2d9]"
                   >
                     {post.title}
                   </Link>
