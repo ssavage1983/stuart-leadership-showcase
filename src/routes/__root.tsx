@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -275,6 +276,7 @@ function RootComponent() {
         {/* Dynamic Route Pages Render Here */}
         <main className="flex-1">
           <Outlet />
+          <Analytics />
         </main>
 
         {/* Global Footer (Renders on ALL Pages) */}
