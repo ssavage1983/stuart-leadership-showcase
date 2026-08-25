@@ -1,6 +1,6 @@
 {
   "name": "tanstack_start_ts",
-  "private": true,
+  "private": true, // force fresh build
   "sideEffects": false,
   "type": "module",
   "scripts": {
@@ -90,3 +90,4 @@
   },
   "packageManager": "bun@1.2.4"
 }
+
