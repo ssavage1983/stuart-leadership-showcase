@@ -45,7 +45,6 @@ function ArchivedBlogPost() {
           <h1 className="mt-4 font-serif text-4xl font-normal leading-tight sm:text-6xl">
             {post.title}
           </h1>
-          <p className="mt-6 max-w-3xl text-base text-[#f8f7f3]/75">{post.excerpt}</p>
           {post.date || post.readTime ? (
             <p className="mt-4 text-xs font-bold uppercase tracking-widest text-[#c9ad72]">
               {[post.date, post.readTime].filter(Boolean).join(" · ")}
