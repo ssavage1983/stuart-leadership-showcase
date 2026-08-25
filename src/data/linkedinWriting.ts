@@ -79,6 +79,22 @@ export const linkedInWriting: LinkedInWriting[] = [
     type: "Article",
     description:
       "A professional reflection on reducing uncertainty through a clear digital blueprint before delivery.",
-    url: "https://www.linkedin.com/pulse/design-gap-why-digital-blueprint-uk-homeowners-smartest-stuart-savage-jvj5f",
+    url: "https://www.linkedin.com/pulse/design-gap-why-digital-blueprint-uk-homeowners-smartest-stuart-savage-jvj5f/",
+  },
+  ,
+  {
+    title: "Shoot Gardening: A Professional Designer's Review",
+    url: "https://www.shootgardening.com/articles/shoot-gardening-a-professional-designers-review",
+    description: "External publication feature",
+  },
+  {
+    title: "Marlborough Mews: A Tropical Microclimate",
+    url: "https://www.shootgardening.com/articles/marlborough-mews-a-tropical-microclimate",
+    description: "External publication feature",
+  },
+  {
+    title: "The Weekend Pages: Phil Spencer Feature",
+    url: "https://theweekendpages.co.uk/phil-spencer/#50",
+    description: "External publication feature",
   },
 ];
