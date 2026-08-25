@@ -7,6 +7,28 @@ const DESCRIPTION =
   "Historic project records showing delivery, coordination and operational evidence. Former businesses closed; archive only.";
 
 export const Route = createFileRoute("/case-studies/")({
+  head: () => ({
+    meta: [
+      { title: "Project Portfolio | Stuart Savage" },
+      {
+        name: "description",
+        content:
+          "Archive of landscape design and structural planning projects delivered across South London, demonstrating strict zero-defect quality assurance.",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: "Project Portfolio Archive",
+          description: "Historic project delivery records and methodologies for Stuart Savage.",
+          url: "https://www.moonlight-studio.uk/case-studies",
+        }),
+      },
+    ],
+  }),
   component: CaseStudiesComponent,
   head: () => ({
     meta: [
