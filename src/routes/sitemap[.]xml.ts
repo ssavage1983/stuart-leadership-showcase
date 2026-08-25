@@ -4,7 +4,7 @@ import type {} from "@tanstack/react-start";
 import { blogPosts } from "@/data/blogPosts";
 import { caseStudies } from "@/data/caseStudies";
 
-const BASE_URL = "https://www.moonlight-studio.uk";
+const BASE_URL = "https://www.savageldn.co.uk";
 
 interface SitemapEntry {
   path: string;
