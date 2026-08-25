@@ -20,8 +20,19 @@ import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as CaseStudiesIndexRouteImport } from './routes/case-studies.index'
 import { Route as CaseStudiesSlugRouteImport } from './routes/case-studies.$slug'
+import { Route as CaseStudiesBalhamCottageCourtyardGardenRouteImport } from './routes/case-studies.balham-cottage-courtyard-garden'
+import { Route as CaseStudiesBalhamPergolaWalkwayRouteImport } from './routes/case-studies.balham-pergola-walkway'
+import { Route as CaseStudiesBrixtonGardenJungleTransformationRouteImport } from './routes/case-studies.brixton-garden-jungle-transformation'
+import { Route as CaseStudiesClaphamOldTownRouteImport } from './routes/case-studies.clapham-old-town'
 import { Route as CaseStudiesDigitalTwinWorkflowRouteImport } from './routes/case-studies.digital-twin-workflow'
+import { Route as CaseStudiesDulwichGardenTransformationRouteImport } from './routes/case-studies.dulwich-garden-transformation'
+import { Route as CaseStudiesGayvilleZenSanctuaryBalhamRouteImport } from './routes/case-studies.gayville-zen-sanctuary-balham'
+import { Route as CaseStudiesGeometricHarmonyTootingBecRouteImport } from './routes/case-studies.geometric-harmony-tooting-bec'
+import { Route as CaseStudiesMarlboroughMewsSanctuaryBrixtonRouteImport } from './routes/case-studies.marlborough-mews-sanctuary-brixton'
+import { Route as CaseStudiesModernCottageGreenwichRouteImport } from './routes/case-studies.modern-cottage-greenwich'
 import { Route as CaseStudiesSupplyChainControlRouteImport } from './routes/case-studies.supply-chain-control'
+import { Route as CaseStudiesWalworthSanctuaryRouteImport } from './routes/case-studies.walworth-sanctuary'
+import { Route as CaseStudiesZenSanctuaryTootingBecRouteImport } from './routes/case-studies.zen-sanctuary-tooting-bec'
 import { Route as Char91DotmcpChar93InvokeToolToolRouteImport } from './routes/[.mcp]/invoke-tool/$tool'
 
 const IndexRoute = IndexRouteImport.update({
@@ -81,16 +92,82 @@ const CaseStudiesSlugRoute = CaseStudiesSlugRouteImport.update({
   path: '/case-studies/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CaseStudiesBalhamCottageCourtyardGardenRoute =
+  CaseStudiesBalhamCottageCourtyardGardenRouteImport.update({
+    id: '/case-studies/balham-cottage-courtyard-garden',
+    path: '/case-studies/balham-cottage-courtyard-garden',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesBalhamPergolaWalkwayRoute =
+  CaseStudiesBalhamPergolaWalkwayRouteImport.update({
+    id: '/case-studies/balham-pergola-walkway',
+    path: '/case-studies/balham-pergola-walkway',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesBrixtonGardenJungleTransformationRoute =
+  CaseStudiesBrixtonGardenJungleTransformationRouteImport.update({
+    id: '/case-studies/brixton-garden-jungle-transformation',
+    path: '/case-studies/brixton-garden-jungle-transformation',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesClaphamOldTownRoute =
+  CaseStudiesClaphamOldTownRouteImport.update({
+    id: '/case-studies/clapham-old-town',
+    path: '/case-studies/clapham-old-town',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const CaseStudiesDigitalTwinWorkflowRoute =
   CaseStudiesDigitalTwinWorkflowRouteImport.update({
     id: '/case-studies/digital-twin-workflow',
     path: '/case-studies/digital-twin-workflow',
     getParentRoute: () => rootRouteImport,
   } as any)
+const CaseStudiesDulwichGardenTransformationRoute =
+  CaseStudiesDulwichGardenTransformationRouteImport.update({
+    id: '/case-studies/dulwich-garden-transformation',
+    path: '/case-studies/dulwich-garden-transformation',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesGayvilleZenSanctuaryBalhamRoute =
+  CaseStudiesGayvilleZenSanctuaryBalhamRouteImport.update({
+    id: '/case-studies/gayville-zen-sanctuary-balham',
+    path: '/case-studies/gayville-zen-sanctuary-balham',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesGeometricHarmonyTootingBecRoute =
+  CaseStudiesGeometricHarmonyTootingBecRouteImport.update({
+    id: '/case-studies/geometric-harmony-tooting-bec',
+    path: '/case-studies/geometric-harmony-tooting-bec',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesMarlboroughMewsSanctuaryBrixtonRoute =
+  CaseStudiesMarlboroughMewsSanctuaryBrixtonRouteImport.update({
+    id: '/case-studies/marlborough-mews-sanctuary-brixton',
+    path: '/case-studies/marlborough-mews-sanctuary-brixton',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesModernCottageGreenwichRoute =
+  CaseStudiesModernCottageGreenwichRouteImport.update({
+    id: '/case-studies/modern-cottage-greenwich',
+    path: '/case-studies/modern-cottage-greenwich',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const CaseStudiesSupplyChainControlRoute =
   CaseStudiesSupplyChainControlRouteImport.update({
     id: '/case-studies/supply-chain-control',
     path: '/case-studies/supply-chain-control',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesWalworthSanctuaryRoute =
+  CaseStudiesWalworthSanctuaryRouteImport.update({
+    id: '/case-studies/walworth-sanctuary',
+    path: '/case-studies/walworth-sanctuary',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const CaseStudiesZenSanctuaryTootingBecRoute =
+  CaseStudiesZenSanctuaryTootingBecRouteImport.update({
+    id: '/case-studies/zen-sanctuary-tooting-bec',
+    path: '/case-studies/zen-sanctuary-tooting-bec',
     getParentRoute: () => rootRouteImport,
   } as any)
 const Char91DotmcpChar93InvokeToolToolRoute =
@@ -110,8 +187,19 @@ export interface FileRoutesByFullPath {
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/case-studies/balham-cottage-courtyard-garden': typeof CaseStudiesBalhamCottageCourtyardGardenRoute
+  '/case-studies/balham-pergola-walkway': typeof CaseStudiesBalhamPergolaWalkwayRoute
+  '/case-studies/brixton-garden-jungle-transformation': typeof CaseStudiesBrixtonGardenJungleTransformationRoute
+  '/case-studies/clapham-old-town': typeof CaseStudiesClaphamOldTownRoute
   '/case-studies/digital-twin-workflow': typeof CaseStudiesDigitalTwinWorkflowRoute
+  '/case-studies/dulwich-garden-transformation': typeof CaseStudiesDulwichGardenTransformationRoute
+  '/case-studies/gayville-zen-sanctuary-balham': typeof CaseStudiesGayvilleZenSanctuaryBalhamRoute
+  '/case-studies/geometric-harmony-tooting-bec': typeof CaseStudiesGeometricHarmonyTootingBecRoute
+  '/case-studies/marlborough-mews-sanctuary-brixton': typeof CaseStudiesMarlboroughMewsSanctuaryBrixtonRoute
+  '/case-studies/modern-cottage-greenwich': typeof CaseStudiesModernCottageGreenwichRoute
   '/case-studies/supply-chain-control': typeof CaseStudiesSupplyChainControlRoute
+  '/case-studies/walworth-sanctuary': typeof CaseStudiesWalworthSanctuaryRoute
+  '/case-studies/zen-sanctuary-tooting-bec': typeof CaseStudiesZenSanctuaryTootingBecRoute
   '/blog/': typeof BlogIndexRoute
   '/case-studies/': typeof CaseStudiesIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
@@ -126,8 +214,19 @@ export interface FileRoutesByTo {
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/case-studies/balham-cottage-courtyard-garden': typeof CaseStudiesBalhamCottageCourtyardGardenRoute
+  '/case-studies/balham-pergola-walkway': typeof CaseStudiesBalhamPergolaWalkwayRoute
+  '/case-studies/brixton-garden-jungle-transformation': typeof CaseStudiesBrixtonGardenJungleTransformationRoute
+  '/case-studies/clapham-old-town': typeof CaseStudiesClaphamOldTownRoute
   '/case-studies/digital-twin-workflow': typeof CaseStudiesDigitalTwinWorkflowRoute
+  '/case-studies/dulwich-garden-transformation': typeof CaseStudiesDulwichGardenTransformationRoute
+  '/case-studies/gayville-zen-sanctuary-balham': typeof CaseStudiesGayvilleZenSanctuaryBalhamRoute
+  '/case-studies/geometric-harmony-tooting-bec': typeof CaseStudiesGeometricHarmonyTootingBecRoute
+  '/case-studies/marlborough-mews-sanctuary-brixton': typeof CaseStudiesMarlboroughMewsSanctuaryBrixtonRoute
+  '/case-studies/modern-cottage-greenwich': typeof CaseStudiesModernCottageGreenwichRoute
   '/case-studies/supply-chain-control': typeof CaseStudiesSupplyChainControlRoute
+  '/case-studies/walworth-sanctuary': typeof CaseStudiesWalworthSanctuaryRoute
+  '/case-studies/zen-sanctuary-tooting-bec': typeof CaseStudiesZenSanctuaryTootingBecRoute
   '/blog': typeof BlogIndexRoute
   '/case-studies': typeof CaseStudiesIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
@@ -143,8 +242,19 @@ export interface FileRoutesById {
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
   '/case-studies/$slug': typeof CaseStudiesSlugRoute
+  '/case-studies/balham-cottage-courtyard-garden': typeof CaseStudiesBalhamCottageCourtyardGardenRoute
+  '/case-studies/balham-pergola-walkway': typeof CaseStudiesBalhamPergolaWalkwayRoute
+  '/case-studies/brixton-garden-jungle-transformation': typeof CaseStudiesBrixtonGardenJungleTransformationRoute
+  '/case-studies/clapham-old-town': typeof CaseStudiesClaphamOldTownRoute
   '/case-studies/digital-twin-workflow': typeof CaseStudiesDigitalTwinWorkflowRoute
+  '/case-studies/dulwich-garden-transformation': typeof CaseStudiesDulwichGardenTransformationRoute
+  '/case-studies/gayville-zen-sanctuary-balham': typeof CaseStudiesGayvilleZenSanctuaryBalhamRoute
+  '/case-studies/geometric-harmony-tooting-bec': typeof CaseStudiesGeometricHarmonyTootingBecRoute
+  '/case-studies/marlborough-mews-sanctuary-brixton': typeof CaseStudiesMarlboroughMewsSanctuaryBrixtonRoute
+  '/case-studies/modern-cottage-greenwich': typeof CaseStudiesModernCottageGreenwichRoute
   '/case-studies/supply-chain-control': typeof CaseStudiesSupplyChainControlRoute
+  '/case-studies/walworth-sanctuary': typeof CaseStudiesWalworthSanctuaryRoute
+  '/case-studies/zen-sanctuary-tooting-bec': typeof CaseStudiesZenSanctuaryTootingBecRoute
   '/blog/': typeof BlogIndexRoute
   '/case-studies/': typeof CaseStudiesIndexRoute
   '/.mcp/invoke-tool/$tool': typeof Char91DotmcpChar93InvokeToolToolRoute
@@ -161,8 +271,19 @@ export interface FileRouteTypes {
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/case-studies/$slug'
+    | '/case-studies/balham-cottage-courtyard-garden'
+    | '/case-studies/balham-pergola-walkway'
+    | '/case-studies/brixton-garden-jungle-transformation'
+    | '/case-studies/clapham-old-town'
     | '/case-studies/digital-twin-workflow'
+    | '/case-studies/dulwich-garden-transformation'
+    | '/case-studies/gayville-zen-sanctuary-balham'
+    | '/case-studies/geometric-harmony-tooting-bec'
+    | '/case-studies/marlborough-mews-sanctuary-brixton'
+    | '/case-studies/modern-cottage-greenwich'
     | '/case-studies/supply-chain-control'
+    | '/case-studies/walworth-sanctuary'
+    | '/case-studies/zen-sanctuary-tooting-bec'
     | '/blog/'
     | '/case-studies/'
     | '/.mcp/invoke-tool/$tool'
@@ -177,8 +298,19 @@ export interface FileRouteTypes {
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/case-studies/$slug'
+    | '/case-studies/balham-cottage-courtyard-garden'
+    | '/case-studies/balham-pergola-walkway'
+    | '/case-studies/brixton-garden-jungle-transformation'
+    | '/case-studies/clapham-old-town'
     | '/case-studies/digital-twin-workflow'
+    | '/case-studies/dulwich-garden-transformation'
+    | '/case-studies/gayville-zen-sanctuary-balham'
+    | '/case-studies/geometric-harmony-tooting-bec'
+    | '/case-studies/marlborough-mews-sanctuary-brixton'
+    | '/case-studies/modern-cottage-greenwich'
     | '/case-studies/supply-chain-control'
+    | '/case-studies/walworth-sanctuary'
+    | '/case-studies/zen-sanctuary-tooting-bec'
     | '/blog'
     | '/case-studies'
     | '/.mcp/invoke-tool/$tool'
@@ -193,8 +325,19 @@ export interface FileRouteTypes {
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
     | '/case-studies/$slug'
+    | '/case-studies/balham-cottage-courtyard-garden'
+    | '/case-studies/balham-pergola-walkway'
+    | '/case-studies/brixton-garden-jungle-transformation'
+    | '/case-studies/clapham-old-town'
     | '/case-studies/digital-twin-workflow'
+    | '/case-studies/dulwich-garden-transformation'
+    | '/case-studies/gayville-zen-sanctuary-balham'
+    | '/case-studies/geometric-harmony-tooting-bec'
+    | '/case-studies/marlborough-mews-sanctuary-brixton'
+    | '/case-studies/modern-cottage-greenwich'
     | '/case-studies/supply-chain-control'
+    | '/case-studies/walworth-sanctuary'
+    | '/case-studies/zen-sanctuary-tooting-bec'
     | '/blog/'
     | '/case-studies/'
     | '/.mcp/invoke-tool/$tool'
@@ -210,8 +353,19 @@ export interface RootRouteChildren {
   Char91DotwellKnownChar93OauthProtectedResourceRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   BlogSlugRoute: typeof BlogSlugRoute
   CaseStudiesSlugRoute: typeof CaseStudiesSlugRoute
+  CaseStudiesBalhamCottageCourtyardGardenRoute: typeof CaseStudiesBalhamCottageCourtyardGardenRoute
+  CaseStudiesBalhamPergolaWalkwayRoute: typeof CaseStudiesBalhamPergolaWalkwayRoute
+  CaseStudiesBrixtonGardenJungleTransformationRoute: typeof CaseStudiesBrixtonGardenJungleTransformationRoute
+  CaseStudiesClaphamOldTownRoute: typeof CaseStudiesClaphamOldTownRoute
   CaseStudiesDigitalTwinWorkflowRoute: typeof CaseStudiesDigitalTwinWorkflowRoute
+  CaseStudiesDulwichGardenTransformationRoute: typeof CaseStudiesDulwichGardenTransformationRoute
+  CaseStudiesGayvilleZenSanctuaryBalhamRoute: typeof CaseStudiesGayvilleZenSanctuaryBalhamRoute
+  CaseStudiesGeometricHarmonyTootingBecRoute: typeof CaseStudiesGeometricHarmonyTootingBecRoute
+  CaseStudiesMarlboroughMewsSanctuaryBrixtonRoute: typeof CaseStudiesMarlboroughMewsSanctuaryBrixtonRoute
+  CaseStudiesModernCottageGreenwichRoute: typeof CaseStudiesModernCottageGreenwichRoute
   CaseStudiesSupplyChainControlRoute: typeof CaseStudiesSupplyChainControlRoute
+  CaseStudiesWalworthSanctuaryRoute: typeof CaseStudiesWalworthSanctuaryRoute
+  CaseStudiesZenSanctuaryTootingBecRoute: typeof CaseStudiesZenSanctuaryTootingBecRoute
   BlogIndexRoute: typeof BlogIndexRoute
   CaseStudiesIndexRoute: typeof CaseStudiesIndexRoute
   Char91DotmcpChar93InvokeToolToolRoute: typeof Char91DotmcpChar93InvokeToolToolRoute
@@ -296,6 +450,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CaseStudiesSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/case-studies/balham-cottage-courtyard-garden': {
+      id: '/case-studies/balham-cottage-courtyard-garden'
+      path: '/case-studies/balham-cottage-courtyard-garden'
+      fullPath: '/case-studies/balham-cottage-courtyard-garden'
+      preLoaderRoute: typeof CaseStudiesBalhamCottageCourtyardGardenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/balham-pergola-walkway': {
+      id: '/case-studies/balham-pergola-walkway'
+      path: '/case-studies/balham-pergola-walkway'
+      fullPath: '/case-studies/balham-pergola-walkway'
+      preLoaderRoute: typeof CaseStudiesBalhamPergolaWalkwayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/brixton-garden-jungle-transformation': {
+      id: '/case-studies/brixton-garden-jungle-transformation'
+      path: '/case-studies/brixton-garden-jungle-transformation'
+      fullPath: '/case-studies/brixton-garden-jungle-transformation'
+      preLoaderRoute: typeof CaseStudiesBrixtonGardenJungleTransformationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/clapham-old-town': {
+      id: '/case-studies/clapham-old-town'
+      path: '/case-studies/clapham-old-town'
+      fullPath: '/case-studies/clapham-old-town'
+      preLoaderRoute: typeof CaseStudiesClaphamOldTownRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/case-studies/digital-twin-workflow': {
       id: '/case-studies/digital-twin-workflow'
       path: '/case-studies/digital-twin-workflow'
@@ -303,11 +485,60 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CaseStudiesDigitalTwinWorkflowRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/case-studies/dulwich-garden-transformation': {
+      id: '/case-studies/dulwich-garden-transformation'
+      path: '/case-studies/dulwich-garden-transformation'
+      fullPath: '/case-studies/dulwich-garden-transformation'
+      preLoaderRoute: typeof CaseStudiesDulwichGardenTransformationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/gayville-zen-sanctuary-balham': {
+      id: '/case-studies/gayville-zen-sanctuary-balham'
+      path: '/case-studies/gayville-zen-sanctuary-balham'
+      fullPath: '/case-studies/gayville-zen-sanctuary-balham'
+      preLoaderRoute: typeof CaseStudiesGayvilleZenSanctuaryBalhamRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/geometric-harmony-tooting-bec': {
+      id: '/case-studies/geometric-harmony-tooting-bec'
+      path: '/case-studies/geometric-harmony-tooting-bec'
+      fullPath: '/case-studies/geometric-harmony-tooting-bec'
+      preLoaderRoute: typeof CaseStudiesGeometricHarmonyTootingBecRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/marlborough-mews-sanctuary-brixton': {
+      id: '/case-studies/marlborough-mews-sanctuary-brixton'
+      path: '/case-studies/marlborough-mews-sanctuary-brixton'
+      fullPath: '/case-studies/marlborough-mews-sanctuary-brixton'
+      preLoaderRoute: typeof CaseStudiesMarlboroughMewsSanctuaryBrixtonRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/modern-cottage-greenwich': {
+      id: '/case-studies/modern-cottage-greenwich'
+      path: '/case-studies/modern-cottage-greenwich'
+      fullPath: '/case-studies/modern-cottage-greenwich'
+      preLoaderRoute: typeof CaseStudiesModernCottageGreenwichRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/case-studies/supply-chain-control': {
       id: '/case-studies/supply-chain-control'
       path: '/case-studies/supply-chain-control'
       fullPath: '/case-studies/supply-chain-control'
       preLoaderRoute: typeof CaseStudiesSupplyChainControlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/walworth-sanctuary': {
+      id: '/case-studies/walworth-sanctuary'
+      path: '/case-studies/walworth-sanctuary'
+      fullPath: '/case-studies/walworth-sanctuary'
+      preLoaderRoute: typeof CaseStudiesWalworthSanctuaryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/zen-sanctuary-tooting-bec': {
+      id: '/case-studies/zen-sanctuary-tooting-bec'
+      path: '/case-studies/zen-sanctuary-tooting-bec'
+      fullPath: '/case-studies/zen-sanctuary-tooting-bec'
+      preLoaderRoute: typeof CaseStudiesZenSanctuaryTootingBecRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/.mcp/invoke-tool/$tool': {
@@ -331,8 +562,27 @@ const rootRouteChildren: RootRouteChildren = {
     Char91DotwellKnownChar93OauthProtectedResourceRoute,
   BlogSlugRoute: BlogSlugRoute,
   CaseStudiesSlugRoute: CaseStudiesSlugRoute,
+  CaseStudiesBalhamCottageCourtyardGardenRoute:
+    CaseStudiesBalhamCottageCourtyardGardenRoute,
+  CaseStudiesBalhamPergolaWalkwayRoute: CaseStudiesBalhamPergolaWalkwayRoute,
+  CaseStudiesBrixtonGardenJungleTransformationRoute:
+    CaseStudiesBrixtonGardenJungleTransformationRoute,
+  CaseStudiesClaphamOldTownRoute: CaseStudiesClaphamOldTownRoute,
   CaseStudiesDigitalTwinWorkflowRoute: CaseStudiesDigitalTwinWorkflowRoute,
+  CaseStudiesDulwichGardenTransformationRoute:
+    CaseStudiesDulwichGardenTransformationRoute,
+  CaseStudiesGayvilleZenSanctuaryBalhamRoute:
+    CaseStudiesGayvilleZenSanctuaryBalhamRoute,
+  CaseStudiesGeometricHarmonyTootingBecRoute:
+    CaseStudiesGeometricHarmonyTootingBecRoute,
+  CaseStudiesMarlboroughMewsSanctuaryBrixtonRoute:
+    CaseStudiesMarlboroughMewsSanctuaryBrixtonRoute,
+  CaseStudiesModernCottageGreenwichRoute:
+    CaseStudiesModernCottageGreenwichRoute,
   CaseStudiesSupplyChainControlRoute: CaseStudiesSupplyChainControlRoute,
+  CaseStudiesWalworthSanctuaryRoute: CaseStudiesWalworthSanctuaryRoute,
+  CaseStudiesZenSanctuaryTootingBecRoute:
+    CaseStudiesZenSanctuaryTootingBecRoute,
   BlogIndexRoute: BlogIndexRoute,
   CaseStudiesIndexRoute: CaseStudiesIndexRoute,
   Char91DotmcpChar93InvokeToolToolRoute: Char91DotmcpChar93InvokeToolToolRoute,
