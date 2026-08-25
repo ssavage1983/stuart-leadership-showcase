@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-05-21",
     category: "Historic Practice Archive",
     excerpt:
-      "Creating a beautiful garden is a wonderful way to enhance your home’s charm and enjoy peaceful outdoor moments. If you’re looking to refresh your outd",
+      "Creating a beautiful garden is a wonderful way to enhance your home’s charm and enjoy peaceful outdoor moments. If you’re looking to refresh your outdoor space.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -71,7 +71,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-30",
     category: "Historic Practice Archive",
     excerpt:
-      "Creating a garden that truly reflects your personality and lifestyle is a wonderful journey. When you choose custom garden designs, you open the door ",
+      "Creating a garden that truly reflects your personality and lifestyle is a wonderful journey. When you choose custom garden designs, you open the door to endless possibilities.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -99,7 +99,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-19",
     category: "Historic Practice Archive",
     excerpt:
-      "The fundamental failure of amateur landscaping is the dangerous assumption that the ground is static. In South London, the ground is your primary land",
+      "The fundamental failure of amateur landscaping is the dangerous assumption that the ground is static. In South London, the ground is your primary landscape component.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -132,7 +132,7 @@ export const blogPosts: BlogPost[] = [
     oldUrl: "https://www.savageldn.co.uk/post/soft-tree-fern-hydration-guide-2026",
     date: "2026-03-02",
     category: "Historic Practice Archive",
-    excerpt: "The Biological Engine of the Crown",
+    excerpt: "The Biological Engine of the.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -164,7 +164,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-03-02",
     category: "Historic Practice Archive",
     excerpt:
-      "Transforming an outdoor space into a refined garden sanctuary is a pursuit that many homeowners find deeply rewarding. Yet the journey from concept to",
+      "Transforming an outdoor space into a refined garden sanctuary is a pursuit that many homeowners find deeply rewarding. Yet the journey requires careful planning.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -205,7 +205,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-17",
     category: "Historic Practice Archive",
     excerpt:
-      "In the former practice's design ecosystem, the philosophy was never to merely illuminate a space, but to illuminate its textures. Lighting is a physic",
+      "In the former practice's design ecosystem, the philosophy was never to merely illuminate a space, but to illuminate its textures.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -233,7 +233,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-12",
     category: "Historic Practice Archive",
     excerpt:
-      "In the former practice's high-end garden designs, there was often a focus on the 'Architecture of Stillness'—the structural integrity of Western Red C",
+      "In the former practice's high-end garden designs, there was often a focus on the 'Architecture of Stillness'—the structural integrity of Western Red.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -261,7 +261,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-31",
     category: "Historic Practice Archive",
     excerpt:
-      "As we stand on the threshold of February, the urban garden often feels caught in a liminal space—suspended between the skeletal remains of winter and ",
+      "As we stand on the threshold of February, the urban garden often feels caught in a liminal space—suspended between the skeletal remains of winter.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -289,7 +289,7 @@ export const blogPosts: BlogPost[] = [
     oldUrl: "https://www.savageldn.co.uk/post/nocturnal-garden-design",
     date: "2026-01-20",
     category: "Historic Practice Archive",
-    excerpt: "The Daylight Delusion and the Shift in Modern Living",
+    excerpt: "The Daylight Delusion and the Shift in Modern.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -315,7 +315,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-15",
     category: "Historic Practice Archive",
     excerpt:
-      "Embarking on the journey to transform an outdoor space is a venture that is both exciting and intricate. A garden consultation serves as the pivotal f",
+      "Embarking on the journey to transform an outdoor space is a venture that is both exciting and intricate.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-09",
     category: "Historic Practice Archive",
     excerpt:
-      "Gardening in the UK is evolving rapidly, with research indicating that hundreds of plant species bloom during the winter months. This shift presents u",
+      "Gardening in the UK is evolving rapidly, with research indicating that hundreds of plant species bloom during the winter months.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -387,7 +387,7 @@ export const blogPosts: BlogPost[] = [
     date: "2026-01-08",
     category: "Historic Practice Archive",
     excerpt:
-      "Asplenium scolopendrium, commonly known as Hart’s Tongue Fern, is an exceptional evergreen fern that brings structure and fresh green colour to even t",
+      "Asplenium scolopendrium, commonly known as Hart’s Tongue Fern, is an exceptional evergreen fern that brings structure and fresh green colour to even.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -416,7 +416,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-31",
     category: "Historic Practice Archive",
     excerpt:
-      "Transforming an outdoor space into a refined sanctuary requires a thoughtful approach to garden patio design. The garden patio is not merely an extens",
+      "Transforming an outdoor space into a refined sanctuary requires a thoughtful approach to garden patio design.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -444,7 +444,7 @@ export const blogPosts: BlogPost[] = [
     oldUrl: "https://www.savageldn.co.uk/post/shoot-gardening-review",
     date: "2025-12-10",
     category: "Historic Practice Archive",
-    excerpt: "Shoot Gardening: Bridging the Gap Between Design and Reality",
+    excerpt: "Shoot Gardening: Bridging the Gap Between Design and.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -467,7 +467,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-08",
     category: "Historic Practice Archive",
     excerpt:
-      "Adding a deck to an outdoor space transforms its usability and aesthetic appeal, creating a stylish, functional area for relaxing and entertaining. Pr",
+      "Adding a deck to an outdoor space transforms its usability and aesthetic appeal, creating a stylish, functional area for relaxing and entertaining.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -498,7 +498,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-12-04",
     category: "Historic Practice Archive",
     excerpt:
-      "Selecting the ideal garden bench for an outdoor area can completely transform its ambiance, establishing a dedicated place to unwind, appreciate natur",
+      "Selecting the ideal garden bench for an outdoor area can completely transform its ambiance, establishing a dedicated place to unwind, appreciate.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -523,7 +523,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-11-18",
     category: "Historic Practice Archive",
     excerpt:
-      "Conifers are the foundational structural elements of professional landscape design, providing year-round evergreen form, rich textures, and remarkable",
+      "Conifers are the foundational structural elements of professional landscape design, providing year-round evergreen form, rich textures, and.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -572,7 +572,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-09-11",
     category: "Historic Practice Archive",
     excerpt:
-      "Cultivating a thriving urban garden requires navigating unique environmental conditions, including restricted sunlight profiles, urban pollution, and ",
+      "Cultivating a thriving urban garden requires navigating unique environmental conditions, including restricted sunlight profiles, urban pollution,.",
     status: "archive",
     contentStatus: "complete",
     content: [
@@ -594,7 +594,7 @@ export const blogPosts: BlogPost[] = [
     oldUrl: "https://www.savageldn.co.uk/post/september-plant-of-the-month",
     date: "2025-09-01",
     category: "Historic Practice Archive",
-    excerpt: "The Allure of Hibiscus",
+    excerpt: "The Allure of.",
     status: "archive",
     contentStatus: "complete",
     content: [
