@@ -3,7 +3,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArchivedArticleBody } from "@/components/ArchivedArticleBody";
 import { findBlogPost } from "@/data/blogPosts";
 
-const SITE = "https://www.moonlight-studio.uk";
+const SITE = "https://www.savageldn.co.uk";
 
 export const Route = createFileRoute("/blog/$slug")({
   loader: ({ params }) => {

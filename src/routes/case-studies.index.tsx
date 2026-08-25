@@ -126,11 +126,11 @@ function CaseStudiesComponent() {
 
       <section className="mx-auto max-w-7xl border-b border-[#102a43]/10 px-6 py-16">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
-          <div className="lg:col-span-3">
+          <div className="lg:col-span-2 pt-2">
             <p className="text-xs font-bold uppercase tracking-widest text-[#c7a667]">01</p>
             <p className="text-xs font-bold uppercase tracking-widest text-[#c47c62]">Context</p>
           </div>
-          <div className="space-y-4 text-slate-700 lg:col-span-9">
+          <div className="space-y-4 text-slate-700 lg:col-span-8">
             <h2 className="font-serif text-3xl text-[#102a43] sm:text-4xl">
               Past work, preserved carefully.
             </h2>
