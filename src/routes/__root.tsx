@@ -276,6 +276,21 @@ function RootComponent() {
         {/* Dynamic Route Pages Render Here */}
         <main className="flex-1">
           <Outlet />
+
+          {/* Google Analytics - Moonlight Studio */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9YEZBGQLS"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              if (typeof window !== 'undefined' && window.location.hostname.includes('moonlight-studio.uk')) {
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-T9YEZBGQLS');
+              }
+            `,
+            }}
+          />
           <Analytics />
         </main>
 
