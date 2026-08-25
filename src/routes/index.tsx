@@ -279,6 +279,39 @@ const jsonLd = {
 };
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Stuart Savage | Operations & Customer Experience Leadership" },
+      {
+        name: "description",
+        content:
+          "Historic professional archive and portfolio of Stuart Savage. Showcasing operations management, customer experience, and project delivery across London.",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          mainEntity: {
+            "@type": "Person",
+            name: "Stuart Savage",
+            jobTitle: "Operations & Customer Experience Professional",
+            url: "https://www.moonlight-studio.uk",
+            sameAs: ["https://www.linkedin.com/in/stuart-savage/"],
+            knowsAbout: [
+              "Operations Management",
+              "Customer Experience",
+              "Project Management",
+              "Stakeholder Management",
+              "Zero-Defect Delivery",
+            ],
+          },
+        }),
+      },
+    ],
+  }),
   component: Index,
   head: () => ({
     meta: [

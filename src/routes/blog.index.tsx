@@ -8,6 +8,33 @@ const DESCRIPTION =
   "Historic writing and LinkedIn publications by Stuart Savage, retained as professional evidence. Former businesses closed; archive only.";
 
 export const Route = createFileRoute("/blog/")({
+  head: () => ({
+    meta: [
+      { title: "Professional Archive & Writing | Stuart Savage" },
+      {
+        name: "description",
+        content:
+          "Historic practice archive featuring methodologies, horticultural guides, and operational insights from previous design builds.",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          name: "Stuart Savage Professional Archive",
+          description:
+            "Historic practice archive featuring methodologies and operational insights.",
+          url: "https://www.moonlight-studio.uk/blog",
+          author: {
+            "@type": "Person",
+            name: "Stuart Savage",
+          },
+        }),
+      },
+    ],
+  }),
   component: BlogComponent,
   head: () => ({
     meta: [
