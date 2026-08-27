@@ -4,20 +4,20 @@ import { blogPosts } from "@/data/blogPosts";
 export const Route = createFileRoute("/blog/$slug")({
   component: BlogPostRoute,
   head: ({ params }) => {
-    const post = blogPosts.find((p) => p.slug === params.slug);
-    const title = post ? post.title : "Blog Post";
-    const excerpt = post ? post.excerpt : "";
-    const slug = post ? post.slug : "";
+    const p = blogPosts.find((item) => item.slug === params.slug);
+    const postTitle = p ? p.title : "Blog Post";
+    const postExcerpt = p ? p.excerpt : "";
+    const postSlug = p ? p.slug : "";
     return {
       meta: [
-        { title: `${title} | Archived Writing` },
-        { name: "description", content: excerpt },
-        { property: "og:title", content: title },
-        { property: "og:description", content: excerpt },
-        { name: "twitter:title", content: title },
-        { name: "twitter:description", content: excerpt }
+        { title: `${postTitle} | Archived Writing` },
+        { name: "description", content: postExcerpt },
+        { property: "og:title", content: postTitle },
+        { property: "og:description", content: postExcerpt },
+        { name: "twitter:title", content: postTitle },
+        { name: "twitter:description", content: postExcerpt }
       ],
-      links: [{ rel: "canonical", href: `https://stuartleadership.com/blog/${slug}` }]
+      links: [{ rel: "canonical", href: `https://stuartleadership.com/blog/${postSlug}` }]
     };
   }
 });

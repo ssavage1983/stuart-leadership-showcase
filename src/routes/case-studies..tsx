@@ -70,7 +70,7 @@ function CaseStudyDetail() {
           <div className="mt-12">
             <h2 className="text-2xl font-bold mb-4">Gallery</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {study.additionalImages.map((img, idx) => (
+              {study.additionalImages.map((img: { src: string; caption: string }, idx: number) => (
                 <div key={idx} className="bg-card rounded-lg overflow-hidden border border-border">
                   <img src={img.src} alt={img.caption} className="w-full h-64 object-cover" />
                   <p className="p-3 text-xs text-muted-foreground">{img.caption}</p>

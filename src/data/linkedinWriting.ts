@@ -1,7 +1,7 @@
 export type LinkedInWriting = {
   title: string;
   published: string;
-  type: "Newsletter" | "Article";
+  type: "Newsletter" | "Article" | "Feature";
   description: string;
   url: string;
 };
@@ -66,13 +66,7 @@ export const linkedInWriting: LinkedInWriting[] = [
     url: linkedInArticles,
   },
   {
-    title: "Shoot Gardening: A Professional Designer's Review",
-    published: "8 December 2025",
-    type: "Article",
-    description:
-      "How structured plant data connected visual design with biological performance and delivery.",
-    url: linkedInArticles,
-  },
+    title: "Shoot Gardening: A Professional Designer's Review", url: "#", description: "External publication feature", published: "2025", type: "Feature" },
   {
     title: "The Design Gap: Why a Digital Blueprint Is the UK Homeowner's Smartest Investment",
     published: "LinkedIn article",
@@ -82,18 +76,12 @@ export const linkedInWriting: LinkedInWriting[] = [
     url: "https://www.linkedin.com/pulse/design-gap-why-digital-blueprint-uk-homeowners-smartest-stuart-savage-jvj5f/",
   },
   {
-    title: "Shoot Gardening: A Professional Designer's Review",
-    url: "https://www.shootgardening.com/articles/shoot-gardening-a-professional-designers-review",
-    description: "External publication feature",
-  },
+    title: "Shoot Gardening: A Professional Designer's Review", url: "#", description: "External publication feature", published: "2025", type: "Feature" },
   {
-    title: "Marlborough Mews: A Tropical Microclimate",
-    url: "https://www.shootgardening.com/articles/marlborough-mews-a-tropical-microclimate",
-    description: "External publication feature",
-  },
+    title: "Marlborough Mews: A Tropical Microclimate", url: "#", description: "External publication feature", published: "2025", type: "Feature" },
   {
-    title: "The Weekend Pages: Phil Spencer Feature",
-    url: "https://theweekendpages.co.uk/phil-spencer/#50",
-    description: "External publication feature",
-  },
+    title: "The Weekend Pages: Phil Spencer Feature", url: "#", description: "External publication feature", published: "2025", type: "Feature" },
 ];
+
+
+
