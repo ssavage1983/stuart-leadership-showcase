@@ -10,10 +10,10 @@ export const Route = createFileRoute("/case-studies/$slug")({
     return {
       meta: [
         { title: `${study?.title ?? "Case Study"} | Stuart Leadership Showcase` },
-        { name: "description", content: study?.excerpt ?? "" }
-      ]
+        { name: "description", content: study?.excerpt ?? "" },
+      ],
     };
-  }
+  },
 });
 
 function CaseStudyDetail() {
@@ -26,12 +26,19 @@ function CaseStudyDetail() {
 
   return (
     <div className="min-h-screen bg-background py-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-      <Link to="/case-studies" className="inline-flex items-center gap-2 text-sm text-primary hover:underline mb-8">
+      <Link
+        to="/case-studies"
+        className="inline-flex items-center gap-2 text-sm text-primary hover:underline mb-8"
+      >
         <ArrowLeft className="w-4 h-4" /> Back to Portfolio
       </Link>
       <div className="flex items-center justify-between text-sm text-muted-foreground mb-2">
-        <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> {study.location}</span>
-        <span className="flex items-center gap-1"><Calendar className="w-4 h-4" /> {study.completionDate}</span>
+        <span className="flex items-center gap-1">
+          <MapPin className="w-4 h-4" /> {study.location}
+        </span>
+        <span className="flex items-center gap-1">
+          <Calendar className="w-4 h-4" /> {study.completionDate}
+        </span>
       </div>
       <h1 className="text-4xl font-extrabold text-foreground mb-4">{study.title}</h1>
       <div className="text-xs font-semibold text-primary/80 bg-primary/10 rounded px-2.5 py-1 mb-8 inline-block">
@@ -51,14 +58,17 @@ function CaseStudyDetail() {
             <p className="text-muted-foreground leading-relaxed">{study.excerpt}</p>
           </div>
         )}
-        
+
         {/* Dynamically render all your real text sections */}
-        {study.details && study.details.map((detail: { title: string, content: string }, idx: number) => (
-          <div key={idx}>
-            <h2 className="text-2xl font-bold mb-2">{detail.title}</h2>
-            <p className="text-muted-foreground leading-relaxed whitespace-pre-wrap">{detail.content}</p>
-          </div>
-        ))}
+        {study.details &&
+          study.details.map((detail: { title: string; content: string }, idx: number) => (
+            <div key={idx}>
+              <h2 className="text-2xl font-bold mb-2">{detail.title}</h2>
+              <p className="text-muted-foreground leading-relaxed whitespace-pre-wrap">
+                {detail.content}
+              </p>
+            </div>
+          ))}
 
         {/* Dynamically render your photo captions */}
         {study.gallery && study.gallery.length > 0 && (
