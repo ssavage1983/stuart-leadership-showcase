@@ -16,96 +16,118 @@ function BalhamCottageCourtyardGardenCaseStudy() {
             &larr; Case studies archive
           </Link>
           <p className="mt-10 text-xs font-bold uppercase tracking-widest text-[#c9ad72]">
-            Project Archive · Traditional Cottage Restoration & Courtyard Design
+            Project Archive · Balham · July 2025
           </p>
           <h1 className="mt-4 font-serif text-4xl font-normal leading-tight sm:text-6xl">
-            Balham Cottage Courtyard Garden
+            Cottage Courtyard Garden
           </h1>
           <p className="mt-6 max-w-3xl text-base text-[#f8f7f3]/75">
-            Restoring historic charm and modern utility to a compact Victorian cottage courtyard
-            through traditional stone paving, reclaimed brick borders, and lush perennial planting.
+            Managed the operational delivery of a child-friendly cottage courtyard in Balham,
+            employing digital twin 3D modelling to optimise play space and navigating stakeholder
+            relationships to ensure practical, safe outdoor living in this past project.
           </p>
         </div>
       </header>
 
       <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
-        <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700 shadow-sm">
+        <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700 shadow-sm mb-8">
           <strong className="block text-[#102845]">Archive-only notice</strong>
-          This historic project record is retained for reference and as evidence for future
-          professional leadership roles. SAVAGELDN and The Moonlight Garden Design Co. closed in May
-          2026; their former URLs are inactive business archives, not current offers or invitations
-          to book.
+          Former SAVAGELDN & Moonlight Legacy Project (Concluded active trading operations May
+          2026). This historic project record is retained for reference and as evidence for future
+          professional leadership roles.
         </aside>
 
-        <div className="mt-10">
-          <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
-            <img
-              src="/images/portfolio/balham-cottage-courtyard-daytime-dining-and-raised-planters.jpg"
-              alt="Balham Cottage Courtyard Garden"
-              className="h-auto w-full object-cover max-h-[480px]"
-              loading="lazy"
-            />
-          </figure>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
-            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+        <div className="space-y-8 text-base text-slate-700 leading-relaxed bg-white p-8 rounded border border-[#102845]/15 shadow-sm">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
+            <div className="rounded border border-[#102845]/15 bg-slate-50 p-4">
               <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
-                Design / Focus
+                Location
               </span>
-              <div className="mt-2 text-xl font-bold text-[#102845]">Victorian Cottage</div>
+              <div className="mt-1 font-bold text-[#102845]">Balham</div>
             </div>
-            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+            <div className="rounded border border-[#102845]/15 bg-slate-50 p-4">
               <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
-                Materials / Scope
+                Completion Date
               </span>
-              <div className="mt-2 text-xl font-bold text-[#102845]">Natural Stone & Brick</div>
+              <div className="mt-1 font-bold text-[#102845]">July 2025</div>
             </div>
-            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+            <div className="rounded border border-[#102845]/15 bg-slate-50 p-4">
               <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
-                Quality Standard
+                Focus
               </span>
-              <div className="mt-2 text-xl font-bold text-[#102845]">Zero-Defect Handover</div>
+              <div className="mt-1 font-bold text-[#102845]">Child-Friendly Courtyard</div>
             </div>
           </div>
 
-          <div className="space-y-8 text-base text-slate-700 leading-relaxed bg-white p-8 rounded border border-[#102845]/15 shadow-sm">
-            <section className="space-y-4">
-              <h2 className="font-serif text-2xl font-normal text-[#102845]">
-                Project Overview & Context
-              </h2>
-              <p>
-                This project demonstrates rigorous operational planning, stakeholder management, and
-                precision execution within a challenging urban footprint. Every phase was governed
-                by strict quality milestones and comprehensive risk management to ensure a
-                zero-defect handover.
-              </p>
-              <p>
-                Through disciplined supply chain coordination and detailed structural detailing, the
-                installation achieves lasting functional reliability alongside exceptional aesthetic
-                presentation.
-              </p>
-            </section>
+          <section className="space-y-4">
+            <h2 className="font-serif text-2xl font-normal text-[#102845]">
+              Project Overview & Challenge
+            </h2>
+            <p>
+              Managed the operational delivery of a child-friendly cottage courtyard in Balham,
+              employing digital twin 3D modelling to optimise play space and navigating stakeholder
+              relationships to ensure practical, safe outdoor living in this past project.
+              Furthermore, the project featured custom 3D walkthroughs and precise 2D site plans to
+              finalize layouts and materials.
+            </p>
+            <p>
+              <strong>Challenge:</strong> Overcame supply chain disruptions for Dijon limestone and
+              enforced strict health & safety compliance for child-safe features, utilising
+              meteorological data to ensure practical, low-maintenance outdoor living.
+            </p>
+          </section>
 
-            <div className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+          <section className="space-y-4 pt-4 border-t border-[#102845]/10">
+            <h2 className="font-serif text-2xl font-normal text-[#102845]">
+              Hard Landscaping & Soft Landscaping
+            </h2>
+            <p>
+              <strong>Hard Landscaping:</strong> Coordinated physical logistics and vendor
+              management for Dijon tumbled limestone, ensuring structural engineering compliance for
+              bespoke reclaimed brick planters, utilising Floorplanner.com spatial planning for
+              raised seating.
+            </p>
+            <p>
+              <strong>Soft Landscaping:</strong> Inspired by botanical research in the Himalayas,
+              selected Siberian bugloss and giant allium, tracking soil pH via ShootGardening.com to
+              ensure drought adaptations and low-maintenance resilience for child-safe plants.
+            </p>
+          </section>
+
+          <div className="mt-8 space-y-6">
+            <div className="overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
               <img
                 src="/images/portfolio/balham-cottage-courtyard-dusk-lighting-and-alliums.jpg"
-                alt="Balham Cottage Courtyard Garden detail"
-                className="h-auto w-full object-cover max-h-[444px]"
+                alt="Daytime view of the low-maintenance courtyard with tumbled limestone pavers"
+                className="w-full h-auto object-cover max-h-[480px]"
                 loading="lazy"
               />
+              <p className="p-3 text-xs text-slate-500 bg-slate-50">
+                Daytime view of the low-maintenance courtyard with tumbled limestone pavers.
+              </p>
             </div>
 
-            <section className="space-y-4 pt-4 border-t border-[#102845]/10">
-              <h2 className="font-serif text-2xl font-normal text-[#102845]">
-                Operational Governance & Delivery
-              </h2>
-              <p>
-                From initial site survey to final commissioning, operations were structured around
-                transparent milestone tracking, minimal neighborhood disruption, and uncompromising
-                material standards.
+            <div className="overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+              <img
+                src="/images/portfolio/balham-cottage-courtyard-evening-fire-pit.jpg"
+                alt="Evening view of the child-friendly paradise with integrated lighting"
+                className="w-full h-auto object-cover max-h-[480px]"
+                loading="lazy"
+              />
+              <p className="p-3 text-xs text-slate-500 bg-slate-50">
+                Evening view of the child-friendly paradise with integrated lighting.
               </p>
-            </section>
+            </div>
           </div>
+
+          <section className="space-y-4 pt-4 border-t border-[#102845]/10">
+            <h2 className="font-serif text-2xl font-normal text-[#102845]">Outcome</h2>
+            <p>
+              Delivered project with stringent quality assurance and successful risk management,
+              resulting in a practical, child-friendly outdoor living space combining beauty and
+              functionality.
+            </p>
+          </section>
         </div>
       </div>
     </article>
