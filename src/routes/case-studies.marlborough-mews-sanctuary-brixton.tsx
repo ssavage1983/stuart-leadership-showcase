@@ -16,96 +16,124 @@ function MarlboroughMewsSanctuaryBrixtonCaseStudy() {
             &larr; Case studies archive
           </Link>
           <p className="mt-10 text-xs font-bold uppercase tracking-widest text-[#c9ad72]">
-            Project Archive · Tropical Microclimate & Urban Courtyard
+            Project Archive · Brixton · May 2025
           </p>
           <h1 className="mt-4 font-serif text-4xl font-normal leading-tight sm:text-6xl">
-            Marlborough Mews Sanctuary, Brixton
+            Marlborough Mews: A Tropical Microclimate
           </h1>
           <p className="mt-6 max-w-3xl text-base text-[#f8f7f3]/75">
-            Case study on executing tropical planting palettes, resilient microclimates, and bespoke
-            architectural hardscaping in an urban London courtyard.
+            Demonstrated operational leadership in refurbishing a Brixton garden into a tropical
+            sanctuary, utilising digital twin 3D modelling for spatial optimisation and managing
+            complex stakeholder relationships to deliver a resort-inspired microclimate for our
+            historic portfolio.
           </p>
         </div>
       </header>
 
       <div className="mx-auto max-w-4xl px-6 py-12 sm:py-16">
-        <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700 shadow-sm">
+        <aside className="rounded border-l-4 border-[#b99a60] bg-white p-5 text-sm text-slate-700 shadow-sm mb-8">
           <strong className="block text-[#102845]">Archive-only notice</strong>
-          This historic project record is retained for reference and as evidence for future
-          professional leadership roles. SAVAGELDN and The Moonlight Garden Design Co. closed in May
-          2026; their former URLs are inactive business archives, not current offers or invitations
-          to book.
+          Completed prior to the closure of SAVAGELDN/Moonlight in May 2026. This historic project
+          record is retained for reference and as evidence for future professional leadership roles.
         </aside>
 
-        <div className="mt-10">
-          <figure className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
-            <img
-              src="/images/portfolio/marlborough-mews-mature-tropical-planting-and-lighting.png"
-              alt="Marlborough Mews Sanctuary, Brixton"
-              className="h-auto w-full object-cover max-h-[480px]"
-              loading="lazy"
-            />
-          </figure>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
-            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+        <div className="space-y-8 text-base text-slate-700 leading-relaxed bg-white p-8 rounded border border-[#102845]/15 shadow-sm">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
+            <div className="rounded border border-[#102845]/15 bg-slate-50 p-4">
               <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
-                Design / Focus
+                Location
               </span>
-              <div className="mt-2 text-xl font-bold text-[#102845]">Tropical Palettes</div>
+              <div className="mt-1 font-bold text-[#102845]">Brixton</div>
             </div>
-            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+            <div className="rounded border border-[#102845]/15 bg-slate-50 p-4">
               <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
-                Materials / Scope
+                Completion Date
               </span>
-              <div className="mt-2 text-xl font-bold text-[#102845]">Custom Hardwood</div>
+              <div className="mt-1 font-bold text-[#102845]">May 2025</div>
             </div>
-            <div className="rounded border border-[#102845]/15 bg-white p-5 shadow-sm">
+            <div className="rounded border border-[#102845]/15 bg-slate-50 p-4">
               <span className="text-xs font-bold uppercase tracking-wider text-[#b99a60]">
-                Quality Standard
+                Focus
               </span>
-              <div className="mt-2 text-xl font-bold text-[#102845]">Zero-Defect Handover</div>
+              <div className="mt-1 font-bold text-[#102845]">Small Tropical Garden</div>
             </div>
           </div>
 
-          <div className="space-y-8 text-base text-slate-700 leading-relaxed bg-white p-8 rounded border border-[#102845]/15 shadow-sm">
-            <section className="space-y-4">
-              <h2 className="font-serif text-2xl font-normal text-[#102845]">
-                Project Overview & Context
-              </h2>
-              <p>
-                This project demonstrates rigorous operational planning, stakeholder management, and
-                precision execution within a challenging urban footprint. Every phase was governed
-                by strict quality milestones and comprehensive risk management to ensure a
-                zero-defect handover.
-              </p>
-              <p>
-                Through disciplined supply chain coordination and detailed structural detailing, the
-                installation achieves lasting functional reliability alongside exceptional aesthetic
-                presentation.
-              </p>
-            </section>
+          <section className="space-y-4">
+            <h2 className="font-serif text-2xl font-normal text-[#102845]">
+              Project Overview & Scope
+            </h2>
+            <p>
+              Demonstrated operational leadership in refurbishing a Brixton garden into a tropical
+              sanctuary, utilising digital twin 3D modelling for spatial optimisation and managing
+              complex stakeholder relationships to deliver a resort-inspired microclimate for our
+              historic portfolio. Additionally, I designed immersive 3D walkthroughs and
+              comprehensive 2D site plans detailing materials and layout specifications.
+            </p>
+          </section>
 
-            <div className="mb-10 overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+          <section className="space-y-4 pt-4 border-t border-[#102845]/10">
+            <h2 className="font-serif text-2xl font-normal text-[#102845]">
+              Challenge & Logistics
+            </h2>
+            <p>
+              Navigated supply chain disruptions for exotic flora and ensured strict health & safety
+              compliance, applying meteorological data to design a shaded tropical garden with
+              proper soil depth and drainage.
+            </p>
+          </section>
+
+          <section className="space-y-4 pt-4 border-t border-[#102845]/10">
+            <h2 className="font-serif text-2xl font-normal text-[#102845]">
+              Hard Landscaping & Soft Landscaping
+            </h2>
+            <p>
+              <strong>Hard Landscaping:</strong> Managed physical logistics and vendor management
+              for reclaimed sleepers and Lugano clay pavers, ensuring structural engineering
+              compliance and utilising Floorplanner.com spatial planning for ground-level beds and
+              Spanish gold gravel finish.
+            </p>
+            <p>
+              <strong>Soft Landscaping:</strong> Drawing from botanical expeditions in the Colombian
+              Amazon, selected diverse palm species, Musa basjoo, and Tree ferns, tracking soil pH
+              via ShootGardening.com to ensure jungle adaptations for exotic flora.
+            </p>
+          </section>
+
+          <div className="mt-8 space-y-6">
+            <div className="overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
               <img
-                src="/images/portfolio/marlborough-mews-tropical-garden-night-cocktails.jpeg"
-                alt="Marlborough Mews Sanctuary, Brixton detail"
-                className="h-auto w-full object-cover max-h-[444px]"
+                src="/images/portfolio/marlborough-mews-tropical-garden-and-herringbone-paving.jpg"
+                alt="Daytime view of the tropical garden featuring lush ferns and a wooden walkway"
+                className="w-full h-auto object-cover max-h-[480px]"
                 loading="lazy"
               />
+              <p className="p-3 text-xs text-slate-500 bg-slate-50">
+                Daytime view of the tropical garden featuring lush ferns and a wooden walkway.
+              </p>
             </div>
 
-            <section className="space-y-4 pt-4 border-t border-[#102845]/10">
-              <h2 className="font-serif text-2xl font-normal text-[#102845]">
-                Operational Governance & Delivery
-              </h2>
-              <p>
-                From initial site survey to final commissioning, operations were structured around
-                transparent milestone tracking, minimal neighborhood disruption, and uncompromising
-                material standards.
+            <div className="overflow-hidden rounded border border-[#102845]/15 bg-white shadow-sm">
+              <img
+                src="/images/portfolio/marlborough-mews-tropical-garden-night-cocktails.jpeg"
+                alt="Evening view highlighting the illuminated path and exotic foliage"
+                className="w-full h-auto object-cover max-h-[480px]"
+                loading="lazy"
+              />
+              <p className="p-3 text-xs text-slate-500 bg-slate-50">
+                Evening view highlighting the illuminated path and exotic foliage.
               </p>
-            </section>
+            </div>
           </div>
+
+          <section className="space-y-4 pt-4 border-t border-[#102845]/10">
+            <h2 className="font-serif text-2xl font-normal text-[#102845]">Outcome</h2>
+            <p>
+              Delivered project with stringent quality assurance and successful risk management,
+              resulting in a unique and private outdoor sanctuary with a &apos;holiday at home&apos;
+              vibe.
+            </p>
+          </section>
         </div>
       </div>
     </article>
