@@ -1,26 +1,15 @@
-// @lovable.dev/vite-tanstack-config already includes the following — do NOT add them manually
-// or the app will break with duplicate plugins:
-//   - TanStack devtools (dev-only, first), tanstackStart, viteReact, tailwindcss, tsConfigPaths,
-//     nitro (build-only using cloudflare as a default target), VITE_* env injection, @ path alias,
-//     React/TanStack dedupe, error logger plugins, and sandbox detection (port/host/strictPort).
-// You can pass additional config via defineConfig({
-  nitro: {
-    preset: "vercel",
-  }, vite: { ... }, etc... }) if needed.
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
-import { mcpPlugin } from "@lovable.dev/mcp-js/stacks/tanstack/vite";
+import { defineConfig } from "@tanstack/start/config";
+import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
-  tanstackStart: {
-    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
-    server: { entry: "server" },
+  nitro: {
+    preset: "vercel"
   },
   vite: {
-    // @lovable.dev/mcp-js 0.26.2 compares Vite's normalised root with Windows
-    // backslash paths and rejects an otherwise valid src/routes directory.
-    // The generated MCP routes are committed, so local Windows builds can skip
-    // this hook while Lovable and Vercel retain it on Linux.
-    plugins: process.platform === "win32" ? [] : [mcpPlugin()],
+    plugins: [
+      tsconfigPaths({
+        projects: ["./tsconfig.json"],
+      }),
+    ],
   },
 });
