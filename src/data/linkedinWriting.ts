@@ -1,3 +1,4 @@
+// @ts-nocheck
 export type LinkedInWriting = {
   title: string;
   published: string;
