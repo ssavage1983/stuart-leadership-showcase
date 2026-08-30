@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 export type LinkedInWriting = {
   title: string;
@@ -98,5 +99,3 @@ export const linkedInWriting: LinkedInWriting[] = [
     description: "External publication feature",
   },
 ];
-
-
