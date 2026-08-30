@@ -70,7 +70,7 @@ function CaseStudiesComponent() {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4">
           <Link
             to="/"
-            className="text-xs font-bold uppercase tracking-widest text-[#c47c62] hover:text-white"
+            className="text-xs font-bold uppercase tracking-widest text-[#7c2d12] hover:text-white"
           >
             &larr; Main showcase
           </Link>
@@ -90,19 +90,19 @@ function CaseStudiesComponent() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#091d2f] via-[#091d2f]/90 to-[#091d2f]/60" />
         <div className="relative mx-auto max-w-7xl">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#c47c62]">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#7c2d12]">
             Portfolio archive · Historic case studies
           </p>
           <h1 className="mt-4 font-serif text-4xl font-normal leading-tight sm:text-6xl lg:text-7xl">
             Selected historic work.
             <br />
-            <em className="not-italic text-[#c47c62]">Archive only.</em>
+            <em className="not-italic text-[#7c2d12]">Archive only.</em>
           </h1>
           <p className="mt-6 max-w-3xl text-lg text-slate-300">
             A curated record of previous delivery, planning, logistics, customer experience and
             operational discipline.
           </p>
-          <div className="mt-6 max-w-3xl rounded border-l-4 border-[#c47c62] bg-white/5 p-4 text-sm text-slate-200">
+          <div className="mt-6 max-w-3xl rounded border-l-4 border-[#7c2d12] bg-white/5 p-4 text-sm text-slate-200">
             <strong>Archive status:</strong> SAVAGELDN and The Moonlight Garden Design Co. closed in
             May 2026. Their former URLs are inactive business archives. These projects are evidence
             of transferable experience for future employment, not current landscaping or
@@ -111,13 +111,13 @@ function CaseStudiesComponent() {
           <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#case-studies"
-              className="rounded bg-[#c47c62] px-5 py-3 text-xs font-bold uppercase tracking-wider hover:bg-white hover:text-[#091d2f]"
+              className="rounded bg-[#7c2d12] px-5 py-3 text-xs font-bold uppercase tracking-wider hover:bg-white hover:text-[#091d2f]"
             >
               View case studies
             </a>
             <a
               href="#method"
-              className="rounded border border-[#c47c62] px-5 py-3 text-xs font-bold uppercase tracking-wider hover:bg-white hover:text-[#091d2f]"
+              className="rounded border border-[#7c2d12] px-5 py-3 text-xs font-bold uppercase tracking-wider hover:bg-white hover:text-[#091d2f]"
             >
               Delivery method
             </a>
@@ -129,7 +129,7 @@ function CaseStudiesComponent() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
           <div className="lg:col-span-2 pt-2">
             <p className="text-xs font-bold uppercase tracking-widest text-[#c7a667]">01</p>
-            <p className="text-xs font-bold uppercase tracking-widest text-[#c47c62]">Context</p>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#7c2d12]">Context</p>
           </div>
           <div className="space-y-4 text-slate-700 lg:col-span-8">
             <h2 className="font-serif text-3xl text-[#102a43] sm:text-4xl">
@@ -146,7 +146,7 @@ function CaseStudiesComponent() {
                 ["Availability", "Not taking trade work"],
                 ["Current focus", "Operations & CX leadership"],
               ].map(([label, value]) => (
-                <div key={label} className="rounded border border-[#c47c62]/30 bg-white/50 p-3">
+                <div key={label} className="rounded border border-[#7c2d12]/30 bg-white/50 p-3">
                   <strong className="block text-xs uppercase">{label}</strong>
                   <span className="text-xs text-slate-600">{value}</span>
                 </div>
@@ -159,7 +159,7 @@ function CaseStudiesComponent() {
       <section id="case-studies" className="mx-auto max-w-7xl scroll-mt-6 px-6 py-16">
         <div className="mb-10">
           <p className="text-xs font-bold uppercase tracking-widest text-[#c7a667]">02</p>
-          <p className="text-xs font-bold uppercase tracking-widest text-[#c47c62]">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#7c2d12]">
             Historic project records
           </p>
           <h2 className="mt-2 font-serif text-3xl sm:text-5xl">Delivery evidence</h2>
@@ -196,14 +196,14 @@ function CaseStudiesComponent() {
                 </span>
               </Link>
               <div className="flex flex-1 flex-col p-6">
-                <span className="text-[10px] font-bold uppercase tracking-wider text-[#c47c62]">
+                <span className="text-[10px] font-bold uppercase tracking-wider text-[#7c2d12]">
                   {study.archiveStatus} · {study.location}
                 </span>
                 <h3 className="mt-3 font-serif text-2xl leading-tight">
                   <Link
                     to="/case-studies/$slug"
                     params={{ slug: study.slug }}
-                    className="hover:text-[#c47c62]"
+                    className="hover:text-[#7c2d12]"
                   >
                     {study.title}
                   </Link>
@@ -214,7 +214,7 @@ function CaseStudiesComponent() {
                 <Link
                   to="/case-studies/$slug"
                   params={{ slug: study.slug }}
-                  className="mt-5 border-t border-[#102a43]/10 pt-4 text-xs font-bold uppercase tracking-wider hover:text-[#c47c62]"
+                  className="mt-5 border-t border-[#102a43]/10 pt-4 text-xs font-bold uppercase tracking-wider hover:text-[#7c2d12]"
                 >
                   View project record &rarr;
                 </Link>
@@ -227,7 +227,7 @@ function CaseStudiesComponent() {
       <section id="method" className="scroll-mt-6 border-y border-[#102a43]/10 bg-white px-6 py-16">
         <div className="mx-auto max-w-7xl">
           <p className="text-xs font-bold uppercase tracking-widest text-[#c7a667]">03</p>
-          <p className="text-xs font-bold uppercase tracking-widest text-[#c47c62]">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#7c2d12]">
             Historic delivery approach
           </p>
           <h2 className="mt-2 font-serif text-3xl sm:text-4xl">How the work was managed</h2>
@@ -248,7 +248,7 @@ function CaseStudiesComponent() {
       <footer className="mt-12 bg-[#091d2f] px-6 py-12 text-center text-white">
         <Link
           to="/"
-          className="inline-flex rounded bg-[#c47c62] px-6 py-3 text-xs font-bold uppercase tracking-wider hover:bg-white hover:text-[#091d2f]"
+          className="inline-flex rounded bg-[#7c2d12] px-6 py-3 text-xs font-bold uppercase tracking-wider hover:bg-white hover:text-[#091d2f]"
         >
           Return to operations showcase
         </Link>

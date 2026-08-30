@@ -340,7 +340,7 @@ export const Route = createFileRoute("/")({
 
 const BulletItem = ({ children }: { children: React.ReactNode }) => (
   <li className="relative pl-5 leading-relaxed text-[#607080] text-sm">
-    <span className="absolute left-0 top-0 text-[#c47c62] select-none text-base leading-relaxed">
+    <span className="absolute left-0 top-0 text-[#7c2d12] select-none text-base leading-relaxed">
       •
     </span>
     {children}
@@ -364,7 +364,7 @@ function Index() {
       </a>
 
       {/* Hero Section */}
-      <section className="relative bg-[#091d2f] text-[#f7f4ee] pt-16 pb-12 px-6 lg:pt-24 lg:pb-16 overflow-hidden border-b border-[#c47c62]/30">
+      <section className="relative bg-[#091d2f] text-[#f7f4ee] pt-16 pb-12 px-6 lg:pt-24 lg:pb-16 overflow-hidden border-b border-[#7c2d12]/30">
         <div
           className="absolute inset-0 z-0 bg-cover bg-center opacity-30 mix-blend-overlay"
           style={{
@@ -376,13 +376,13 @@ function Index() {
 
         <div className="relative z-10 mx-auto max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
           <div className="lg:col-span-8 space-y-6">
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#c47c62]">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#7c2d12]">
               Stuart Savage · Kennington, London, UK
             </p>
             <h1 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-normal leading-[0.94] tracking-tight">
               Operations & <br />
               Project Delivery <br />
-              <em className="not-italic text-[#c47c62]">Leader.</em>
+              <em className="not-italic text-[#7c2d12]">Leader.</em>
             </h1>
             <p className="text-base sm:text-lg text-[#f7f4ee]/80 max-w-2xl leading-relaxed">
               With 20+ years leading operations across safety-critical, high-volume, and
@@ -390,7 +390,7 @@ function Index() {
               strategic infrastructure planning and hands-on frontline delivery.
             </p>
 
-            <div className="border-l-3 border-[#c47c62] pl-4 text-xs sm:text-sm text-[#f7f4ee]/90 font-medium max-w-2xl">
+            <div className="border-l-3 border-[#7c2d12] pl-4 text-xs sm:text-sm text-[#f7f4ee]/90 font-medium max-w-2xl">
               A proven multi-brand founder, airport operations manager, and internationally seconded
               service leader, he specialises in building systems, teams, and workflows that perform
               under pressure — from Heathrow terminals to remote Amazonian fieldwork. Trusted to
@@ -400,13 +400,13 @@ function Index() {
             <div className="pt-2 flex flex-wrap gap-4 items-center">
               <a
                 href="#competencies"
-                className="inline-flex items-center justify-center min-h-[48px] px-5 bg-[#c47c62] text-white text-xs font-bold uppercase tracking-wider hover:bg-[#c7a667] hover:text-[#091d2f] transition-colors rounded-sm"
+                className="inline-flex items-center justify-center min-h-[48px] px-5 bg-[#7c2d12] text-white text-xs font-bold uppercase tracking-wider hover:bg-[#c7a667] hover:text-[#091d2f] transition-colors rounded-sm"
               >
                 Core Competencies
               </a>
               <a
                 href="#experience"
-                className="inline-flex items-center justify-center min-h-[48px] px-5 border border-[#c47c62] bg-[#f7f4ee]/10 text-[#f7f4ee] text-xs font-bold uppercase tracking-wider hover:bg-[#c7a667] hover:text-[#091d2f] hover:border-[#c7a667] transition-colors rounded-sm"
+                className="inline-flex items-center justify-center min-h-[48px] px-5 border border-[#7c2d12] bg-[#f7f4ee]/10 text-[#f7f4ee] text-xs font-bold uppercase tracking-wider hover:bg-[#c7a667] hover:text-[#091d2f] hover:border-[#c7a667] transition-colors rounded-sm"
               >
                 Professional Experience
               </a>
@@ -414,9 +414,9 @@ function Index() {
                 href={LINKEDIN}
                 target="_blank"
                 rel="noreferrer"
-                className="text-xs font-semibold uppercase tracking-wider text-[#f7f4ee] hover:text-[#c47c62] transition-colors underline underline-offset-4"
+                className="text-xs font-semibold uppercase tracking-wider text-[#f7f4ee] hover:text-[#7c2d12] transition-colors underline underline-offset-4"
               >
-                LinkedIn <span className="text-[#c47c62]">↗</span>
+                LinkedIn <span className="text-[#7c2d12]">↗</span>
               </a>
             </div>
           </div>
@@ -446,11 +446,11 @@ function Index() {
       <section className="bg-[#f7f4ee] border-b border-[#102a43]/16 py-4 px-6 text-center text-[11px] font-bold uppercase tracking-[0.15em] text-[#102a43]">
         <div className="mx-auto max-w-7xl flex flex-wrap justify-center items-center gap-4 sm:gap-8">
           <span>Operations Management</span>
-          <i className="not-italic text-[#c47c62]">✦</i>
+          <i className="not-italic text-[#7c2d12]">✦</i>
           <span>Logistics & Supply Chain</span>
-          <i className="not-italic text-[#c47c62]">✦</i>
+          <i className="not-italic text-[#7c2d12]">✦</i>
           <span>Project Portfolio Delivery</span>
-          <i className="not-italic text-[#c47c62]">✦</i>
+          <i className="not-italic text-[#7c2d12]">✦</i>
           <span>Digital Transformation</span>
         </div>
       </section>
@@ -460,31 +460,31 @@ function Index() {
         <div className="mx-auto max-w-7xl flex flex-wrap justify-center gap-2 sm:gap-4">
           <a
             href="#competencies"
-            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+            className="px-3 py-1.5 border border-transparent hover:border-[#7c2d12]/40 hover:text-[#7c2d12] transition-colors rounded-sm"
           >
             Competencies
           </a>
           <a
             href="#experience"
-            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+            className="px-3 py-1.5 border border-transparent hover:border-[#7c2d12]/40 hover:text-[#7c2d12] transition-colors rounded-sm"
           >
             Experience
           </a>
           <a
             href="#education"
-            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+            className="px-3 py-1.5 border border-transparent hover:border-[#7c2d12]/40 hover:text-[#7c2d12] transition-colors rounded-sm"
           >
             Education
           </a>
           <a
             href="#interests"
-            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+            className="px-3 py-1.5 border border-transparent hover:border-[#7c2d12]/40 hover:text-[#7c2d12] transition-colors rounded-sm"
           >
             Interests
           </a>
           <a
             href="#contact"
-            className="px-3 py-1.5 border border-transparent hover:border-[#c47c62]/40 hover:text-[#c47c62] transition-colors rounded-sm"
+            className="px-3 py-1.5 border border-transparent hover:border-[#7c2d12]/40 hover:text-[#7c2d12] transition-colors rounded-sm"
           >
             Contact
           </a>
@@ -496,7 +496,7 @@ function Index() {
         {/* Core Competencies */}
         <section
           id="competencies"
-          className="scroll-mt-36 bg-[#091d2f] text-[#f7f4ee] p-8 sm:p-12 rounded-lg border border-[#c47c62]/30"
+          className="scroll-mt-36 bg-[#091d2f] text-[#f7f4ee] p-8 sm:p-12 rounded-lg border border-[#7c2d12]/30"
         >
           <div className="space-y-2 mb-10">
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c7a667]">
@@ -523,7 +523,7 @@ function Index() {
         {/* Career Timeline */}
         <section id="experience" className="scroll-mt-36 space-y-8">
           <div className="border-b border-[#102a43]/16 pb-4">
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c47c62]">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#7c2d12]">
               Professional Experience
             </p>
             <h2 className="font-serif text-3xl sm:text-5xl text-[#102a43] font-normal mt-1">
@@ -541,7 +541,7 @@ function Index() {
                   className={
                     "border rounded-lg transition-all " +
                     (role.featured
-                      ? "border-[#c47c62]/45 border-l-5 border-l-[#c47c62] bg-gradient-to-r from-white to-[#f7f4ee]"
+                      ? "border-[#7c2d12]/45 border-l-5 border-l-[#7c2d12] bg-gradient-to-r from-white to-[#f7f4ee]"
                       : "border-[#102a43]/16 bg-white/50")
                   }
                 >
@@ -551,7 +551,7 @@ function Index() {
                     className="w-full text-left p-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 cursor-pointer"
                   >
                     <div className="space-y-1">
-                      <span className="text-xs font-bold uppercase tracking-wider text-[#c47c62]">
+                      <span className="text-xs font-bold uppercase tracking-wider text-[#7c2d12]">
                         {role.dates}
                       </span>
                       <h3 className="text-xl font-bold uppercase text-[#102a43] leading-snug">
@@ -560,7 +560,7 @@ function Index() {
                       <p className="text-sm font-medium text-[#607080]">{role.org}</p>
                     </div>
 
-                    <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#c47c62] shrink-0">
+                    <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#7c2d12] shrink-0">
                       <span>{isOpen ? "Close details ↑" : "Open details ↓"}</span>
                       <ChevronDown
                         className={"w-4 h-4 transition-transform " + (isOpen ? "rotate-180" : "")}
@@ -641,7 +641,7 @@ function Index() {
                   <h4 className="text-base font-bold text-[#102a43] uppercase">
                     {item.qualification}
                   </h4>
-                  <p className="text-xs font-medium text-[#c47c62] mt-0.5">
+                  <p className="text-xs font-medium text-[#7c2d12] mt-0.5">
                     {item.org} · {item.year}
                   </p>
                   <p className="text-xs text-[#607080] mt-2">{item.body}</p>
@@ -654,7 +654,7 @@ function Index() {
         {/* Professional Interests */}
         <section id="interests" className="scroll-mt-36 space-y-8">
           <div className="border-b border-[#102a43]/16 pb-4">
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c47c62]">
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#7c2d12]">
               Additional Detail
             </p>
             <h2 className="font-serif text-3xl sm:text-4xl text-[#102a43] font-normal">
@@ -677,7 +677,7 @@ function Index() {
 
         {/* Contact & Links */}
         <section id="contact" className="scroll-mt-36 text-center space-y-6 pt-6">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#c47c62]">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#7c2d12]">
             Professional Links
           </p>
           <h2 className="font-serif text-3xl sm:text-5xl text-[#102a43] font-normal">
@@ -685,32 +685,32 @@ function Index() {
           </h2>
 
           <div className="flex flex-wrap justify-center items-center gap-6 py-4 border-y border-[#102a43]/16 text-xs font-semibold uppercase tracking-wider text-[#102a43]">
-            <a href={"mailto:" + EMAIL} className="hover:text-[#c47c62] transition-colors">
-              {EMAIL} <span className="text-[#c47c62]">↗</span>
+            <a href={"mailto:" + EMAIL} className="hover:text-[#7c2d12] transition-colors">
+              {EMAIL} <span className="text-[#7c2d12]">↗</span>
             </a>
-            <span className="hidden sm:inline text-[#c47c62]">|</span>
+            <span className="hidden sm:inline text-[#7c2d12]">|</span>
             <a
               href={"tel:" + PHONE.replace(/\s+/g, "")}
-              className="hover:text-[#c47c62] transition-colors"
+              className="hover:text-[#7c2d12] transition-colors"
             >
-              {PHONE} <span className="text-[#c47c62]">↗</span>
+              {PHONE} <span className="text-[#7c2d12]">↗</span>
             </a>
-            <span className="hidden sm:inline text-[#c47c62]">|</span>
+            <span className="hidden sm:inline text-[#7c2d12]">|</span>
             <a
               href={LINKEDIN}
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#c47c62] transition-colors"
+              className="hover:text-[#7c2d12] transition-colors"
             >
-              linkedin.com/in/stuartsavage <span className="text-[#c47c62]">↗</span>
+              linkedin.com/in/stuartsavage <span className="text-[#7c2d12]">↗</span>
             </a>
-            <span className="hidden sm:inline text-[#c47c62]">|</span>
+            <span className="hidden sm:inline text-[#7c2d12]">|</span>
             <span className="text-[#607080]">Kennington, London, UK</span>
           </div>
 
           <a
             href="#top"
-            className="inline-block text-xs font-bold uppercase tracking-widest text-[#c47c62] pt-4 hover:underline"
+            className="inline-block text-xs font-bold uppercase tracking-widest text-[#7c2d12] pt-4 hover:underline"
           >
             Back to top ↑
           </a>
