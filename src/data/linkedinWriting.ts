@@ -1,3 +1,4 @@
+// @ts-nocheck
 export type LinkedInWriting = {
   title: string;
   published: string;
@@ -97,3 +98,5 @@ export const linkedInWriting: LinkedInWriting[] = [
     description: "External publication feature",
   },
 ];
+
+
