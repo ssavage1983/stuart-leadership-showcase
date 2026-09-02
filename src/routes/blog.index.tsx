@@ -28,7 +28,7 @@ export const Route = createFileRoute("/blog/")({
           name: "Stuart Savage Professional Archive",
           description:
             "Historic practice archive featuring methodologies and operational insights.",
-          url: "https://www.moonlight-studio.uk/blog",
+          url: "https://stuart-leadership-showcase.vercel.app/blog",
           author: {
             "@type": "Person",
             name: "Stuart Savage",
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/blog/")({
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESCRIPTION },
     ],
-    links: [{ rel: "canonical", href: "https://www.moonlight-studio.uk/blog" }],
+    links: [{ rel: "canonical", href: "https://stuart-leadership-showcase.vercel.app/blog" }],
   }),
 });
 
@@ -259,3 +259,4 @@ function SectionHeading({
     </div>
   );
 }
+

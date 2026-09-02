@@ -5,7 +5,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { ArchivedArticleBody } from "@/components/ArchivedArticleBody";
 import { findBlogPost } from "@/data/blogPosts";
 
-const SITE = "https://www.savageldn.co.uk";
+const SITE = "https://stuart-leadership-showcase.vercel.app";
 
 export const Route = createFileRoute("/blog/$slug")({
   loader: ({ params }) => {
@@ -90,3 +90,4 @@ function ArchivedBlogPost() {
     </article>
   );
 }
+

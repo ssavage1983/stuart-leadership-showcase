@@ -13,4 +13,5 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://www.moonlight-studio.uk/sitemap.xml
+Sitemap: https://stuart-leadership-showcase.vercel.app/sitemap.xml
+
