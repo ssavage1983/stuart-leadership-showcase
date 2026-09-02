@@ -720,4 +720,3 @@ function Index() {
     </div>
   );
 }
-

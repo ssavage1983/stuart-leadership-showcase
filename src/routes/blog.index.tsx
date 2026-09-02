@@ -259,4 +259,3 @@ function SectionHeading({
     </div>
   );
 }
-
