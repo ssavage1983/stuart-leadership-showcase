@@ -392,9 +392,7 @@ function PrivacyPolicyComponent() {
                 </a>
                 <br />
                 <strong>Phone:</strong>{" "}
-                <a href="tel:07762719043" className="font-bold underline">
-                  
-                </a>
+                <a href="tel:07762719043" className="font-bold underline"></a>
                 <br />
                 <strong>Location:</strong> Kennington, London, UK
               </p>
@@ -409,4 +407,3 @@ function PrivacyPolicyComponent() {
     </div>
   );
 }
-

@@ -694,7 +694,7 @@ function Index() {
               href={"tel:" + PHONE.replace(/\s+/g, "")}
               className="hover:text-[#7c2d12] transition-colors"
             >
-               <span className="text-[#7c2d12]">↗</span>
+              <span className="text-[#7c2d12]">↗</span>
             </a>
             <span className="hidden sm:inline text-[#7c2d12]">|</span>
             <a
@@ -720,4 +720,3 @@ function Index() {
     </div>
   );
 }
-
