@@ -300,7 +300,7 @@ export const Route = createFileRoute("/")({
             "@type": "Person",
             name: "Stuart Savage",
             jobTitle: "Operations & Customer Experience Professional",
-            url: "https://www.moonlight-studio.uk",
+            url: "https://stuart-leadership-showcase.vercel.app",
             sameAs: ["https://www.linkedin.com/in/stuart-savage/"],
             knowsAbout: [
               "Operations Management",
@@ -720,3 +720,4 @@ function Index() {
     </div>
   );
 }
+

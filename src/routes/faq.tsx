@@ -10,8 +10,8 @@ function FaqComponent() {
     "@graph": [
       {
         "@type": "FAQPage",
-        "@id": "https://www.moonlight-studio.uk/faq#faq",
-        url: "https://www.moonlight-studio.uk/faq",
+        "@id": "https://stuart-leadership-showcase.vercel.app/faq#faq",
+        url: "https://stuart-leadership-showcase.vercel.app/faq",
         name: "FAQs | Stuart Savage Historic Professional Archive",
         description:
           "Frequently asked questions about Stuart Savage's historic professional archive, former landscaping businesses, archived writing, website status, privacy and contact limitations.",
@@ -297,3 +297,4 @@ function FaqComponent() {
     </div>
   );
 }
+
