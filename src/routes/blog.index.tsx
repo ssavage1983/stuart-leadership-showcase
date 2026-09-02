@@ -115,7 +115,7 @@ function BlogComponent() {
       <section className="border-b border-[#102845]/10 bg-[#c7d0c5] px-6 py-8">
         <div className="mx-auto max-w-7xl">
           <p className="text-xs font-bold uppercase tracking-widest">Archive status</p>
-          <h2 className="mt-1 font-serif text-2xl font-semibold">
+          <h2 className="mt-1 font-serif text-xl line-clamp-2 font-semibold">
             SAVAGELDN and The Moonlight Garden Design Co. closed in May 2026. Their former URLs now
             serve this historic writing archive only.
           </h2>
@@ -145,7 +145,7 @@ function BlogComponent() {
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#b99a60]">
                   LinkedIn · {item.type} · {item.published}
                 </span>
-                <h3 className="mt-3 font-serif text-2xl leading-tight">{item.title}</h3>
+                <h3 className="mt-3 font-serif text-xl line-clamp-2 leading-tight">{item.title}</h3>
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-600">
                   {item.description}
                 </p>
@@ -179,7 +179,7 @@ function BlogComponent() {
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#b99a60]">
                   {post.category} · Archive only
                 </span>
-                <h3 className="mt-3 font-serif text-2xl leading-tight">
+                <h3 className="mt-3 font-serif text-xl line-clamp-2 leading-tight">
                   <Link
                     to="/blog/$slug"
                     params={{ slug: post.slug }}
@@ -214,7 +214,7 @@ function BlogComponent() {
                 <span className="text-xs font-bold text-[#b99a60]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
-                <h3 className="mt-2 font-serif text-2xl">{title}</h3>
+                <h3 className="mt-2 font-serif text-xl line-clamp-2">{title}</h3>
                 <p className="mt-2 text-xs leading-relaxed text-slate-600">{body}</p>
               </article>
             ))}
@@ -252,7 +252,7 @@ function SectionHeading({
       <p className="text-xs font-bold uppercase tracking-widest text-[#b99a60]">
         {number} / {label}
       </p>
-      <h2 id={id} className="font-serif text-3xl sm:text-4xl">
+      <h2 id={id} className="font-serif text-xl line-clamp-2 sm:text-4xl">
         {title}
       </h2>
       {description ? <p className="mt-2 max-w-3xl text-sm text-slate-600">{description}</p> : null}
