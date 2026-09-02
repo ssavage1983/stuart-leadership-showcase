@@ -25,7 +25,7 @@ export const Route = createFileRoute("/case-studies/")({
           "@type": "CollectionPage",
           name: "Project Portfolio Archive",
           description: "Historic project delivery records and methodologies for Stuart Savage.",
-          url: "https://www.moonlight-studio.uk/case-studies",
+          url: "https://stuart-leadership-showcase.vercel.app/case-studies",
         }),
       },
     ],
@@ -40,7 +40,7 @@ export const Route = createFileRoute("/case-studies/")({
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESCRIPTION },
     ],
-    links: [{ rel: "canonical", href: "https://www.moonlight-studio.uk/case-studies" }],
+    links: [{ rel: "canonical", href: "https://stuart-leadership-showcase.vercel.app/case-studies" }],
   }),
 });
 
@@ -256,4 +256,5 @@ function CaseStudiesComponent() {
     </div>
   );
 }
+
 

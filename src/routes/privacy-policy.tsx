@@ -409,3 +409,6 @@ function PrivacyPolicyComponent() {
     </div>
   );
 }
+
+export const head = () => ({ title: 'Privacy Policy | Stuart Savage', meta: [{ name: 'description', content: 'Privacy policy and data handling for Stuart Savage.' }, { property: 'og:title', content: 'Privacy Policy | Stuart Savage' }] });
+
