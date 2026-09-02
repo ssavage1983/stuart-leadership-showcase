@@ -281,7 +281,7 @@ const jsonLd = {
 };
 
 export const Route = createFileRoute("/")({
-  _ignored_head: () => ({
+  head: () => ({
     meta: [
       { title: "Stuart Savage | Operations & Customer Experience Leadership" },
       {
