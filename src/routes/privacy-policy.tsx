@@ -124,7 +124,7 @@ function PrivacyPolicyComponent() {
 
         {/* Content Body */}
         <article className="max-w-4xl mx-auto space-y-12">
-          <p className="text-sm font-bold text-[#102845]">Last updated: 14 August 2026</p>
+          <p className="text-sm font-bold text-[#102845]">Last updated: 2 September 2026</p>
 
           {/* Section: Archive Status & Former Business Names */}
           <section
@@ -175,6 +175,19 @@ function PrivacyPolicyComponent() {
               influence any legal, financial, creditor, insolvency, debt, regulatory, or
               dispute-related matter. Historic content is retained solely to document the
               professional context in which it was created.
+            </p>
+          </section>
+
+          {/* Section: Insolvency Notice */}
+          <section
+            id="insolvency-notice"
+            className="scroll-mt-6 border-b border-[#102845]/15 pb-8 space-y-4"
+          >
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#102845]">
+              1a. Insolvency Notice
+            </h2>
+            <p className="text-sm text-slate-700 leading-relaxed">
+              Stuart Savage is currently subject to a Debt Relief Order (DRO) administered by the Insolvency Service of England and Wales. Nothing on this website constitutes a statement about, admission of, or commentary on any insolvency, debt, creditor, court, or dispute-related matter. This notice is provided in the interest of transparency only.
             </p>
           </section>
 
@@ -285,6 +298,21 @@ function PrivacyPolicyComponent() {
                   ) capture non-identifying technical logs to diagnose runtime issues.
                 </p>
               </div>
+
+              <div className="bg-white p-4 border border-[#102845]/15 rounded text-sm text-slate-700 space-y-1">
+                <strong className="block text-[#102845]">
+                  Google LLC (Analytics — conditional on consent)
+                </strong>
+                <p className="text-xs leading-relaxed">
+                  Google Analytics is loaded only when a visitor has given explicit consent via the
+                  cookie banner. When active, it collects anonymised visitor behaviour data. Google
+                  LLC is based in the USA; data transfers are governed by Standard Contractual Clauses.
+                  Google&apos;s privacy policy:{" "}
+                  <a href="https://policies.google.com/privacy" className="underline">
+                    https://policies.google.com/privacy
+                  </a>
+                </p>
+              </div>
             </div>
 
             <h3 className="text-xs font-bold uppercase tracking-wider text-[#102845] pt-2">
@@ -301,7 +329,19 @@ function PrivacyPolicyComponent() {
               >
                 Information Commissioner&apos;s Office (ICO)
               </a>
-              .
+              . You also have the right to withdraw consent for optional analytics cookies at any time
+              by clicking Cookie Preferences in the site footer.
+            </p>
+
+            <h3 className="text-xs font-bold uppercase tracking-wider text-[#102845] pt-2">
+              Data Retention
+            </h3>
+            <p className="text-sm text-slate-700 leading-relaxed">
+              This site does not collect or store personal data directly. Any personal data you
+              voluntarily provide by emailing stuart@savageldn.co.uk is retained only for as long as
+              necessary to respond to your enquiry and is not shared with third parties. Server logs
+              processed by Vercel are retained for up to 30 days in accordance with Vercel’s data
+              retention policy.
             </p>
           </section>
 
@@ -311,22 +351,34 @@ function PrivacyPolicyComponent() {
               4. Cookies &amp; Telemetry
             </h2>
             <p className="text-sm text-slate-700 leading-relaxed">
-              This archive operates with minimal tracking:
+              This site uses a cookie consent banner to comply with UK GDPR and the Privacy and Electronic Communications Regulations (PECR). No non-essential scripts are loaded before you have given your consent.
             </p>
-            <ul className="list-disc list-inside text-sm text-slate-700 space-y-2 pl-2">
-              <li>
-                <strong>Essential Cookies:</strong> Strictly necessary security tokens set by host
-                infrastructure (Vercel).
-              </li>
-              <li>
-                <strong>Cookieless Web Vitals:</strong> Vercel Speed Insights collects
-                non-identifying performance metric data without placing cookies.
-              </li>
-              <li>
-                <strong>No Advertising Pixels:</strong> Meta Pixel, Google Ads, and marketing
-                tracking beacons are strictly excluded.
-              </li>
+
+            <h3 className="text-sm font-bold text-[#102845] pt-2">Essential Cookies</h3>
+            <p className="text-sm text-slate-700 leading-relaxed">Strictly necessary for the site to function. Cannot be switched off.</p>
+            <ul className="list-disc list-inside text-sm text-slate-700 space-y-1 pl-2">
+              <li>Cookie name: consent_status</li>
+              <li>Purpose: Remembers your cookie consent choice so the banner does not reappear</li>
+              <li>Duration: 12 months</li>
+              <li>Provider: This site</li>
             </ul>
+
+            <h3 className="text-sm font-bold text-[#102845] pt-4">Analytics Cookies (Optional — loaded only with your consent)</h3>
+            <p className="text-sm text-slate-700 leading-relaxed">These are only active if you click “Accept All” on the cookie consent banner.</p>
+            <ul className="list-disc list-inside text-sm text-slate-700 space-y-2 pl-2">
+              <li><strong>Cookie name / Tool:</strong> Vercel Speed Insights<br/>Provider: Vercel Inc.<br/>Purpose: Collects aggregated, non-identifying web performance data to help improve site loading speeds<br/>Duration: Session<br/>Data sent to: Vercel Inc., USA (Standard Contractual Clauses apply)</li>
+              <li><strong>Cookie name / Tool:</strong> Google Analytics (gtag.js) — Tracking ID G-T9YEZBGQLS<br/>Provider: Google LLC<br/>Purpose: Collects anonymised visitor behaviour data including page views and session duration<br/>Duration: Up to 2 years<br/>Data sent to: Google LLC, USA (Standard Contractual Clauses apply)</li>
+            </ul>
+
+            <h3 className="text-sm font-bold text-[#102845] pt-4">No Advertising Pixels</h3>
+            <p className="text-sm text-slate-700 leading-relaxed">Meta Pixel, Google Ads, LinkedIn Insight Tag, and all marketing tracking beacons are strictly excluded from this site.</p>
+
+            <h3 className="text-sm font-bold text-[#102845] pt-4">Managing Your Cookie Preferences</h3>
+            <p className="text-sm text-slate-700 leading-relaxed">You can change your cookie preferences at any time by clicking the Cookie Preferences link in the footer of any page. This clears your current consent choice and reloads the banner so you can make a new selection. You can also clear cookies through your browser settings.</p>
+
+            <p className="text-sm text-slate-700 leading-relaxed pt-4">
+              Full details of all cookies used on this site are available on the <Link to="/cookie-policy" className="underline font-semibold">Cookie Policy</Link> page.
+            </p>
           </section>
 
           {/* Section: Accessibility */}
