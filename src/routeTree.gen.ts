@@ -12,15 +12,14 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as FaqRouteImport } from './routes/faq'
 import { Route as McpRouteImport } from './routes/mcp'
-import { Route as OperationsManagerCvRouteImport } from './routes/operations-manager-cv'
 import { Route as PrivacyPolicyRouteImport } from './routes/privacy-policy'
-import { Route as RailOperationsCvRouteImport } from './routes/rail-operations-cv'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as Char91DotmcpChar93ListToolsRouteImport } from './routes/[.mcp]/list-tools'
 import { Route as Char91DotwellKnownChar93OauthProtectedResourceRouteImport } from './routes/[.well-known]/oauth-protected-resource'
 import { Route as BlogIndexRouteImport } from './routes/blog.index'
 import { Route as BlogSlugRouteImport } from './routes/blog.$slug'
 import { Route as CaseStudiesIndexRouteImport } from './routes/case-studies.index'
+import { Route as CaseStudiesSlugRouteImport } from './routes/case-studies.$slug'
 import { Route as CaseStudiesBalhamCottageCourtyardGardenRouteImport } from './routes/case-studies.balham-cottage-courtyard-garden'
 import { Route as CaseStudiesBalhamPergolaWalkwayRouteImport } from './routes/case-studies.balham-pergola-walkway'
 import { Route as CaseStudiesBrixtonGardenJungleTransformationRouteImport } from './routes/case-studies.brixton-garden-jungle-transformation'
@@ -51,19 +50,9 @@ const McpRoute = McpRouteImport.update({
   path: '/mcp',
   getParentRoute: () => rootRouteImport,
 } as any)
-const OperationsManagerCvRoute = OperationsManagerCvRouteImport.update({
-  id: '/operations-manager-cv',
-  path: '/operations-manager-cv',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const PrivacyPolicyRoute = PrivacyPolicyRouteImport.update({
   id: '/privacy-policy',
   path: '/privacy-policy',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const RailOperationsCvRoute = RailOperationsCvRouteImport.update({
-  id: '/rail-operations-cv',
-  path: '/rail-operations-cv',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -96,6 +85,11 @@ const BlogSlugRoute = BlogSlugRouteImport.update({
 const CaseStudiesIndexRoute = CaseStudiesIndexRouteImport.update({
   id: '/case-studies/',
   path: '/case-studies/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CaseStudiesSlugRoute = CaseStudiesSlugRouteImport.update({
+  id: '/case-studies/$slug',
+  path: '/case-studies/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CaseStudiesBalhamCottageCourtyardGardenRoute =
@@ -187,13 +181,12 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/faq': typeof FaqRoute
   '/mcp': typeof McpRoute
-  '/operations-manager-cv': typeof OperationsManagerCvRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
-  '/rail-operations-cv': typeof RailOperationsCvRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
   '/case-studies/balham-cottage-courtyard-garden': typeof CaseStudiesBalhamCottageCourtyardGardenRoute
   '/case-studies/balham-pergola-walkway': typeof CaseStudiesBalhamPergolaWalkwayRoute
   '/case-studies/brixton-garden-jungle-transformation': typeof CaseStudiesBrixtonGardenJungleTransformationRoute
@@ -215,13 +208,12 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/faq': typeof FaqRoute
   '/mcp': typeof McpRoute
-  '/operations-manager-cv': typeof OperationsManagerCvRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
-  '/rail-operations-cv': typeof RailOperationsCvRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
   '/case-studies/balham-cottage-courtyard-garden': typeof CaseStudiesBalhamCottageCourtyardGardenRoute
   '/case-studies/balham-pergola-walkway': typeof CaseStudiesBalhamPergolaWalkwayRoute
   '/case-studies/brixton-garden-jungle-transformation': typeof CaseStudiesBrixtonGardenJungleTransformationRoute
@@ -244,13 +236,12 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/faq': typeof FaqRoute
   '/mcp': typeof McpRoute
-  '/operations-manager-cv': typeof OperationsManagerCvRoute
   '/privacy-policy': typeof PrivacyPolicyRoute
-  '/rail-operations-cv': typeof RailOperationsCvRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/.mcp/list-tools': typeof Char91DotmcpChar93ListToolsRoute
   '/.well-known/oauth-protected-resource': typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   '/blog/$slug': typeof BlogSlugRoute
+  '/case-studies/$slug': typeof CaseStudiesSlugRoute
   '/case-studies/balham-cottage-courtyard-garden': typeof CaseStudiesBalhamCottageCourtyardGardenRoute
   '/case-studies/balham-pergola-walkway': typeof CaseStudiesBalhamPergolaWalkwayRoute
   '/case-studies/brixton-garden-jungle-transformation': typeof CaseStudiesBrixtonGardenJungleTransformationRoute
@@ -274,13 +265,12 @@ export interface FileRouteTypes {
     | '/'
     | '/faq'
     | '/mcp'
-    | '/operations-manager-cv'
     | '/privacy-policy'
-    | '/rail-operations-cv'
     | '/sitemap.xml'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
+    | '/case-studies/$slug'
     | '/case-studies/balham-cottage-courtyard-garden'
     | '/case-studies/balham-pergola-walkway'
     | '/case-studies/brixton-garden-jungle-transformation'
@@ -302,13 +292,12 @@ export interface FileRouteTypes {
     | '/'
     | '/faq'
     | '/mcp'
-    | '/operations-manager-cv'
     | '/privacy-policy'
-    | '/rail-operations-cv'
     | '/sitemap.xml'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
+    | '/case-studies/$slug'
     | '/case-studies/balham-cottage-courtyard-garden'
     | '/case-studies/balham-pergola-walkway'
     | '/case-studies/brixton-garden-jungle-transformation'
@@ -330,13 +319,12 @@ export interface FileRouteTypes {
     | '/'
     | '/faq'
     | '/mcp'
-    | '/operations-manager-cv'
     | '/privacy-policy'
-    | '/rail-operations-cv'
     | '/sitemap.xml'
     | '/.mcp/list-tools'
     | '/.well-known/oauth-protected-resource'
     | '/blog/$slug'
+    | '/case-studies/$slug'
     | '/case-studies/balham-cottage-courtyard-garden'
     | '/case-studies/balham-pergola-walkway'
     | '/case-studies/brixton-garden-jungle-transformation'
@@ -359,13 +347,12 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   FaqRoute: typeof FaqRoute
   McpRoute: typeof McpRoute
-  OperationsManagerCvRoute: typeof OperationsManagerCvRoute
   PrivacyPolicyRoute: typeof PrivacyPolicyRoute
-  RailOperationsCvRoute: typeof RailOperationsCvRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   Char91DotmcpChar93ListToolsRoute: typeof Char91DotmcpChar93ListToolsRoute
   Char91DotwellKnownChar93OauthProtectedResourceRoute: typeof Char91DotwellKnownChar93OauthProtectedResourceRoute
   BlogSlugRoute: typeof BlogSlugRoute
+  CaseStudiesSlugRoute: typeof CaseStudiesSlugRoute
   CaseStudiesBalhamCottageCourtyardGardenRoute: typeof CaseStudiesBalhamCottageCourtyardGardenRoute
   CaseStudiesBalhamPergolaWalkwayRoute: typeof CaseStudiesBalhamPergolaWalkwayRoute
   CaseStudiesBrixtonGardenJungleTransformationRoute: typeof CaseStudiesBrixtonGardenJungleTransformationRoute
@@ -407,25 +394,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof McpRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/operations-manager-cv': {
-      id: '/operations-manager-cv'
-      path: '/operations-manager-cv'
-      fullPath: '/operations-manager-cv'
-      preLoaderRoute: typeof OperationsManagerCvRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/privacy-policy': {
       id: '/privacy-policy'
       path: '/privacy-policy'
       fullPath: '/privacy-policy'
       preLoaderRoute: typeof PrivacyPolicyRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/rail-operations-cv': {
-      id: '/rail-operations-cv'
-      path: '/rail-operations-cv'
-      fullPath: '/rail-operations-cv'
-      preLoaderRoute: typeof RailOperationsCvRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -468,6 +441,13 @@ declare module '@tanstack/react-router' {
       path: '/case-studies'
       fullPath: '/case-studies/'
       preLoaderRoute: typeof CaseStudiesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/case-studies/$slug': {
+      id: '/case-studies/$slug'
+      path: '/case-studies/$slug'
+      fullPath: '/case-studies/$slug'
+      preLoaderRoute: typeof CaseStudiesSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/case-studies/balham-cottage-courtyard-garden': {
@@ -575,14 +555,13 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   FaqRoute: FaqRoute,
   McpRoute: McpRoute,
-  OperationsManagerCvRoute: OperationsManagerCvRoute,
   PrivacyPolicyRoute: PrivacyPolicyRoute,
-  RailOperationsCvRoute: RailOperationsCvRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   Char91DotmcpChar93ListToolsRoute: Char91DotmcpChar93ListToolsRoute,
   Char91DotwellKnownChar93OauthProtectedResourceRoute:
     Char91DotwellKnownChar93OauthProtectedResourceRoute,
   BlogSlugRoute: BlogSlugRoute,
+  CaseStudiesSlugRoute: CaseStudiesSlugRoute,
   CaseStudiesBalhamCottageCourtyardGardenRoute:
     CaseStudiesBalhamCottageCourtyardGardenRoute,
   CaseStudiesBalhamPergolaWalkwayRoute: CaseStudiesBalhamPergolaWalkwayRoute,
