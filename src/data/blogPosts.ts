@@ -655,3 +655,10 @@ export const blogPosts: BlogPost[] = [
 export function findBlogPost(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug);
 }
+
+// Optimized O(1) slug lookup index
+const postIndex = new Map(blogPosts.map((p) => [p.slug, p]));
+
+export function findBlogPost(slug: string) {
+  return postIndex.get(slug);
+}
