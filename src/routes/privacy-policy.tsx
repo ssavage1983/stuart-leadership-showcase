@@ -393,7 +393,7 @@ function PrivacyPolicyComponent() {
                 <br />
                 <strong>Phone:</strong>{" "}
                 <a href="tel:07762719043" className="font-bold underline">
-                  07762 719043
+                  
                 </a>
                 <br />
                 <strong>Location:</strong> Kennington, London, UK
@@ -409,3 +409,4 @@ function PrivacyPolicyComponent() {
     </div>
   );
 }
+
