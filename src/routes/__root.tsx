@@ -8,8 +8,12 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import CookieConsentBanner, {
+  clearConsentCookie,
+  getConsentCookie,
+} from "../components/CookieConsentBanner";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
@@ -126,10 +130,20 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+  const [consent, setConsent] = useState<string | null>(null);
+
+  useEffect(() => {
+    setConsent(getConsentCookie());
+  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>
       <div className="flex flex-col min-h-screen bg-[#102845] text-[#f8f7f3] font-sans">
+        <CookieConsentBanner
+          onAcceptAll={() => setConsent("all")}
+          onAcceptEssential={() => setConsent("essential")}
+        />
+
         {/* Sticky Top Header */}
         <header className="sticky top-0 z-50 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 min-h-[92px] px-6 md:px-12 py-4 border-b border-[#c9ad72]/38 bg-[#102845]/98 backdrop-blur shadow-md">
           {/* Brand Link */}
@@ -277,21 +291,26 @@ function RootComponent() {
         <main className="flex-1">
           <Outlet />
 
-          {/* Google Analytics - Moonlight Studio */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9YEZBGQLS"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              if (typeof window !== 'undefined' && window.location.hostname.includes('moonlight-studio.uk')) {
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-T9YEZBGQLS');
-              }
-            `,
-            }}
-          />
-          <Analytics />
+          {/* Analytics - Only load if consent is 'all' */}
+          {consent === "all" && (
+            <>
+              <script
+                async
+                src="https://www.googletagmanager.com/gtag/js?id=G-T9YEZBGQLS"
+              ></script>
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-T9YEZBGQLS');
+                  `,
+                }}
+              />
+              <Analytics />
+            </>
+          )}
         </main>
 
         {/* Global Footer (Renders on ALL Pages) */}
@@ -464,6 +483,15 @@ function RootComponent() {
                 >
                   Legal, privacy &amp; accessibility
                 </Link>
+                <button
+                  onClick={() => {
+                    clearConsentCookie();
+                    window.location.reload();
+                  }}
+                  className="hover:text-[#c9ad72] transition-colors underline underline-offset-2 cursor-pointer"
+                >
+                  Cookie Preferences
+                </button>
                 <a
                   href="mailto:stuart@savageldn.co.uk"
                   className="hover:text-[#c9ad72] transition-colors underline underline-offset-2"
