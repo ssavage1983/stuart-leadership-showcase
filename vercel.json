@@ -2,5 +2,27 @@
   "framework": "vite",
   "installCommand": "npm install",
   "buildCommand": "npm run build",
-  "outputDirectory": ".output/public"
+  "outputDirectory": ".output/public",
+  "redirects": [
+    {
+      "source": "/insights/categories/supplier-systems-archive",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/catford",
+      "destination": "/case-studies",
+      "permanent": true
+    },
+    {
+      "source": "/tree-of-the-month",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/post/:slug*",
+      "destination": "/blog",
+      "permanent": true
+    }
+  ]
 }
