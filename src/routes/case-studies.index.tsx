@@ -9,7 +9,7 @@ const DESCRIPTION =
   "Historic project records showing delivery, coordination and operational evidence. Former businesses closed; archive only.";
 
 export const Route = createFileRoute("/case-studies/")({
-  _ignored_head: () => ({
+  head: () => ({
     meta: [
       { title: "Project Portfolio | Stuart Savage" },
       {
