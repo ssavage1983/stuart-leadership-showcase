@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 import { useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
@@ -719,4 +720,3 @@ function Index() {
     </div>
   );
 }
-

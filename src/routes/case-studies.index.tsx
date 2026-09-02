@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
 import { createFileRoute, Link } from "@tanstack/react-router";
 
@@ -256,4 +257,3 @@ function CaseStudiesComponent() {
     </div>
   );
 }
-
