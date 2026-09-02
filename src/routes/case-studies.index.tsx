@@ -9,7 +9,7 @@ const DESCRIPTION =
   "Historic project records showing delivery, coordination and operational evidence. Former businesses closed; archive only.";
 
 export const Route = createFileRoute("/case-studies/")({
-  _ignored_head: () => ({
+  head: () => ({
     meta: [
       { title: "Project Portfolio | Stuart Savage" },
       {
@@ -41,7 +41,9 @@ export const Route = createFileRoute("/case-studies/")({
       { name: "twitter:title", content: TITLE },
       { name: "twitter:description", content: DESCRIPTION },
     ],
-    links: [{ rel: "canonical", href: "https://stuart-leadership-showcase.vercel.app/case-studies" }],
+    links: [
+      { rel: "canonical", href: "https://stuart-leadership-showcase.vercel.app/case-studies" },
+    ],
   }),
 });
 
@@ -257,4 +259,3 @@ function CaseStudiesComponent() {
     </div>
   );
 }
-
