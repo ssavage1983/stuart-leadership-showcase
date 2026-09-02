@@ -5,7 +5,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
 
 const EMAIL = "stuart@savageldn.co.uk";
-const PHONE = "07762 719043";
+
 const LINKEDIN = "https://linkedin.com/in/stuartsavage";
 
 const coreCompetencies = [
@@ -32,7 +32,7 @@ const experience = [
     summary:
       "Following the permanent closure of my landscape and design businesses in May 2026, I am dedicating this period entirely to my health, long-term clinical recovery, and personal well-being.",
     responsibilities: [
-      "In 2024, I was diagnosed with Stage 4 throat cancer and underwent intensive chemoradiotherapy. While my cancer remains in remission, the aggressive treatment left me with complex, chronic physical side effects and a profound mental health toll.",
+      "In 2024, I was diagnosed with focused on personal health recovery and well-being. While my cancer remains in remission, the aggressive treatment left me with a structured rehabilitation period.",
       "On strict medical recommendations and my doctor’s fit notes, I am taking a dedicated sabbatical from employment over the coming year to focus 100% on my physical rehabilitation and psychological recovery.",
     ],
     achievements: [
@@ -694,7 +694,7 @@ function Index() {
               href={"tel:" + PHONE.replace(/\s+/g, "")}
               className="hover:text-[#7c2d12] transition-colors"
             >
-              {PHONE} <span className="text-[#7c2d12]">↗</span>
+               <span className="text-[#7c2d12]">↗</span>
             </a>
             <span className="hidden sm:inline text-[#7c2d12]">|</span>
             <a
@@ -720,3 +720,4 @@ function Index() {
     </div>
   );
 }
+
