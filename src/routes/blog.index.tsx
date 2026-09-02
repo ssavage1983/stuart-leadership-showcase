@@ -10,7 +10,7 @@ const DESCRIPTION =
   "Historic writing and LinkedIn publications by Stuart Savage, retained as professional evidence. Former businesses closed; archive only.";
 
 export const Route = createFileRoute("/blog/")({
-  _ignored_head: () => ({
+  head: () => ({
     meta: [
       { title: "Professional Archive & Writing | Stuart Savage" },
       {
