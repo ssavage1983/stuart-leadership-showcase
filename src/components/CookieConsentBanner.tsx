@@ -65,8 +65,8 @@ export default function CookieConsentBanner({
           </h2>
           <p id="cookie-banner-desc" className="text-xs text-white/85 leading-relaxed font-sans">
             This site uses essential cookies to function. We would also like to use optional
-            analytics cookies to understand how visitors use the site. You can accept all cookies
-            or choose only essential ones.{" "}
+            analytics cookies to understand how visitors use the site. You can accept all cookies or
+            choose only essential ones.{" "}
             <Link
               to="/cookie-policy"
               className="text-[#c9ad72] hover:text-[#e5c98f] underline underline-offset-2 transition-colors inline-block focus:outline-none focus:ring-1 focus:ring-[#c9ad72]"

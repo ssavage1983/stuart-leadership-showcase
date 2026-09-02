@@ -294,10 +294,7 @@ function RootComponent() {
           {/* Analytics - Only load if consent is 'all' */}
           {consent === "all" && (
             <>
-              <script
-                async
-                src="https://www.googletagmanager.com/gtag/js?id=G-T9YEZBGQLS"
-              ></script>
+              <script async src="https://www.googletagmanager.com/gtag/js?id=G-T9YEZBGQLS"></script>
               <script
                 dangerouslySetInnerHTML={{
                   __html: `
